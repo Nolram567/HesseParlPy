@@ -1,0 +1,3291 @@
+<?xml version="1.0" encoding="UTF-8"?><Root>
+<Login>
+<Connection Password="lmx2011" UserId="XML" Host="localhost" Id="VOLLTEXTIMPORT"/>
+</Login>
+<Database DatabaseName="E.VOLLTEXT" ConnectionId="VOLLTEXTIMPORT" Id="E.VOLLTEXT"/>
+<CreateLock Id="1" DatabaseId="E.VOLLTEXT"/>
+<UpdateRecord LockId="1" Clear="False">
+<Field Clear="True" InputFieldName="DATNA">ePP_Export_20-1_18-01-2019.xml</Field>
+<Field Clear="True" InputFieldName="DATER">28.01.2019 11:59:00</Field>
+<Field Clear="True" InputFieldName="DATGE">17.10.2007 14:27:00</Field>
+<Field Clear="True" InputFieldName="DATFO">XML</Field>
+<Field Clear="True" InputFieldName="DATGR">193 Kb</Field>
+<Field Clear="True" InputFieldName="DART">P</Field>
+<Field Clear="True" InputFieldName="WP">20</Field>
+<Field Clear="True" InputFieldName="DNR">1</Field>
+<Field Clear="True" InputFieldName="DNRB"/>
+<Field Clear="True" InputFieldName="DAT">18.01.2019</Field>
+<Field Clear="True" InputFieldName="ZUGA">öffentlich</Field>
+<Field Clear="True" InputFieldName="QUELL">ePlenarprotokoll</Field>
+<Field Clear="True" InputFieldName="AKAT">Inhaltsverzeichnis</Field>
+<Field Clear="True" InputFieldName="RNRD">00001</Field>
+<Field Clear="True" InputFieldName="ASEI">4</Field>
+<Field Clear="True" InputFieldName="ASEIV">1</Field>
+<Field Clear="True" InputFieldName="ASEIB">4</Field>
+<Field Long="True" Clear="True" InputFieldName="AVT1">20. Wahlperiode
+Plenarprotokoll20/1
+HESSISCHER LANDTAG
+18. 01. 2019
+1. Sitzung
+Wiesbaden, den 18. Januar 2019
+Amtliche Mitteilungen....................................
+..........5
+Entgegengenommen.........................................
+..........6
+Alterspräsident Rolf Kahnt..................
+......................5
+1.
+Eröffnungder Sitzung durch die Alterspräsidentinoder den Alterspräsidenten und Konstituie-rung des Landtags (Art. 83 Abs. 2 HV, § 1GOHLT)...........................................................
+..........6
+Vollzogen..........................................................
+..........8
+Alterspräsident Rolf Kahnt..................
+......................6
+2.
+Beschlussfassungüber eine Geschäftsordnung (Art. 99 HV)
+– Drucks.20/1 –...............................................
+..........8
+Angenommen....................................................
+..........9
+3.
+Feststellungder Tagesordnung (§ 58 Abs. 3 GOHLT).....
+..........9
+Festgestellt.......................................................
+..........9
+4.
+WahlvorschlagWahl der Präsidentin oder des Präsidenten(§§ 2, 9 Abs. 1 GOHLT)
+– Drucks.20/2 –...............................................
+..........9
+Gewählt:Abg. Boris Rhein..............................................
+..........9
+Michael Boddenberg............................
+......................9
+Boris Rhein..........................................
+......................9
+5.
+Beschlussfassungüber die Zahl der Vizepräsidentinnen undVizepräsidenten (§ 3 Abs. 1 GOHLT)
+– Drucks.20/3 –...............................................
+........12
+Angenommen....................................................
+........12
+6.
+WahlvorschlägeWahl der Vizepräsidentinnen und Vizeprä-sidenten (§§ 3 Abs. 2, 9 Abs. 1 GOHLT)
+– Drucks.20/4,20/5,20/6,20/7,20/8und20/9 –................................................................
+........13
+Gewählt:Abg. Frank LortzAbg. Karin Müller (Kassel)Abg. Heike Hofmann (Weiterstadt)Abg. Dr. h.c. Jörg-Uwe HahnAbg. Dr. Ulrich Wilken Nicht gewählt im dritten Wahlgang:Abg. Bernd-Erich Vohl....................................
+........16
+Hermann Schaus..................................
+....................13
+Frank Lortz..........................................
+....................14
+Karin Müller (Kassel)..........................
+....................14
+Heike Hofmann (Weiterstadt)..............
+....................14
+Dr. h.c. Jörg-Uwe Hahn.......................
+....................15
+Dr. Ulrich Wilken................................
+....................15
+Robert Lambrou...................................
+....................15
+7.
+Beschlussfassungüber die Zahl der weiteren Mitglieder desPräsidiums (§ 3 Abs. 1 GOHLT)
+– Drucks.20/10 –.............................................
+........16
+Angenommen....................................................
+........16
+Ausgegeben am 6. Februar 2024
+Hessischer Landtag, Postfach 3240, 65022 Wiesbaden
+8.
+WahlvorschlagWahl der weiteren Mitglieder des Präsidi-ums (§§ 3 Abs. 2, 9 Abs. 1 GOHLT)
+– Drucks.20/11 –............................................
+........16
+Gewählt:Abg. Christian Heinz (CDU)Abg. Petra Müller-Klepper (CDU)Abg. Claudia Ravensburg (CDU)Abg. Frank-Peter Kaufmann (BÜNDNIS 90/DIE GRÜNEN)Abg. Taylan Burcu (BÜNDNIS 90/DIE GRÜ-NEN)Abg. Günter Rudolph (SPD)Abg. Marius Weiß (SPD)Abg. Klaus Herrmann (AfD)............................
+........16
+9.
+Beschlussfassungüber die Zahl der Schriftführerinnen undSchriftführer (§ 4 Abs. 2 Satz 2 GOHLT)
+– Drucks.20/12 –............................................
+........16
+Angenommen...................................................
+........16
+10.
+WahlvorschlagWahl der Schriftführerinnen und Schrift-führer (§ 4 Abs. 2 Satz 1 GOHLT)
+– Drucks.20/13 –............................................
+........17
+Gewählt:Abg. Ismail Tipi (CDU)Abg. Tobias Utter (CDU)Abg. Astrid Wallmann (CDU)Abg. Kaya Kinkel (BÜNDNIS 90/DIE GRÜ-NEN)Abg. Felix Martin (BÜNDNIS 90/DIE GRÜ-NEN)Abg. Karina Fissmann (SPD)Abg. Heinz Lotz (SPD)Abg. Walter Wissenbach (AfD)Abg. Marion Schardt-Sauer (Freie Demokra-ten)Abg. Heidemarie Scheuch-Paschkewitz (DIELINKE)............................................................
+........17
+11.
+Beschlussfassungüber die Zahl der weiteren Mitglieder desÄltestenrats (§ 5 Abs. 1 GOHLT)
+– Drucks.20/14 –............................................
+........17
+Angenommen...................................................
+........17
+12.
+Beschlussfassungüber eine Neufassung des § 50 Abs. 1GOHLT (Fachausschüsse)
+– Drucks.20/15 –............................................
+........17
+Nr. 1 angenommen...........................................
+........17
+13.
+Beschlussfassungüber die Zahl der Mitglieder der Fachaus-schüsse (§ 50 Abs. 3 GOHLT)
+– Drucks.20/16und20/17 –..........................
+........17
+Drucks. 20/17 abgelehnt;Drucks. 20/16 angenommen............................
+........17
+14.
+Beschlussfassungüber die Einsetzung ständiger Unteraus-schüsse (§ 50 Abs. 2 GOHLT)
+– Drucks.20/15 –............................................
+........17
+Nr. 2 angenommen...........................................
+........17
+15.
+Beschlussfassungüber die Zahl der Mitglieder der ständigenUnterausschüsse (§ 50 Abs. 3 GOHLT)
+– Drucks.20/15 –............................................
+........17
+Nr. 3 angenommen...........................................
+........17
+16.
+Bestellungdes Hauptausschusses (Art. 93 HV, § 6GOHLT)
+– Drucks.20/18,20/19,20/20,20/21,20/22und20/23 –......................................................
+........17
+Gewählt als Mitglieder:Abg. Armin Schwarz (CDU)Abg. Ismail Tipi (CDU)Abg. Tobias Utter (CDU)Abg. Joachim Veyhelmann (CDU)Abg. Astrid Wallmann (CDU)Abg. Frank-Peter Kaufmann (BÜNDNIS 90/DIE GRÜNEN)Abg. Martina Feldmayer (BÜNDNIS 90/DIEGRÜNEN)Abg. Markus Hofmann (Fulda) (BÜNDNIS90/DIE GRÜNEN)Abg. Jürgen Frömmrich (BÜNDNIS 90/DIEGRÜNEN)Abg. Nancy Faeser (SPD)Abg. Stephan Grüger (SPD)Abg. Angelika Löber (SPD)Abg. Günter Rudolph (SPD)Abg. Robert Lambrou (AfD)Abg. Karl Bolldorf (AfD)Abg. René Rock (Freie Demokraten)Abg. Dr. Ulrich Wilken (DIE LINKE) Gewählt als stellvertretende Mitglieder:Abg. Jürgen Banzer (CDU)Abg. Alexander Bauer (CDU)Abg. Christian Heinz (CDU)Abg. Heiko Kasseckert (CDU)Abg. Uwe Serke (CDU)Abg. Mathias Wagner (Taunus) (BÜNDNIS90/DIE GRÜNEN)Abg. Torsten Leveringhaus (BÜNDNIS 90/DIE GRÜNEN)Abg. Vanessa Gronemann (BÜNDNIS 90/DIEGRÜNEN)Abg. Katrin Schleenbecker (BÜNDNIS 90/DIE GRÜNEN)
+2
+Hessischer Landtag · 20. Wahlperiode · 1. Sitzung · 18. Januar 2019
+Abg. Tobias Eckert (SPD)Abg. Heike Hofmann (Weiterstadt) (SPD)Abg. Lisa Gnadl (SPD)Abg. Marius Weiß (SPD)Abg. Klaus Herrmann (AfD)Abg. Klaus Gagel (AfD)Abg. Jürgen Lenders (Freie Demokraten)Abg. Janine Wissler (DIE LINKE) Gewählt als weitere stellvertretende Mitglie-der:Abg. Holger Bellino (CDU)Abg. Birgit Heitland (CDU)Abg. Hartmut Honka (CDU)Abg. Jörg Michael Müller (Lahn-Dill) (CDU)Abg. Michael Boddenberg (CDU)Abg. Hildegard Förster-Heldmann (BÜND-NIS 90/DIE GRÜNEN)Abg. Eva Goldbach (BÜNDNIS 90/DIE GRÜ-NEN)Abg. Karin Müller (Kassel) (BÜNDNIS 90/DIE GRÜNEN)Abg. Nina Eisenhardt (BÜNDNIS 90/DIEGRÜNEN)Abg. Wolfgang Decker (SPD)Abg. Gerald Kummer (SPD)Abg. Gernot Grumbach (SPD)Abg. Karin Hartmann (SPD)Abg. Andreas Lichert (AfD)Abg. Dirk Gaw (AfD)Abg. Dr. h.c. Jörg-Uwe Hahn (Freie Demo-kraten)Abg. Jan Schalauske (DIE LINKE)
+17.
+WahlvorschlagWahl von drei Mitgliedern und drei nach-rückenden Mitgliedern des Wahlprüfungs-gerichts (Art. 78 HV, § 2 Wahlprüfungsge-setz)
+– Drucks.20/24 –............................................
+........19
+Gewählt als Mitglieder:Abg. Holger Bellino (CDU)Abg. Jürgen Frömmrich (BÜNDNIS 90/DIEGRÜNEN)Abg. Günter Rudolph (SPD) Gewählt als nachrückende Mitglieder:Abg. Hartmut Honka (CDU)Abg. Eva Goldbach (BÜNDNIS 90/DIE GRÜ-NEN)Abg. Nancy Faeser (SPD)...............................
+........19
+18.
+AntragFraktion der CDU, Fraktion der SPD,Fraktion BÜNDNIS 90/DIE GRÜNEN,Fraktion der AfD, Fraktion der Freien De-mokraten, Fraktion DIE LINKEImmunität von Abgeordneten des Hessi-schen Landtags
+– Drucks.20/25 –............................................
+........19
+Angenommen...................................................
+........19
+19.
+Entgegennahmeeiner Erklärung nach Art. 113 Abs. 2 HV...
+........19
+Entgegengenommen.........................................
+........19
+20.
+WahlvorschlagWahl der Ministerpräsidentin oder des Mi-nisterpräsidenten (Art. 101 Abs. 1 HV)
+– Drucks.20/26 –............................................
+........19
+Gewählt:Abg. Volker Bouffier........................................
+........21
+Michael Boddenberg...........................
+....................20
+Volker Bouffier....................................
+....................21
+21.
+Vereidigungder Ministerpräsidentin oder des Minister-präsidenten (Art. 111 HV).............................
+........21
+Vollzogen..........................................................
+........21
+Ministerpräsident Volker Bouffier......
+....................21
+22.
+Mitteilungüber die Ernennung der Ministerinnen undMinister (Art. 101 Abs. 2 HV)......................
+........22
+Zur Kenntnis genommen..................................
+........23
+Ministerpräsident Volker Bouffier......
+....................22
+23.
+Beschlussfassungüber die Vertrauenserklärung für die Lan-desregierung (Art. 101 Abs. 4 HV)
+– Drucks.20/27 –............................................
+........23
+Angenommen...................................................
+........23
+24.
+Vereidigungder Ministerinnen und Minister(Art. 111 HV)..................................................
+........24
+Vollzogen..........................................................
+........25
+Ministerpräsident Volker Bouffier......
+..............24,25
+Minister Tarek Al-Wazir.....................
+....................24
+Minister Axel Wintermeyer................
+....................24
+Ministerin Lucia Puttrich....................
+....................24
+Ministerin Prof. Dr. Kristina Sinemus
+....................24
+Minister Peter Beuth...........................
+....................24
+Minister Dr. Thomas Schäfer..............
+....................24
+Ministerin Eva Kühne-Hörmann.........
+....................24
+Minister Prof. Dr. R. Alexander Lorz.
+....................24
+Ministerin Angela Dorn......................
+....................25
+Ministerin Priska Hinz........................
+....................25
+Minister Kai Klose..............................
+....................25
+Hessischer Landtag · 20. Wahlperiode · 1. Sitzung · 18. Januar 2019
+3
+Im Präsidium:
+Alterspräsident Rolf Kahnt
+Präsident Boris Rhein
+Abwesende Abgeordnete:
+Erich Heidkamp
+4
+Hessischer Landtag · 20. Wahlperiode · 1. Sitzung · 18. Januar 2019
+</Field>
+<Field Clear="True" InputFieldName="TOPSP">1</Field>
+<Field Clear="True" InputFieldName="SEIT">NaN</Field>
+<Field Clear="True" InputFieldName="SEITV">1</Field>
+<Field Clear="True" InputFieldName="SEITB"/>
+</UpdateRecord>
+<CreateLock Id="2" DatabaseId="E.VOLLTEXT"/>
+<UpdateRecord LockId="2" Clear="False">
+<Field Clear="True" InputFieldName="DATNA">ePP_Export_20-1_18-01-2019.xml</Field>
+<Field Clear="True" InputFieldName="DATER">28.01.2019 11:59:00</Field>
+<Field Clear="True" InputFieldName="DATGE">17.10.2007 14:27:00</Field>
+<Field Clear="True" InputFieldName="DATFO">XML</Field>
+<Field Clear="True" InputFieldName="DATGR">193 Kb</Field>
+<Field Clear="True" InputFieldName="DART">P</Field>
+<Field Clear="True" InputFieldName="WP">20</Field>
+<Field Clear="True" InputFieldName="DNR">1</Field>
+<Field Clear="True" InputFieldName="DNRB"/>
+<Field Clear="True" InputFieldName="DAT">18.01.2019</Field>
+<Field Clear="True" InputFieldName="ZUGA">öffentlich</Field>
+<Field Clear="True" InputFieldName="QUELL">ePlenarprotokoll</Field>
+<Field Clear="True" InputFieldName="AKAT">Beginn</Field>
+<Field Clear="True" InputFieldName="RNRD">00002</Field>
+<Field Clear="True" InputFieldName="ASEI">1</Field>
+<Field Clear="True" InputFieldName="ASEIV">5</Field>
+<Field Clear="True" InputFieldName="ASEIB">5</Field>
+<Field Long="True" Clear="True" InputFieldName="AVT1">
+       
+           Alterspräsident  Rolf Kahnt:
+      
+        
+          
+             
+       Meine sehr geehrten Damen und Herren! Hiermit eröffne ich die 1. Sitzung der 20. Wahlperiode des Hessischen Landtags.
+          
+        
+      
+    </Field>
+<Field Clear="True" InputFieldName="TOPSP">5</Field>
+<Field Clear="True" InputFieldName="SEIT">NaN</Field>
+<Field Clear="True" InputFieldName="SEITV">1</Field>
+<Field Clear="True" InputFieldName="SEITB"/>
+</UpdateRecord>
+<CreateLock Id="3" DatabaseId="E.VOLLTEXT"/>
+<UpdateRecord LockId="3" Clear="False">
+<Field Clear="True" InputFieldName="DATNA">ePP_Export_20-1_18-01-2019.xml</Field>
+<Field Clear="True" InputFieldName="DATER">28.01.2019 11:59:00</Field>
+<Field Clear="True" InputFieldName="DATGE">17.10.2007 14:27:00</Field>
+<Field Clear="True" InputFieldName="DATFO">XML</Field>
+<Field Clear="True" InputFieldName="DATGR">193 Kb</Field>
+<Field Clear="True" InputFieldName="DART">P</Field>
+<Field Clear="True" InputFieldName="WP">20</Field>
+<Field Clear="True" InputFieldName="DNR">1</Field>
+<Field Clear="True" InputFieldName="DNRB"/>
+<Field Clear="True" InputFieldName="DAT">18.01.2019</Field>
+<Field Clear="True" InputFieldName="ZUGA">öffentlich</Field>
+<Field Clear="True" InputFieldName="QUELL">ePlenarprotokoll</Field>
+<Field Clear="True" InputFieldName="AKAT">TOP</Field>
+<Field Clear="True" InputFieldName="RNRD">00003</Field>
+<Field Long="True" Clear="True" InputFieldName="TOP"> 
+       Amtliche Mitteilungen</Field>
+<Field Clear="True" InputFieldName="ANR">1, 20</Field>
+<Field Clear="True" InputFieldName="ASEI">2</Field>
+<Field Clear="True" InputFieldName="ASEIV">5</Field>
+<Field Clear="True" InputFieldName="ASEIB">6</Field>
+<Field Long="True" Clear="True" InputFieldName="AVT1">
+      
+      
+        
+           
+       Amtliche Mitteilungen
+             
+       
+          
+        
+        
+          
+             
+       Die Sitzplatzordnung, wie sie uns von den Fraktionen mitgeteilt wurde, ist Ihnen auf Ihren Plätzen verteilt worden. Offensichtlich haben alle 136 Abgeordneten ihren Platz gefunden. 
+             
+       Herr Kollege Heidkamp von der AfD-Fraktion ist erkrankt und kann deshalb nicht an der konstituierenden Sitzung teilnehmen; daher sind nur 136 Abgeordnete anwesend. Wir wünschen ihm baldige Genesung.
+             
+       Ich begrüße alle Anwesenden herzlich, vor allem auch die neuen Kolleginnen und Kollegen. Und ich begrüße Sie alle auf der Besuchertribüne oder an den Bildschirmen im Haus oder außerhalb als unsere Ehrengäste. 
+             
+       Unter den Vertreterinnen und Vertretern der Religionsgemeinschaften gilt mein besonderer Willkommensgruß der stellvertretenden Kirchenpräsidentin, Pfarrerin Ulrike Scherf. S. E. Diözesanadministrator Weihbischof Prof. Dr. Karlheinz Diez, Fulda, kann leider nicht an der konstituierenden Sitzung teilnehmen. Für den von Ihnen beiden abgehaltenen feierlichen ökumenischen Gottesdienst, der uns Stärkung und Zuversicht für die vor uns liegenden Aufgaben gegeben hat, danke ich Ihnen herzlich. 
+             
+       (Allgemeiner Beifall)
+             
+       Dem Wiesbadener Knabenchor unter der Leitung von Roman B. Twardy sowie dem Organisten der Marktkirchengemeinde, Thomas Frank, danke ich für die musikalische Gestaltung dieses Gottesdienstes. 
+             
+       Ebenso willkommen heiße ich die Vertreter des Landesverbandes der Jüdischen Gemeinden in Hessen, Herrn Vorsitzenden Dr. Jacob Gutmark und Herrn Direktor Daniel Neumann, und den Vorsitzenden des Verbandes der Sinti und Roma, Herrn Adam Strauß.
+             
+       Auch die Mitglieder der Landesregierung begrüße ich unter uns.
+             
+       Mein Gruß gilt weiterhin dem Repräsentanten der dritten Gewalt, dem Präsidenten des Staatsgerichtshofs und zugleich Präsidenten des Oberlandesgerichts Frankfurt, Herrn Prof. Dr. Poseck. 
+             
+       Die Doyenne des Konsularischen Korps, Frau Generalkonsulin Alla Polyova, grüße ich ebenfalls herzlich. 
+             
+       Ebenso herzlich begrüße ich den Präsidenten des Rechnungshofs, Herrn Dr. Wallmann, den Hessischen Beauftragten für Datenschutz und Informationsfreiheit, Herrn Prof. Dr. Ronellenfitsch, sowie den hessischen Landeswahlleiter, Herrn Dr. Kanther, und den Direktor der Landeszentrale für politische Bildung, Herrn Dr. Jehn.
+             
+       Ebenso begrüße ich die Repräsentanten der Kommunalen Spitzenverbände und des Landeswohlfahrtsverbandes, vertreten durch die Herren Präsidenten Becker und Kopp. 
+             
+       Vom DGB Hessen-Thüringen begrüße ich den Vorsitzenden Michael Rudolph.
+             
+       Herrn Brigadegeneral von Roeder, den Befehlshaber des Landeskommandos, möchte ich auch namentlich erwähnen. 
+             
+       Den ehemaligen Landtagspräsidenten, Herrn Karl Starzacher sowie – in unserer Mitte – Herrn Abg. Norbert Kartmann, gilt wie den beiden ehemaligen Ministerpräsidenten Roland Koch und Hans Eichel ebenfalls ein herzlicher Gruß; und stellvertretend für alle ehemaligen Mitglieder des Hessischen Landtags darf ich deren Vorsitzende Inge Velte begrüßen.
+             
+       Begrüßen darf ich auch die zahlreichen Vertreter von Presse, Rundfunk und Fernsehen; und ein besonderer Gruß gilt den Bürgerinnen und Bürgern, die an dieser Sitzung teilnehmen.
+             
+       Und noch ein Hinweis für die Medienvertreter im Plenarsaal und auf der Besuchergalerie: Aufgrund der beengten Raumverhältnisse müssen wir alle etwas näher zusammenrücken, und Sie sind auf den Podesten jetzt auch näher am Geschehen. Ich bitte Sie vorsorglich, darauf zu achten, dass Sie nicht in den persönlichen Bereich der Abgeordneten eingreifen, indem Sie Unterlagen oder Laptop-Bildschirme filmen oder fotografieren. Dies gilt, wie bisher auch, ebenso auf der Besuchergalerie.
+             
+       Meine Damen und Herren, Sie werden es sicher verstehen, dass ich aus zeitlichen Gründen nicht alle Ehrengäste namentlich erwähnen kann. Ihnen allen gelten meine Grüße, und ich heiße Sie herzlich willkommen.
+             
+       (Allgemeiner Beifall)
+             
+       Meine Damen und Herren, ich möchte Sie bitten, dass Sie jetzt für einen Nachruf aufstehen.
+             
+       (Die Anwesenden erheben sich von den Plätzen.)
+             
+       Wir gedenken heute eines ehemaligen Kollegen. Im Alter von 87 Jahren ist der ehemalige Abg. Hubert Heil am vergangenen Mittwoch gestorben. 
+             
+       Geboren wurden Herr Heil am 11. August 1931 in Künzell. Er absolvierte eine Ausbildung zum Maschinenschlosser und Schreiner, ehe er von 1957 bis 1973 als Ausbilder in einer Lehrwerkstatt der Bundesbahn tätig war. Seit 1973 engagierte er sich in Betriebsräten der Bundesbahn, ab 1982 war er Mitglied des Hauptpersonalrats bei der Zentrale der Hauptverwaltung der Deutschen Bahn, deren Aufsichtsrat er ab 1994 angehörte. 
+             
+       Er trat 1964 in die CDU ein und war ab 1974 Mitglied im Bezirksvorstand der Christlich-Demokratischen Arbeitnehmerschaft. Fest verwurzelt war Hubert Heil in der Kommunalpolitik in seiner Heimatgemeinde Künzell und dem Landkreis Fulda, wo er 34 Jahre lang Mitglied des Kreistages war. Ab 1977 gehörte er der Verbandsversammlung des Landeswohlfahrtsverbandes an. 
+             
+       Ausgezeichnet wurde Herr Heil mit dem Bundesverdienstkreuz am Bande und dem Hessischen Verdienstorden.
+             
+       Unserem Hause gehörte er in der Zeit vom 14. Juli 1994 bis 4. April 1995 an. 
+             
+       Hubert Heil war verheiratet und hatte zwei Kinder. Unser Mitgefühl gilt seiner Familie und den Angehörigen.
+             
+       Aus den Reihen unserer zukünftigen Kollegen hat uns die traurige Nachricht ereilt, dass der gewählte Bewerber Herr Nikolaus Pethö am 16. Januar 2019 verstorben ist.
+             
+       Er hinterlässt neben seiner Ehefrau einen Sohn, eine Tochter sowie seine Eltern. Unsere Anteilnahme gilt insbesondere seinen Angehörigen.
+             
+       (Schweigeminute)
+             
+       Sie haben sich zu Ehren der Verstorbenen von Ihren Plätzen erhoben. Ich danke Ihnen.
+             
+       (Die Anwesenden nehmen ihre Plätze wieder ein.)
+             
+       Nachfolger des verstorbenen gewählten Bewerbers Nikolaus Pethö ist Herr Erich Heidkamp.
+          
+        
+        
+          
+            
+               
+        Entgegengenommen
+            
+             
+       Wir kommen zu den Geburtstagen der vergangenen Wochen. Einen runden Geburtstag konnten seit unserer letzten Plenarsitzung feiern: der Abg. Karl Hermann Bolldorff am 9. Dezember 2018, er wurde 70 Jahre alt; der Abg. Ismail Tipi am 3. Januar 2019, er wurde 60 Jahre alt; der ehemalige langjährige Landtagspräsident, Herr Abg. Norbert Kartmann, am 16. Januar 2019, er wurde 70 Jahre alt. Im Namen des gesamten Hauses gratuliere ich Ihnen allen recht herzlich und wünsche Ihnen alles Gute.
+          
+        
+        
+          
+             
+       (Allgemeiner Beifall)
+          
+        
+      
+    
+       
+           Alterspräsident  Rolf Kahnt:
+      
+        
+          
+             
+       Wir kommen zu Tagesordnungspunkt 1:
+          
+        
+      
+    </Field>
+<Field Clear="True" InputFieldName="TOPSP">5</Field>
+<Field Clear="True" InputFieldName="SEIT">NaN</Field>
+<Field Clear="True" InputFieldName="SEITV">1</Field>
+<Field Clear="True" InputFieldName="SEITB"/>
+</UpdateRecord>
+<CreateLock Id="4" DatabaseId="E.VOLLTEXT"/>
+<UpdateRecord LockId="4" Clear="False">
+<Field Clear="True" InputFieldName="DATNA">ePP_Export_20-1_18-01-2019.xml</Field>
+<Field Clear="True" InputFieldName="DATER">28.01.2019 11:59:00</Field>
+<Field Clear="True" InputFieldName="DATGE">17.10.2007 14:27:00</Field>
+<Field Clear="True" InputFieldName="DATFO">XML</Field>
+<Field Clear="True" InputFieldName="DATGR">193 Kb</Field>
+<Field Clear="True" InputFieldName="DART">P</Field>
+<Field Clear="True" InputFieldName="WP">20</Field>
+<Field Clear="True" InputFieldName="DNR">1</Field>
+<Field Clear="True" InputFieldName="DNRB"/>
+<Field Clear="True" InputFieldName="DAT">18.01.2019</Field>
+<Field Clear="True" InputFieldName="ZUGA">öffentlich</Field>
+<Field Clear="True" InputFieldName="QUELL">ePlenarprotokoll</Field>
+<Field Clear="True" InputFieldName="AKAT">TOP</Field>
+<Field Clear="True" InputFieldName="RNRD">00004</Field>
+<Field Long="True" Clear="True" InputFieldName="TOP"> 
+       Eröffnung 
+der Sitzung durch die Alterspräsidentin oder den Alterspräsidenten und Konstituierung des Landtags (Art. 83 Abs. 2 HV, § 1 GOHLT)</Field>
+<Field Clear="True" InputFieldName="ANR">unbekannt</Field>
+<Field Clear="True" InputFieldName="ASEI">3</Field>
+<Field Clear="True" InputFieldName="ASEIV">6</Field>
+<Field Clear="True" InputFieldName="ASEIB">8</Field>
+<Field Long="True" Clear="True" InputFieldName="AVT1">
+      
+      
+        
+           
+       Eröffnung 
+der Sitzung durch die Alterspräsidentin oder den Alterspräsidenten und Konstituierung des Landtags (Art. 83 Abs. 2 HV, § 1 GOHLT)
+             
+       
+          
+        
+        
+          
+             
+       Nach Art. 83 Abs. 2 der Verfassung des Landes Hessen tritt der Landtag „kraft eigenen Rechts“ am 18. Tag nach der Wahl zusammen. Falls an diesem Tag die Wahlperiode des alten Landtags noch nicht abgelaufen ist, versammelt sich der neue Landtag am Tag nach dem Ablauf dieser Wahlperiode.
+             
+       Die 19. Wahlperiode ist mit dem gestrigen Tag abgelaufen.
+             
+       Ich frage Sie ausdrücklich: Werden gegen die Einberufung oder gegen das Zusammentreten am heutigen Tag Bedenken erhoben? – Das ist ganz offensichtlich nicht der Fall. 
+             
+       Zur Klarstellung darf ich noch auf Folgendes hinweisen: Bis zur Beschlussfassung über die Geschäftsordnung, die sich der 20. Hessische Landtag nach der Konstituierung geben wird, verfahren wir, unserer parlamentarischen Übung entsprechend, nach den Regeln, die für den 19. Hessischen Landtag gegolten haben. 
+             
+       Nach § 1 Abs. 1 der Geschäftsordnung des Hessischen Landtags führt in der ersten Sitzung des neu gewählten Landtags das an Lebensjahren älteste Mitglied den Vorsitz, bis die neu gewählte Präsidentin oder der neu gewählte Präsident das Amt übernimmt. 
+             
+       Von der Kanzlei wurde mir mitgeteilt, dass ich das älteste Mitglied des neu gewählten Landtags bin. Ordnungshalber frage ich aber nach, ob ein Mitglied des Hessischen Landtags vor dem 21. Februar 1945 geboren ist. – Das ist offensichtlich nicht der Fall. Somit stelle ich fest, dass mir die Ehre zukommt, als Alterspräsident zu amtieren. Darüber freue ich mich. 
+             
+       (Beifall AfD)
+             
+       Nach § 1 Abs. 2 der Geschäftsordnung ernenne ich die beiden jüngsten Abgeordneten zu vorläufigen Schriftführerinnen bzw. Schriftführern. Nach Feststellung der Kanzlei sind dies Herr Abg. Lukas Schauder, geboren am 14. Januar 1997, und Herr Abg. Felix Martin, geboren am 21. September 1995.
+             
+       Auch hier frage ich, ob ein Mitglied jünger ist als die beiden genannten. – Das ist nicht der Fall. 
+             
+       (Dr. h.c. Jörg-Uwe Hahn (Freie Demokraten): Ich fühle mich jünger! – Heiterkeit)
+             
+       – So jung müsste man noch einmal sein, das entnehme ich Ihrem Schmunzeln. – Das ist also nicht der Fall. Deshalb stelle ich fest, dass Herrn Schauder und Herrn Martin diese Ehre zuteilwird, und bitte sie beide, den Abg. Herrn Schauder und den Abg. Herrn Martin, neben mir Platz zu nehmen. 
+             
+       (Beifall – Die Schriftführer nehmen neben Alterspräsident Rolf Kahnt Platz.)
+             
+       Meine sehr geehrten Damen und Herren, wir kommen nun zur Konstituierung des 20. Hessischen Landtags. Ich bitte Sie, sich nach dem Aufruf zu erheben und mit Ja zu antworten, da dies gleichzeitig eine kurze Vorstellung sein soll. Ich darf Sie, Herr Martin, bitten, mit dem Namensaufruf zu beginnen. 
+             
+       (Namensaufruf) 
+             
+       Meine Damen und Herren, fast alle Abgeordneten des Hessischen Landtags sind anwesend. Deshalb stelle ich gemäß Art. 87 der Verfassung des Landes Hessen die Beschlussfähigkeit fest und erkläre den Landtag für konstituiert.
+             
+       (Beifall)
+             
+       Meine Damen und Herren, verehrte Kolleginnen und Kollegen, liebe Ehrengäste, in seiner Eröffnungsrede bei der Konstituierung des ersten Hessischen Landtags am 19. Dezember 1946 betonte der Chef der US-Militärregierung, Oberst James Newman, er blicke mit berechtigtem Stolz auf die Demokratisierung Hessens. 
+             
+       Wenige Monate zuvor wählte die hessische Bevölkerung ihre Kreistage und Kommunalparlamente. Nach zwölf Jahren menschenverachtender Diktatur und Gewaltherrschaft, die weltweit millionenfaches Leid brachten, fand in freien Wahlen die demokratische Übertragung politischer Verantwortung auf gewählte Abgeordnete statt. Auch wir haben im Rückblick auf mehr als 70 Jahre gelebte Demokratie allen Grund, auf diesen demokratischen Aufbau stolz und zugleich dafür dankbar zu sein.
+             
+       (Beifall AfD)
+             
+       Obwohl demokratische Errungenschaften heute als Selbstverständlichkeit verstanden werden, müssen daraus erwachsende Ansprüche stetig fortentwickelt und gelebt werden. Diese Erkenntnis findet sich bereits in Willy Brandts erster Regierungserklärung mit der Formulierung wieder: „Wir wollen mehr Demokratie wagen“. 
+             
+       Das am 28. Oktober neu gewählte hessische Parlament fängt zwar neu an, aber nicht von vorne. 19 vorangegangene Wahlperioden kräftigten die demokratische Entwicklung Hessens, sodass für die 20. Wahlperiode des Landtags nur zu wünschen übrig bleibt, noch mehr demokratisches Miteinander zu wagen und Mut zu haben, aufeinander zuzugehen.
+             
+       (Beifall AfD)
+             
+       Meine Damen und Herren, Hessen ist nicht schwach, es zählt zu den stärksten Bundesländern. Auch geografisch gesehen, kommt kaum einer daran vorbei. Hessen, das steht für landschaftlich bezaubernd und ökonomisch vorbildlich. Es ist ein starkes Flächenland, in dem unsere Bürger täglich herausragende Leistungen erbringen, ob in Wirtschaft, Industrie und Handel, Wissenschaft oder Kultur. Viele Hunderttausend Ehrenamtliche stellen sich zudem in Politik und Vereinen mit freiwilliger Leistung in den Dienst unserer Gemeinschaft. Sie leisten Wertvolles. Auch ihnen schulden wir Respekt und Dankbarkeit.
+             
+       (Beifall AfD)
+             
+       Zu Hessens Stärken darf man auch den Hessischen Landtag zählen. Er gilt landläufig als „härtestes Parlament Deutschlands“: Weich gespülte parlamentarische Schonwaschgänge haben hier eher Seltenheitswert. Man versteht sich gut aufs Austeilen; mancher steckt das nur schlecht weg. Von gewöhnungsbedürftigen Wechselbädern sollten sich neu gewählte Abgeordnete jedoch nicht abschrecken lassen. Sie gehören zur Spezialität des parlamentarischen Alltags Wiesbadens wie andernorts das Sauerkraut zum Rippchen oder der Äppelwoi zum Handkäs.
+             
+       (Beifall AfD)
+             
+       Mögen dabei die Zutaten manchmal leichtfertig sein, zimperlich sind sie gewiss nicht. Gar höchster Mund tat kund, politischen Widerspruch zu erledigen wie „früher auf dem Bau … mit der Dachlatte“. Auch weniger Schlagkräftiges findet sich: 
+             
+       Wir haben früher mit Knüppeln aufeinander gedroschen, heute pieken die Debattenredner einander mit spitzer Nadel in den Hintern. 
+             
+       Allgemeine Kopfschmerzen konnten schon die „hessischen Verhältnisse“ bei öfter fehlenden Mehrheits- und Regierungsbündnissen auslösen, Unwohlsein die bloße Ankündigung einer „brutalstmöglichen Aufklärung“ nach Ungereimtheiten in Finanzierungsfragen und Kopfschütteln, dass ein Amtseid in Turnschuhen und Jeans abgelegt wird – sichtbarer Ausdruck veränderter Kräfteverhältnisse sowie eines Zeitgeistes, mit dem Wertewandel und Kulturbruch einhergingen.
+             
+       (Beifall AfD)
+             
+       Das Wahlergebnis des 28. Oktober dokumentiert nicht zum ersten Mal in der Geschichte Hessens politische Veränderungen. Heute sind sechs Parteien im Landesparlament vertreten. Mathematisch betrachtet, ist die Zahl 6 die erste und kleinste „vollkommene Zahl“. Sie wird auch die „perfekte Zahl“ genannt und ist oft Gegenstand zahlenmystischer Deutungen. Manches davon mag stimmen, doch eines trifft zu: „Wir sind mehr!“
+             
+       (Beifall AfD)
+             
+       Volkes Stimme hat den Hessischen Landtag groß werden lassen wie nie: Überhang- und Ausgleichsmandate haben ihn auf 137 Mitglieder, oder gar mehr, anwachsen lassen. Dass sich diese nicht gleich zu Beginn gegenseitig auf die Füße treten, dafür sorgte die Landtagsverwaltung. Sie hat ihre organisatorischen Aufgaben gewohnt umsichtig bewältigt. Ihr möchte ich an dieser Stelle meinen besonderen Dank aussprechen.
+             
+       (Beifall AfD, vereinzelt CDU, BÜNDNIS 90/DIE GRÜNEN, SPD und Freie Demokraten)
+             
+       Die Zusammensetzung des neu gewählten Landtags – Verdruss hin, Freude her – ist Spiegelbild gesellschaftlicher Wirklichkeit und nichts Ungewöhnliches. Die Koexistenz verschiedener Interessen und Lebensstile entspricht dem Abbild eines gesellschaftlichen Pluralismus, wie er sich in jeder freiheitlich-demokratischen und rechtsstaatlichen Ordnung herausbildet. Ernst Fraenkel, einer der Begründer der westdeutschen Demokratietheorie, wies daraufhin, dass jede funktionierende pluralistische Demokratie neben Kompromissbereitschaft zusätzlich der Spielregeln eines Fair Play und eines allgemein anerkannten Wertekodex bedürfe. Daran gerade heute zu erinnern, erscheint sinnvoll.
+             
+       (Beifall AfD)
+             
+       Denn nur ein pluralistischer Staat erlaubt bei aller inhaltlichen Gegensätzlichkeit in der Sache ausnahmslos allen Mitgliedern der Gesellschaft Meinungsfreiheit – im Gegensatz zu totalitärer Ideologie. Ohne Pluralismus gibt es keine Meinungsfreiheit, die verpflichtet ist, sich auf dem Boden unseres Grundgesetzes zu bewegen. Meinungsfreiheit ist also zugleich Meinungsvielfalt, und genau sie findet sich in den Kräfteverhältnissen der Wahl des 28. Oktober 2018 wieder. 
+             
+       Über das bloße Zahlenwerk hinaus entdeckt man das Phänomen einer sich selbst erfüllenden Prophezeiung. Ausgerechnet die im Wahlkampf von Parteien und Medien landauf, landab beschworene Diversität findet sich nun tatsächlich mit Vielfalt, Buntheit, Offenheit und Toleranz im hessischen Parlament wieder. Manchmal ist das Schicksal gnädig.
+             
+       (Beifall AfD)
+             
+       Jede Demokratie muss für Vielfalt stehen. Sie wird sich in ihrer politischen Verantwortung um den Ausgleich verschiedener Interessen bemühen müssen, um beste Lösungen zu finden. Dieser Ausgleich erscheint heute notwendiger denn je. Die gegenwärtig feststellbare Veränderung unserer Parteienlandschaft erklärt sich auch damit, dass immer mehr Menschen eine Korrektur des feststellbaren Wertewandels als dringlich erachten, eines Wertewandels, der nicht immer Gutes bewirkte. Manche politischen Entscheidungen werden vermehrt als realitätsferne, auch als einseitig ideologisch-moralisch begründete wahrgenommen, bei denen Sach- und Faktenpolitik für das Gemeinwohl zu kurz kämen.
+             
+       Diese und andere Erscheinungen mögen genug Anlass sein, in diesem Hohen Haus einen argumentativen Wettstreit um die besten Ideen zu führen. Der englische Staatsphilosoph Edmund Burke betonte bereits Folgendes: 
+             
+       Das Parlament ist kein Kongress von Botschaftern im Dienste verschiedener und feindlicher Interessen, die jeder als … Befürworter gegen andere … Befürworter verfechten müsste, sondern das Parlament ist die beratende Versammlung einer Nation, mit einem Interesse, dem des Ganzen, … das aus der allgemeinen Vernunft des Ganzen hervorgeht.
+             
+       (Beifall AfD)
+             
+       Abgeordnete sind die Vertreter des ganzen Volkes. Dennoch stehen sie mit ihrem Mandat in einem besonderen Spannungsverhältnis. Es liegt zwischen ihren eigenen Überzeugungen, denen ihrer Wähler und gelegentlich sogar denen ihrer eigenen Partei.
+             
+       Max Weber, ein deutscher Klassiker der Kultur- und Sozialwissenschaften, rät deshalb dazu, „sich um das zu kümmern, was den Politiker angeht“, nämlich „die Zukunft und die Verantwortung vor ihr“. Ein Politiker müsse sich klarmachen, dass sein Handeln unter zwei voneinander grundverschiedenen, gegensätzlichen Maximen stehe: einer gesinnungsethischen oder einer verantwortungsethischen Gesinnung. Beides sei nicht miteinander identisch, doch grundsätzlich müsse gelten, dass ein Politiker für die Folgen seines Handelns aufzukommen habe.
+             
+       (Beifall AfD)
+             
+       Leidenschaft allein macht längst nicht zum Politiker. Das wissen wir. Deshalb mahnt Weber an, Politik müsse „mit dem Kopf gemacht“ werden. Es geht also um Verantwortlichkeit und Augenmaß sowie um die Fähigkeit, Realitäten auf sich wirken zu lassen. Das muss entscheidender Maßstab allen politischen Handelns sein. 
+             
+       Politiker können auch irren, was leider nicht verhindert werden kann. Dies gilt umso mehr, wenn sie sich von festgefahrenen Meinungen oder Ideologien leiten lassen. Davor warnt Weber und gibt darüber hinaus zu bedenken, dass selbst eine gute Absicht den Politiker „von seiner Verantwortung nicht entlasten“ kann.
+             
+       (Beifall AfD)
+             
+       Dieser Verantwortung müssen nun die Abgeordneten der sechs im Landtag vertretenen Fraktionen gerecht werden, mögen sie in ihren politischen Überzeugungen noch so unterschiedlich sein. Um es noch einmal zu unterstreichen: Divergierende Auffassungen und Interessen sind Kennzeichen einer funktionierenden Demokratie. Das Eigene darf dabei verteidigt, das Fremde tunlichst nicht herabgewürdigt werden. Was man für sich beansprucht, soll man anderen nicht versagen. 
+             
+       Gewiss steckt in jeder Unterschiedlichkeit immerhin auch die Chance, Stärken gemeinsam auszuspielen, geht es doch um nicht mehr und nicht weniger als um das Wohl und den Wohlstand Hessens und seiner Bürger, ihn zu erhalten und zu mehren, und Schaden von ihm abzuwenden, meine Damen und Herren.
+             
+       (Beifall AfD)
+             
+       Dafür gibt es in unserer Aufgabe viel Handlungsbedarf. In der Bevölkerung gibt es, trotz gegenwärtig ökonomischer Stärke, existenzielle Sorgen. Wir leben in Zeiten mit rapiden, sich nicht immer zum Besten wandelnden Entwicklungen – in Gesellschaft und Politik, in Kultur und Tradition. 
+             
+       Wirtschaft und Industrie stehen vor einer neuen industriellen Revolution. Zwar bietet Globalisierung viele Chancen, doch auch Risiken. Globale Märkte für Kapital, Güter, Dienstleistungen und Arbeitskräfte stellen sowohl die Grenzen der Nationalstaaten wie auch die Leistungsfähigkeit ihrer Volkswirtschaften infrage. Es bleibt dringlich zu fragen: Wie viel nationale Souveränität, wie viel Nationalstaat, wie viele lokale Volkswirtschaften werden gebraucht und sind notwendig, wenn allein der technische Fortschritt in Digitalisierung, Automatisierung und künstlicher Intelligenz zu Verdrängungswettbewerben führt, die vor der Arbeitswelt nicht haltmachen werden?
+             
+       Neben ökonomischen Veränderungen stellen zudem weltweite Migrationswanderungen unermessliche nationale und internationale Herausforderungen dar. Allein die Bevölkerungsexplosion Afrikas von heute 1,2 Milliarden Menschen auf 2,4 Milliarden Menschen im Jahr 2050 wird europäische Staaten mit Schicksalsfragen konfrontieren. Die Frage wird sein, ob sie diesen gewachsen sind und ob sie sie überhaupt bewältigen können. 
+             
+       Zudem wird es um die Grundsatzfrage gehen müssen, ob es eine Welt ohne Grenzen, in der Staaten ihre eigene Souveränität, ihre eigene Kultur und ihre Identität aufzugeben bereit erscheinen, überhaupt geben kann, und schließlich auch darum, wie es um die Zukunft der Europäischen Union bestellt sein wird.
+             
+       (Beifall AfD)
+             
+       Entwicklungen wie diese betreffen auch das Land Hessen. Zudem müssen Antworten auf eine ausufernd kostentreibende Energiepolitik gefunden werden, eine bedrohte Zukunft der Automobilindustrie, eine zunehmende Knappheit bezahlbaren Wohnraums, ein immer noch ungelöstes Demografieproblem sowie eine gefährdete Gesundheits- und Altersversorgung. Mängel in innerer und äußerer Sicherheit sollten beseitigt werden, im Bildungssystem, im Schutz von Natur und Landschaft sowie in Infrastruktur und Verkehr.
+             
+       Verehrte Kolleginnen und Kollegen, ich wünsche uns für unsere Aufgaben viel Kraft, auch Freude und, wo nötig, Gelassenheit und Humor – und das eingangs zitierte Fair Play. Unser Parlament ist Ort politischer Willensbildung, des Miteinander-Redens und des Einander-Zuhörens, wo übrigens niemand „gestellt“ werden muss. Jedem politisch Andersdenkenden gebühren Respekt und Achtung, wie überall in unserer demokratischen Gesellschaft.
+             
+       Machen wir auch eines geschlossen deutlich: Körperliche Angriffe auf Politiker, gleich gegen wen und wo sie stattfinden, sind abscheulich und müssen mit allen dem Rechtsstaat zur Verfügung stehenden Mitteln verfolgt werden.
+             
+       (Beifall AfD, Michael Boddenberg und Frank Lortz (CDU))
+             
+       In diesem Hohen Haus darf gesagt werden, was geht und was nicht geht. Zu tieferen Freundschaften wird das nicht unbedingt führen. Immerhin beachtlich, womit sich kürzlich ein Minister schmückte: Für ihn gebe es keine „Ausschließeritis“. – Er weiß, wovon er spricht. Die gestern noch Ausgegrenzten sind heute respektierter Teil des Parlaments. So wäre es nur ein Gebot politischer Vernunft und ein Akt der Normalisierung, wenn ein anderes Krankheitsbild einmal sein Ende fände: das der „Ausgrenzeritis“ gegenüber politisch Andersdenkenden. 
+             
+       (Beifall AfD)
+             
+       Meine Damen und Herren, das käme einem realen Klimawandel gleich. Dazu genügte die uneingeschränkte Bereitschaft, andere Stimmen zu hören. Abraham Lincoln war bewusst: 
+             
+       Wer anderen die Freiheit verweigert, verdient sie nicht für sich selbst. 
+          
+        
+        
+          
+            
+               
+        Vollzogen
+            
+             
+       Ich danke für Ihre Aufmerksamkeit.
+          
+        
+        
+          
+             
+       (Beifall AfD und vereinzelt Freie Demokraten – Die Abgeordneten der AfD erheben sich von den Plätzen.)
+             
+       Wir kommen zu Tagesordnungspunkt 2:
+          
+        
+      
+    </Field>
+<Field Clear="True" InputFieldName="TOPSP">6</Field>
+<Field Clear="True" InputFieldName="SEIT">NaN</Field>
+<Field Clear="True" InputFieldName="SEITV">1</Field>
+<Field Clear="True" InputFieldName="SEITB"/>
+</UpdateRecord>
+<CreateLock Id="5" DatabaseId="E.VOLLTEXT"/>
+<UpdateRecord LockId="5" Clear="False">
+<Field Clear="True" InputFieldName="DATNA">ePP_Export_20-1_18-01-2019.xml</Field>
+<Field Clear="True" InputFieldName="DATER">28.01.2019 11:59:00</Field>
+<Field Clear="True" InputFieldName="DATGE">17.10.2007 14:27:00</Field>
+<Field Clear="True" InputFieldName="DATFO">XML</Field>
+<Field Clear="True" InputFieldName="DATGR">193 Kb</Field>
+<Field Clear="True" InputFieldName="DART">P</Field>
+<Field Clear="True" InputFieldName="WP">20</Field>
+<Field Clear="True" InputFieldName="DNR">1</Field>
+<Field Clear="True" InputFieldName="DNRB"/>
+<Field Clear="True" InputFieldName="DAT">18.01.2019</Field>
+<Field Clear="True" InputFieldName="ZUGA">öffentlich</Field>
+<Field Clear="True" InputFieldName="QUELL">ePlenarprotokoll</Field>
+<Field Clear="True" InputFieldName="AKAT">TOP</Field>
+<Field Clear="True" InputFieldName="RNRD">00005</Field>
+<Field Long="True" Clear="True" InputFieldName="TOP"> 
+       Beschlussfassung 
+über eine Geschäftsordnung (Art. 99 HV)</Field>
+<Field Clear="True" InputFieldName="ANR">unbekannt</Field>
+<Field Clear="True" InputFieldName="ASEI">2</Field>
+<Field Clear="True" InputFieldName="ASEIV">8</Field>
+<Field Clear="True" InputFieldName="ASEIB">9</Field>
+<Field Long="True" Clear="True" InputFieldName="AVT1">
+      
+      
+        
+           
+       Beschlussfassung 
+über eine Geschäftsordnung (Art. 99 HV)
+             
+       
+             
+        
+        – Drucks. 20/1 –
+              
+            
+          
+        
+        
+          
+             
+       Die Geschäftsordnung des Hessischen Landtags – vorläufige Ausgabe vom Januar 2019 – befindet sich auf Ihren Plätzen, ebenso ein interfraktioneller Antrag, Drucks. 20/1. Wird hierzu das Wort gewünscht? – Das ist nicht der Fall. Dann lasse ich jetzt über den interfraktionellen Antrag, Drucks. 20/1, abstimmen.
+          
+        
+        
+          
+            
+               
+        Angenommen
+            
+             
+       Wer dafür ist, den bitte ich um das Handzeichen. – Gibt es Gegenstimmen? – Enthaltungen? – Damit ist es einstimmig angenommen. Somit ist die Geschäftsordnung mit der Maßgabe des Antrags Drucks. 20/1, das heißt mit den darin enthaltenen Änderungen, in Kraft gesetzt. 
+          
+        
+        
+          
+             
+       Wir kommen zu Tagesordnungspunkt 3:
+          
+        
+      
+    </Field>
+<Field Clear="True" InputFieldName="BDOK">Drucks. 20/1</Field>
+<Field Clear="True" InputFieldName="TOPSP">8</Field>
+<Field Clear="True" InputFieldName="SEIT">NaN</Field>
+<Field Clear="True" InputFieldName="SEITV">1</Field>
+<Field Clear="True" InputFieldName="SEITB"/>
+</UpdateRecord>
+<CreateLock Id="6" DatabaseId="E.VOLLTEXT"/>
+<UpdateRecord LockId="6" Clear="False">
+<Field Clear="True" InputFieldName="DATNA">ePP_Export_20-1_18-01-2019.xml</Field>
+<Field Clear="True" InputFieldName="DATER">28.01.2019 11:59:00</Field>
+<Field Clear="True" InputFieldName="DATGE">17.10.2007 14:27:00</Field>
+<Field Clear="True" InputFieldName="DATFO">XML</Field>
+<Field Clear="True" InputFieldName="DATGR">193 Kb</Field>
+<Field Clear="True" InputFieldName="DART">P</Field>
+<Field Clear="True" InputFieldName="WP">20</Field>
+<Field Clear="True" InputFieldName="DNR">1</Field>
+<Field Clear="True" InputFieldName="DNRB"/>
+<Field Clear="True" InputFieldName="DAT">18.01.2019</Field>
+<Field Clear="True" InputFieldName="ZUGA">öffentlich</Field>
+<Field Clear="True" InputFieldName="QUELL">ePlenarprotokoll</Field>
+<Field Clear="True" InputFieldName="AKAT">TOP</Field>
+<Field Clear="True" InputFieldName="RNRD">00006</Field>
+<Field Long="True" Clear="True" InputFieldName="TOP"> 
+       Feststellung 
+der Tagesordnung (§ 58 Abs. 3 GOHLT)</Field>
+<Field Clear="True" InputFieldName="ANR">unbekannt</Field>
+<Field Clear="True" InputFieldName="ASEI">1</Field>
+<Field Clear="True" InputFieldName="ASEIV">9</Field>
+<Field Clear="True" InputFieldName="ASEIB">9</Field>
+<Field Long="True" Clear="True" InputFieldName="AVT1">
+      
+      
+        
+           
+       Feststellung 
+der Tagesordnung (§ 58 Abs. 3 GOHLT)
+             
+       
+          
+        
+        
+          
+             
+       Die Tagesordnung vom 9. Januar 2019 liegt Ihnen vor. 
+          
+        
+        
+          
+            
+               
+        Festgestellt
+            
+             
+       Werden Vorschläge zur Änderung oder Ergänzung der Tagesordnung gemacht? – Das ist nicht der Fall. Damit ist die heutige Tagesordnung angenommen.
+          
+        
+        
+          
+             
+       Wir kommen zu Tagesordnungspunkt 4:
+          
+        
+      
+    </Field>
+<Field Clear="True" InputFieldName="TOPSP">9</Field>
+<Field Clear="True" InputFieldName="SEIT">NaN</Field>
+<Field Clear="True" InputFieldName="SEITV">1</Field>
+<Field Clear="True" InputFieldName="SEITB"/>
+</UpdateRecord>
+<CreateLock Id="7" DatabaseId="E.VOLLTEXT"/>
+<UpdateRecord LockId="7" Clear="False">
+<Field Clear="True" InputFieldName="DATNA">ePP_Export_20-1_18-01-2019.xml</Field>
+<Field Clear="True" InputFieldName="DATER">28.01.2019 11:59:00</Field>
+<Field Clear="True" InputFieldName="DATGE">17.10.2007 14:27:00</Field>
+<Field Clear="True" InputFieldName="DATFO">XML</Field>
+<Field Clear="True" InputFieldName="DATGR">193 Kb</Field>
+<Field Clear="True" InputFieldName="DART">P</Field>
+<Field Clear="True" InputFieldName="WP">20</Field>
+<Field Clear="True" InputFieldName="DNR">1</Field>
+<Field Clear="True" InputFieldName="DNRB"/>
+<Field Clear="True" InputFieldName="DAT">18.01.2019</Field>
+<Field Clear="True" InputFieldName="ZUGA">öffentlich</Field>
+<Field Clear="True" InputFieldName="QUELL">ePlenarprotokoll</Field>
+<Field Clear="True" InputFieldName="AKAT">TOP</Field>
+<Field Clear="True" InputFieldName="RNRD">00007</Field>
+<Field Long="True" Clear="True" InputFieldName="TOP"> 
+       Wahlvorschlag 
+Wahl der Präsidentin oder des Präsidenten (§§ 2, 9 Abs. 1 GOHLT)</Field>
+<Field Clear="True" InputFieldName="ANR">unbekannt</Field>
+<Field Clear="True" InputFieldName="ASEI">4</Field>
+<Field Clear="True" InputFieldName="ASEIV">9</Field>
+<Field Clear="True" InputFieldName="ASEIB">12</Field>
+<Field Long="True" Clear="True" InputFieldName="AVT1">
+      
+      
+        
+           
+       Wahlvorschlag 
+Wahl der Präsidentin oder des Präsidenten (§§ 2, 9 Abs. 1 GOHLT)
+             
+       
+             
+        
+        – Drucks. 20/2 –
+              
+            
+          
+        
+        
+          
+             
+       Ich erteile dem Fraktionsvorsitzenden der CDU, Herrn Boddenberg, das Wort.
+          
+        
+      
+    
+       
+            Michael Boddenberg [CDU]:
+      
+         
+       Herr Präsident, meine sehr geehrten Damen und Herren! Namens der CDU-Fraktion im Hessischen Landtag möchte ich Ihnen zur Wahl des Präsidenten des Hessischen Landtags Herrn Abg. Boris Rhein vorschlagen. – Vielen Dank.
+         
+       (Beifall CDU, BÜNDNIS 90/DIE GRÜNEN, Freie Demokraten und vereinzelt AfD)
+      
+    
+       
+           Alterspräsident  Rolf Kahnt:
+      
+        
+          
+             
+       Ich darf weiter fragen: Gibt es andere Vorschläge? – Ich sehe, das ist nicht der Fall. Dann können wir in die Wahlhandlung eintreten.
+             
+       Nach § 2 Abs. 1 der Geschäftsordnung wählt der Landtag in geheimer Wahl oder, wenn niemand widerspricht, durch Handzeichen die Präsidentin oder den Präsidenten für die Dauer der Wahlperiode.
+             
+       Ich frage deshalb, ob der Wahl durch Handzeichen widersprochen wird. – Das ist nicht der Fall. Somit können wir zur Wahl kommen. 
+             
+       Ich bitte daher um Ihr Handzeichen. Wer dem Vorschlag in Drucks. 20/2, Herrn Abg. Boris Rhein zum Präsidenten des Hessischen Landtags zu wählen, zustimmt, den bitte ich jetzt um das Handzeichen. – Gibt es Gegenstimmen? – Enthaltungen? – Ich stelle fest: Damit ist Herr Abg. Boris Rhein einstimmig zum Präsidenten des Hessischen Landtags der 20. Wahlperiode gewählt worden. 
+             
+       Herr Abg. Rhein, ich frage Sie: Nehmen Sie die Wahl zum Präsidenten des Hessischen Landtags an? 
+          
+        
+      
+    
+       
+            Boris Rhein [CDU]:
+      
+         
+       Herr Alterspräsident, ich nehme die Wahl an.
+         
+       (Anhaltender Beifall – Abg. Michael Boddenberg (CDU) überreicht Präsident Boris Rhein einen Blumenstrauß. – Präsident Boris Rhein nimmt Glückwünsche entgegen.) 
+      
+    
+       
+           Alterspräsident  Rolf Kahnt:
+      
+        
+          
+            
+               
+        Gewählt:Abg. Boris Rhein
+            
+             
+       Im Namen des Hessischen Landtags beglückwünsche ich Sie zu dieser Wahl und wünsche Ihnen viel Erfolg für Ihr Amt. 
+          
+        
+        
+          
+             
+       Ich möchte Sie jetzt bitten, Ihre Ansprache am Rednerpult zu halten, und gebe hiermit das Mikrofon frei.
+          
+        
+      
+    
+       
+           Präsident  Boris Rhein:
+      
+        
+          
+             
+       Herr Alterspräsident, liebe Kolleginnen und Kollegen! Ich will mich sehr herzlich für Ihr Vertrauen bedanken. Auch das will ich sagen: Ich weiß dieses einstimmige Votum sehr wertzuschätzen. Ich kann Ihnen auch sagen: Es ist eine Ehre, diesem Hohen Hause künftig als Präsident vorstehen zu dürfen. Aber auch das will ich nicht verhehlen: Es ist mir natürlich auch eine echte Freude, diesem großartigen Haus vorstehen zu dürfen. 
+             
+       Liebe Kolleginnen und Kollegen, ich habe in meinem politischen Leben verschiedene Perspektiven kennenlernen dürfen: Stadtrat im Magistrat der Stadt Frankfurt, als Staatssekretär in der Zeit, als Volker Bouffier Innenminister dieses Landes war, und als zweimaliger Minister – als Minister des Innern und für Sport und als Minister für Wissenschaft und Kunst. Die Verantwortung, die ich als Präsident trage, ist mir zwar noch neu, aber sie ist mir sehr wohl bewusst. Ich war überwiegend in Ämtern der Exekutive tätig, und trotzdem bin ich Parlamentarier aus Leidenschaft. Ich gehöre diesem Haus seit 1999 mit einer kleinen Unterbrechung an. Ich habe meine Abgeordnetentätigkeit immer als eine hohe Verantwortung verstanden, und ich habe das Mandat als meine demokratische Legitimation verstanden. Das Parlament ist die Herzkammer und manches Mal – ich hoffe, Sie entschuldigen es, wenn ich das jetzt so sage – auch ein bisschen der Maschinenraum der Demokratie. 
+             
+       Ich freue mich auf die Zusammenarbeit mit Ihnen, liebe Kolleginnen und Kollegen, und natürlich auch – das will ich sehr ausdrücklich sagen – mit Ihnen, liebe Mitarbeiterinnen und Mitarbeiter der Landtagsverwaltung, die Sie diesem Haus ja nicht nur dienen, sondern die Sie es am Funktionieren erhalten. Das gilt für die Reinigungskraft, das gilt für den Boten, das gilt für den Stenografen, das gilt für den Direktor und natürlich auch für die Beamtinnen und Beamten dieses Hauses. 
+             
+       Ich will dieses Amt nach bestem Wissen und Gewissen führen: unparteiisch, kollegial, kompromissfähig und kommunikativ im Sinne eines selbstbewussten Parlaments und natürlich auch im Sinne einer starken Demokratie. 
+             
+       Lassen Sie mich Ihnen, Herr Alterspräsident, für die Eröffnung des 20. Hessischen Landtags danken. Danken möchte ich auch – wir haben das gestern Abend erlebt; auch da hat sich, wie ich finde, im Übrigen der Geist des Hessischen Landtags gezeigt – den Kolleginnen und Kollegen, die aus dem Landtag ausscheiden. Heute sind viele von Ihnen hier. Heute schauen viele von Ihnen zu. 
+             
+       Aber ganz besonders danken möchte ich natürlich meinem Amtsvorgänger, ganz besonders danken möchte ich Norbert Kartmann. 
+             
+       (Allgemeiner Beifall)
+             
+       Norbert Kartmann ist ein ganz besonderer Mensch. Er ist ein ganz besonders herzlicher Mensch. Er ist ein Freund und hat dieses Parlament fast 16 Jahre mit Charme, mit Stil und vor allem mit Herzblut geleitet. Der Nachfolger, lieber Norbert Kartmann, weiß: Die Fußstapfen sind sehr groß, übergroß. 
+             
+       Das Amt des Präsidenten dieses höchsten Verfassungsorgans des Landes Hessen ist zum Teil ein repräsentatives, und – ich betone das – auch in einem repräsentativen Amt kann man sich einmischen. Ja, es ist sogar Pflicht und Aufgabe, und genau so beabsichtige ich diese Aufgabe auszufüllen. Mit der Präsidentschaft hört man keineswegs auf, aktiv Politik zu machen. Nein, mit der Präsidentschaft wächst die Verantwortung, Politik wahrnehmbar – und zwar für alle – zu machen: überparteilich, aber nicht unpolitisch und schon gar nicht meinungslos. Das ist mein Verständnis von dieser Aufgabe.
+             
+       (Beifall CDU, BÜNDNIS 90/DIE GRÜNEN, SPD, AfD und Freie Demokraten) 
+             
+       Meine Damen und Herren, in diesem Zusammenhang will ich in aller Klarheit auf die Bedeutung der Länder und natürlich auch auf die Bedeutung ihrer Parlamente hinweisen. Es gibt in Deutschland keine Bundesländer; es gibt die deutschen Länder.
+             
+       (Beifall CDU, BÜNDNIS 90/DIE GRÜNEN und Freie Demokraten)
+             
+       Exakt diese Länder bilden den Bund und nicht umgekehrt. Die Länder sind keine bloße Verwaltungseinheit der Bundesrepublik. Sie sind ein originäres staatliches Völkerrechtssubjekt mit originärer Staatsgewalt und mit Staatsqualität.
+             
+       (Beifall CDU, BÜNDNIS 90/DIE GRÜNEN, AfD, Freie Demokraten und vereinzelt SPD)
+             
+       Welche Bedeutung der Föderalismus hat, zeigt, dass die politische Stabilität eines Gemeinwesens in Deutschland immer dann gefährdet war, wenn vom föderalen Gedanken Abstand genommen und der Weg eines Einheitsstaates beschritten wurde. 
+             
+       Der Hessische Landtag ist seit jeher ein Ort streitlustiger Debatten und von meist sachlich-konfrontativen Auseinandersetzungen. Denken Sie an die oftmals sehr hart geführten Debatten in der Bildungspolitik – das wird sicher auch so weitergehen. Denken Sie an die Entscheidungen zum Ausbau des Frankfurter Flughafens, die wir hier debattiert haben, oder denken Sie auch an die Fragen über die Zukunft des Kernkraftwerks Biblis.
+             
+       Aus diesem Landtag heraus haben sich immer wieder bundespolitische Gemengelagen, haben sich immer wieder Stimmungen und politische Markierungen entwickelt, was dazu geführt hat, dass dieses Landesparlament ein hohes Maß an Selbstbewusstsein in der Ausübung seiner parlamentarischen Rechte und auch seiner politischen Einflussnahme entwickelt hat. Ich finde, das sollte auch so bleiben. Ich betone das weder überheblich, noch betone ich das drohend, sondern ich betone das, weil sowohl der Bund als natürlich auch eine Landesregierung immer nur so stark sein werden, wie die Landesparlamente stark sind.
+             
+       Und Stärke wird bei der Beantwortung der Zukunftsfragen, die die Bürgerinnen und Bürger umtreiben, natürlich dringlichst notwendig sein: Kann ich guten Mutes die Zukunft meiner Familie planen? Wer pflegt Angehörige und auch mich selbst im Alter? Wie organisieren wir medizinische Versorgung, Nahversorgung, öffentlichen Personennahverkehr und attraktive Arbeitsplätze im ländlichen Raum? Wie bringen wir Ökologie und Ökonomie zusammen, sodass Hessen eine lebens- und eine liebenswerte Heimat bleibt? Wie gehen wir mit Zuwanderung und Integration um? Wie gehen wir mit dem Bewusstsein um, dass der wirtschaftliche und auch der wissenschaftliche Erfolg sowie die hohe Attraktivität Hessens auch mit Herausforderungen – ich füge hinzu: teilweise auch mit negativen Seiten – verbunden ist? Und: Bleibt Wohnraum bezahlbar? Oder vielmehr: Wird er in manchen Gegenden wieder bezahlbar? 
+             
+       Liebe Kolleginnen und Kollegen, Sie sehen: Unsere Agenda ist prall gefüllt, aber – das ist das Beruhigende – wir haben fünf Jahre, um sie gemeinsam anzugehen von der einen bis zu anderen Seite dieses Hauses; Sie spüren es auch an den Platzverhältnissen. Das Folgende will ich doch noch sagen: Ich habe hohen Respekt vor der Landtagsverwaltung und der Art, wie sie diese Frage innerhalb kürzester Zeit – wie ich finde: außerordentlich gut – gelöst hat. Es ist eine Leistung, in so kurzer Zeit ein solchermaßen gewachsenes Haus so darzustellen. 
+             
+       (Allgemeiner Beifall) 
+             
+       Also: Von der einen bis zur anderen Seite dieses gewachsenen Hauses gibt es viel, gibt es sogar sehr viel, das uns politisch trennt. Da muss man sich nichts vormachen. Das weiß jeder, und das spürt man auch, wenn man die Debatten hier verfolgt. Aber es gibt bei allem Trennenden ebenso vieles, was uns eint. Warum sonst engagiert man sich politisch? Warum sonst macht man das sogar zu seinem Beruf? Warum sonst engagiert man sich weit über ein normales Maß hinaus? Das ist kein Nine-to-Five-Job. Das ist nichts, was man von montags bis freitags macht. Das macht man jeden Tag in der Woche, und man macht es weitaus mehr als in einem Nine-to-Five-Job. Warum engagiert man sich sonst so weit über ein normales Maß hinaus für seine Umgebung, für andere Menschen und für sein Land? 
+             
+       Ich bin sehr sicher, dass es damit zu tun hat, dass wir alle ein Land gestalten wollen, und zwar ein Land, in dem das große Versprechen der Bundesrepublik auch weiterhin gilt: Zuverlässigkeit beim Rechtsstaat – das Recht ist nicht in der Hand der Macht; lieber Herr Präsident des Staatsgerichtshofs, Gerichte und freie Richter garantieren in diesem Land, dass jeder sein Recht geltend machen kann –, Zuverlässigkeit bei Sicherheit und Infrastruktur, ein sicheres und auch ein faires Wirtschafts- und Sozialsystem, das Chancen gibt und Chancen eröffnet, Offenheit bei allen gesellschaftlichen Debatten und Mut zur Meinungsvielfalt, aber auch Frieden und Freiheit in einem geeinten Europa sowie vor allem, dass alles, was ich exemplarisch aufgezählt und als das große Versprechen der Bundesrepublik bezeichnet habe, auch in der Zukunft noch für unsere Kinder gilt. Das ist aus meiner Sicht der Grund, warum wir, die wir in diesem Hause sitzen, uns politisch engagieren. Das ist doch das, was uns bei allen Meinungsverschiedenheiten leitet, und das ist das, was uns verbindet. 
+             
+       Ich finde, in einem demokratischen Gemeinwesen ist kein Thema es wert, über den Streit das Gemeinsame in Vergessenheit geraten zu lassen. Das Parlament besteht aus Abgeordneten, und diese Abgeordneten sind nicht – ich sage das in Anführungsstrichen – „abgehoben“, wie manchmal so gern oberflächlich dahergeredet wird. Wir sind aus der Mitte der Bürgerinnen und Bürger gewählt, und zwar durch freie, gleiche und geheime Wahl. 
+             
+       Aber damit auch das klar ist: Niemand vertritt allein das Volk. So etwas wie Volkswille entsteht überhaupt erst in und mit unseren gemeinsamen parlamentarischen Entscheidungen, und deswegen müssen wir diesen Ort des Parlaments werthalten. 
+             
+       (Allgemeiner Beifall)
+             
+       In der Demokratie kann man – ich füge in Parenthese hinzu: zum Glück – Denken nicht delegieren. Es stimmt, dass Demokratie durch Streit und Debatte gestärkt wird. Aber auch dabei steht ja längst nicht alles zur Disposition. Es muss unstrittige Überzeugungen und es muss einen Grundkonsens der Demokraten geben. Demokratie lebt nicht vom Streit. Ich habe eben gesagt, sie wird durch Streit und Debatte gestärkt. Aber sie lebt nicht vom Streit, sondern sie lebt vom Argument, und Pöbeleien oder gar polarisierende Eskalationen legen die Demokratie lahm und machen sie betriebsunfähig für ihre wichtigen Aufgaben. 
+             
+       (Beifall CDU, BÜNDNIS 90/DIE GRÜNEN, SPD, AfD und Freie Demokraten)
+             
+       Liebe Kolleginnen und Kollegen, es ist auch vor dem Hintergrund der Geschichte unseres Landes wiederum unsere Aufgabe, genau das zu verhindern, dass nämlich die Demokratie betriebsunfähig wird und dass sie nicht mehr in der Lage ist, ihre wichtigen Aufgaben zu erfüllen. 
+             
+       Meine Mutter, geboren in Solingen im Jahre 1935 – heute ist sie auch hier; das ist für mich eine ganz besonders große Freude –,
+             
+       (Allgemeiner Beifall)
+             
+       ist in einem anderen Land, in einem anderen Deutschland als diesem Deutschland aufgewachsen. Sie hat eine komplett andere Kindheit und Jugend erlebt als ich, der ich 1972 zur Welt gekommen bin, oder meine beiden Söhne, von denen einer 15 und einer 8 Jahre alt ist. 
+             
+       Bomben, Unfreiheit, Verlust von Hab und Gut, die Unsicherheit der Nächte im Bunker sowie der staatlich organisierte Verlust der Werte, die uns im Innersten zusammenhalten, für die der Staat eigentlich stehen sollte und die die Zivilisation ausmachen – das ist es, was ihre Kindheit geprägt hat. Sie gehört zu der Generation, der Adolf Hitler und die Nationalsozialisten schlicht ihre Kindheit geraubt haben. Wiederum andere wurden in den Konzentrationslagern der Nazis gequält, gefoltert, misshandelt, erniedrigt und haben noch viel mehr verloren – oftmals ihre ganze Familie. 
+             
+       Das ist nicht einmal 80 Jahre her; das ist jüngste deutsche Vergangenheit, für die wir – das will ich sehr deutlich betonen –, auch und vor allem die Nachgeborenen, Verantwortung tragen und übernehmen müssen; denn wir wollen, dass sich dieser Teil unserer Geschichte niemals wiederholt. 
+             
+       (Anhaltender lebhafter Beifall)
+             
+       Wir haben heute das ungeheure Glück, in der friedlichsten und auch in der wohlhabendsten Ära der Menschheitsgeschichte zu leben. Eine bessere Zukunft scheint zwar nicht mehr einfach so selbstverständlich zu sein; aber wir sind weiter in der Lage, für genau diese zu kämpfen. Deswegen ist es umso erschreckender, dass die Feinde der liberalen Demokratie heutzutage oft entschlossener erscheinen, unser politisches Schicksal zu bestimmen, als ihre Verteidiger. Wenn wir sowohl Frieden, Wohlstand, die Rechte des Einzelnen als auch die Herrschaft des Volkes bewahren wollen, müssen wir begreifen, dass wir alles daransetzen müssen, unsere Werte auch zu verteidigen. 
+             
+       Meine Damen und Herren, Demokratien sterben mit einem Knall oder mit einem Wimmern. Der Knall, also das gewaltsame Ende durch Putsch, durch Revolution oder auch durch Krieg, ist eine spektakuläre Sache. Das Sterben mit einem Wimmern, also das Dahinsiechen einer Demokratie, ist alltäglicher. Deswegen ist es gefährlicher, weil viele erst dann aufwachen, wenn es längst zu spät ist. 
+             
+       (Allgemeiner Beifall)
+             
+       Ich schließe an das an, was unser Herr Ministerpräsident gestern Abend bei der Verabschiedung der ausscheidenden Landtagsmitglieder gesagt hat: Für unsere Demokratie ist die Gleichgültigkeit, die man im Übrigen hier und dort spüren kann, die größte Gefahr, die es gibt. 
+             
+       Oft beginnt der Angriff auf die Demokratie mit kleinen Hieben, die anfangs für viele kaum wahrnehmbar sind. Jeder Einzelne von ihnen scheint relativ unbedeutend zu sein. Am Anfang stehen häufig Worte. Dann verändert sich die Sprache, dann wird der Umgangston rauer, und dann verschieben sich langsam, aber bedrohlich die Grenzen.
+             
+       Volksvertreter werden plötzlich als „Volksverräter“ bezeichnet und verunglimpft. Journalisten geraten unter Druck, und die Medien geraten unter Beschuss, etwa als „Lügenpresse“. Die Angriffe enden selten an diesem Punkt.
+             
+       Dann kommt noch etwas Fatales hinzu. Das ist diese Art, wie wir sie oft erleben, der Verunglimpfung oder auch der Verächtlichmachung der parlamentarischen Demokratie, ihrer Institutionen und auch ihrer Abläufe, die zur parlamentarischen Demokratie und ihren Institutionen dazugehören.
+             
+       Demokratie macht Arbeit. Wer wüsste das besser als dieses Haus? Rückschläge sind unvermeidlich und Siege oftmals nur bruchstückhaft. Auch davon kann jeder hier ein Lied singen.
+             
+       Jeder Politiker ist von solchen Einschränkungen natürlich frustriert. Doch wenn er Demokrat ist, dann weiß er, dass er sie akzeptieren und das ständige Sperrfeuer der Kritik aushalten muss. Der Populist und der Demagoge empfinden das als unannehmbar und das System aus Kontrolle und Gewaltenteilung als Zwangsjacke, derer man sich entledigen muss. Dann kann es schon zu spät sein.
+             
+       Was können wir hier im Hessischen Landtag tun, damit es nicht zu spät wird? – Aus meiner Sicht empfiehlt es sich, sich an zwei Normen, die für das Funktionieren einer Demokratie besonders wichtig sind, zumal in einem Parlament, zu orientieren. Das sind die gegenseitige Achtung und die institutionelle Zurückhaltung.
+             
+       Was meine ich mit institutioneller Zurückhaltung? – Institutionelle Zurückhaltung bedeutet – insbesondere für die, die die Mehrheit stellen –, institutionelle Vorrechte nicht immer und nicht immer in vollem Umfang auszuschöpfen. Denn eine vitale Demokratie und auch die Kultur einer parlamentarischen Demokratie sind nicht daran zu erkennen, dass am Ende Mehrheiten entscheiden, sondern sie sind daran zu erkennen, dass auf dem Weg bis zur Entscheidung Minderheiten ihre Rechte wahrnehmen können. Die Minderheit muss wissen, dass am Ende die Mehrheit entscheidet, was geschehen soll. Das ist so. Dafür muss die Mehrheit aber akzeptieren, dass bis dahin – manchmal auch darüber hinaus – die Minderheit jede Möglichkeit haben muss, ihre Einwände, ihre Vorschläge und auch ihre Alternativen zur Geltung zu bringen.
+             
+       (Anhaltender lebhafter Beifall – Günter Rudolph (SPD): Sehr gut!)
+             
+       – Muss ich mir wegen Ihres Zurufs „Sehr gut!“ Sorgen machen?
+             
+       (Dr. h.c. Jörg-Uwe Hahn (Freie Demokraten): Nein, nein! – Günter Rudolph (SPD): Machen Sie weiter so, Herr Präsident!)
+             
+       – Danke schön, lieber Abg. Rudolph. Es ist mir eine Freude, solch zustimmende Zurufe von Ihnen zu erhalten. 
+             
+       Gegenseitige Achtung bedeutet, dass man dem Konkurrenten das gleiche Recht zubilligt, zu existieren, um die Macht zu ringen und zu regieren, wie man sich das selbst zugesteht. Gegenseitige Achtung bedeutet, zu akzeptieren, dass es im Übrigen Normalität ist, sich an der Macht abzuwechseln. Man mag die Vorstellungen des anderen für töricht halten, man mag sie für falsch, vielleicht sogar für grundfalsch und manchmal auch für abseitig halten. Aber man sieht in ihnen weder eine existenzielle Bedrohung, noch betrachtet man den Konkurrenten als Verräter, als Staatsfeind oder als was auch immer. Gegenseitige Achtung ist die kollektive Bereitschaft von Politikern, darin übereinzustimmen, dass man nicht übereinstimmt.
+             
+       (Beifall CDU und AfD)
+             
+       Meine Damen und Herren, liebe Kolleginnen und Kollegen, nur dann, wenn beides zusammenkommt, gegenseitige Achtung und institutionelle Zurückhaltung, funktioniert die Gewaltenteilung. Dann funktioniert die gegenseitige Kontrolle, und dann funktioniert der Parlamentarismus.
+             
+       Ja, die Zeiten sind hoch politisch, und das Geschehen hier im Landtag – ich glaube, da muss man sich auch nichts vormachen – wird in Zukunft noch mehr Aufmerksamkeit auf sich ziehen, als das bislang ohnedies der Fall ist. Auf die neue Konstellation ist auch in dem, wie ich finde, großartigen Gottesdienst eingegangen worden, den wir heute Morgen erleben durften. Auch dafür möchte ich mich ausdrücklich bei den Kirchen bedanken.
+             
+       (Beifall)
+             
+       Die neue Konstellation hier im Hause spiegelt die Veränderung wider, die unsere Gesellschaft erlebt. Zusammenhänge lösen sich auf. Zugehörigkeiten verändern sich, und neue entstehen. Das menschliche Bedürfnis nach Geborgenheit in vertrauten Lebensräumen trifft auf eine als ungemütlich empfundene Welt voller Konflikte. 
+             
+       Noch etwas kommt hinzu. Wir erleben eine Fragmentierung von Aufmerksamkeiten und Ansprüchen. Jedem erscheint etwas anderes wichtig. Jeder scheint gelegentlich nur noch seine eigenen Probleme wahrzunehmen. Das kann dazu führen, dass eine erkennbar gemeinsame Sicht auf politische Prioritäten verloren geht.
+             
+       Auch hierbei spielt ein Parlament wie dieses eine Rolle. Auch hierbei kann ein Parlament wie dieses ein Ort sein, ein Ort der Bündelung, ein Ort der Fokussierung und auch ein Ort der Konzentration auf die wichtigen Fragen, die uns in Hessen umtreiben.
+             
+       Wir Abgeordnete, liebe Kolleginnen und Kollegen, sind für die Mitbürger im Wahlkreis oftmals eine Art Ombudsmann. Wir vermitteln mit unserer Arbeit und unseren Begegnungen, die wir vor Ort machen, diese Wirklichkeit, die wir dort erleben, mit der wir uns dort konfrontiert sehen, auf die Ebene der Landespolitik. Eine Vielzahl an Erfahrungen, eine Vielzahl an Qualifikationen aus den verschiedensten Bereichen, aus den Bereichen des Berufes, aus dem sozialen Bereich oder auch die, die auf ehrenamtlicher Tätigkeit beruhen, bilden eine ganze Menge an Expertise. Ich meine, wir Abgeordnete wissen und fühlen durch unsere Verwurzelung bei den Menschen manchmal besser als die Forschungsinstitute und die selbst berufenen Experten, was die Menschen wirklich bewegt.
+             
+       Die Menschen in Hessen hier in diesem Hohen Hause in diesem Sinne vertreten zu dürfen, das ist eine große Aufgabe. Das ist eine Ehre für uns alle, die wir in dieses Hohe Haus gewählt worden sind.
+             
+       Lassen Sie uns dieser Ehre gemeinsam gerecht werden. Lassen Sie uns den Konsens der Demokraten bewahren. Ich wiederhole, was ich eingangs gesagt habe. Ich empfinde es auch so. Ich freue mich auf die Zusammenarbeit mit Ihnen allen. Ich wünsche nun viel Energie und viel Freude bei unseren Aufgaben hier im Parlament und für uns alle Gottes Segen. – Herzlichen Dank für Ihre Aufmerksamkeit.
+             
+       (Anhaltender Beifall)
+             
+        
+          
+        
+      
+    
+       
+           Alterspräsident  Rolf Kahnt:
+      
+        
+          
+             
+       Herr Präsident, ich danke Ihnen für Ihre Ansprache und bitte Sie nun, auf das Podium zu kommen und des Amtes zu walten. Ich übergebe Ihnen hiermit die Sitzungsleitung.
+             
+       (Beifall)
+             
+        
+          
+        
+      
+    
+       
+           Präsident  Boris Rhein:
+      
+        
+          
+             
+       Meine sehr geehrten Damen und Herren, liebe Kolleginnen und Kollegen! Damit kommen wir zu Tagesordnungspunkt 5:
+          
+        
+      
+    </Field>
+<Field Clear="True" InputFieldName="RED"> Michael Boddenberg [CDU]</Field>
+<Field Clear="True" InputFieldName="RED"> Boris Rhein [CDU]</Field>
+<Field Clear="True" InputFieldName="BDOK">Drucks. 20/2</Field>
+<Field Clear="True" InputFieldName="TOPSP">9</Field>
+<Field Clear="True" InputFieldName="SEIT">NaN</Field>
+<Field Clear="True" InputFieldName="SEITV">1</Field>
+<Field Clear="True" InputFieldName="SEITB"/>
+</UpdateRecord>
+<CreateLock Id="8" DatabaseId="E.VOLLTEXT"/>
+<UpdateRecord LockId="8" Clear="False">
+<Field Clear="True" InputFieldName="DATNA">ePP_Export_20-1_18-01-2019.xml</Field>
+<Field Clear="True" InputFieldName="DATER">28.01.2019 11:59:00</Field>
+<Field Clear="True" InputFieldName="DATGE">17.10.2007 14:27:00</Field>
+<Field Clear="True" InputFieldName="DATFO">XML</Field>
+<Field Clear="True" InputFieldName="DATGR">193 Kb</Field>
+<Field Clear="True" InputFieldName="DART">P</Field>
+<Field Clear="True" InputFieldName="WP">20</Field>
+<Field Clear="True" InputFieldName="DNR">1</Field>
+<Field Clear="True" InputFieldName="DNRB"/>
+<Field Clear="True" InputFieldName="DAT">18.01.2019</Field>
+<Field Clear="True" InputFieldName="ZUGA">öffentlich</Field>
+<Field Clear="True" InputFieldName="QUELL">ePlenarprotokoll</Field>
+<Field Clear="True" InputFieldName="AKAT">TOP</Field>
+<Field Clear="True" InputFieldName="RNRD">00008</Field>
+<Field Long="True" Clear="True" InputFieldName="TOP"> 
+       Beschlussfassung
+über die Zahl der Vizepräsidentinnen und Vizepräsidenten (§ 3 Abs. 1 GOHLT)</Field>
+<Field Clear="True" InputFieldName="ANR">unbekannt</Field>
+<Field Clear="True" InputFieldName="ASEI">2</Field>
+<Field Clear="True" InputFieldName="ASEIV">12</Field>
+<Field Clear="True" InputFieldName="ASEIB">13</Field>
+<Field Long="True" Clear="True" InputFieldName="AVT1">
+      
+      
+        
+           
+       Beschlussfassung
+über die Zahl der Vizepräsidentinnen und Vizepräsidenten (§ 3 Abs. 1 GOHLT)
+             
+       
+             
+        
+        – Drucks. 20/3 –
+              
+            
+          
+        
+        
+          
+             
+       Die Zahl der Vizepräsidentinnen und Vizepräsidenten wird durch Beschluss des Landtags festgelegt. Hierzu liegt ein interfraktioneller Antrag vor. Demnach soll die Zahl der Vizepräsidentinnen und Vizepräsidenten auf sechs festgelegt werden.
+          
+        
+        
+          
+            
+               
+        Angenommen
+            
+             
+       Ich lasse nun über diesen Antrag abstimmen. Wer dem Antrag so zustimmt, den bitte ich um das Handzeichen. – Gibt es Gegenstimmen? – Enthält sich jemand der Stimme? – Damit ist das einstimmig beschlossen und die Zahl der Vizepräsidentinnen und Vizepräsidenten auf sechs festgelegt.
+          
+        
+        
+          
+             
+        
+             
+       Wir kommen zu Tagesordnungspunkt 6:
+          
+        
+      
+    </Field>
+<Field Clear="True" InputFieldName="BDOK">Drucks. 20/3</Field>
+<Field Clear="True" InputFieldName="TOPSP">12</Field>
+<Field Clear="True" InputFieldName="SEIT">NaN</Field>
+<Field Clear="True" InputFieldName="SEITV">1</Field>
+<Field Clear="True" InputFieldName="SEITB"/>
+</UpdateRecord>
+<CreateLock Id="9" DatabaseId="E.VOLLTEXT"/>
+<UpdateRecord LockId="9" Clear="False">
+<Field Clear="True" InputFieldName="DATNA">ePP_Export_20-1_18-01-2019.xml</Field>
+<Field Clear="True" InputFieldName="DATER">28.01.2019 11:59:00</Field>
+<Field Clear="True" InputFieldName="DATGE">17.10.2007 14:27:00</Field>
+<Field Clear="True" InputFieldName="DATFO">XML</Field>
+<Field Clear="True" InputFieldName="DATGR">193 Kb</Field>
+<Field Clear="True" InputFieldName="DART">P</Field>
+<Field Clear="True" InputFieldName="WP">20</Field>
+<Field Clear="True" InputFieldName="DNR">1</Field>
+<Field Clear="True" InputFieldName="DNRB"/>
+<Field Clear="True" InputFieldName="DAT">18.01.2019</Field>
+<Field Clear="True" InputFieldName="ZUGA">öffentlich</Field>
+<Field Clear="True" InputFieldName="QUELL">ePlenarprotokoll</Field>
+<Field Clear="True" InputFieldName="AKAT">TOP</Field>
+<Field Clear="True" InputFieldName="RNRD">00009</Field>
+<Field Long="True" Clear="True" InputFieldName="TOP"> 
+       Wahlvorschläge
+Wahl der Vizepräsidentinnen und Vizepräsidenten (§§ 3 Abs. 2, 9 Abs. 1 GOHLT)</Field>
+<Field Clear="True" InputFieldName="ANR">unbekannt</Field>
+<Field Clear="True" InputFieldName="ASEI">4</Field>
+<Field Clear="True" InputFieldName="ASEIV">13</Field>
+<Field Clear="True" InputFieldName="ASEIB">16</Field>
+<Field Long="True" Clear="True" InputFieldName="AVT1">
+      
+      
+        
+           
+       Wahlvorschläge
+Wahl der Vizepräsidentinnen und Vizepräsidenten (§§ 3 Abs. 2, 9 Abs. 1 GOHLT)
+             
+       
+             
+        
+        – Drucks. 20/4, Drucks. 20/5, Drucks. 20/6, Drucks. 20/7, Drucks. 20/8 und Drucks. 20/9 –
+              
+              
+              
+              
+              
+              
+            
+          
+        
+        
+          
+             
+       Nach § 3 Abs. 2 GOHLT wählt der Landtag die Vizepräsidentinnen und Vizepräsidenten in getrennten Wahlgängen geheim oder, wenn niemand widerspricht, durch Handzeichen.
+             
+       Ihnen liegen sechs Wahlvorschläge vor: der Fraktion der CDU, von BÜNDNIS 90/DIE GRÜNEN, der SPD, der AfD, der Freien Demokraten und der Fraktion DIE LINKE. Die Vorschläge tragen folgende Drucksachennummern: 20/4, 20/5, 20/6, 20/7, 20/8 und 20/9.
+             
+       Werden weitere Vorschläge gemacht? – Ich sehe, das ist nicht der Fall.
+             
+       Wird der Wahl durch Handzeichen widersprochen? – Herr Abg. Schaus, bitte schön.
+          
+        
+      
+    
+       
+            Hermann Schaus [DIE LINKE]:
+      
+         
+       Herr Präsident! Wir beantragen geheime Wahl.
+      
+    
+       
+           Präsident  Boris Rhein:
+      
+        
+          
+             
+       Es ist geheime Wahl beantragt; dann wird auch geheim gewählt. 
+             
+       Meine Damen und Herren, ich will Ihnen ein paar Hinweise geben. Das hört sich alles kompliziert an, es ist aber in Wirklichkeit ein ganz einfaches Verfahren. 
+             
+       Interfraktionell wurde vereinbart, dass die Wahl der sechs Vizepräsidentinnen und Vizepräsidenten mit einem Stimmzettel, auf dem die Namen aller vorgeschlagenen Kandidaten aufgeführt sind, durchgeführt wird. – Ich sehe, das trifft auf Einvernehmen, damit sind alle einverstanden.
+             
+       Mir liegen, wie bereits erwähnt, die Vorschläge der Fraktionen vor. Von der Fraktion der CDU wird der Abg. Frank Lortz, von der Fraktion BÜNDNIS 90/DIE GRÜNEN die Frau Abg. Karin Müller (Kassel), von der Fraktion der SPD die Frau Abg. Heike Hofmann (Weiterstadt), von der Fraktion der AfD der Abg. Bernd-Erich Vohl, von der Fraktion der Freien Demokraten der Abg. Dr. Jörg-Uwe Hahn und von der Fraktion DIE LINKE der Abg. Dr. Ulrich Wilken zur Wahl vorgeschlagen.
+             
+       Gewählt ist, wer die Mehrheit der gesetzlichen Zahl der Mitglieder des Hessischen Landtags auf sich vereint, nämlich 69 Stimmen.
+             
+       Ich bitte die Wahlhelferinnen und Wahlhelfer – die Abg. Astrid Wallmann von der CDU-Fraktion, den Abg. Tobias Eckert von der SPD-Fraktion, die Abg. Nina Eisenhardt von BÜNDNIS 90/DIE GRÜNEN, den Abg. Walter Wissenbach, AfD, die Frau Abg. Marion Schardt-Sauer von den Freien Demokraten und die Frau Abg. Elisabeth Kula von der Fraktion DIE LINKE –, zunächst zum Ausgabetisch an der rechten Seite des Podiums zu kommen, um sich vom ordnungsgemäßen Zustand der Wahlunterlagen, der Wahlkabinen und der Wahlurnen zu überzeugen.
+             
+       (Die Wahlhelferinnen und Wahlhelfer überzeugen sich vom ordnungsgemäßen Zustand der Wahlunterlagen, der Wahlkabinen und der Wahlurnen.)
+             
+       Mir wird signalisiert, dass es keine Beanstandungen gibt. Dann können wir zur Wahlhandlung schreiten.
+             
+       Nach dem Namensaufruf der Abgeordneten, der gleich erfolgen wird, erhält jede und jeder von Ihnen von der Wahlhelferin oder dem Wahlhelfer einen gelben Stimmzettel. Auf diesem Stimmzettel sind alle vorgeschlagenen Kandidatinnen und Kandidaten aufgeführt. Sie können zu jedem Vorschlag „Ja“, „Nein“ oder „Enthaltung“ ankreuzen. Ich weise Sie darauf hin – das ist sehr wichtig –: Sie haben insgesamt sechs Stimmen. Wenn Sie bei einem Namen mehr als ein Kreuz machen, dann ist die Stimme ungültig. Ferner darf der Stimmzettel – ich sage es nur der guten Ordnung halber – keine weitere Kennzeichnungen, keinerlei Bemerkungen und auch keine Kommentierungen zu den Kandidaten enthalten. Auch in einem solchen Falle wäre die Stimme ungültig.
+             
+       Ich darf Sie bitten, den Stimmzettel zweimal gefaltet in die Wahlurne zu werfen.
+             
+       Bevor die Schriftführerinnen und Schriftführer mit dem Namensaufruf beginnen, bitte ich die Wahlhelferinnen und Wahlhelfer, darauf zu achten, dass die Wahlhandlung geheim abläuft. 
+             
+       Ich darf jetzt bitten, mit dem Aufruf der Namen der Abgeordneten zu beginnen.
+             
+       (Namensaufruf)
+             
+       Liebe Kolleginnen und Kollegen, wir befinden uns zwar mitten in einer Wahlhandlung, aber ich glaube, es gibt Momente des Lebens, die noch wichtiger sind als Wahlhandlungen. Der Abg. Daniel May ist soeben Vater geworden.
+             
+       (Lebhafter allgemeiner Beifall)
+             
+       Lieber Daniel May, herzlichen Glückwunsch von uns allen. Wir hoffen, die Mutter und das Kind sind wohlauf. Es ist schon ein besonderes Ereignis, wenn man während der konstituierenden Sitzung des Hessischen Landtags Vater eines Kindes wird. Wir freuen uns mit Ihnen, lieber Daniel May. Alles Gute für Sie, für die Mutter und für den neuen Erdenbürger.
+             
+       (Allgemeiner Beifall – Fortsetzung des Namensaufrufs)
+             
+       Liebe Kolleginnen und Kollegen, meine sehr geehrten Damen und Herren, ich frage Sie: Konnte jeder hier im Saal seine Stimme abgeben? Hat jeder seinen Stimmzettel abgegeben? – Das ist offensichtlich der Fall. Dann schließe ich die Wahlhandlung und bitte die Wahlhelferinnen und Wahlhelfer, mit der Auszählung der Stimmen zu beginnen.
+             
+       (Stimmenauszählung)
+             
+       Meine sehr geehrten Damen und Herren, liebe Kolleginnen und Kollegen! Ich darf Sie bitten, wieder in den Plenarsaal zu kommen und Ihre Plätze einzunehmen. Bis zum Ergebnis dauert es noch ein wenig, aber ich blicke in der Zwischenzeit in den Plenarteller, ob auch alle zur Verkündung der Ergebnisse der sechs Wahlen anwesend sind. Ich werde gleich die Wahlniederschriften einzeln verlesen, bis dahin warten wir mit Spannung.
+             
+       Es ist auch ein dramaturgischer Effekt, auf ein solches Ergebnis zu warten. Mit Hochrechnungen oder Prognosen können wir nicht dienen. Wir können nur warten, bis es ein Endergebnis gibt.
+             
+       (Zuruf Thorsten Schäfer-Gümbel (SPD))
+             
+       – Der Zuruf des Abg. Schäfer-Gümbel ist zutreffend; denn wir machen es hier sehr genau und schätzen Ergebnisse nicht, sondern zählen sie aus.
+             
+       (Allgemeiner Beifall)
+             
+       Darauf lege ich als Frankfurter Präsident großen Wert.
+             
+       (Heiterkeit und Beifall – Günter Rudolph (SPD): Präsident aus Frankfurt!) 
+             
+       Wir schauen mal, wie sich diese Bemerkung in fünf Jahren in meinem Wahlkreis niederschlagen wird.
+             
+       Sollte es zu einem weiteren Wahlgang kommen, verspreche ich, nicht zu gongen und das Wort so schnell zu ergreifen, sondern ich werde ein wenig Zeit zwischen dem Gong und dem ersten Wort lassen. Sie sehen, jeder muss solche Dinge üben, wir werden mehr und mehr Routine entwickeln. Ich bin allerdings sehr glücklich, dass ich die beiden Schriftführer habe, die mir sehr helfen, diesen Apparat zu bedienen.
+             
+       (Heiterkeit)
+             
+       Das ist ein digitales Geheimnis, an das ich mich ebenfalls mit der Zeit gewöhnen werde. Deswegen ist es gut, dass die beiden mir dabei behilflich sind.
+             
+       (Beifall CDU, BÜNDNIS 90/DIE GRÜNEN, vereinzelt SPD, AfD, Freie Demokraten und DIE LINKE)
+             
+       Ich kann Ihnen nunmehr das Ergebnis der sechs Wahlen bekannt geben.
+             
+       Ich komme zur Wahl des Vizepräsidenten des Hessischen Landtags. Zahl der anwesenden und stimmberechtigten Abgeordneten – es geht um den ersten Wahlvorschlag, Frank Lortz –: 136. Zahl der ausgegebenen Stimmzettel: 136. Zahl der abgegebenen Stimmzettel: 136. Zahl der gültigen Stimmzettel: 136. Zahl der ungültigen Stimmzettel: 0. 
+             
+       Auf den Vorschlag, Frank Lortz zu wählen, entfielen 135 Jastimmen und eine Neinstimme bei null Enthaltungen.
+             
+       (Lebhafter Beifall CDU und BÜNDNIS 90/DIE GRÜNEN, vereinzelter Beifall SPD, AfD, Freie Demokraten und DIE LINKE)
+             
+       Ich darf feststellen: Damit ist Abg. Frank Lortz in geheimer Wahl zum Vizepräsidenten des Hessischen Landtags der 20. Wahlperiode gewählt worden. 
+             
+       Herr Lortz, ich frage Sie: Nehmen Sie die Wahl zum Vizepräsidenten des Hessischen Landtags an?
+          
+        
+      
+    
+       
+            Frank Lortz [CDU]:
+      
+         
+       Herr Präsident, ich nehme die Wahl an. Vielen Dank.
+         
+       (Allgemeiner Beifall – Vizepräsident Frank Lortz nimmt Glückwünsche entgegen.)
+      
+    
+       
+           Präsident  Boris Rhein:
+      
+        
+          
+             
+       Ich bedanke mich und beglückwünsche Sie im Namen des gesamten Hessischen Landtags zu dieser Wahl. Viel Erfolg und auf gute Zusammenarbeit, Herr Kollege. 
+             
+       Damit kommen wir zum weiteren Wahlvorschlag, der Abg. Karin Müller. Zahl der anwesenden und stimmberechtigten Abgeordneten: 136. Zahl der ausgegebenen Stimmzettel: 136. Zahl der abgegebenen Stimmzettel: 136. Zahl der gültigen Stimmzettel: 136. Zahl der ungültigen Stimmzettel: 0. 
+             
+       Auf den Wahlvorschlag Karin Müller entfielen 119 Jastimmen, 15 Neinstimmen, zwei Stimmenthaltungen. Damit ist Karin Müller zur Vizepräsidentin des Hessischen Landtags der 20. Wahlperiode gewählt worden. 
+             
+       (Beifall CDU und BÜNDNIS 90/DIE GRÜNEN)
+             
+       Liebe Kollegin Müller, ich frage Sie: Nehmen Sie die Wahl an?
+          
+        
+      
+    
+       
+            Karin Müller [BÜNDNIS 90/DIE GRÜNEN]:
+      
+         
+       Herr Präsident, sehr gern.
+      
+    
+       
+           Präsident  Boris Rhein:
+      
+        
+          
+             
+       Das freut mich. Ich wünsche Ihnen viel Glück und freue mich auf die Zusammenarbeit. 
+             
+       (Vizepräsidentin Karin Müller nimmt Glückwünsche entgegen.)
+             
+       Damit kommen wir zum nächsten Wahlvorschlag betreffend die Abg. Heike Hofmann (Weiterstadt). Zahl der anwesenden und stimmberechtigten Abgeordneten: 136. Zahl der ausgegebenen Stimmzettel: 136. Zahl der abgegebenen Stimmzettel: 136. Zahl der gültigen Stimmzettel: 136. Zahl der ungültigen insoweit: 0.
+             
+       Auf den Vorschlag Heike Hofmann (Weiterstadt) entfielen 125 Jastimmen, sechs Neinstimmen und fünf Stimmenthaltungen. Ich stelle fest: Damit ist die Abg. Heike Hofmann (Weiterstadt) zur Vizepräsidentin des Hessischen Landtags der 20. Wahlperiode gewählt. 
+             
+       (Allgemeiner Beifall)
+             
+       Liebe Kollegin Hofmann, ich darf Sie fragen: Nehmen Sie die Wahl an?
+          
+        
+      
+    
+       
+            Heike Hofmann [SPD]:
+      
+         
+       Ich nehme die Wahl an.
+      
+    
+       
+           Präsident  Boris Rhein:
+      
+        
+          
+             
+       Das freut mich sehr. Ich sage Glückwunsch und freue mich auf die Zusammenarbeit. 
+             
+       (Vizepräsidentin Heike Hofmann nimmt Glückwünsche entgegen.)
+             
+       Damit kommen wir zum Wahlvorschlag betreffend den Abg. Bernd-Erich Vohl. Zahl der anwesenden und stimmberechtigten Abgeordneten: 136. Zahl der ausgegebenen Stimmzettel: 136. Zahl der abgegebenen Stimmzettel: 131. Zahl der gültigen Stimmzettel: 131. Zahl der ungültigen Stimmzettel: 0.
+             
+       Auf den Vorschlag Bernd-Erich Vohl entfielen 27 Jastimmen, 101 Neinstimmen und drei Stimmenthaltungen. Damit hat der Abg. Bernd-Erich Vohl nicht die Mehrheit der Stimmen der gesetzlich erforderlichen Zahl bei der Wahl zum Vizepräsidenten des Hessischen Landtags erhalten.
+             
+       Ich komme zum Wahlvorschlag betreffend den Abg. Dr. Jörg-Uwe Hahn. Zahl der anwesenden und stimmberechtigten Abgeordneten: 136. Zahl der ausgegebenen Stimmzettel: 136. Zahl der abgegebenen Stimmzettel: 136. Zahl der gültigen Stimmzettel: 136. Zahl der ungültigen Stimmzettel: 136.
+             
+       (Allgemeine Heiterkeit – Zurufe: Das kann nicht sein!)
+             
+       Das wäre ja einmal ein Ereignis. Die Zahl der ungültigen Stimmzettel ist natürlich: 0. Es hätte mir auffallen können, dass das nicht stimmt. Deswegen danke für den Hinweis. 
+             
+       (Günter Rudolph (SPD): Das sind ja Frankfurter Verhältnisse!)
+             
+       – Wir wollen hier nicht die Sitten verwahrlosen lassen, Herr Kollege Rudolph. – Zahl der ungültigen Stimmzettel: 0. 
+             
+       Auf den Vorschlag Dr. Jörg-Uwe Hahn entfielen 132 Jastimmen, drei Neinstimmen und eine Stimmenthaltung. 
+             
+       (Allgemeiner Beifall)
+             
+       Lieber Herr Kollege Hahn, ich stelle fest: Sie sind zum Vizepräsidenten des Hessischen Landtags gewählt. 
+             
+       Ich frage Sie: Nehmen Sie die Wahl an?
+          
+        
+      
+    
+       
+           Dr. h.c. Jörg-Uwe Hahn [Freie Demokraten]:
+      
+         
+       Jawohl.
+      
+    
+       
+           Präsident  Boris Rhein:
+      
+        
+          
+             
+       Das freut mich sehr. Herzlichen Glückwunsch und auf gute Zusammenarbeit – auf gute bewährte Zusammenarbeit.
+             
+       (Vizepräsident Dr. h.c. Jörg-Uwe Hahn nimmt Glückwünsche entgegen.)
+             
+       Wir kommen zum Wahlvorschlag betreffend den Abg. Dr. Ulrich Wilken. Zahl der anwesenden und stimmberechtigten Abgeordneten: 136. Zahl der ausgegebenen Stimmzettel: 136. Zahl der abgegebenen Stimmzettel: 131. Zahl der gültigen Stimmzettel: 131. Zahl der ungültigen Stimmzettel: 0.
+             
+       Auf den Vorschlag Dr. Ulrich Wilken entfielen 77 Jastimmen, 50 Neinstimmen und vier Stimmenthaltungen. Ich stelle damit fest: Herr Dr. Wilken ist zum Vizepräsidenten des Hessischen Landtags gewählt worden. 
+             
+       Ich frage Sie, lieber Herr Dr. Wilken: Nehmen Sie die Wahl an? 
+          
+        
+      
+    
+       
+           Dr. Ulrich Wilken [DIE LINKE]:
+      
+         
+       Herr Präsident, ich nehme die Wahl an. 
+      
+    
+       
+           Präsident  Boris Rhein:
+      
+        
+          
+             
+       Ich sage Glückwunsch und freue mich auf die Zusammenarbeit.
+             
+       (Allgemeiner Beifall – Vizepräsident Dr. Ulrich Wilken nimmt Glückwünsche entgegen.)
+             
+       Meine Damen und Herren, ich stelle fest: Es sind fünf von sechs Wahlvorschlägen gewählt worden. Da der Abg. Vohl die erforderliche Mehrheit der Mitglieder des Hauses nicht erhalten hat, frage ich nach, ob ein zweiter Wahlgang gewünscht ist. – Bitte sehr, Herr Lambrou, Sie haben das Wort.
+          
+        
+      
+    
+       
+            Robert Lambrou [AfD]:
+      
+         
+       Wir beantragen einen zweiten Wahlgang und nominieren Bernd-Erich Vohl.
+      
+    
+       
+           Präsident  Boris Rhein:
+      
+        
+          
+             
+       Vielen Dank, Herr Abg. Lambrou. – Auch für diesen Wahlgang ist nach § 9 Abs. 1 unserer Geschäftsordnung die Mehrheit der gesetzlichen Zahl der Mitglieder des Landtags erforderlich. Ich frage trotzdem: Gibt es weitere Vorschläge? – Das ist nicht der Fall. 
+             
+       Ich gehe davon aus, dass auch hier geheime Wahl gewünscht ist. – Mir wird zugenickt. 
+             
+       Das Prozedere gleicht dem ersten Wahlgang. Insoweit darf ich Sie bitten, nun wieder dem Namensaufruf der Schriftführer zu folgen. Die Wahlhandlung ist eröffnet. 
+             
+       (Namensaufruf)
+             
+       Liebe Kolleginnen und Kollegen, ich frage, ob jeder die Gelegenheit gehabt hat, seinen Stimmzettel abzugeben. Gibt es noch jemanden im Saal, der nicht die Gelegenheit hatte, seinen Stimmzettel abzugeben? – Das ist offensichtlich nicht der Fall. Dann ist die Wahlhandlung geschlossen. Ich bitte, die Stimmen auszuzählen.
+             
+       (Stimmenauszählung)
+             
+       Ich bitte Sie, wieder in den Saal zu kommen und Ihre Plätze einzunehmen.
+             
+       Meine sehr verehrten Damen und Herren, liebe Kolleginnen und Kollegen! Ich möchte Ihnen gern das Ergebnis der Wahl bekannt geben. Zahl der anwesenden stimmberechtigten Abgeordneten: 136. Zahl der ausgegebenen Stimmzettel: 135. Zahl der abgegebenen Stimmzettel: 135. Zahl der gültigen Stimmzettel: 135. Zahl der ungültigen Stimmzettel: 0. 
+             
+       Auf den Wahlvorschlag Bernd-Erich Vohl entfielen 29 Jastimmen, 103 Neinstimmen und drei Enthaltungen. 
+             
+       Ich stelle fest: Auf den Wahlvorschlag Bernd-Erich Vohl ist die Mehrheit der abgegebenen Stimmen bei der Wahl zum Vizepräsidenten des Hessischen Landtags damit nicht entfallen.
+             
+       Ich frage: Wird ein dritter Wahlgang gewünscht? 
+          
+        
+      
+    
+       
+            Robert Lambrou [AfD]:
+      
+         
+       Herr Präsident! Wir beantragen einen dritten Wahlgang und nominieren als Kandidaten für das Amt des Vizepräsidenten Bernd-Erich Vohl. 
+      
+    
+       
+           Präsident  Boris Rhein:
+      
+        
+          
+             
+       Ich danke für diese Mitteilung, Herr Abg. Lambrou. – Damit ist ein dritter Wahlgang beantragt. In diesem dritten Wahlgang – das unterscheidet ihn von den beiden letzten Wahlgängen – entscheidet die relative Mehrheit, d. h. die Mehrheit der abgegebenen Stimmen.
+             
+       Ich gehe davon aus, dass weiterhin geheime Wahl gewünscht wird und dass es auch keine weiteren Kandidaten gibt. – Das ist so.
+             
+       Ich eröffne den dritten Wahlgang und bitte, mit dem Namensaufruf zu beginnen.
+             
+       (Namensaufruf)
+             
+       Liebe Kolleginnen und Kollegen, meine sehr geehrten Damen und Herren, ich darf die Frage stellen, ob es jemanden gibt, der noch nicht gewählt hat. Oder umgekehrt: Hat bereits jeder die Möglichkeit gehabt, seine Stimme abzugeben? – Das ist offensichtlich der Fall. Dann schließe ich die Wahlhandlung und bitte, die Stimmen auszuzählen. Das wird rascher vorangehen, denke ich. Die Wahlhandlung ist geschlossen, und ich bitte, die Stimmen auszuzählen.
+             
+       (Stimmenauszählung)
+             
+       Liebe Kolleginnen und Kollegen, bitte kehren Sie in den Plenarsaal zurück. Ich möchte Ihnen gerne das Ergebnis des dritten Wahlgangs mitteilen. 
+             
+       Zahl der anwesenden stimmberechtigten Abgeordneten: 136. Zahl der ausgegebenen Stimmzettel: 136. Zahl der abgegebenen Stimmzettel: 136. Zahl der gültigen Stimmzettel: 136. Null ungültige Stimmzettel.
+             
+       Auf den Vorschlag Bernd-Erich Vohl entfielen 29 Jastimmen, 106 Neinstimmen, und es gab eine Stimmenthaltung. Damit ist die erforderliche Mehrheit nicht erreicht und der Kollege Vohl nicht zum Vizepräsidenten des Landtags der 20. Wahlperiode gewählt worden. Einen weiteren Wahlgang wird es in dieser Sitzung nicht mehr geben.
+          
+        
+        
+          
+            
+               
+        Gewählt:Abg. Frank Lortz Abg. Karin Müller (Kassel) Abg. Heike Hofmann (Weiterstadt)Abg. Dr. h.c. Jörg-Uwe Hahn Abg. Dr. Ulrich Wilken  Nicht gewählt im dritten Wahlgang:Abg. Bernd-Erich Vohl 
+            
+             
+       Meine sehr geehrten Damen und Herren, ich stelle fest, dass die Abg. Frank Lortz, Karin Müller, Heike Hofmann, Dr. h.c. Jörg-Uwe Hahn und Dr. Ulrich Wilken zu Vizepräsidentinnen und Vizepräsidenten des Hessischen Landtags gewählt worden sind. Ich darf Ihnen nochmals im Namen des gesamten Hauses gratulieren. Ich wünsche Ihnen zu dieser Wahl viel Erfolg für Ihr Amt, freue mich auf die Zusammenarbeit und habe jetzt gebeten, dass die Schriftführer, die nicht nur diese Technik wunderbar beherrschen, Ihnen Blumensträuße und damit die Grüße dieses Hauses überreichen. Alles Gute für die Zukunft und auf gute Zusammenarbeit.
+          
+        
+        
+          
+             
+       (Beifall CDU, BÜNDNIS 90/DIE GRÜNEN, SPD, Freie Demokraten und DIE LINKE)
+             
+       Meine sehr geehrten Damen und Herren, dann wollen wir ein bisschen Land gewinnen bei den Tagesordnungspunkten. Wir kommen zu Tagesordnungspunkt 7: 
+          
+        
+      
+    </Field>
+<Field Clear="True" InputFieldName="RED"> Hermann Schaus [DIE LINKE]</Field>
+<Field Clear="True" InputFieldName="RED"> Frank Lortz [CDU]</Field>
+<Field Clear="True" InputFieldName="RED"> Karin Müller [BÜNDNIS 90/DIE GRÜNEN]</Field>
+<Field Clear="True" InputFieldName="RED"> Heike Hofmann [SPD]</Field>
+<Field Clear="True" InputFieldName="RED">Dr. h.c. Jörg-Uwe Hahn [Freie Demokraten]</Field>
+<Field Clear="True" InputFieldName="RED">Dr. Ulrich Wilken [DIE LINKE]</Field>
+<Field Clear="True" InputFieldName="RED"> Robert Lambrou [AfD]</Field>
+<Field Clear="True" InputFieldName="RED"> Robert Lambrou [AfD]</Field>
+<Field Clear="True" InputFieldName="BDOK">Drucks. 20/4, Drucks. 20/5, Drucks. 20/6, Drucks. 20/7, Drucks. 20/8 und Drucks. 20/9</Field>
+<Field Clear="True" InputFieldName="TOPSP">13</Field>
+<Field Clear="True" InputFieldName="SEIT">NaN</Field>
+<Field Clear="True" InputFieldName="SEITV">1</Field>
+<Field Clear="True" InputFieldName="SEITB"/>
+</UpdateRecord>
+<CreateLock Id="10" DatabaseId="E.VOLLTEXT"/>
+<UpdateRecord LockId="10" Clear="False">
+<Field Clear="True" InputFieldName="DATNA">ePP_Export_20-1_18-01-2019.xml</Field>
+<Field Clear="True" InputFieldName="DATER">28.01.2019 11:59:00</Field>
+<Field Clear="True" InputFieldName="DATGE">17.10.2007 14:27:00</Field>
+<Field Clear="True" InputFieldName="DATFO">XML</Field>
+<Field Clear="True" InputFieldName="DATGR">193 Kb</Field>
+<Field Clear="True" InputFieldName="DART">P</Field>
+<Field Clear="True" InputFieldName="WP">20</Field>
+<Field Clear="True" InputFieldName="DNR">1</Field>
+<Field Clear="True" InputFieldName="DNRB"/>
+<Field Clear="True" InputFieldName="DAT">18.01.2019</Field>
+<Field Clear="True" InputFieldName="ZUGA">öffentlich</Field>
+<Field Clear="True" InputFieldName="QUELL">ePlenarprotokoll</Field>
+<Field Clear="True" InputFieldName="AKAT">TOP</Field>
+<Field Clear="True" InputFieldName="RNRD">00010</Field>
+<Field Long="True" Clear="True" InputFieldName="TOP"> 
+       Beschlussfassung
+über die Zahl der weiteren Mitglieder des Präsidiums (§ 3 Abs. 1 GOHLT)</Field>
+<Field Clear="True" InputFieldName="ANR">unbekannt</Field>
+<Field Clear="True" InputFieldName="ASEI">1</Field>
+<Field Clear="True" InputFieldName="ASEIV">16</Field>
+<Field Clear="True" InputFieldName="ASEIB">16</Field>
+<Field Long="True" Clear="True" InputFieldName="AVT1">
+      
+      
+        
+           
+       Beschlussfassung
+über die Zahl der weiteren Mitglieder des Präsidiums (§ 3 Abs. 1 GOHLT)
+             
+       
+             
+        
+        – Drucks. 20/10 –
+              
+            
+          
+        
+        
+          
+             
+       Nach § 3 Abs. 1 unserer Geschäftsordnung wird die Zahl der weiteren Mitglieder des Präsidiums durch einen Beschluss des Landtags festgelegt. Es liegt eine Drucksache mit der Nr. 20/10 vor. Das ist ein interfraktioneller Antrag. Danach soll die Zahl der weiteren Mitglieder des Präsidiums auf acht festgelegt werden.
+          
+        
+        
+          
+            
+               
+        Angenommen
+            
+             
+       Ich würde gern über diesen Antrag abstimmen lassen. Wer dem Antrag zustimmt, den bitte ich um das Handzeichen. Gibt es Gegenstimmen? – Gibt es Stimmenthaltungen? – Damit ist dieser Antrag angenommen und die Zahl der weiteren Mitglieder des Präsidiums auf acht festgelegt.
+          
+        
+        
+          
+             
+       Wir kommen zu Tagesordnungspunkt 8:
+          
+        
+      
+    </Field>
+<Field Clear="True" InputFieldName="BDOK">Drucks. 20/10</Field>
+<Field Clear="True" InputFieldName="TOPSP">16</Field>
+<Field Clear="True" InputFieldName="SEIT">NaN</Field>
+<Field Clear="True" InputFieldName="SEITV">1</Field>
+<Field Clear="True" InputFieldName="SEITB"/>
+</UpdateRecord>
+<CreateLock Id="11" DatabaseId="E.VOLLTEXT"/>
+<UpdateRecord LockId="11" Clear="False">
+<Field Clear="True" InputFieldName="DATNA">ePP_Export_20-1_18-01-2019.xml</Field>
+<Field Clear="True" InputFieldName="DATER">28.01.2019 11:59:00</Field>
+<Field Clear="True" InputFieldName="DATGE">17.10.2007 14:27:00</Field>
+<Field Clear="True" InputFieldName="DATFO">XML</Field>
+<Field Clear="True" InputFieldName="DATGR">193 Kb</Field>
+<Field Clear="True" InputFieldName="DART">P</Field>
+<Field Clear="True" InputFieldName="WP">20</Field>
+<Field Clear="True" InputFieldName="DNR">1</Field>
+<Field Clear="True" InputFieldName="DNRB"/>
+<Field Clear="True" InputFieldName="DAT">18.01.2019</Field>
+<Field Clear="True" InputFieldName="ZUGA">öffentlich</Field>
+<Field Clear="True" InputFieldName="QUELL">ePlenarprotokoll</Field>
+<Field Clear="True" InputFieldName="AKAT">TOP</Field>
+<Field Clear="True" InputFieldName="RNRD">00011</Field>
+<Field Long="True" Clear="True" InputFieldName="TOP"> 
+       Wahlvorschlag
+Wahl der weiteren Mitglieder des Präsidiums (§§ 3 Abs. 2, 9 Abs. 1 GOHLT)</Field>
+<Field Clear="True" InputFieldName="ANR">unbekannt</Field>
+<Field Clear="True" InputFieldName="ASEI">1</Field>
+<Field Clear="True" InputFieldName="ASEIV">16</Field>
+<Field Clear="True" InputFieldName="ASEIB">16</Field>
+<Field Long="True" Clear="True" InputFieldName="AVT1">
+      
+      
+        
+           
+       Wahlvorschlag
+Wahl der weiteren Mitglieder des Präsidiums (§§ 3 Abs. 2, 9 Abs. 1 GOHLT)
+             
+       
+             
+        
+        – Drucks. 20/11 –
+              
+            
+          
+        
+        
+          
+             
+       Die Zahl der weiteren Mitglieder haben wir soeben auf acht festgesetzt. Daraus ergibt sich, dass acht weitere Mitglieder des Präsidiums zu wählen sind. Auch hierfür liegt ein interfraktioneller Wahlvorschlag, Drucks. 20/11, vor, in dem die weiteren Mitglieder des Präsidiums aufgeführt sind.
+             
+       Die Wahl kann geheim oder, wenn niemand widerspricht, durch Handzeichen erfolgen. Ich frage deshalb, ob der Wahl durch das Handzeichen widersprochen wird. – Das ist offensichtlich nicht der Fall. Dann können wir per Handzeichen wählen. Die Fraktionen haben vereinbart, dass über diesen Wahlvorschlag in Gänze abgestimmt wird.
+             
+       Ich bitte Sie um Ihr Handzeichen, wer diesem gemeinsamen Vorschlag zustimmen möchte. – Gibt es Gegenstimmen? – Gibt es Enthaltungen? – Damit ist dieser Vorschlag bei drei Enthaltungen angenommen.
+          
+        
+        
+          
+            
+               
+        Gewählt:Abg. Christian Heinz (CDU)Abg. Petra Müller-Klepper (CDU)Abg. Claudia Ravensburg (CDU)Abg. Frank-Peter Kaufmann (BÜNDNIS 90/DIE GRÜNEN)Abg. Taylan Burcu (BÜNDNIS 90/DIE GRÜNEN)Abg. Günter Rudolph (SPD)Abg. Marius Weiß (SPD)Abg. Klaus Herrmann (AfD)
+            
+             
+       Damit sind die Abg. Christian Heinz, Petra Müller-Klepper, Claudia Ravensburg, CDU, Frank-Peter Kaufmann, Taylan Burcu, BÜNDNIS 90/DIE GRÜNEN, Günter Rudolph, Marius Weiß, SPD, und Klaus Herrmann, AfD, zu weiteren Mitgliedern des Präsidiums gewählt.
+          
+        
+        
+          
+             
+        
+             
+       Wir kommen zu Tagesordnungspunkt 9:
+          
+        
+      
+    </Field>
+<Field Clear="True" InputFieldName="BDOK">Drucks. 20/11</Field>
+<Field Clear="True" InputFieldName="TOPSP">16</Field>
+<Field Clear="True" InputFieldName="SEIT">NaN</Field>
+<Field Clear="True" InputFieldName="SEITV">1</Field>
+<Field Clear="True" InputFieldName="SEITB"/>
+</UpdateRecord>
+<CreateLock Id="12" DatabaseId="E.VOLLTEXT"/>
+<UpdateRecord LockId="12" Clear="False">
+<Field Clear="True" InputFieldName="DATNA">ePP_Export_20-1_18-01-2019.xml</Field>
+<Field Clear="True" InputFieldName="DATER">28.01.2019 11:59:00</Field>
+<Field Clear="True" InputFieldName="DATGE">17.10.2007 14:27:00</Field>
+<Field Clear="True" InputFieldName="DATFO">XML</Field>
+<Field Clear="True" InputFieldName="DATGR">193 Kb</Field>
+<Field Clear="True" InputFieldName="DART">P</Field>
+<Field Clear="True" InputFieldName="WP">20</Field>
+<Field Clear="True" InputFieldName="DNR">1</Field>
+<Field Clear="True" InputFieldName="DNRB"/>
+<Field Clear="True" InputFieldName="DAT">18.01.2019</Field>
+<Field Clear="True" InputFieldName="ZUGA">öffentlich</Field>
+<Field Clear="True" InputFieldName="QUELL">ePlenarprotokoll</Field>
+<Field Clear="True" InputFieldName="AKAT">TOP</Field>
+<Field Clear="True" InputFieldName="RNRD">00012</Field>
+<Field Long="True" Clear="True" InputFieldName="TOP"> 
+       Beschlussfassung
+über die Zahl der Schriftführerinnen und Schriftführer (§ 4 Abs. 2 Satz 2 GOHLT)</Field>
+<Field Clear="True" InputFieldName="ANR">90, 90</Field>
+<Field Clear="True" InputFieldName="ASEI">2</Field>
+<Field Clear="True" InputFieldName="ASEIV">16</Field>
+<Field Clear="True" InputFieldName="ASEIB">17</Field>
+<Field Long="True" Clear="True" InputFieldName="AVT1">
+      
+      
+        
+           
+       Beschlussfassung
+über die Zahl der Schriftführerinnen und Schriftführer (§ 4 Abs. 2 Satz 2 GOHLT)
+             
+       
+             
+        
+        – Drucks. 20/12 –
+              
+            
+          
+        
+        
+          
+             
+       Hier wird die Zahl durch Beschluss des Landtags festgelegt. Auch hierzu liegt Ihnen ein interfraktioneller Antrag, nämlich Drucks. 20/12, vor, der die Festsetzung der Anzahl auf zehn Schriftführerinnen und Schriftführer vorsieht.
+          
+        
+        
+          
+            
+               
+        Angenommen
+            
+             
+       Wer stimmt dem Antrag zu? – Gibt es Gegenstimmen? – Gibt es Stimmenthaltungen? – Das ist offensichtlich nicht der Fall. Damit ist die Zahl der Schriftführerinnen und Schriftführer auf zehn festgelegt.
+          
+        
+        
+          
+             
+        
+             
+       Dann kommen wir zu Tagesordnungspunkt 10:
+          
+        
+      
+    </Field>
+<Field Clear="True" InputFieldName="BDOK">Drucks. 20/12</Field>
+<Field Clear="True" InputFieldName="TOPSP">16</Field>
+<Field Clear="True" InputFieldName="SEIT">NaN</Field>
+<Field Clear="True" InputFieldName="SEITV">1</Field>
+<Field Clear="True" InputFieldName="SEITB"/>
+</UpdateRecord>
+<CreateLock Id="13" DatabaseId="E.VOLLTEXT"/>
+<UpdateRecord LockId="13" Clear="False">
+<Field Clear="True" InputFieldName="DATNA">ePP_Export_20-1_18-01-2019.xml</Field>
+<Field Clear="True" InputFieldName="DATER">28.01.2019 11:59:00</Field>
+<Field Clear="True" InputFieldName="DATGE">17.10.2007 14:27:00</Field>
+<Field Clear="True" InputFieldName="DATFO">XML</Field>
+<Field Clear="True" InputFieldName="DATGR">193 Kb</Field>
+<Field Clear="True" InputFieldName="DART">P</Field>
+<Field Clear="True" InputFieldName="WP">20</Field>
+<Field Clear="True" InputFieldName="DNR">1</Field>
+<Field Clear="True" InputFieldName="DNRB"/>
+<Field Clear="True" InputFieldName="DAT">18.01.2019</Field>
+<Field Clear="True" InputFieldName="ZUGA">öffentlich</Field>
+<Field Clear="True" InputFieldName="QUELL">ePlenarprotokoll</Field>
+<Field Clear="True" InputFieldName="AKAT">TOP</Field>
+<Field Clear="True" InputFieldName="RNRD">00013</Field>
+<Field Long="True" Clear="True" InputFieldName="TOP"> 
+       Wahlvorschlag
+Wahl der Schriftführerinnen und Schriftführer (§ 4 Abs. 2 Satz 1 GOHLT)</Field>
+<Field Clear="True" InputFieldName="ANR">unbekannt</Field>
+<Field Clear="True" InputFieldName="ASEI">1</Field>
+<Field Clear="True" InputFieldName="ASEIV">17</Field>
+<Field Clear="True" InputFieldName="ASEIB">17</Field>
+<Field Long="True" Clear="True" InputFieldName="AVT1">
+      
+      
+        
+           
+       Wahlvorschlag
+Wahl der Schriftführerinnen und Schriftführer (§ 4 Abs. 2 Satz 1 GOHLT)
+             
+       
+             
+        
+        – Drucks. 20/13 –
+              
+            
+          
+        
+        
+          
+             
+       Die Namen der Abgeordneten, die Schriftführerinnen und Schriftführer werden sollen, finden Sie in einem gemeinsamen Vorschlag der Fraktionen, Drucks. 20/13. Ich frage, ob weitere Vorschläge gemacht werden? – Das ist offensichtlich nicht der Fall. 
+          
+        
+        
+          
+            
+               
+        Gewählt:Abg. Ismail Tipi (CDU)Abg. Tobias Utter (CDU)Abg. Astrid Wallmann (CDU)Abg. Kaya Kinkel (BÜNDNIS 90/DIE GRÜNEN)Abg. Felix Martin (BÜNDNIS 90/DIE GRÜNEN)Abg. Karina Fissmann (SPD)Abg. Heinz Lotz (SPD)Abg. Walter Wissenbach (AfD)Abg. Marion Schardt-Sauer (Freie Demokraten)Abg. Heidemarie Scheuch-Paschkewitz (DIE LINKE)
+            
+             
+       Wer diesem Wahlvorschlag seine Zustimmung geben will, den bitte ich um das Handzeichen. – Gibt es Gegenstimmen? – Gibt es Enthaltungen? – Das ist nicht der Fall. Damit haben wir einstimmig die Abg. Ismail Tipi, Tobias Utter, Astrid Wallmann, CDU, Kaya Kinkel, Felix Martin, BÜNDNIS 90/DIE GRÜNEN, Karina Fissmann, Heinz Lotz, SPD, Walter Wissenbach, AfD, Marion Schardt-Sauer, Freie Demokraten, Heidemarie Scheuch-Paschkewitz, DIE LINKE, gewählt. Ich gratuliere.
+          
+        
+        
+          
+             
+        
+             
+       Wir kommen zu Tagesordnungspunkt 11:
+          
+        
+      
+    </Field>
+<Field Clear="True" InputFieldName="BDOK">Drucks. 20/13</Field>
+<Field Clear="True" InputFieldName="TOPSP">17</Field>
+<Field Clear="True" InputFieldName="SEIT">NaN</Field>
+<Field Clear="True" InputFieldName="SEITV">1</Field>
+<Field Clear="True" InputFieldName="SEITB"/>
+</UpdateRecord>
+<CreateLock Id="14" DatabaseId="E.VOLLTEXT"/>
+<UpdateRecord LockId="14" Clear="False">
+<Field Clear="True" InputFieldName="DATNA">ePP_Export_20-1_18-01-2019.xml</Field>
+<Field Clear="True" InputFieldName="DATER">28.01.2019 11:59:00</Field>
+<Field Clear="True" InputFieldName="DATGE">17.10.2007 14:27:00</Field>
+<Field Clear="True" InputFieldName="DATFO">XML</Field>
+<Field Clear="True" InputFieldName="DATGR">193 Kb</Field>
+<Field Clear="True" InputFieldName="DART">P</Field>
+<Field Clear="True" InputFieldName="WP">20</Field>
+<Field Clear="True" InputFieldName="DNR">1</Field>
+<Field Clear="True" InputFieldName="DNRB"/>
+<Field Clear="True" InputFieldName="DAT">18.01.2019</Field>
+<Field Clear="True" InputFieldName="ZUGA">öffentlich</Field>
+<Field Clear="True" InputFieldName="QUELL">ePlenarprotokoll</Field>
+<Field Clear="True" InputFieldName="AKAT">TOP</Field>
+<Field Clear="True" InputFieldName="RNRD">00014</Field>
+<Field Long="True" Clear="True" InputFieldName="TOP"> 
+       Beschlussfassung
+über die Zahl der weiteren Mitglieder des Ältestenrats (§ 5 Abs. 1 GOHLT)</Field>
+<Field Clear="True" InputFieldName="ANR">90, 90</Field>
+<Field Clear="True" InputFieldName="ASEI">1</Field>
+<Field Clear="True" InputFieldName="ASEIV">17</Field>
+<Field Clear="True" InputFieldName="ASEIB">17</Field>
+<Field Long="True" Clear="True" InputFieldName="AVT1">
+      
+      
+        
+           
+       Beschlussfassung
+über die Zahl der weiteren Mitglieder des Ältestenrats (§ 5 Abs. 1 GOHLT)
+             
+       
+             
+        
+        – Drucks. 20/14 –
+              
+            
+          
+        
+        
+          
+             
+       Nach § 5 Abs. 1 unserer Geschäftsordnung wird die Zahl der weiteren Mitglieder des Ältestenrats durch Beschluss des Landtags festgesetzt. Auch hierzu liegt wiederum ein interfraktioneller Antrag, Drucks. 20/14, vor. Es wird vorgeschlagen, weitere Mitglieder des Ältestenrats nicht zu bestellen.
+          
+        
+        
+          
+            
+               
+        Angenommen
+            
+             
+       Ich frage, wer diesem interfraktionellen Antrag zustimmen möchte. – Gibt es Gegenstimmen? – Gibt es Stimmenthaltungen? – Das ist nicht der Fall. Dann haben wir das so beschlossen. 
+          
+        
+        
+          
+             
+       Wir kommen zu Tagesordnungspunkt 12:
+          
+        
+      
+    </Field>
+<Field Clear="True" InputFieldName="BDOK">Drucks. 20/14</Field>
+<Field Clear="True" InputFieldName="TOPSP">17</Field>
+<Field Clear="True" InputFieldName="SEIT">NaN</Field>
+<Field Clear="True" InputFieldName="SEITV">1</Field>
+<Field Clear="True" InputFieldName="SEITB"/>
+</UpdateRecord>
+<CreateLock Id="15" DatabaseId="E.VOLLTEXT"/>
+<UpdateRecord LockId="15" Clear="False">
+<Field Clear="True" InputFieldName="DATNA">ePP_Export_20-1_18-01-2019.xml</Field>
+<Field Clear="True" InputFieldName="DATER">28.01.2019 11:59:00</Field>
+<Field Clear="True" InputFieldName="DATGE">17.10.2007 14:27:00</Field>
+<Field Clear="True" InputFieldName="DATFO">XML</Field>
+<Field Clear="True" InputFieldName="DATGR">193 Kb</Field>
+<Field Clear="True" InputFieldName="DART">P</Field>
+<Field Clear="True" InputFieldName="WP">20</Field>
+<Field Clear="True" InputFieldName="DNR">1</Field>
+<Field Clear="True" InputFieldName="DNRB"/>
+<Field Clear="True" InputFieldName="DAT">18.01.2019</Field>
+<Field Clear="True" InputFieldName="ZUGA">öffentlich</Field>
+<Field Clear="True" InputFieldName="QUELL">ePlenarprotokoll</Field>
+<Field Clear="True" InputFieldName="AKAT">TOP</Field>
+<Field Clear="True" InputFieldName="RNRD">00015</Field>
+<Field Long="True" Clear="True" InputFieldName="TOP"> 
+       Beschlussfassung
+über eine Neufassung des § 50 Abs. 1 GOHLT (Fachausschüsse)</Field>
+<Field Clear="True" InputFieldName="ANR">unbekannt</Field>
+<Field Clear="True" InputFieldName="ASEI">1</Field>
+<Field Clear="True" InputFieldName="ASEIV">17</Field>
+<Field Clear="True" InputFieldName="ASEIB">17</Field>
+<Field Long="True" Clear="True" InputFieldName="AVT1">
+      
+      
+        
+           
+       Beschlussfassung
+über eine Neufassung des § 50 Abs. 1 GOHLT (Fachausschüsse)
+             
+       
+             
+        
+        – Drucks. 20/15 –
+              
+            
+          
+        
+        
+          
+             
+       Diese Fachausschüsse können Sie, wenn Sie sich die Drucks. 20/15 anschauen, der Nr. 1 entnehmen: Europaausschuss, Haushaltsausschuss, Innenausschuss, Kulturpolitischer Ausschuss, Petitionsausschuss, Rechtspolitischer Ausschuss, Sozial- und Integrationspolitischer Ausschuss, Ausschuss für Digitales und Datenschutz, Ausschuss für Umwelt, Klimaschutz, Landwirtschaft und Verbraucherschutz, Ausschuss für Wirtschaft, Energie, Verkehr und Wohnen, Ausschuss für Wissenschaft und Kunst.
+          
+        
+        
+          
+            
+               
+        Nr. 1 angenommen
+            
+             
+       Ich frage Sie, wer für die Annahme der Nr. 1 des Antrags, Drucks. 20/15, ist. – Ist jemand dagegen? – Enthält sich jemand der Stimme? – Dann haben wir das einstimmig so beschlossen. 
+          
+        
+        
+          
+             
+       Ich komme zu Tagesordnungspunkt 13:
+          
+        
+      
+    </Field>
+<Field Clear="True" InputFieldName="BDOK">Drucks. 20/15</Field>
+<Field Clear="True" InputFieldName="TOPSP">17</Field>
+<Field Clear="True" InputFieldName="SEIT">NaN</Field>
+<Field Clear="True" InputFieldName="SEITV">1</Field>
+<Field Clear="True" InputFieldName="SEITB"/>
+</UpdateRecord>
+<CreateLock Id="16" DatabaseId="E.VOLLTEXT"/>
+<UpdateRecord LockId="16" Clear="False">
+<Field Clear="True" InputFieldName="DATNA">ePP_Export_20-1_18-01-2019.xml</Field>
+<Field Clear="True" InputFieldName="DATER">28.01.2019 11:59:00</Field>
+<Field Clear="True" InputFieldName="DATGE">17.10.2007 14:27:00</Field>
+<Field Clear="True" InputFieldName="DATFO">XML</Field>
+<Field Clear="True" InputFieldName="DATGR">193 Kb</Field>
+<Field Clear="True" InputFieldName="DART">P</Field>
+<Field Clear="True" InputFieldName="WP">20</Field>
+<Field Clear="True" InputFieldName="DNR">1</Field>
+<Field Clear="True" InputFieldName="DNRB"/>
+<Field Clear="True" InputFieldName="DAT">18.01.2019</Field>
+<Field Clear="True" InputFieldName="ZUGA">öffentlich</Field>
+<Field Clear="True" InputFieldName="QUELL">ePlenarprotokoll</Field>
+<Field Clear="True" InputFieldName="AKAT">TOP</Field>
+<Field Clear="True" InputFieldName="RNRD">00016</Field>
+<Field Long="True" Clear="True" InputFieldName="TOP"> 
+       Beschlussfassung
+über die Zahl der Mitglieder der Fachausschüsse (§ 50 Abs. 3 GOHLT)</Field>
+<Field Clear="True" InputFieldName="ANR">1</Field>
+<Field Clear="True" InputFieldName="ASEI">1</Field>
+<Field Clear="True" InputFieldName="ASEIV">17</Field>
+<Field Clear="True" InputFieldName="ASEIB">17</Field>
+<Field Long="True" Clear="True" InputFieldName="AVT1">
+      
+      
+        
+           
+       Beschlussfassung
+über die Zahl der Mitglieder der Fachausschüsse (§ 50 Abs. 3 GOHLT)
+             
+       
+             
+        
+        – Drucks. 20/16 und Drucks. 20/17 –
+              
+              
+            
+          
+        
+        
+          
+             
+       Nach § 50 Abs. 3 der Geschäftsordnung wird die Zahl der Mitglieder der Fachausschüsse durch Beschluss des Landtags festgelegt. Hier haben wir die Situation, dass zwei Anträge vorliegen. In einem solchen Fall wird nach § 85 Abs. 2 der Geschäftsordnung zunächst über den weiter gehenden Antrag abgestimmt. Das ist hier eindeutig der Antrag der AfD, da dieser die Mitgliederzahl bei zwei Ausschüssen erhöhen möchte. 
+             
+       Deswegen lasse ich zunächst über den Antrag der AfD abstimmen. Wer für die Annahme des Antrags der AfD ist – das ist die Drucks. 20/17 –, den bitte ich um sein Handzeichen. – Wer ist dagegen? – Enthält sich jemand der Stimme? – Damit ist der Antrag abgelehnt. 
+          
+        
+        
+          
+            
+               
+        Drucks. 20/17 abgelehnt;Drucks. 20/16 angenommen
+            
+             
+       Wir kommen zur Abstimmung des Antrags der Fraktionen der CDU, BÜNDNIS 90/DIE GRÜNEN, der SPD, der Freien Demokraten und DIE LINKE. Das ist die Drucks. 20/16. Ich frage: Wer ist für diesen Antrag? – Ist jemand gegen diesen Antrag? – Bei Gegenstimmen der AfD-Fraktion. Enthält sich jemand der Stimme? – Das ist nicht der Fall. Damit ist bei Gegenstimmen der AfD der Antrag angenommen, und damit ist die Zahl der Mitglieder der Fachausschüsse entsprechend der Drucks. 20/16 festgelegt. 
+          
+        
+        
+          
+             
+       Wir kommen zu Tagesordnungspunkt 14:
+          
+        
+      
+    </Field>
+<Field Clear="True" InputFieldName="BDOK">Drucks. 20/16 und Drucks. 20/17</Field>
+<Field Clear="True" InputFieldName="TOPSP">17</Field>
+<Field Clear="True" InputFieldName="SEIT">NaN</Field>
+<Field Clear="True" InputFieldName="SEITV">1</Field>
+<Field Clear="True" InputFieldName="SEITB"/>
+</UpdateRecord>
+<CreateLock Id="17" DatabaseId="E.VOLLTEXT"/>
+<UpdateRecord LockId="17" Clear="False">
+<Field Clear="True" InputFieldName="DATNA">ePP_Export_20-1_18-01-2019.xml</Field>
+<Field Clear="True" InputFieldName="DATER">28.01.2019 11:59:00</Field>
+<Field Clear="True" InputFieldName="DATGE">17.10.2007 14:27:00</Field>
+<Field Clear="True" InputFieldName="DATFO">XML</Field>
+<Field Clear="True" InputFieldName="DATGR">193 Kb</Field>
+<Field Clear="True" InputFieldName="DART">P</Field>
+<Field Clear="True" InputFieldName="WP">20</Field>
+<Field Clear="True" InputFieldName="DNR">1</Field>
+<Field Clear="True" InputFieldName="DNRB"/>
+<Field Clear="True" InputFieldName="DAT">18.01.2019</Field>
+<Field Clear="True" InputFieldName="ZUGA">öffentlich</Field>
+<Field Clear="True" InputFieldName="QUELL">ePlenarprotokoll</Field>
+<Field Clear="True" InputFieldName="AKAT">TOP</Field>
+<Field Clear="True" InputFieldName="RNRD">00017</Field>
+<Field Long="True" Clear="True" InputFieldName="TOP"> 
+       Beschlussfassung
+über die Einsetzung ständiger Unterausschüsse (§ 50 Abs. 2 GOHLT)</Field>
+<Field Clear="True" InputFieldName="ANR">20, 17, 20, 16</Field>
+<Field Clear="True" InputFieldName="ASEI">1</Field>
+<Field Clear="True" InputFieldName="ASEIV">17</Field>
+<Field Clear="True" InputFieldName="ASEIB">17</Field>
+<Field Long="True" Clear="True" InputFieldName="AVT1">
+      
+      
+        
+           
+       Beschlussfassung
+über die Einsetzung ständiger Unterausschüsse (§ 50 Abs. 2 GOHLT)
+             
+       
+             
+        
+        – Drucks. 20/15 –
+              
+            
+          
+        
+        
+          
+            
+               
+        Nr. 2 angenommen
+            
+             
+       Nach § 50 unserer Geschäftsordnung kann der Landtag außer dem Unterausschuss Justizvollzug weitere Unterausschüsse einsetzen. Das können Sie sich in Nr. 2 des interfraktionellen Antrags Drucks. 20/15 anschauen. Hier sind die ständigen Unterausschüsse aufgeführt. Ich frage Sie: Wer ist für die Annahme des Antrags? – Ist jemand dagegen? – Enthält sich jemand der Stimme? – Damit haben wir diesen Antrag einstimmig so angenommen. 
+          
+        
+        
+          
+             
+       Wir kommen zu Tagesordnungspunkt 15:
+          
+        
+      
+    </Field>
+<Field Clear="True" InputFieldName="BDOK">Drucks. 20/15</Field>
+<Field Clear="True" InputFieldName="TOPSP">17</Field>
+<Field Clear="True" InputFieldName="SEIT">NaN</Field>
+<Field Clear="True" InputFieldName="SEITV">1</Field>
+<Field Clear="True" InputFieldName="SEITB"/>
+</UpdateRecord>
+<CreateLock Id="18" DatabaseId="E.VOLLTEXT"/>
+<UpdateRecord LockId="18" Clear="False">
+<Field Clear="True" InputFieldName="DATNA">ePP_Export_20-1_18-01-2019.xml</Field>
+<Field Clear="True" InputFieldName="DATER">28.01.2019 11:59:00</Field>
+<Field Clear="True" InputFieldName="DATGE">17.10.2007 14:27:00</Field>
+<Field Clear="True" InputFieldName="DATFO">XML</Field>
+<Field Clear="True" InputFieldName="DATGR">193 Kb</Field>
+<Field Clear="True" InputFieldName="DART">P</Field>
+<Field Clear="True" InputFieldName="WP">20</Field>
+<Field Clear="True" InputFieldName="DNR">1</Field>
+<Field Clear="True" InputFieldName="DNRB"/>
+<Field Clear="True" InputFieldName="DAT">18.01.2019</Field>
+<Field Clear="True" InputFieldName="ZUGA">öffentlich</Field>
+<Field Clear="True" InputFieldName="QUELL">ePlenarprotokoll</Field>
+<Field Clear="True" InputFieldName="AKAT">TOP</Field>
+<Field Clear="True" InputFieldName="RNRD">00018</Field>
+<Field Long="True" Clear="True" InputFieldName="TOP"> 
+       Beschlussfassung
+über die Zahl der Mitglieder der ständigen Unterausschüsse (§ 50 Abs. 3 GOHLT)</Field>
+<Field Clear="True" InputFieldName="ANR">2</Field>
+<Field Clear="True" InputFieldName="ASEI">1</Field>
+<Field Clear="True" InputFieldName="ASEIV">17</Field>
+<Field Clear="True" InputFieldName="ASEIB">17</Field>
+<Field Long="True" Clear="True" InputFieldName="AVT1">
+      
+      
+        
+           
+       Beschlussfassung
+über die Zahl der Mitglieder der ständigen Unterausschüsse (§ 50 Abs. 3 GOHLT)
+             
+       
+             
+        
+        – Drucks. 20/15 –
+              
+            
+          
+        
+        
+          
+            
+               
+        Nr. 3 angenommen
+            
+             
+       Nach § 50 Abs. 3 GOHLT wird auch hier die Zahl durch Beschluss des Landtags festgesetzt. Ich frage Sie: Wer ist für die Annahme von Nr. 3 des interfraktionellen Antrags Drucks. 20/15? – Ist jemand dagegen? – Enthält sich jemand der Stimme? – Damit haben wir das einstimmig so beschlossen und die Zahl der Mitglieder der ständigen Unterausschüsse festgelegt. 
+          
+        
+        
+          
+             
+       Jetzt kommen wir zu Tagesordnungspunkt 16:
+          
+        
+      
+    </Field>
+<Field Clear="True" InputFieldName="BDOK">Drucks. 20/15</Field>
+<Field Clear="True" InputFieldName="TOPSP">17</Field>
+<Field Clear="True" InputFieldName="SEIT">NaN</Field>
+<Field Clear="True" InputFieldName="SEITV">1</Field>
+<Field Clear="True" InputFieldName="SEITB"/>
+</UpdateRecord>
+<CreateLock Id="19" DatabaseId="E.VOLLTEXT"/>
+<UpdateRecord LockId="19" Clear="False">
+<Field Clear="True" InputFieldName="DATNA">ePP_Export_20-1_18-01-2019.xml</Field>
+<Field Clear="True" InputFieldName="DATER">28.01.2019 11:59:00</Field>
+<Field Clear="True" InputFieldName="DATGE">17.10.2007 14:27:00</Field>
+<Field Clear="True" InputFieldName="DATFO">XML</Field>
+<Field Clear="True" InputFieldName="DATGR">193 Kb</Field>
+<Field Clear="True" InputFieldName="DART">P</Field>
+<Field Clear="True" InputFieldName="WP">20</Field>
+<Field Clear="True" InputFieldName="DNR">1</Field>
+<Field Clear="True" InputFieldName="DNRB"/>
+<Field Clear="True" InputFieldName="DAT">18.01.2019</Field>
+<Field Clear="True" InputFieldName="ZUGA">öffentlich</Field>
+<Field Clear="True" InputFieldName="QUELL">ePlenarprotokoll</Field>
+<Field Clear="True" InputFieldName="AKAT">TOP</Field>
+<Field Clear="True" InputFieldName="RNRD">00019</Field>
+<Field Long="True" Clear="True" InputFieldName="TOP"> 
+       Bestellung
+des Hauptausschusses (Art. 93 HV, § 6 GOHLT)</Field>
+<Field Clear="True" InputFieldName="ANR">3</Field>
+<Field Clear="True" InputFieldName="ASEI">3</Field>
+<Field Clear="True" InputFieldName="ASEIV">17</Field>
+<Field Clear="True" InputFieldName="ASEIB">19</Field>
+<Field Long="True" Clear="True" InputFieldName="AVT1">
+      
+      
+        
+           
+       Bestellung
+des Hauptausschusses (Art. 93 HV, § 6 GOHLT)
+             
+       
+             
+        
+        – Drucks. 20/18, Drucks. 20/19, Drucks. 20/20, Drucks. 20/21, Drucks. 20/22 und Drucks. 20/23 –
+              
+              
+              
+              
+              
+              
+            
+          
+        
+        
+          
+             
+       Hier ist es nach Art. 93 der Hessischen Verfassung so, dass der Landtag einen ständigen Ausschuss, den Hauptausschuss, bestellt. Nach dem geänderten § 6 Abs. 1 der Geschäftsordnung besteht der Hauptausschuss aus 17, und zwar nach den Grundsätzen der Verhältniswahl – das ist wichtig – gewählten Abgeordneten. Nach § 6 Abs. 2 der Geschäftsordnung ist eine Vertretung der ordentlichen Mitglieder nur durch die vom Landtag in einem besonderen Wahlgang gewählten Vertreter zulässig. Auch hierzu liegen Ihnen sechs Wahlvorschläge vor. 
+             
+       Wie mit den Fraktionen besprochen, erfolgt die Wahl offen, wobei jeder Abgeordnete oder jede Abgeordnete für die Wahl der Mitglieder, der stellvertretenden Mitglieder und der weiteren stellvertretenden Mitglieder jeweils über eine Stimme verfügt. Auch das ist wichtig. Wird der Wahl durch Handzeichen widersprochen? – Das ist nicht der Fall. 
+             
+       Dann kommen wir zu der Abstimmung, und wir beginnen mit dem Wahlvorschlag der Fraktion der CDU. Das ist die Drucks. 20/18. Jetzt lasse ich zunächst über die Mitglieder, die in der linken Spalte vorgeschlagen sind, abstimmen. Wer hier dem Wahlvorschlag in der Drucks. 20/18 zustimmt, den bitte ich um das Handzeichen. 
+             
+       (Neben den Abgeordneten der CDU stimmen zunächst auch Abgeordnete der Freien Demokraten und der AfD zu. – Zuruf Günter Rudolph (SPD))
+             
+       – Ich möchte Sie nur darauf hinweisen, Herr Lambrou – – Alles klar, wunderbar. – Damit sind die 40 Stimmen der Fraktion der CDU abgegeben, und damit sind die Mitglieder der CDU gewählt. 
+             
+       Ich darf vielleicht noch einmal erläutern, bevor wir zu den stellvertretenden Mitgliedern kommen: Jeder hat eine Stimme. Denken Sie bitte daran, wenn Sie Ihre Stimme abgeben. Es ist zwar freundlich; die CDU freut sich bestimmt, wenn sie von anderen Stimmen bekommt. 
+             
+       (Günter Rudolph (SPD): Wir haben aufgepasst!)
+             
+       – Wunderbar, Günter Rudolph passt immer auf. Wir haben deswegen verhindert, dass es zu irgendwelchen Unfällen kommt. 
+             
+       Damit kommen wir zu den stellvertretenden Mitgliedern. Das sind die Damen und Herren, die in der mittleren Spalte vorgeschlagen sind. Auch hier bitte ich diejenigen, die dem Wahlvorschlag in der Drucks. 20/18 zustimmen, um das Handzeichen. – Das sind die 40 Stimmen der CDU. Damit sind auch die stellvertretenden Mitglieder gewählt. 
+             
+       Als weitere stellvertretende Mitglieder werden die Damen und Herren in der rechten Spalte vorgeschlagen. Wer dem Wahlvorschlag zustimmt, den bitte ich um sein Handzeichen. – Das sind die 40 Stimmen der CDU, und damit sind auch die weiteren stellvertretenden Mitglieder gewählt.
+             
+       Meine Damen und Herren, es folgt der Wahlvorschlag der Fraktion BÜNDNIS 90/DIE GRÜNEN, Drucks. 20/19. Es geht nach dem gleichen Verfahren. Jeder weiß, er hat eine Stimme, und wir machen das hier im Bereich der GRÜNEN und kommen zunächst zu den Mitgliedern, die in der linken Spalte vorgeschlagen werden. Wer dem Wahlvorschlag in der Drucks. 20/19 zustimmt, den bitte ich um sein Handzeichen. – Das sind die 29 Abgeordneten der Fraktion BÜNDNIS 90/DIE GRÜNEN, und damit sind die Mitglieder gewählt. 
+             
+       Als stellvertretende Mitglieder werden die Damen und Herren in der mittleren Spalte vorgeschlagen. Wer diesem Wahlvorschlag zustimmt, den bitte ich um sein Handzeichen. – Das sind die 29 Mitglieder der Fraktion BÜNDNIS 90/DIE GRÜNEN, und damit sind auch die stellvertretenden Mitglieder gewählt. 
+             
+       Als weitere stellvertretende Mitglieder werden die Damen und Herren in der rechten Spalte vorgeschlagen. Wer diesem Wahlvorschlag zustimmt, den bitte ich um sein Handzeichen. – Das sind die 29 Stimmen der Fraktion BÜNDNIS 90/DIE GRÜNEN, und damit sind auch die weiteren stellvertretenden Mitglieder gewählt. 
+             
+       Als Nächstes folgt der Wahlvorschlag der Fraktion der SPD, Drucks. 20/20. Auch hier lasse ich zunächst über die Mitglieder, die in der linken Spalte vorgeschlagen werden, abstimmen. Wer dem Wahlvorschlag zustimmt, den bitte ich um das Handzeichen. – Das sind die 29 Stimmen der Fraktion der SPD. Damit sind die Mitglieder gewählt. 
+             
+       Als stellvertretende Mitglieder werden die Damen und Herren in der mittleren Spalte vorgeschlagen. Wer diesem Wahlvorschlag zustimmt, den bitte ich um das Handzeichen. – 29 Stimmen der SPD. Damit sind auch die stellvertretenden Mitglieder gewählt. 
+             
+       Als weitere stellvertretende Mitglieder werden die Damen und Herren in der rechten Spalte vorgeschlagen. Wer dem zustimmt, den bitte ich um sein Handzeichen. – Das sind die 29 Stimmen der SPD, und damit sind die weiteren stellvertretenden Mitglieder gewählt. 
+             
+       Nun geht es um den Wahlvorschlag der Fraktion der AfD, Drucks. 20/21. Auch hier lasse ich zunächst über die Mitglieder, die in der linken Spalte vorgeschlagen werden, abstimmen. Wer diesem Wahlvorschlag zustimmt, den bitte ich um das Handzeichen. – Das sind die 17 Stimmen der AfD-Fraktion. Damit sind die Mitglieder gewählt. 
+             
+       Als stellvertretende Mitglieder werden die Damen und Herren in der mittleren Spalte vorgeschlagen. Wer dem Wahlvorschlag in der Drucks. 20/21 zustimmt, den bitte ich um das Handzeichen. – Das sind die 17 Stimmen der AfD-Fraktion. Damit sind auch die stellvertretenden Mitglieder gewählt. 
+             
+       Als weitere stellvertretende Mitglieder werden die Damen und Herren in der rechten Spalte vorgeschlagen. Wer diesem Wahlvorschlag zustimmt, den bitte ich um sein Handzeichen. – Auch hier sind es die 17 Stimmen der AfD-Fraktion. 
+             
+       (Zuruf)
+             
+       – Aha, es sind bei allen drei Wahlgängen 18 Stimmen gewesen. Ich bitte, das zu vermerken: Es sind jeweils 18 Stimmen gewesen. – Aber auch hier sind bei den weiteren stellvertretenden Mitgliedern die Damen und Herren, die in der rechten Spalte vorgeschlagen werden, gewählt. 
+             
+       Ich möchte Ihnen das erläutern. Heute Morgen ist es so gekommen, dass die AfD-Fraktion aus 17 Mitgliedern besteht und eine Abgeordnete nicht in die Fraktion aufgenommen hat. Insoweit gibt es eine fraktionslose Abgeordnete. Das ist bislang bei uns nicht schriftlich eingegangen. Insofern stimme ich das in Gänze ab. Sobald es schriftlich bei uns eingeht, wird es selbstverständlich ab diesem Zeitpunkt ein anderes Verfahren geben, und es wird dann auch explizit das Stimmverhalten abgerufen. Ich bitte aber darum, dies schriftlich bei der Landtagsverwaltung bzw. beim Präsidenten einzureichen. Können wir so verfahren? – Dann verfahren wir so.
+             
+       Ich stelle fest, dass als weitere stellvertretende Mitglieder die Damen und Herren in der rechten Spalte vorgeschlagen wurden. Die Abstimmung haben wir schon durchgeführt. Sie haben 18 Stimmen erhalten. Damit sind auch die weiteren stellvertretenden Mitglieder gewählt.
+             
+       Damit folgt der Wahlvorschlag der Fraktion der Freien Demokraten, Drucks. 20/22. Ich lasse zunächst über das Mitglied abstimmen, das in der linken Spalte aufgeführt ist. Wer dem Wahlvorschlag, Drucks. 20/22, zustimmt, den bitte ich um das Handzeichen. – Das sind die elf Stimmen der Abgeordneten der Fraktion der Freien Demokraten. Damit ist das Mitglied gewählt.
+             
+       Als stellvertretendes Mitglied wird der Herr in der mittleren Spalte vorgeschlagen. Wer dem Wahlvorschlag, Drucks. 20/22, zustimmt, den bitte ich um das Handzeichen. – Das sind die elf Stimmen der Mitglieder der Fraktion der Freien Demokraten. Damit ist das stellvertretende Mitglied gewählt.
+             
+       Wir kommen zu dem weiteren stellvertretenden Mitglied. Es wird in der rechten Spalte vorgeschlagen. Wer dem Wahlvorschlag, Drucks. 20/22, zustimmt, den bitte ich um das Handzeichen. – Das sind die elf Mitglieder der Fraktion der Freien Demokraten. Damit ist das weitere stellvertretende Mitglied gewählt.
+             
+       Nun beschließen wir über den Wahlvorschlag der Fraktion DIE LINKE. Das ist Drucks. 20/23. Ich lasse zunächst über das Mitglied, das in der linken Spalte aufgeführt ist, abstimmen. Wer dem Wahlvorschlag zustimmt, den bitte ich um das Handzeichen. – Das sind die neun Stimmen der Abgeordneten der Fraktion DIE LINKE. Damit ist das Mitglied gewählt.
+             
+       Als stellvertretendes Mitglied wird die Dame in der mittleren Spalte vorgeschlagen. Wer diesem Wahlvorschlag zustimmt, den bitte ich um sein Handzeichen. – Das sind die neun Stimmen der Abgeordneten der Fraktion DIE LINKE. Damit ist auch hier das stellvertretende Mitglied gewählt.
+             
+       Als weiteres stellvertretendes Mitglied wird der Herr in der rechten Spalte vorgeschlagen. Wer diesem Wahlvorschlag zustimmt, den bitte ich um sein Handzeichen. – Auch hier wiederum sind es die neun Stimmen der Abgeordneten der Fraktion DIE LINKE. Damit ist auch das weitere stellvertretende Mitglied gewählt.
+          
+        
+        
+          
+            
+               
+        Gewählt als Mitglieder:Abg. Armin Schwarz (CDU)Abg. Ismail Tipi (CDU)Abg. Tobias Utter (CDU)Abg. Joachim Veyhelmann (CDU)Abg. Astrid Wallmann (CDU)Abg. Frank-Peter Kaufmann (BÜNDNIS 90/DIE GRÜNEN)Abg. Martina Feldmayer (BÜNDNIS 90/DIE GRÜNEN)Abg. Markus Hofmann (Fulda) (BÜNDNIS 90/DIE GRÜNEN)Abg. Jürgen Frömmrich (BÜNDNIS 90/DIE GRÜNEN)Abg. Nancy Faeser (SPD)Abg. Stephan Grüger (SPD)Abg. Angelika Löber (SPD)Abg. Günter Rudolph (SPD)Abg. Robert Lambrou (AfD)Abg. Karl Bolldorf (AfD)Abg. René Rock (Freie Demokraten)Abg. Dr. Ulrich Wilken (DIE LINKE)  Gewählt als stellvertretende Mitglieder:Abg. Jürgen Banzer (CDU)Abg. Alexander Bauer (CDU)Abg. Christian Heinz (CDU)Abg. Heiko Kasseckert (CDU)Abg. Uwe Serke (CDU)Abg. Mathias Wagner (Taunus) (BÜNDNIS 90/DIE GRÜNEN)Abg. Torsten Leveringhaus (BÜNDNIS 90/DIE GRÜNEN)Abg. Vanessa Gronemann (BÜNDNIS 90/DIE GRÜNEN)Abg. Katrin Schleenbecker (BÜNDNIS 90/DIE GRÜNEN)Abg. Tobias Eckert (SPD)Abg. Heike Hofmann (Weiterstadt) (SPD)Abg. Lisa Gnadl (SPD)Abg. Marius Weiß (SPD)Abg. Klaus Herrmann (AfD)Abg. Klaus Gagel (AfD)Abg. Jürgen Lenders (Freie Demokraten)Abg. Janine Wissler (DIE LINKE)  Gewählt als weitere stellvertretende Mitglieder: Abg. Holger Bellino (CDU)Abg. Birgit Heitland (CDU)Abg. Hartmut Honka (CDU)Abg. Jörg Michael Müller (Lahn-Dill) (CDU)Abg. Michael Boddenberg (CDU)Abg. Hildegard Förster-Heldmann (BÜNDNIS 90/DIE GRÜNEN)Abg. Eva Goldbach (BÜNDNIS 90/DIE GRÜNEN)Abg. Karin Müller (Kassel) (BÜNDNIS 90/DIE GRÜNEN)Abg. Nina Eisenhardt (BÜNDNIS 90/DIE GRÜNEN)Abg. Wolfgang Decker (SPD)Abg. Gerald Kummer (SPD)Abg. Gernot Grumbach (SPD)Abg. Karin Hartmann (SPD)Abg. Andreas Lichert (AfD)Abg. Dirk Gaw (AfD)Abg. Dr. h.c. Jörg-Uwe Hahn (Freie Demokraten)Abg. Jan Schalauske (DIE LINKE) 
+            
+             
+       Der Hauptausschuss ist somit nach Art. 93 Hessische Verfassung in Verbindung mit § 6 der Geschäftsordnung des Hessischen Landtags bestellt. Ich bedanke mich. Herzlichen Glückwunsch zur Wahl.
+          
+        
+        
+          
+             
+       Wir kommen zu Tagesordnungspunkt 17:
+          
+        
+      
+    </Field>
+<Field Clear="True" InputFieldName="BDOK">Drucks. 20/18, Drucks. 20/19, Drucks. 20/20, Drucks. 20/21, Drucks. 20/22 und Drucks. 20/23</Field>
+<Field Clear="True" InputFieldName="TOPSP">17</Field>
+<Field Clear="True" InputFieldName="SEIT">NaN</Field>
+<Field Clear="True" InputFieldName="SEITV">1</Field>
+<Field Clear="True" InputFieldName="SEITB"/>
+</UpdateRecord>
+<CreateLock Id="20" DatabaseId="E.VOLLTEXT"/>
+<UpdateRecord LockId="20" Clear="False">
+<Field Clear="True" InputFieldName="DATNA">ePP_Export_20-1_18-01-2019.xml</Field>
+<Field Clear="True" InputFieldName="DATER">28.01.2019 11:59:00</Field>
+<Field Clear="True" InputFieldName="DATGE">17.10.2007 14:27:00</Field>
+<Field Clear="True" InputFieldName="DATFO">XML</Field>
+<Field Clear="True" InputFieldName="DATGR">193 Kb</Field>
+<Field Clear="True" InputFieldName="DART">P</Field>
+<Field Clear="True" InputFieldName="WP">20</Field>
+<Field Clear="True" InputFieldName="DNR">1</Field>
+<Field Clear="True" InputFieldName="DNRB"/>
+<Field Clear="True" InputFieldName="DAT">18.01.2019</Field>
+<Field Clear="True" InputFieldName="ZUGA">öffentlich</Field>
+<Field Clear="True" InputFieldName="QUELL">ePlenarprotokoll</Field>
+<Field Clear="True" InputFieldName="AKAT">TOP</Field>
+<Field Clear="True" InputFieldName="RNRD">00020</Field>
+<Field Long="True" Clear="True" InputFieldName="TOP"> 
+       Wahlvorschlag
+Wahl von drei Mitgliedern und drei nachrückenden Mitgliedern des Wahlprüfungsgerichts (Art. 78 HV, § 2 Wahlprüfungsgesetz)</Field>
+<Field Clear="True" InputFieldName="ANR">90, 90, 90, 90, 90, 90, 90, 90, 90, 90, 90, 90</Field>
+<Field Clear="True" InputFieldName="ASEI">1</Field>
+<Field Clear="True" InputFieldName="ASEIV">19</Field>
+<Field Clear="True" InputFieldName="ASEIB">19</Field>
+<Field Long="True" Clear="True" InputFieldName="AVT1">
+      
+      
+        
+           
+       Wahlvorschlag
+Wahl von drei Mitgliedern und drei nachrückenden Mitgliedern des Wahlprüfungsgerichts (Art. 78 HV, § 2 Wahlprüfungsgesetz)
+             
+       
+             
+        
+        – Drucks. 20/24 –
+              
+            
+          
+        
+        
+          
+             
+       Hierzu liegt Ihnen ein Wahlvorschlag der Fraktionen der CDU, BÜNDNIS 90/DIE GRÜNEN, der SPD, der AfD, der Freien Demokraten und DIE LINKE vor. Das ist Drucks. 20/24. Zu wählen sind drei Mitglieder des Wahlprüfungsgerichts und drei nachrückende Mitglieder. Können wir hierüber offen abstimmen, oder wird geheime Wahl gewünscht? – Offensichtlich können wir hierüber offen abstimmen.
+          
+        
+        
+          
+            
+               
+        Gewählt als Mitglieder:Abg. Holger Bellino (CDU)Abg. Jürgen Frömmrich (BÜNDNIS 90/DIE GRÜNEN)Abg. Günter Rudolph (SPD) Gewählt als nachrückende Mitglieder:Abg. Hartmut Honka (CDU)Abg. Eva Goldbach (BÜNDNIS 90/DIE GRÜNEN)Abg. Nancy Faeser (SPD)
+            
+             
+       Damit kommen wir zur Abstimmung. Wer dem Wahlvorschlag, Drucks. 20/24, zustimmt, den bitte ich um sein Handzeichen. – Gibt es Gegenstimmen? – Gibt es Enthaltungen? – Es gibt Enthaltungen. Halten Sie die Hände hoch. Es gibt neun Enthaltungen. Damit ist der Wahlvorschlag angenommen.
+          
+        
+        
+          
+             
+       Wir kommen zu Tagesordnungspunkt 18:
+          
+        
+      
+    </Field>
+<Field Clear="True" InputFieldName="BDOK">Drucks. 20/24</Field>
+<Field Clear="True" InputFieldName="TOPSP">19</Field>
+<Field Clear="True" InputFieldName="SEIT">NaN</Field>
+<Field Clear="True" InputFieldName="SEITV">1</Field>
+<Field Clear="True" InputFieldName="SEITB"/>
+</UpdateRecord>
+<CreateLock Id="21" DatabaseId="E.VOLLTEXT"/>
+<UpdateRecord LockId="21" Clear="False">
+<Field Clear="True" InputFieldName="DATNA">ePP_Export_20-1_18-01-2019.xml</Field>
+<Field Clear="True" InputFieldName="DATER">28.01.2019 11:59:00</Field>
+<Field Clear="True" InputFieldName="DATGE">17.10.2007 14:27:00</Field>
+<Field Clear="True" InputFieldName="DATFO">XML</Field>
+<Field Clear="True" InputFieldName="DATGR">193 Kb</Field>
+<Field Clear="True" InputFieldName="DART">P</Field>
+<Field Clear="True" InputFieldName="WP">20</Field>
+<Field Clear="True" InputFieldName="DNR">1</Field>
+<Field Clear="True" InputFieldName="DNRB"/>
+<Field Clear="True" InputFieldName="DAT">18.01.2019</Field>
+<Field Clear="True" InputFieldName="ZUGA">öffentlich</Field>
+<Field Clear="True" InputFieldName="QUELL">ePlenarprotokoll</Field>
+<Field Clear="True" InputFieldName="AKAT">TOP</Field>
+<Field Clear="True" InputFieldName="RNRD">00021</Field>
+<Field Long="True" Clear="True" InputFieldName="TOP"> 
+       Antrag
+Fraktion der CDU, Fraktion der SPD, Fraktion BÜNDNIS 90/DIE GRÜNEN, Fraktion der AfD, Fraktion der Freien Demokraten, Fraktion DIE LINKE
+Immunität von Abgeordneten des Hessischen Landtags</Field>
+<Field Clear="True" InputFieldName="ANR">90, 90</Field>
+<Field Clear="True" InputFieldName="ASEI">1</Field>
+<Field Clear="True" InputFieldName="ASEIV">19</Field>
+<Field Clear="True" InputFieldName="ASEIB">19</Field>
+<Field Long="True" Clear="True" InputFieldName="AVT1">
+      
+      
+        
+           
+       Antrag
+Fraktion der CDU, Fraktion der SPD, Fraktion BÜNDNIS 90/DIE GRÜNEN, Fraktion der AfD, Fraktion der Freien Demokraten, Fraktion DIE LINKE
+Immunität von Abgeordneten des Hessischen Landtags
+             
+       
+             
+        
+        – Drucks. 20/25 –
+              
+            
+          
+        
+        
+          
+             
+       Damit wird beantragt, auch für die 20. Wahlperiode die generelle Einwilligung zur Durchführung von Ermittlungsverfahren gegen Abgeordnete und zur Durchführung bestimmter Maßnahmen der Beweissicherung und anderer Maßnahmen zu erteilen.
+          
+        
+        
+          
+            
+               
+        Angenommen
+            
+             
+       Wer diesem Antrag zustimmt, den bitte ich um das Handzeichen. – Gibt es Gegenstimmen? – Gibt es Enthaltungen? – Das ist nicht der Fall. Damit ist der Antrag, Drucks. 20/25, angenommen. 
+          
+        
+        
+          
+             
+       Wir kommen damit zu Tagesordnungspunkt 19:
+          
+        
+      
+    </Field>
+<Field Clear="True" InputFieldName="BDOK">Drucks. 20/25</Field>
+<Field Clear="True" InputFieldName="TOPSP">19</Field>
+<Field Clear="True" InputFieldName="SEIT">NaN</Field>
+<Field Clear="True" InputFieldName="SEITV">1</Field>
+<Field Clear="True" InputFieldName="SEITB"/>
+</UpdateRecord>
+<CreateLock Id="22" DatabaseId="E.VOLLTEXT"/>
+<UpdateRecord LockId="22" Clear="False">
+<Field Clear="True" InputFieldName="DATNA">ePP_Export_20-1_18-01-2019.xml</Field>
+<Field Clear="True" InputFieldName="DATER">28.01.2019 11:59:00</Field>
+<Field Clear="True" InputFieldName="DATGE">17.10.2007 14:27:00</Field>
+<Field Clear="True" InputFieldName="DATFO">XML</Field>
+<Field Clear="True" InputFieldName="DATGR">193 Kb</Field>
+<Field Clear="True" InputFieldName="DART">P</Field>
+<Field Clear="True" InputFieldName="WP">20</Field>
+<Field Clear="True" InputFieldName="DNR">1</Field>
+<Field Clear="True" InputFieldName="DNRB"/>
+<Field Clear="True" InputFieldName="DAT">18.01.2019</Field>
+<Field Clear="True" InputFieldName="ZUGA">öffentlich</Field>
+<Field Clear="True" InputFieldName="QUELL">ePlenarprotokoll</Field>
+<Field Clear="True" InputFieldName="AKAT">TOP</Field>
+<Field Clear="True" InputFieldName="RNRD">00022</Field>
+<Field Long="True" Clear="True" InputFieldName="TOP"> 
+       Entgegennahme
+einer Erklärung nach Art. 113 Abs. 2 HV</Field>
+<Field Clear="True" InputFieldName="ANR">unbekannt</Field>
+<Field Clear="True" InputFieldName="ASEI">1</Field>
+<Field Clear="True" InputFieldName="ASEIV">19</Field>
+<Field Clear="True" InputFieldName="ASEIB">19</Field>
+<Field Long="True" Clear="True" InputFieldName="AVT1">
+      
+      
+        
+           
+       Entgegennahme
+einer Erklärung nach Art. 113 Abs. 2 HV
+             
+       
+          
+        
+        
+          
+             
+       Meine Damen und Herren, mir ist am heutigen Tag folgendes Schreiben des Ministerpräsidenten des Landes Hessen zugegangen. Es lautet: 
+             
+       Sehr geehrter Herr Präsident!
+             
+       Die Bevölkerung des Landes Hessen hat am 28. Oktober 2018 ihre Abgeordneten zum Landtag neu gewählt. Der neu gewählte Landtag ist heute erstmals zusammengetreten. Nach Art. 113 Abs. 2 der Hessischen Verfassung erkläre ich namens der Landesregierung den Rücktritt des Kabinetts. Die bisherige Landesregierung wird die laufenden Geschäfte nach Art. 113 Abs. 3 der Hessischen Verfassung bis zu deren Übernahme durch die neue Landesregierung weiterführen. 
+             
+       Mit freundlichen Grüßen
+             
+       Volker BouffierHessischer Ministerpräsident
+          
+        
+        
+          
+            
+               
+        Entgegengenommen
+            
+             
+       Herr Ministerpräsident, das Haus nimmt die Erklärung zur Kenntnis. 
+          
+        
+        
+          
+             
+       Wir danken der Regierung für ihre Arbeit und kommen damit zu Tagesordnungspunkt 20:
+          
+        
+      
+    </Field>
+<Field Clear="True" InputFieldName="TOPSP">19</Field>
+<Field Clear="True" InputFieldName="SEIT">NaN</Field>
+<Field Clear="True" InputFieldName="SEITV">1</Field>
+<Field Clear="True" InputFieldName="SEITB"/>
+</UpdateRecord>
+<CreateLock Id="23" DatabaseId="E.VOLLTEXT"/>
+<UpdateRecord LockId="23" Clear="False">
+<Field Clear="True" InputFieldName="DATNA">ePP_Export_20-1_18-01-2019.xml</Field>
+<Field Clear="True" InputFieldName="DATER">28.01.2019 11:59:00</Field>
+<Field Clear="True" InputFieldName="DATGE">17.10.2007 14:27:00</Field>
+<Field Clear="True" InputFieldName="DATFO">XML</Field>
+<Field Clear="True" InputFieldName="DATGR">193 Kb</Field>
+<Field Clear="True" InputFieldName="DART">P</Field>
+<Field Clear="True" InputFieldName="WP">20</Field>
+<Field Clear="True" InputFieldName="DNR">1</Field>
+<Field Clear="True" InputFieldName="DNRB"/>
+<Field Clear="True" InputFieldName="DAT">18.01.2019</Field>
+<Field Clear="True" InputFieldName="ZUGA">öffentlich</Field>
+<Field Clear="True" InputFieldName="QUELL">ePlenarprotokoll</Field>
+<Field Clear="True" InputFieldName="AKAT">TOP</Field>
+<Field Clear="True" InputFieldName="RNRD">00023</Field>
+<Field Long="True" Clear="True" InputFieldName="TOP"> 
+       Wahlvorschlag
+Wahl der Ministerpräsidentin oder des Ministerpräsidenten (Art. 101 Abs. 1 HV)</Field>
+<Field Clear="True" InputFieldName="ANR">unbekannt</Field>
+<Field Clear="True" InputFieldName="ASEI">3</Field>
+<Field Clear="True" InputFieldName="ASEIV">19</Field>
+<Field Clear="True" InputFieldName="ASEIB">21</Field>
+<Field Long="True" Clear="True" InputFieldName="AVT1">
+      
+      
+        
+           
+       Wahlvorschlag
+Wahl der Ministerpräsidentin oder des Ministerpräsidenten (Art. 101 Abs. 1 HV)
+             
+       
+             
+        
+        – Drucks. 20/26 –
+              
+            
+          
+        
+        
+          
+             
+       Erlauben Sie mir, dass ich zum Organisatorischen zwei Vorbemerkungen mache. Das muss sein. Ich möchte Ihnen vorschlagen, dass nach der Wahl und der Annahmeerklärung noch die Vereidigung stattfindet. Im Anschluss daran wird der Herr Ministerpräsident die Gelegenheit haben, einige Worte zu Ihnen zu sprechen. Danach wird eine Pause eintreten, in der die Möglichkeit bestehen wird, dem Ministerpräsident zu gratulieren. Außerdem soll den Medienvertretern natürlich die Gelegenheit gegeben werden, ihres Amtes zu walten.
+             
+       An Ihren Plätzen werden gerade die Umschläge mit den Wahlberechtigungskarten verteilt. Ist das der Fall? – Jawohl. Die nehmen Sie bitte zur Wahlhandlung mit und händigen sie den Wahlhelferinnen oder den Wahlhelfern aus, damit Sie die Wahlunterlage erhalten.
+             
+       Meine Damen und Herren, damit kommen wir jetzt zur Wahl. Gemäß Art. 101 Abs. 1 Hessische Verfassung wählt der Landtag „ohne Aussprache den Ministerpräsidenten mit mehr als der Hälfte der gesetzlichen Zahl seiner Mitglieder“. Das ist der originale Verfassungstext. Das bedeutet im Konkreten, dass ein Wahlvorschlag mindestens 69 Stimmen auf sich vereinen muss, um angenommen worden zu sein. Nach § 7 der Geschäftsordnung des Hessischen Landtags erfolgt diese Wahl geheim.
+             
+       Ich darf dem Fraktionsvorsitzenden der CDU, Herrn Abg. Michael Boddenberg, das Wort erteilen.
+          
+        
+      
+    
+       
+            Michael Boddenberg [CDU]:
+      
+         
+       Herr Präsident, meine sehr geehrten Damen und Herren! Namens der Fraktionen der CDU und BÜNDNIS 90/DIE GRÜNEN des Hessischen Landtags schlage ich Ihnen zur Wahl des Hessischen Ministerpräsidenten Herrn Abg. Volker Bouffier vor. – Danke sehr.
+         
+       (Beifall CDU und BÜNDNIS 90/DIE GRÜNEN)
+      
+    
+       
+           Präsident  Boris Rhein:
+      
+        
+          
+             
+       Herr Abg. Boddenberg, ich bedanke mich und frage, ob weitere Wahlvorschläge gemacht werden. – Das ist nicht der Fall.
+             
+       Damit kommen wir zur Wahlhandlung. Nach dem Namensaufruf der Abgeordneten, der einzeln erfolgen wird, erhält jeder von Ihnen nach Vorlage seines Wahlberechtigungsscheins von den Wahlhelfern einen neutralen, mit dem Siegel des Hessischen Landtags versehenen Briefumschlag und eine gelbe Stimmkarte. Der Ausgabetisch befindet sich dieses Mal wiederum, von mir aus gesehen, rechts. Von dort aus gehen Sie bitte zur Wahlhandlung hinter die Porträtwand zu einer der beiden Wahlkabinen. Dort gibt es einen Dorn. Die älteren Mitbürger dieses Landtags
+             
+       (Vereinzelte Heiterkeit CDU, SPD, Freie Demokraten und DIE LINKE)
+             
+       kennen dieses Verfahren schon. Weil dieses Verfahren wichtig ist, möchte ich es Ihnen trotzdem schildern. Mit dem dort befindlichen Dorn kennzeichnen Sie die Stimmkarte und stecken sie, ohne sie zu falten, in den Umschlag. Bitte kleben Sie den Umschlag nicht zu. Den Umschlag mit Ihrer Stimmkarte werfen Sie bitte bei den Wahlhelfern in die Wahlurne. Die beiden Wahlurnen werden sich auch dieses Mal vor mir auf dem Stenografentisch befinden. 
+             
+       Ich weise ausdrücklich darauf hin, dass Ihre Stimmkarte lediglich mit dem Dorn an der gekennzeichneten Stelle innerhalb des Kreises mit einem Loch versehen werden darf und keinerlei weitere Kennzeichnungen wie z. B. Knicken, Beschriften oder Materialveränderungen enthalten darf. Eine weitere Markierung oder eine abweichende Farbe der Stimmkarte würde die Ungültigkeit der Stimmkarte zur Folge haben. 
+             
+       Enthält die abgegebene Stimmkarte keine Entscheidung für Ja, Nein oder Enthaltung, gilt die Stimme als nicht abgegeben.
+             
+       Ich füge hinzu: Macht jemand einen Fehler bei diesem Verfahren in der Wahlkabine, möge er sich bitte bei mir melden – das kann bei einem solchen Verfahren jederzeit passieren, es ist keine Schande. Sie erhalten dann eine neue Wahlkarte und erneut die Möglichkeit, Ihre Wahlentscheidung abzugeben. Bitte kommen Sie dann auf mich zu. Wenn es nicht passiert: umso besser. Wenn es passiert: Wir können hier alles regeln, dafür ist Ihr Präsidium da.
+             
+       Ich bitte erneut die Wahlhelferinnen und Wahlhelfer, zum Ausgabetisch zu kommen, um sich dann, entsprechend ihrer Aufgabe, von dem ordnungsgemäßen Zustand der Wahlkabinen, der Wahlurne und der Wahlunterlagen zu überzeugen. Wir warten ab, was Sie uns an Rückmeldungen geben. – Es sieht so aus, als würden keine Beanstandungen gegen den ordnungsgemäßen Zustand erhoben.
+             
+       Bevor die Schriftführer mit dem Namensaufruf, der einzeln erfolgen wird, beginnen, bitte ich, die beiden Türen hinter mir zu schließen und während des Wahlvorgangs und der Auszählung geschlossen zu halten. Ich bitte die Wahlhelferinnen und Wahlhelfer, darauf zu achten, dass die Wahlhandlung geheim abläuft. Ich bitte jeden, sich daran zu halten, diese beiden hinter uns liegenden Türen während der Wahlhandlung nicht zu benutzen. Sie können den Plenarsaal jederzeit durch andere Türen verlassen oder betreten, aber bitte nicht durch diese beiden Türen.
+             
+       Haben alle ihre Wahlberechtigungskarten erhalten? Gibt es noch jemanden, der keine Wahlberechtigung hat? Auch wir hier oben haben alle unsere Wahlberechtigungskarten? – Wunderbar. Wenn das so ist, darf ich bitten, mit dem Namensaufruf der Abgeordneten zu beginnen.
+             
+       (Namensaufruf)
+             
+       Meine sehr geehrten Damen und Herren, liebe Kolleginnen und Kollegen, ich darf die Frage stellen, ob alle Stimmkarten abgegeben worden sind und ob jeder die Gelegenheit hatte, zu wählen. – Das ist offensichtlich der Fall. Ich höre keinen Widerspruch. Dann kann ich jetzt die Wahlhandlung schließen, was ich auch tue. Ich schließe die Wahlhandlung und bitte die Wahlhelferinnen und Wahlhelfer, jetzt mit der Auszählung der Stimmen zu beginnen.
+             
+       Bis zur Bekanntgabe unterbreche ich die Sitzung, bitte Sie aber, im Plenarsaal zu bleiben.
+             
+       (Unterbrechung: 15:53 bis 16:00 Uhr)
+          
+        
+      
+    
+       
+           Präsident  Boris Rhein:
+      
+        
+          
+             
+       Meine sehr verehrten Damen und Herren, liebe Kolleginnen und Kollegen! Wir treten wieder in die Sitzung ein.
+             
+       Ich möchte das Ergebnis der Wahl bekannt geben. Zahl der anwesenden und stimmberechtigten Abgeordneten: 136. Zahl der ausgegebenen Stimmzettel: 136. Zahl der abgegebenen Stimmzettel: 136. Zahl der gültigen Stimmzettel: 136. Zahl der ungültigen Stimmzettel: 0. 
+             
+       Auf den Wahlvorschlag Volker Bouffier entfielen 69 Jastimmen.
+             
+       (Anhaltender lebhafter Beifall CDU und BÜNDNIS 90/DIE GRÜNEN)
+          
+        
+        
+          
+            
+               
+        Gewählt:Abg. Volker Bouffier
+            
+             
+       Kolleginnen und Kollegen, lassen Sie mich der Vollständigkeit halber auch noch mitteilen, dass es 66 Neinstimmen und eine Stimmenthaltung gegeben hat. Damit sind auf Volker Bouffier die verfassungsmäßig erforderlichen Stimmen bei der Wahl zum Hessischen Ministerpräsidenten entfallen.
+          
+        
+        
+          
+             
+       Herr Abg. Bouffier, ich frage Sie, ob Sie die Wahl annehmen.
+          
+        
+      
+    
+       
+            Volker Bouffier [CDU]:
+      
+         
+       Herr Präsident, ich nehme die Wahl an und bedanke mich für das Vertrauen.
+      
+    
+       
+           Präsident  Boris Rhein:
+      
+        
+          
+             
+       Herzlichen Glückwunsch.
+             
+       (Beifall CDU und BÜNDNIS 90/DIE GRÜNEN)
+             
+       Wir kommen zu Tagesordnungspunkt 21:
+          
+        
+      
+    </Field>
+<Field Clear="True" InputFieldName="RED"> Michael Boddenberg [CDU]</Field>
+<Field Clear="True" InputFieldName="RED"> Volker Bouffier [CDU]</Field>
+<Field Clear="True" InputFieldName="BDOK">Drucks. 20/26</Field>
+<Field Clear="True" InputFieldName="TOPSP">19</Field>
+<Field Clear="True" InputFieldName="SEIT">NaN</Field>
+<Field Clear="True" InputFieldName="SEITV">1</Field>
+<Field Clear="True" InputFieldName="SEITB"/>
+</UpdateRecord>
+<CreateLock Id="24" DatabaseId="E.VOLLTEXT"/>
+<UpdateRecord LockId="24" Clear="False">
+<Field Clear="True" InputFieldName="DATNA">ePP_Export_20-1_18-01-2019.xml</Field>
+<Field Clear="True" InputFieldName="DATER">28.01.2019 11:59:00</Field>
+<Field Clear="True" InputFieldName="DATGE">17.10.2007 14:27:00</Field>
+<Field Clear="True" InputFieldName="DATFO">XML</Field>
+<Field Clear="True" InputFieldName="DATGR">193 Kb</Field>
+<Field Clear="True" InputFieldName="DART">P</Field>
+<Field Clear="True" InputFieldName="WP">20</Field>
+<Field Clear="True" InputFieldName="DNR">1</Field>
+<Field Clear="True" InputFieldName="DNRB"/>
+<Field Clear="True" InputFieldName="DAT">18.01.2019</Field>
+<Field Clear="True" InputFieldName="ZUGA">öffentlich</Field>
+<Field Clear="True" InputFieldName="QUELL">ePlenarprotokoll</Field>
+<Field Clear="True" InputFieldName="AKAT">TOP</Field>
+<Field Clear="True" InputFieldName="RNRD">00024</Field>
+<Field Long="True" Clear="True" InputFieldName="TOP"> 
+       Vereidigung
+der Ministerpräsidentin oder des Ministerpräsidenten (Art. 111 HV)</Field>
+<Field Clear="True" InputFieldName="ANR">unbekannt</Field>
+<Field Clear="True" InputFieldName="ASEI">2</Field>
+<Field Clear="True" InputFieldName="ASEIV">21</Field>
+<Field Clear="True" InputFieldName="ASEIB">22</Field>
+<Field Long="True" Clear="True" InputFieldName="AVT1">
+      
+      
+        
+           
+       Vereidigung
+der Ministerpräsidentin oder des Ministerpräsidenten (Art. 111 HV)
+             
+       
+          
+        
+        
+          
+             
+       Herr Ministerpräsident, ich darf Sie zur Vereidigung nach vorne bitten.
+             
+       (Die Anwesenden erheben sich von den Plätzen.)
+             
+       Herr Abg. Bouffier, nach Ihrer Wahl zum Ministerpräsidenten des Landes Hessen werde ich Sie nun vereidigen. Nach Art. 111 der Hessischen Verfassung leistet der Ministerpräsident den Amtseid vor dem Landtag. 
+             
+       Ich lese Ihnen jetzt den Wortlaut des Eides vor und bitte Sie, Herr Ministerpräsident, ihn nachzusprechen. Sie können dies unter Hinzufügung einer religiösen Beteuerungsformel tun. Der Eid hat folgenden Wortlaut:
+             
+       Ich schwöre, dass ich das mir übertragene Amt unparteiisch nach bestem Wissen und Können verwalten sowie Verfassung und Gesetz in demokratischem Geiste befolgen und verteidigen werde.
+          
+        
+      
+    
+       
+            Volker Bouffier, Ministerpräsident:
+      
+         
+       Ich schwöre, dass ich das mir übertragene Amt unparteiisch nach bestem Wissen und Können verwalten sowie Verfassung und Gesetz in demokratischem Geiste befolgen und verteidigen werde, so wahr mir Gott helfe.
+      
+    
+       
+           Präsident  Boris Rhein:
+      
+        
+          
+            
+               
+        Vollzogen
+            
+             
+       Herr Ministerpräsident, Sie haben den Eid geleistet und sind damit vereidigt. Ich gratuliere Ihnen sehr herzlich und wünsche Ihnen Erfolg. Ich wünsche Ihnen Glück, aber insbesondere Gottes Segen. 
+          
+        
+        
+          
+             
+       (Anhaltender Beifall CDU und BÜNDNIS 90/DIE GRÜNEN – Vereinzelter Beifall SPD, AfD und Freie Demokraten – Die Anwesenden nehmen ihre Plätze wieder ein.)
+             
+       Herr Ministerpräsident, ich darf Ihnen das Wort zu einer Erklärung erteilen.
+          
+        
+      
+    
+       
+            Volker Bouffier, Ministerpräsident:
+      
+         
+       Sehr geehrter Herr Präsident, liebe Kolleginnen und Kollegen, verehrte Damen und Herren! Ich danke für das Vertrauen, das mir die Mehrheit der Abgeordneten des Hessischen Landtags soeben ausgesprochen hat. Ich bin sehr dankbar für dieses Vertrauen, und ich weiß, was es bedeutet. 
+         
+       Denjenigen Kolleginnen und Kollegen, die mir heute ihr Vertrauen nicht aussprechen konnten, biete ich eine faire Zusammenarbeit an.
+         
+       Meine Damen und Herren, diese Legislaturperiode beginnt in einer Zeit außergewöhnlich vielfältigen und raschen Wandels: Globalisierung, Digitalisierung, Flucht, Migration, Klimawandel mögen als Stichworte genügen. Viele vertraute Gewissheiten in Politik und Gesellschaft schwinden oder haben sich aufgelöst. Die technische Entwicklung, z. B. durch die Digitalisierung, verändert unser gesamtes Leben. Diese Entwicklung bietet große Chancen, birgt aber auch Gefahren. 
+         
+       Viele Bürgerinnen und Bürger in unserem Land haben Zweifel, sind unsicher, ob es uns gelingen kann, diese Chancen erfolgreich zu nutzen und die Risiken zu meiden. Sie suchen deshalb Halt, sie suchen Orientierung. Unsere gemeinsame Aufgabe muss es deshalb sein, Orientierung zu geben, konkrete Antworten zu bieten und den Wandel für die Menschen in unserem Land erfolgreich zu gestalten.
+         
+       Dabei bleibt mein Ziel das gleiche, das ich bei meiner ersten Wahl zum Ministerpräsidenten in diesem Haus genannt habe. Ich möchte ein Ministerpräsident für alle Bürgerinnen und Bürger sein – für die, die mich gewählt haben, aber auch für jene, die mich nicht gewählt haben.
+         
+       Hessen soll auch künftig ein starkes Land sein, ein erfolgreiches Land, in dem die Menschen gut leben, in dem sich die Menschen zu Hause fühlen und in dem ein respektvoller und wertschätzender Umgang zwischen allen Bürgerinnen und Bürgern unser gemeinsames Ziel sein muss. Deshalb darf es auch in Zukunft in Hessen keinen Platz für Hass, für Ausgrenzung, für Gewalt, für Antisemitismus oder Extremismus jeder Art geben. Hessen ist ein Land, das Freiheit lebt. Das ist eine Verpflichtung für uns alle.
+         
+       (Beifall CDU und BÜNDNIS 90/DIE GRÜNEN, vereinzelt SPD und Freie Demokraten)
+         
+       Gerade in Zeiten vielfältigen Wandels müssen wir Orientierung geben und auch Haltung bewahren. Wir müssen die Gesellschaft zusammenhalten, den Menschen eine Heimat geben, unseren Wohlstand sichern und unsere Lebensgrundlagen bewahren. Das ist selbstverständlich insbesondere eine Aufgabe der Regierung, aber es ist auch eine Aufgabe für uns alle. 
+         
+       Dabei tragen wir, die Politikerinnen und Politiker, eine besondere Verantwortung. Auf uns schaut man mehr als auf andere. Wir haben das Vertrauen der Bürgerinnen und Bürger erhalten, um in diesem Parlament für sie zu arbeiten. Diese Verantwortung tragen wir in der Sache und im Stil.
+         
+       Der neu gewählte Präsident und der Alterspräsident haben es anklingen lassen: Nicht zuletzt ein Blick in die sogenannten sozialen Netzwerke zeigt, dass der Ton rauer geworden ist, dass auch die politische Auseinandersetzung rauer geworden ist.
+         
+       Streit in der Sache, das Ringen um den besten Weg, das gehört zur Demokratie. Persönliche Verunglimpfung oder sogenannte „Hate Speeches“ dürfen nie zu dieser gelebten Demokratie gehören, jedenfalls nicht unwidersprochen.
+         
+       (Beifall CDU und BÜNDNIS 90/DIE GRÜNEN)
+         
+       Sie missachten, und zwar zunehmend, die Würde jedes Einzelnen; und sie untergraben die Autorität der parlamentarischen Demokratie und insbesondere eines Parlaments. 
+         
+       Der Alterspräsident hat Max Weber schon erwähnt; und es ist interessant: Vor genau 100 Jahren, im Januar 1919, hat Max Weber seine berühmte Schrift „Politik als Beruf“ vorgelegt. Er hat dort drei Kriterien für die Qualität eines Politikers/einer Politikerin genannt: erstens Leidenschaft in der Sache, zweitens Verantwortungsgefühl und drittens Augenmaß. Ich wünsche uns gemeinsam, dass es uns gelingen möge, diesem Postulat zu folgen, im Interesse der Bürgerinnen und Bürger unseres Landes. 
+         
+       Ich gehe meine Arbeit mit großer Freude an, aber auch mit Demut vor der Aufgabe. Mir ist es eine Freude und eine Ehre, gemeinsam mit Ihnen auch in der neuen Legislaturperiode für dieses Land und seine Menschen arbeiten zu dürfen. Ich danke all denen, die mir heute ihr Vertrauen ausgesprochen haben. Ich wünsche uns gemeinsam Erfolg in unserer Arbeit und unserem Land eine friedliche und erfolgreiche Zukunft. Gott segne dieses Land und Sie. – Ich danke Ihnen. 
+         
+       (Anhaltender Beifall CDU und BÜNDNIS 90/DIE GRÜNEN)
+      
+    
+       
+           Präsident  Boris Rhein:
+      
+        
+          
+             
+       Herr Ministerpräsident, ich bedanke mich sehr herzlich. 
+             
+       (Zuruf: Gibt es noch einen Blumenstrauß für den Ministerpräsidenten?)
+             
+       – Gibt es noch einen Blumenstrauß für den Herrn Ministerpräsidenten? – Der kommt jetzt, natürlich. Es gibt, glaube ich, sogar noch viel mehr als diesen. 
+             
+       Herr Ministerpräsident, ich will Ihnen im Namen des gesamten Hauses gratulieren. Der Hessische Landtag freut sich auf die Zusammenarbeit mit Ihnen. Ich werde jetzt gleich die Sitzung für 45 Minuten unterbrechen, um Ihnen Gelegenheit zu geben, Ihr Kabinett zu benennen, das Sie anschließend vor dem Hause vereidigen können. 
+             
+       Es gibt dazu noch eine kleine Information an die Gäste und Mitglieder dieses Hauses: In der Lobby sind Kaffee, kalte Getränke und ein kleiner Mittagsimbiss, wahrscheinlich eher Nachmittagsimbiss, zu erhalten, und zwar kostenfrei. Sie sind herzlich eingeladen. – Auf gute Zusammenarbeit, Herr Ministerpräsident. 
+             
+       (Beifall CDU und BÜNDNIS 90/DIE GRÜNEN – Zurufe CDU: Oh!)
+          
+        
+      
+    
+       
+            Volker Bouffier, Ministerpräsident:
+      
+         
+       Sehr geehrter Herr Präsident, meine Damen und Herren! Ich möchte mich herzlich für das Geschenk „meiner“ Fraktion – wenn Sie erlauben, dies zu sagen – bedanken: ein Kompass, den kann man gut gebrauchen. 
+         
+       Ich möchte diese Blumen – auch in Absprache mit meiner Frau, die diese eigentlich bekommen hätte – heute jemandem geben, ohne den ich heute nicht gewählt worden wäre. Ich möchte Ihnen, Herr Kollege May, ausdrücklich Danke sagen und Ihnen diese Blumen schenken, damit Sie sie Ihrer Frau weitergeben können – mit den besten Grüßen an die kleine Tochter und an Ihre Frau. Also, diese Blumen sind für Sie. 
+         
+       (Lebhafter Beifall CDU, BÜNDNIS 90/DIE GRÜNEN, SPD und DIE LINKE)
+      
+    
+       
+           Präsident  Boris Rhein:
+      
+        
+          
+             
+       Meine Damen und Herren, die Sitzung ist für 45 Minuten unterbrochen. Wir sehen uns um 17 Uhr wieder. 
+             
+       (Unterbrechung: 16:13 bis 17:04 Uhr)
+          
+        
+      
+    
+       
+           Präsident  Boris Rhein:
+      
+        
+          
+             
+       Liebe Kolleginnen und Kollegen, meine sehr geehrten Damen und Herren! Die unterbrochene Sitzung wird fortgesetzt und die Unterbrechung aufgehoben. 
+             
+       Wir kommen zu Tagesordnungspunkt 22:
+          
+        
+      
+    </Field>
+<Field Clear="True" InputFieldName="RED"> Volker Bouffier, Ministerpräsident</Field>
+<Field Clear="True" InputFieldName="RED"> Volker Bouffier, Ministerpräsident</Field>
+<Field Clear="True" InputFieldName="RED"> Volker Bouffier, Ministerpräsident</Field>
+<Field Clear="True" InputFieldName="TOPSP">21</Field>
+<Field Clear="True" InputFieldName="SEIT">NaN</Field>
+<Field Clear="True" InputFieldName="SEITV">1</Field>
+<Field Clear="True" InputFieldName="SEITB"/>
+</UpdateRecord>
+<CreateLock Id="25" DatabaseId="E.VOLLTEXT"/>
+<UpdateRecord LockId="25" Clear="False">
+<Field Clear="True" InputFieldName="DATNA">ePP_Export_20-1_18-01-2019.xml</Field>
+<Field Clear="True" InputFieldName="DATER">28.01.2019 11:59:00</Field>
+<Field Clear="True" InputFieldName="DATGE">17.10.2007 14:27:00</Field>
+<Field Clear="True" InputFieldName="DATFO">XML</Field>
+<Field Clear="True" InputFieldName="DATGR">193 Kb</Field>
+<Field Clear="True" InputFieldName="DART">P</Field>
+<Field Clear="True" InputFieldName="WP">20</Field>
+<Field Clear="True" InputFieldName="DNR">1</Field>
+<Field Clear="True" InputFieldName="DNRB"/>
+<Field Clear="True" InputFieldName="DAT">18.01.2019</Field>
+<Field Clear="True" InputFieldName="ZUGA">öffentlich</Field>
+<Field Clear="True" InputFieldName="QUELL">ePlenarprotokoll</Field>
+<Field Clear="True" InputFieldName="AKAT">TOP</Field>
+<Field Clear="True" InputFieldName="RNRD">00025</Field>
+<Field Long="True" Clear="True" InputFieldName="TOP"> 
+       Mitteilung
+über die Ernennung der Ministerinnen und Minister (Art. 101 Abs. 2 HV)</Field>
+<Field Clear="True" InputFieldName="ANR">unbekannt</Field>
+<Field Clear="True" InputFieldName="ASEI">2</Field>
+<Field Clear="True" InputFieldName="ASEIV">22</Field>
+<Field Clear="True" InputFieldName="ASEIB">23</Field>
+<Field Long="True" Clear="True" InputFieldName="AVT1">
+      
+      
+        
+           
+       Mitteilung
+über die Ernennung der Ministerinnen und Minister (Art. 101 Abs. 2 HV)
+             
+       
+          
+        
+        
+          
+             
+       Ich darf Herrn Ministerpräsidenten Bouffier das Wort zur Mitteilung über die Ernennung erteilen. Bitte schön, Herr Ministerpräsident.
+          
+        
+      
+    
+       
+            Volker Bouffier, Ministerpräsident:
+      
+         
+       Sehr geehrter Herr Präsident, meine Damen und Herren, liebe Kolleginnen und Kollegen! Bevor ich Ihnen die Mitteilung gemäß der Verfassung mache, wen ich zu Staatsministerinnen und Staatsministern ernannt habe, gestatten Sie mir noch ein kurzes Wort des Dankes und der Anerkennung an diejenigen Kollegen – – Herr Rudolph?
+         
+       (Günter Rudolph (SPD): Nichts, nur steht die Kamera hier so breit! – Gegenruf CDU: Dafür kann die Regierung nichts! – Günter Rudolph (SPD): Hat auch niemand behauptet!)
+         
+       – Okay.
+      
+    
+       
+           Präsident  Boris Rhein:
+      
+        
+          
+             
+       Ich würde darum bitten, die Kamera zu entfernen.
+             
+       (Die Kamera wird entfernt. – Heiterkeit)
+             
+       Herr Ministerpräsident, Sie haben das Wort.
+          
+        
+      
+    
+       
+            Volker Bouffier, Ministerpräsident:
+      
+         
+       Vielen Dank, Herr Präsident. – Bevor ich Ihnen mitteile, wen ich zu Staatsministerinnen und Staatsministern ernannt habe, möchte ich die Gelegenheit nehmen, hier vor dem Landtag denjenigen Kollegen, die aus dem Kabinett ausgeschieden sind, und denjenigen, die aus der Landesregierung ausgeschieden sind, herzlich Danke zu sagen.
+         
+       Es handelt sich zum einen um Herrn Staatsminister a. D. Stefan Grüttner. Stefan Grüttner war fast 16 Jahre lang Staatsminister des Landes Hessen, zunächst in seiner Funktion als Chef der Staatskanzlei und dann als Sozialminister sowie als Hessischer Minister für Soziales und Integration. 
+         
+       Stefan Grüttner hat sein Amt mit außergewöhnlichem Engagement und großem Erfolg wahrgenommen. Er hat sich große Verdienste um unser Land erworben und hohes Ansehen weit über die Grenzen unseres Landes hinaus. Ich danke im Namen des Landes Hessen – und, ich könnte mir vorstellen, auch im Namen des Hessischen Landtags – Herrn Kollegen Grüttner und wünsche ihm für seinen weiteren Lebensweg alles Gute.
+         
+       (Beifall CDU, BÜNDNIS 90/DIE GRÜNEN, SPD, Freie Demokraten, vereinzelt AfD und DIE LINKE)
+         
+       Ich möchte ebenso Herrn Staatsminister a. D. Rhein für seine zehnjährige Arbeit in der Hessischen Landesregierung sehr herzlich danken. Herr Kollege Rhein war zunächst als Staatssekretär im Innenministerium, dann als Hessischer Minister des Innern und für Sport und dann als Hessischer Minister für Wissenschaft und Kunst Mitglied des Kabinetts. 
+         
+       Herr Kollege Rhein hat jetzt – ich bitte um Nachsicht, dass ich es so herum machen muss, Herr Präsident – eine neue große Aufgabe wahrgenommen und bleibt Mitglied dieses Hauses und uns natürlich in besonderer Weise verbunden. Ich möchte trotzdem Gelegenheit nehmen, ihm für seine Arbeit und für sein Engagement im Namen des Landes Hessen und für alle Bürgerinnen und Bürger herzlich zu danken und ihm für seine zukünftige Amtsführung alles Gute zu wünschen.
+         
+       (Allgemeiner Beifall)
+         
+       Ich möchte mich bei den Herren Staatssekretären Dr. Wolfgang Dippel, Werner Koch und Mathias Samson bedanken. Alle drei haben sich in ganz besonderer Weise für unser Land eingesetzt. Sie haben vorbildlich gewirkt, und dafür sage ich Danke im Namen des Landes Hessen.
+         
+       (Allgemeiner Beifall)
+         
+       Ich möchte auch heute zu dieser Stunde Ihnen, meine Herren, stellvertretend danken. Sie waren alle dabei und haben sich teilweise in vorderster Reihe hohe Verdienste erworben, als im Jahr 2015 und 2016 insgesamt 120.000 Menschen nach Hessen gekommen sind. Das hätten wir ohne das Engagement vieler Bürgerinnen und Bürger nie so hinbekommen, wie wir es in Hessen geschafft haben. Bei uns war niemand auch nur einen Tag obdachlos oder irgendwo auf dem Acker. Das verdanken wir auch vielen engagierten Mitarbeiterinnen und Mitarbeitern der hessischen Verwaltung, das verdanken wir nicht zuletzt auch den drei Staatssekretären. Ich wünsche Ihnen für Ihren weiteren Lebensweg alles Gute; wir bleiben verbunden. Herzlichen Dank im Namen des Landes Hessen.
+         
+       (Allgemeiner Beifall)
+         
+       Herr Präsident, meine Damen und Herren! Aufgrund von Art. 101 Abs. 2 Satz 2 der Hessischen Verfassung zeige ich an, wen ich zu hessischen Staatsministern ernannt habe:
+         
+       Herrn Tarek Al-Wazir zum Staatsminister und Hessischen Minister für Wirtschaft, Energie, Verkehr und Wohnen,
+         
+       Herrn Axel Wintermeyer zum Staatsminister im Geschäftsbereich des Ministerpräsidenten und Chef der Staatskanzlei,
+         
+       Frau Lucia Puttrich zur Staatsministerin im Geschäftsbereich des Ministerpräsidenten und Ministerin für Bundes- und Europaangelegenheiten und Bevollmächtigten des Landes Hessen beim Bund,
+         
+       Frau Prof. Dr. Kristina Sinemus zur Staatsministerin im Geschäftsbereich des Ministerpräsidenten und Hessischen Ministerin für Digitale Strategie und Entwicklung,
+         
+       Herrn Peter Beuth zum Staatsminister und Hessischen Minister des Innern und für Sport,
+         
+       Herrn Dr. Thomas Schäfer zum Staatsminister und Hessischen Minister der Finanzen, 
+         
+       Frau Eva Kühne-Hörmann zur Staatsministerin und Hessischen Ministerin der Justiz,
+         
+       Herrn Prof. Dr. Ralph Alexander Lorz zum Staatsminister und Hessischen Kultusminister,
+         
+       Frau Angela Dorn-Rancke zur Staatsministerin und Hessischen Ministerin für Wissenschaft und Kunst,
+         
+       Frau Priska Hinz zur Staatsministerin und Hessischen Ministerin für Umwelt, Klimaschutz, Landwirtschaft und Verbraucherschutz,
+         
+       Herrn Kai Klose zum Staatsminister und Hessischen Minister für Soziales und Integration.
+         
+       Herr Präsident, meine Damen und Herren, liebe Kolleginnen und Kollegen, dies  sind die Mitglieder des Kabinetts, die ich jetzt vor Ihnen zu vereidigen habe. 
+         
+       (Beifall CDU und BÜNDNIS 90/DIE GRÜNEN)
+      
+    
+       
+           Präsident  Boris Rhein:
+      
+        
+          
+            
+               
+        Zur Kenntnis genommen
+            
+             
+       Herr Ministerpräsident, haben Sie herzlichen Dank für diese Mitteilung. 
+          
+        
+        
+          
+             
+       Wir gratulieren den Damen und Herren Ministern und Ministerinnen Ihres Kabinetts, und selbstverständlich wünschen wir uns auch mit Ihnen eine gute und erfolgreiche Zusammenarbeit. 
+             
+       Wir kommen zu Tagesordnungspunkt 23:
+          
+        
+      
+    </Field>
+<Field Clear="True" InputFieldName="RED"> Volker Bouffier, Ministerpräsident</Field>
+<Field Clear="True" InputFieldName="RED"> Volker Bouffier, Ministerpräsident</Field>
+<Field Clear="True" InputFieldName="TOPSP">22</Field>
+<Field Clear="True" InputFieldName="SEIT">NaN</Field>
+<Field Clear="True" InputFieldName="SEITV">1</Field>
+<Field Clear="True" InputFieldName="SEITB"/>
+</UpdateRecord>
+<CreateLock Id="26" DatabaseId="E.VOLLTEXT"/>
+<UpdateRecord LockId="26" Clear="False">
+<Field Clear="True" InputFieldName="DATNA">ePP_Export_20-1_18-01-2019.xml</Field>
+<Field Clear="True" InputFieldName="DATER">28.01.2019 11:59:00</Field>
+<Field Clear="True" InputFieldName="DATGE">17.10.2007 14:27:00</Field>
+<Field Clear="True" InputFieldName="DATFO">XML</Field>
+<Field Clear="True" InputFieldName="DATGR">193 Kb</Field>
+<Field Clear="True" InputFieldName="DART">P</Field>
+<Field Clear="True" InputFieldName="WP">20</Field>
+<Field Clear="True" InputFieldName="DNR">1</Field>
+<Field Clear="True" InputFieldName="DNRB"/>
+<Field Clear="True" InputFieldName="DAT">18.01.2019</Field>
+<Field Clear="True" InputFieldName="ZUGA">öffentlich</Field>
+<Field Clear="True" InputFieldName="QUELL">ePlenarprotokoll</Field>
+<Field Clear="True" InputFieldName="AKAT">TOP</Field>
+<Field Clear="True" InputFieldName="RNRD">00026</Field>
+<Field Long="True" Clear="True" InputFieldName="TOP"> 
+       Beschlussfassung
+über die Vertrauenserklärung für die Landesregierung (Art. 101 Abs. 4 HV)</Field>
+<Field Clear="True" InputFieldName="ANR">unbekannt</Field>
+<Field Clear="True" InputFieldName="ASEI">2</Field>
+<Field Clear="True" InputFieldName="ASEIV">23</Field>
+<Field Clear="True" InputFieldName="ASEIB">24</Field>
+<Field Long="True" Clear="True" InputFieldName="AVT1">
+      
+      
+        
+           
+       Beschlussfassung
+über die Vertrauenserklärung für die Landesregierung (Art. 101 Abs. 4 HV)
+             
+       
+             
+        
+        – Drucks. 20/27 –
+              
+            
+          
+        
+        
+          
+             
+       Bevor wir in die Vereidigung eintreten: Es ist eine Tradition der Hessischen Verfassung, dass eine Beschlussfassung über die Vertrauenserklärung für die Landesregierung herbeigeführt wird. Gemäß Art. 101 Abs. 4 HV kann die Landesregierung erst dann ihre Geschäfte übernehmen, wenn ihr der Landtag durch einen besonderen Beschluss das Vertrauen ausgesprochen hat. Das ist ein Antrag, den die CDU und BÜNDNIS 90/DIE GRÜNEN mit der Drucks. 20/27 gestellt haben. 
+          
+        
+        
+          
+            
+               
+        Angenommen
+            
+             
+       Meine sehr geehrten Damen und Herren, insoweit darf ich Sie fragen: Wer diesem Antrag zustimmt, den bitte ich um das Handzeichen. – Das sind die Fraktionen von CDU und BÜNDNIS 90/DIE GRÜNEN. Wer stimmt dagegen? – Das sind die Fraktionen von SPD, LINKEN, Freien Demokraten und AfD. Die Mehrheit ist erreicht mit den Stimmen von CDU und BÜNDNIS 90/DIE GRÜNEN. Insoweit hat eine Beschlussfassung, und zwar eine positive Beschlussfassung, über die Vertrauenserklärung der Landesregierung stattgefunden. Der Antrag ist mit den Stimmen der genannten Fraktionen angenommen. 
+          
+        
+        
+          
+             
+       Jetzt kann die Landesregierung ihre Geschäfte aufnehmen. Ich wünsche namens des Hauses dafür alles Gute, viel Erfolg und eine glückliche Hand.
+             
+       (Beifall CDU und BÜNDNIS 90/DIE GRÜNEN)
+             
+       Es geht gleich weiter. Wir kommen zu Tagesordnungspunkt 24:
+          
+        
+      
+    </Field>
+<Field Clear="True" InputFieldName="BDOK">Drucks. 20/27</Field>
+<Field Clear="True" InputFieldName="TOPSP">23</Field>
+<Field Clear="True" InputFieldName="SEIT">NaN</Field>
+<Field Clear="True" InputFieldName="SEITV">1</Field>
+<Field Clear="True" InputFieldName="SEITB"/>
+</UpdateRecord>
+<CreateLock Id="27" DatabaseId="E.VOLLTEXT"/>
+<UpdateRecord LockId="27" Clear="False">
+<Field Clear="True" InputFieldName="DATNA">ePP_Export_20-1_18-01-2019.xml</Field>
+<Field Clear="True" InputFieldName="DATER">28.01.2019 11:59:00</Field>
+<Field Clear="True" InputFieldName="DATGE">17.10.2007 14:27:00</Field>
+<Field Clear="True" InputFieldName="DATFO">XML</Field>
+<Field Clear="True" InputFieldName="DATGR">193 Kb</Field>
+<Field Clear="True" InputFieldName="DART">P</Field>
+<Field Clear="True" InputFieldName="WP">20</Field>
+<Field Clear="True" InputFieldName="DNR">1</Field>
+<Field Clear="True" InputFieldName="DNRB"/>
+<Field Clear="True" InputFieldName="DAT">18.01.2019</Field>
+<Field Clear="True" InputFieldName="ZUGA">öffentlich</Field>
+<Field Clear="True" InputFieldName="QUELL">ePlenarprotokoll</Field>
+<Field Clear="True" InputFieldName="AKAT">TOP</Field>
+<Field Clear="True" InputFieldName="RNRD">00027</Field>
+<Field Long="True" Clear="True" InputFieldName="TOP"> 
+       Vereidigung
+der Ministerinnen und Minister (Art. 111 HV)</Field>
+<Field Clear="True" InputFieldName="ANR">unbekannt</Field>
+<Field Clear="True" InputFieldName="ASEI">NaN</Field>
+<Field Clear="True" InputFieldName="ASEIV">24</Field>
+<Field Clear="True" InputFieldName="ASEIB">unbekannt</Field>
+<Field Long="True" Clear="True" InputFieldName="AVT1">
+      
+      
+        
+           
+       Vereidigung
+der Ministerinnen und Minister (Art. 111 HV)
+             
+       
+          
+        
+        
+          
+             
+       Wir werden das mit den Kameras zukünftig verbessern müssen. Das ist natürlich eine Sichtbehinderung für die Fraktionen der SPD und der anderen.
+             
+       Herr Ministerpräsident, ich gebe Ihnen die Gelegenheit, Ihr Kabinett zu vereidigen. – Dazu bitte ich Sie alle, sich von Ihren Plätzen zu erheben.
+             
+       (Die Anwesenden erheben sich von den Plätzen.)
+          
+        
+      
+    
+       
+            Volker Bouffier, Ministerpräsident:
+      
+         
+       Meine sehr verehrten Damen und Herren, liebe Kolleginnen und Kollegen, liebe Kollegen Staatsministerinnen und Staatsminister! Gemäß Art. 111 der Verfassung des Landes Hessen ist vorgesehen, dass Sie vor dem Ministerpräsidenten in Gegenwart des Landtags den Amtseid leisten. Dies kann nach Art. 48 der Verfassung des Landes Hessen in der weltlichen oder in der religiösen Form geschehen.
+         
+       Ich werde Ihre Vereidigung in der Weise vornehmen, dass ich Ihnen die Eidesformel vorlese und Sie dann bitte, einzeln die rechte Hand zu erheben und den Eid dadurch zu leisten, dass Sie die Worte „Ich schwöre es“ oder „Ich schwöre es, so wahr mir Gott helfe“ sprechen. Die Eidesformel lautet: 
+         
+       Ich schwöre, dass ich das mir übertragene Amt unparteiisch nach bestem Wissen und Können verwalten sowie Verfassung und Gesetze in demokratischem Geiste befolgen und verteidigen werde. 
+         
+       So Sie mögen, auch mit der religiösen Beteuerung. – Ich darf Sie bitten, jetzt einzeln zu mir zu kommen und die rechte Hand zu heben.
+         
+       Herr Staatsminister Al-Wazir. Herr Staatsminister, ich habe Ihnen die Eidesformel vorgelesen. An Ihnen ist es jetzt, zu schwören.
+      
+    
+       
+            Tarek Al-Wazir, Minister für Wirtschaft, Energie, Verkehr und Wohnen:
+      
+         
+       Ich schwöre es.
+      
+    
+       
+            Volker Bouffier, Ministerpräsident:
+      
+         
+       Vielen herzlichen Dank. – Herr Staatsminister Wintermeyer.
+      
+    
+       
+            Axel Wintermeyer, Minister und Chef der Staatskanzlei:
+      
+         
+       Herr Ministerpräsident! Ich schwöre es, so wahr mir Gott helfe.
+      
+    
+       
+            Volker Bouffier, Ministerpräsident:
+      
+         
+       Vielen herzlichen Dank. – Frau Staatsministerin Puttrich.
+      
+    
+       
+            Lucia Puttrich, Ministerin für Bundes- und Europaangelegenheiten und Bevollmächtigte des Landes Hessen beim Bund:
+      
+         
+       Ich schwöre es, so wahr mir Gott helfe.
+      
+    
+       
+            Volker Bouffier, Ministerpräsident:
+      
+         
+       Herzlichen Dank. – Frau Staatsministerin Prof. Dr. Sinemus.
+      
+    
+       
+           Prof. Dr. Kristina Sinemus, Ministerin für Digitale Strategie und Entwicklung:
+      
+         
+       Herr Ministerpräsident! Ich schwöre es, so wahr mir Gott helfe.
+      
+    
+       
+            Volker Bouffier, Ministerpräsident:
+      
+         
+       Vielen Dank. – Herr Staatsminister Beuth.
+      
+    
+       
+            Peter Beuth, Minister des Innern und für Sport:
+      
+         
+       Herr Ministerpräsident! Ich schwöre es, so wahr mir Gott helfe. 
+      
+    
+       
+            Volker Bouffier, Ministerpräsident:
+      
+         
+       Danke schön. – Herr Staatsminister Dr. Schäfer.
+      
+    
+       
+           Dr. Thomas Schäfer, Minister der Finanzen:
+      
+         
+       Herr Ministerpräsident! Ich schwöre es, so wahr mir Gott helfe.
+      
+    
+       
+            Volker Bouffier, Ministerpräsident:
+      
+         
+       Herzlichen Dank. – Frau Staatsministerin Kühne-Hörmann.
+      
+    
+       
+            Eva Kühne-Hörmann, Ministerin der Justiz:
+      
+         
+       Herr Ministerpräsident! Ich schwöre es, so wahr mir Gott helfe.
+      
+    
+       
+            Volker Bouffier, Ministerpräsident:
+      
+         
+       Danke schön. – Herr Staatsminister Prof. Dr. Lorz.
+      
+    
+       
+           Prof. Dr. R. Alexander Lorz, Kultusminister:
+      
+         
+       Herr Ministerpräsident! Ich schwöre es, so wahr mir Gott helfe.
+      
+    
+       
+            Volker Bouffier, Ministerpräsident:
+      
+         
+       Vielen Dank. – Frau Staatsministerin Dorn-Rancke.
+      
+    
+       
+            Angela Dorn, Ministerin für Wissenschaft und Kunst:
+      
+         
+       Herr Ministerpräsident! Ich schwöre es.
+      
+    
+       
+            Volker Bouffier, Ministerpräsident:
+      
+         
+       Herzlichen Dank. – Frau Staatsministerin Hinz.
+      
+    
+       
+            Priska Hinz, Ministerin für Umwelt, Klimaschutz, Landwirtschaft und Verbraucherschutz:
+      
+         
+       Herr Ministerpräsident! Ich schwöre es.
+      
+    
+       
+            Volker Bouffier, Ministerpräsident:
+      
+         
+       Herr Staatsminister Klose.
+      
+    
+       
+            Kai Klose, Minister für Soziales und Integration:
+      
+         
+       Herr Ministerpräsident! Ich schwöre es.
+      
+    
+       
+            Volker Bouffier, Ministerpräsident:
+      
+         
+       Vielen herzlichen Dank. – Herr Präsident, damit ist die Vereidigung gemäß Art. 111 der Verfassung erfolgt. Vielen Dank.
+         
+       (Allgemeiner Beifall – Die Anwesenden nehmen ihre Plätze wieder ein.)
+      
+    
+       
+           Präsident  Boris Rhein:
+      
+        
+          
+            
+               
+        Vollzogen
+            
+             
+       Liebe Kolleginnen und Kollegen, damit ist die Vereidigung erfolgt. Ich danke Ihnen sehr herzlich dafür und will nicht verhehlen, dass ich mich freue, dass das Halbrund wieder komplettiert ist. Ich freue mich, dass Sie allesamt Ihre Plätze gefunden haben. Ich freue mich, dass wir muntere Debatten haben werden. Ich freue mich, dass wir diesen Tag auf diese Art und Weise miteinander verbringen konnten und viele erfolgreiche Dinge miteinander beschlossen haben. Trotz einer umfangreichen Tagesordnung sind wir verhältnismäßig pünktlich fertig geworden, um 17:16 Uhr. Das ist doch eine ordentliche Uhrzeit. 
+          
+        
+        
+          
+             
+       Bevor ich die Sitzung schließe, will ich allerdings noch Hinweise geben. Im Anschluss an diese Sitzung, d. h. in ca. 15 Minuten – sagen wir, um 17:30 Uhr –, findet die erste Sitzung des Ältestenrats in Raum 510 W statt. Die Einladungen werden den Mitgliedern des Ältestenrats gerade auf die Plätze verteilt. 
+             
+       Ich darf Ihnen zur Kenntnis geben, dass die für Mittwoch, den 23. Januar 2019, geplante 2. Plenarsitzung nicht stattfindet. Das heißt, dass wir uns in der nächsten regulären Plenarsitzungswoche vom 5. bis 7. Februar 2019 erst wiedersehen und wir bis dahin den Trennungsschmerz zu überwinden haben.
+             
+       Ich möchte noch auf das Schreiben des Direktors beim Landtag vom 18. Januar 2019 hinweisen, das Sie bereits zu Beginn der Sitzung auf Ihren Plätzen vorgefunden haben. Ich bitte insbesondere um zeitnahe Beachtung. 
+             
+       Die Sitzung ist geschlossen. Wir treffen uns wieder am Dienstag, dem 5. Februar 2019, um 14 Uhr hier an gleicher Stelle, gleicher Ort. – Alles Gute für Sie und noch einen wunderschönen Resttag.
+          
+        
+      
+    </Field>
+<Field Clear="True" InputFieldName="RED"> Volker Bouffier, Ministerpräsident</Field>
+<Field Clear="True" InputFieldName="RED"> Tarek Al-Wazir, Minister für Wirtschaft, Energie, Verkehr und Wohnen</Field>
+<Field Clear="True" InputFieldName="RED"> Volker Bouffier, Ministerpräsident</Field>
+<Field Clear="True" InputFieldName="RED"> Axel Wintermeyer, Minister und Chef der Staatskanzlei</Field>
+<Field Clear="True" InputFieldName="RED"> Volker Bouffier, Ministerpräsident</Field>
+<Field Clear="True" InputFieldName="RED"> Lucia Puttrich, Ministerin für Bundes- und Europaangelegenheiten und Bevollmächtigte des Landes Hessen beim Bund</Field>
+<Field Clear="True" InputFieldName="RED"> Volker Bouffier, Ministerpräsident</Field>
+<Field Clear="True" InputFieldName="RED">Prof. Dr. Kristina Sinemus, Ministerin für Digitale Strategie und Entwicklung</Field>
+<Field Clear="True" InputFieldName="RED"> Volker Bouffier, Ministerpräsident</Field>
+<Field Clear="True" InputFieldName="RED"> Peter Beuth, Minister des Innern und für Sport</Field>
+<Field Clear="True" InputFieldName="RED"> Volker Bouffier, Ministerpräsident</Field>
+<Field Clear="True" InputFieldName="RED">Dr. Thomas Schäfer, Minister der Finanzen</Field>
+<Field Clear="True" InputFieldName="RED"> Volker Bouffier, Ministerpräsident</Field>
+<Field Clear="True" InputFieldName="RED"> Eva Kühne-Hörmann, Ministerin der Justiz</Field>
+<Field Clear="True" InputFieldName="RED"> Volker Bouffier, Ministerpräsident</Field>
+<Field Clear="True" InputFieldName="RED">Prof. Dr. R. Alexander Lorz, Kultusminister</Field>
+<Field Clear="True" InputFieldName="RED"> Volker Bouffier, Ministerpräsident</Field>
+<Field Clear="True" InputFieldName="RED"> Angela Dorn, Ministerin für Wissenschaft und Kunst</Field>
+<Field Clear="True" InputFieldName="RED"> Volker Bouffier, Ministerpräsident</Field>
+<Field Clear="True" InputFieldName="RED"> Priska Hinz, Ministerin für Umwelt, Klimaschutz, Landwirtschaft und Verbraucherschutz</Field>
+<Field Clear="True" InputFieldName="RED"> Volker Bouffier, Ministerpräsident</Field>
+<Field Clear="True" InputFieldName="RED"> Kai Klose, Minister für Soziales und Integration</Field>
+<Field Clear="True" InputFieldName="RED"> Volker Bouffier, Ministerpräsident</Field>
+<Field Clear="True" InputFieldName="TOPSP">24</Field>
+<Field Clear="True" InputFieldName="SEIT">NaN</Field>
+<Field Clear="True" InputFieldName="SEITV">1</Field>
+<Field Clear="True" InputFieldName="SEITB"/>
+</UpdateRecord>
+<Quit/>
+</Root>

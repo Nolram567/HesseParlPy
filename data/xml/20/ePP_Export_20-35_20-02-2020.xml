@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?><Root>
+<Login>
+<Connection Password="lmx2011" UserId="XML" Host="localhost" Id="VOLLTEXTIMPORT"/>
+</Login>
+<Database DatabaseName="E.VOLLTEXT" ConnectionId="VOLLTEXTIMPORT" Id="E.VOLLTEXT"/>
+<CreateLock Id="1" DatabaseId="E.VOLLTEXT"/>
+<UpdateRecord LockId="1" Clear="False">
+<Field Clear="True" InputFieldName="DATNA">ePP_Export_20-35_20-02-2020.xml</Field>
+<Field Clear="True" InputFieldName="DATER">06.03.2020 10:27:00</Field>
+<Field Clear="True" InputFieldName="DATGE">17.10.2007 14:27:00</Field>
+<Field Clear="True" InputFieldName="DATFO">XML</Field>
+<Field Clear="True" InputFieldName="DATGR">11 Kb</Field>
+<Field Clear="True" InputFieldName="DART">P</Field>
+<Field Clear="True" InputFieldName="WP">20</Field>
+<Field Clear="True" InputFieldName="DNR">35</Field>
+<Field Clear="True" InputFieldName="DNRB"/>
+<Field Clear="True" InputFieldName="DAT">20.02.2020</Field>
+<Field Clear="True" InputFieldName="ZUGA">öffentlich</Field>
+<Field Clear="True" InputFieldName="QUELL">ePlenarprotokoll</Field>
+<Field Clear="True" InputFieldName="AKAT">Inhaltsverzeichnis</Field>
+<Field Clear="True" InputFieldName="RNRD">00001</Field>
+<Field Clear="True" InputFieldName="ASEI">NaN</Field>
+<Field Clear="True" InputFieldName="ASEIV"/>
+<Field Clear="True" InputFieldName="ASEIB"/>
+<Field Long="True" Clear="True" InputFieldName="AVT1"/>
+<Field Clear="True" InputFieldName="TOPSP">NaN</Field>
+<Field Clear="True" InputFieldName="SEIT">3</Field>
+<Field Clear="True" InputFieldName="SEITV">2751</Field>
+<Field Clear="True" InputFieldName="SEITB">2753</Field>
+</UpdateRecord>
+<CreateLock Id="2" DatabaseId="E.VOLLTEXT"/>
+<UpdateRecord LockId="2" Clear="False">
+<Field Clear="True" InputFieldName="DATNA">ePP_Export_20-35_20-02-2020.xml</Field>
+<Field Clear="True" InputFieldName="DATER">06.03.2020 10:27:00</Field>
+<Field Clear="True" InputFieldName="DATGE">17.10.2007 14:27:00</Field>
+<Field Clear="True" InputFieldName="DATFO">XML</Field>
+<Field Clear="True" InputFieldName="DATGR">11 Kb</Field>
+<Field Clear="True" InputFieldName="DART">P</Field>
+<Field Clear="True" InputFieldName="WP">20</Field>
+<Field Clear="True" InputFieldName="DNR">35</Field>
+<Field Clear="True" InputFieldName="DNRB"/>
+<Field Clear="True" InputFieldName="DAT">20.02.2020</Field>
+<Field Clear="True" InputFieldName="ZUGA">öffentlich</Field>
+<Field Clear="True" InputFieldName="QUELL">ePlenarprotokoll</Field>
+<Field Clear="True" InputFieldName="AKAT">Beginn</Field>
+<Field Clear="True" InputFieldName="RNRD">00002</Field>
+<Field Clear="True" InputFieldName="ASEI">NaN</Field>
+<Field Clear="True" InputFieldName="ASEIV"/>
+<Field Clear="True" InputFieldName="ASEIB">2753</Field>
+<Field Long="True" Clear="True" InputFieldName="AVT1">
+       
+           Vizepräsident  Frank Lortz:
+      
+        
+          
+             
+       Meine Damen und Herren! Ich eröffne die Sitzung des Hessischen Landtags. 
+          
+        
+      
+    </Field>
+<Field Clear="True" InputFieldName="TOPSP">NaN</Field>
+<Field Clear="True" InputFieldName="SEIT">3</Field>
+<Field Clear="True" InputFieldName="SEITV">2751</Field>
+<Field Clear="True" InputFieldName="SEITB">2753</Field>
+</UpdateRecord>
+<CreateLock Id="3" DatabaseId="E.VOLLTEXT"/>
+<UpdateRecord LockId="3" Clear="False">
+<Field Clear="True" InputFieldName="DATNA">ePP_Export_20-35_20-02-2020.xml</Field>
+<Field Clear="True" InputFieldName="DATER">06.03.2020 10:27:00</Field>
+<Field Clear="True" InputFieldName="DATGE">17.10.2007 14:27:00</Field>
+<Field Clear="True" InputFieldName="DATFO">XML</Field>
+<Field Clear="True" InputFieldName="DATGR">11 Kb</Field>
+<Field Clear="True" InputFieldName="DART">P</Field>
+<Field Clear="True" InputFieldName="WP">20</Field>
+<Field Clear="True" InputFieldName="DNR">35</Field>
+<Field Clear="True" InputFieldName="DNRB"/>
+<Field Clear="True" InputFieldName="DAT">20.02.2020</Field>
+<Field Clear="True" InputFieldName="ZUGA">öffentlich</Field>
+<Field Clear="True" InputFieldName="QUELL">ePlenarprotokoll</Field>
+<Field Clear="True" InputFieldName="AKAT">TOP</Field>
+<Field Clear="True" InputFieldName="RNRD">00003</Field>
+<Field Long="True" Clear="True" InputFieldName="TOP"> 
+       Amtliche Mitteilungen</Field>
+<Field Clear="True" InputFieldName="ANR">unbekannt</Field>
+<Field Clear="True" InputFieldName="ASEI">1</Field>
+<Field Clear="True" InputFieldName="ASEIV">2753</Field>
+<Field Clear="True" InputFieldName="ASEIB">2753</Field>
+<Field Long="True" Clear="True" InputFieldName="AVT1">
+      
+      
+        
+           
+       Amtliche Mitteilungen
+             
+       
+          
+        
+        
+          
+             
+       Wir stehen alle unter dem Eindruck der schlimmen Ereignisse der vergangenen Nacht. Wir gedenken der Toten, widmen ihnen ein stilles Gebet. Wir wünschen den Verletzten eine baldige und vollständige Genesung. Wir sprechen den Angehörigen unser Mitgefühl aus. 
+             
+       (Schweigeminute)
+             
+       Ich danke Ihnen. 
+             
+       (Die Anwesenden nehmen ihre Plätze wieder ein.)
+             
+       Meine Damen und Herren, ich darf dem Innenminister, Herrn Staatsminister Beuth, das Wort erteilen. 
+          
+        
+      
+    </Field>
+<Field Clear="True" InputFieldName="TOPSP">3</Field>
+<Field Clear="True" InputFieldName="SEIT">3</Field>
+<Field Clear="True" InputFieldName="SEITV">2751</Field>
+<Field Clear="True" InputFieldName="SEITB">2753</Field>
+</UpdateRecord>
+<CreateLock Id="4" DatabaseId="E.VOLLTEXT"/>
+<UpdateRecord LockId="4" Clear="False">
+<Field Clear="True" InputFieldName="DATNA">ePP_Export_20-35_20-02-2020.xml</Field>
+<Field Clear="True" InputFieldName="DATER">06.03.2020 10:27:00</Field>
+<Field Clear="True" InputFieldName="DATGE">17.10.2007 14:27:00</Field>
+<Field Clear="True" InputFieldName="DATFO">XML</Field>
+<Field Clear="True" InputFieldName="DATGR">11 Kb</Field>
+<Field Clear="True" InputFieldName="DART">P</Field>
+<Field Clear="True" InputFieldName="WP">20</Field>
+<Field Clear="True" InputFieldName="DNR">35</Field>
+<Field Clear="True" InputFieldName="DNRB"/>
+<Field Clear="True" InputFieldName="DAT">20.02.2020</Field>
+<Field Clear="True" InputFieldName="ZUGA">öffentlich</Field>
+<Field Clear="True" InputFieldName="QUELL">ePlenarprotokoll</Field>
+<Field Clear="True" InputFieldName="AKAT">TOP</Field>
+<Field Clear="True" InputFieldName="RNRD">00004</Field>
+<Field Long="True" Clear="True" InputFieldName="TOP"> 
+       Erklärung
+Hessischer Minister des Innern und für Sport</Field>
+<Field Clear="True" InputFieldName="ANR">unbekannt</Field>
+<Field Clear="True" InputFieldName="ASEI">1</Field>
+<Field Clear="True" InputFieldName="ASEIV">2753</Field>
+<Field Clear="True" InputFieldName="ASEIB">2753</Field>
+<Field Long="True" Clear="True" InputFieldName="AVT1">
+      
+      
+        
+           
+       Erklärung
+Hessischer Minister des Innern und für Sport
+             
+       
+          
+        
+      
+    
+       
+            Peter Beuth, Minister des Innern und für Sport:
+      
+         
+       Herr Präsident, meine sehr geehrten Damen und Herren, liebe Kolleginnen und Kollegen! Am gestrigen Abend kam es gegen 22 Uhr in der Hanauer Innenstadt an mehreren Örtlichkeiten zu Schussabgaben auf Personen. Nach derzeitigem Kenntnisstand handelt es sich bei den Tatorten um das La Votre am Heumarkt und die Midnight Bar, die sich in unmittelbarer Umgebung des ersten Tatorts befindet. Außerdem wurde ein Fahrzeug in Kesselstadt beschossen. Ein weiterer Tatort ist um die Kiosk Arena Sportsbar herum am Kurt-Schumacher-Platz in Hanau. 
+         
+       Bei den Schüssen wurden nach derzeitigem Stand neun Menschen getötet, eine Person schwer verletzt und eine unbekannte Zahl weiterer Personen verletzt. Das Gebiet wurde sofort weiträumig abgesperrt. Notinterventionskräfte waren im Einsatz. 
+         
+       Dank Zeugenaussagen und Überwachungsvideos konnten rasch Hinweise auf den vermeintlichen Täter gefunden werden. Unter anderem konnte das Fluchtfahrzeug identifiziert werden. Bei dem Halter des Fahrzeugs handelt es sich um einen 43-jährigen Deutschen aus Hanau. 
+         
+       Das Fahrzeug wurde an der Halteranschrift festgestellt. Bei der Betretung und Durchsuchung der Wohnanschrift durch das Spezialeinsatzkommando wurden zwei weitere Personen tot aufgefunden. Hierbei handelt es sich um die 72-jährige Mutter und den vermeintlichen Täter selbst. Beide wiesen Schussverletzungen auf. Die Tatwaffe wurde bei dem vermeintlichen Täter gefunden. 
+         
+       Im Anschluss wurde eine Internetseite des mutmaßlichen Täters bekannt, die gegenwärtig ausgewertet wird. Die schrecklichen Ereignisse dieser Nacht werden zur Stunde unter Hochdruck ermittelt. Erste Auswerteergebnisse der Homepage des vermeintlichen Täters deuten auf ein fremdenfeindliches Motiv hin. 
+         
+       Ich verurteile diese Tat auf das Schärfste. Es ist ein Anschlag auf unsere freie und friedliche Gesellschaft. 
+         
+       Der mutmaßliche Täter war nach jetzigen Erkenntnissen weder dem hessischen Landesamt für Verfassungsschutz als fremdenfeindlich bekannt, noch ist er polizeilich in Erscheinung getreten. Bislang liegen keine Hinweise auf weitere Täter vor. 
+         
+       Die polizeiliche Lage wurde zunächst durch das Polizeipräsidium Frankfurt als Sonderlage geführt und wird nun durch das Landeskriminalamt übernommen. Der Generalbundesanwalt hat die Übernahme der Ermittlungen erklärt. Er stuft das Verbrechen als Verdacht einer terroristischen Gewalttat ein. 
+         
+       Wir stehen in engem Kontakt mit den Sicherheitsbehörden des Bundes und der Länder. Die Ermittlungen der Sicherheitsbehörden dauern an. Ich werde die Obleute des Innenausschusses über den weiteren Fortgang im Laufe des Tages natürlich unmittelbar informieren. 
+         
+       Ich bitte die Bürgerinnen und Bürger, sich zum Tathergang oder zum Tatmotiv nicht an Spekulationen zu beteiligen. Wir haben für heute Trauerbeflaggung an den öffentlichen Gebäuden angeordnet. Den Opfern und ihren Familien spreche ich mein tief empfundenes Beileid aus. Den Verletzten wünsche ich eine schnelle und vollständige Genesung.
+      
+    
+       
+           Vizepräsident  Frank Lortz:
+      
+        
+          
+            
+               
+        Entgegengenommen
+            
+             
+       Herr Innenminister, vielen Dank. 
+          
+        
+        
+          
+            
+               
+        Entgegengenommen
+            
+             
+       Meine Damen und Herren, unter dem Eindruck dieser unfassbaren Tat haben sich heute Vormittag die Verantwortlichen der Fraktionen gemeinsam darauf verständigt, dass wir es auch aus Respekt vor den Opfern am heutigen Tag nicht für angemessen halten, dass eine Plenardebatte stattfindet. Deshalb wurde einvernehmlich beschlossen, dass wir die Landtagssitzung des heutigen Tags schließen. 
+          
+        
+        
+          
+             
+       Ich schließe damit die Plenarsitzung. – Herzlichen Dank.
+          
+        
+      
+    </Field>
+<Field Clear="True" InputFieldName="RED"> Peter Beuth, Minister des Innern und für Sport</Field>
+<Field Clear="True" InputFieldName="TOPSP">3</Field>
+<Field Clear="True" InputFieldName="SEIT">3</Field>
+<Field Clear="True" InputFieldName="SEITV">2751</Field>
+<Field Clear="True" InputFieldName="SEITB">2753</Field>
+</UpdateRecord>
+<Quit/>
+</Root>

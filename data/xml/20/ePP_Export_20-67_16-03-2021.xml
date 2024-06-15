@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root>
+<Login>
+<Connection Password="lmx2011" UserId="XML" Host="localhost" Id="VOLLTEXTIMPORT"/>
+</Login>
+<Database DatabaseName="E.VOLLTEXT" ConnectionId="VOLLTEXTIMPORT" Id="E.VOLLTEXT"/>
+<CreateLock Id="1" DatabaseId="E.VOLLTEXT"/>
+<UpdateRecord LockId="1" Clear="False">
+<Field Clear="True" InputFieldName="DATNA">ePP_Export_20-67_16-03-2021.xml</Field>
+<Field Clear="True" InputFieldName="DATER">31.03.2021 09:13:00</Field>
+<Field Clear="True" InputFieldName="DATGE">17.10.2007 14:27:00</Field>
+<Field Clear="True" InputFieldName="DATFO">XML</Field>
+<Field Clear="True" InputFieldName="DATGR">536 Kb</Field>
+<Field Clear="True" InputFieldName="DART">P</Field>
+<Field Clear="True" InputFieldName="WP">20</Field>
+<Field Clear="True" InputFieldName="DNR">67</Field>
+<Field Clear="True" InputFieldName="DNRB"></Field>
+<Field Clear="True" InputFieldName="DAT">16.03.2021</Field>
+<Field Clear="True" InputFieldName="ZUGA">öffentlich</Field>
+<Field Clear="True" InputFieldName="QUELL">ePlenarprotokoll</Field>
+<Field Clear="True" InputFieldName="AKAT">Inhaltsverzeichnis</Field>
+<Field Clear="True" InputFieldName="RNRD">00001</Field>
+<Field Clear="True" InputFieldName="ASEI">4</Field>
+<Field Clear="True" InputFieldName="ASEIV">5307</Field>
+<Field Clear="True" InputFieldName="ASEIB">5310</Field>
+<Field Long="True" Clear="True" InputFieldName="AVT1">20. Wahlperiode
+Plenarprotokoll20/67
+HESSISCHER LANDTAG
+16. 03. 2021
+67. Sitzung
+Wiesbaden, den 16. März 2021
+Amtliche Mitteilungen....................................
+....5311
+Entgegengenommen.........................................
+....5313
+Präsident Boris Rhein..........................
+.................5311
+Jürgen Frömmrich................................
+.......5311,5312,
+5312,5313
+Dr. Frank Grobe...................................
+................5312
+Torsten Felstehausen............................
+................5313
+20.
+Große AnfrageFraktion der AfDFlüchtlingsflüge nach Hessen
+– Drucks.20/3334zu Drucks.20/2676–.......
+....5312
+Antwort zur Kenntnis genommen.....................
+....5312
+26.
+EntschließungsantragFraktion der CDU, Fraktion BÜNDNIS 90/DIE GRÜNENHessen unterstützt die UNAIDS-90/90/90-Initiative der Vereinten Nationen
+– Drucks.20/2080–.........................................
+....5312
+Zurückgezogen.................................................
+....5312
+47.
+AntragFraktion der CDU, Fraktion BÜNDNIS 90/DIE GRÜNEN, Fraktion der SPD, Frakti-on der Freien DemokratenGedenkstätte Hadamar unterstützen – ge-meinsame Verantwortung wahrnehmen
+– Drucks.20/5175–.........................................
+....5312
+Von der Tagesordnung abgesetzt......................
+....5312
+79.
+Beschlussempfehlung und BerichtHaushaltsausschussAntragPräsident des Hessischen RechnungshofsRechnung über den Haushalt des Hessi-schen Rechnungshofs für das Haushalts-jahr 2019
+– Drucks.20/5179zu Drucks.20/4280–.......
+....5312
+Von der Tagesordnung abgesetzt......................
+....5313
+1.
+Fragestunde
+– Drucks.20/5021–.........................................
+....5313
+Abgehalten.......................................................
+....5327
+Frage 446.........................................................
+....5313
+Bijan Kaffenberger..............................
+......5313,5314,
+5314
+Minister Prof. Dr. R. Alexander Lorz..
+......5313,5314,
+5314,5315
+Christoph Degen..................................
+................5314
+Frage 447.........................................................
+....5315
+Angelika Löber....................................
+......5315,5316
+Minister Peter Beuth............................
+......5315,5315,
+5316,5316
+Bijan Kaffenberger..............................
+......5315,5316
+Frage 454.........................................................
+....5316
+Felix Martin.........................................
+......5317,5318
+Minister Kai Klose...............................
+......5317,5318,
+5318,5318
+Yanki Pürsün........................................
+................5318
+Dr. Stefan Naas....................................
+................5318
+Frage 455.........................................................
+....5318
+Ausgegeben am 1. April 2021
+Hessischer Landtag, Postfach 3240, 65022 Wiesbaden
+Felix Martin.........................................
+................5318
+Minister Kai Klose..............................
+................5318
+Frage 458.........................................................
+....5319
+Frank-Tilo Becher...............................
+......5319,5320,
+5320
+Minister Prof. Dr. R. Alexander Lorz.
+......5319,5320,
+5320
+Frage 460.......................................................
+....5321
+Manuela Strube...................................
+................5321
+Minister Prof. Dr. R. Alexander Lorz.
+................5321
+Frage 461.........................................................
+....5321
+Yanki Pürsün.......................................
+......5321,5321,
+5322
+Ministerin Angela Dorn......................
+......5321,5321,
+5322,5322
+Dr. Daniela Sommer............................
+................5322
+Frage 462.........................................................
+....5322
+Yanki Pürsün.......................................
+......5322,5322,
+5323
+Minister Kai Klose..............................
+......5322,5323,
+5323
+Frage 463.........................................................
+....5323
+Torsten Warnecke................................
+......5323,5324
+Minister Peter Beuth...........................
+......5323,5324
+Frage 464.........................................................
+....5324
+Torsten Warnecke................................
+................5324
+Minister Michael Boddenberg............
+................5324
+Frage 465.........................................................
+....5324
+Angelika Löber...................................
+......5324,5325,
+5325
+Minister Tarek Al-Wazir.....................
+......5324,5325,
+5325,5325,5326
+Dr. Stefan Naas...................................
+................5325
+Bijan Kaffenberger..............................
+................5325
+Frage 466.........................................................
+....5326
+Christoph Degen.................................
+......5326,5326,
+5326
+Minister Prof. Dr. R. Alexander Lorz.
+......5326,5326,
+5326
+Anlage..............................................................
+....5383
+Die Fragen 471, 472, 474, 475, 477, 479, 481bis 483, 486, 488 und die Antworten der Lan-desregierung sind als Anlage beigefügt. DieFragen 467 bis 470, 473, 476, 478, 480, 484,485 und 487 sollen auf Wunsch der Frage-stellerinnen und Fragesteller in der nächstenFragestunde beantwortet werden.
+2.
+RegierungserklärungHessischer MinisterpräsidentVorsicht – Vertrauen – Verantwortung........
+....5327
+Entgegengenommen und besprochen..............
+....5356
+13.
+MitteilungLandesregierungVerordnungen zur Bekämpfung der Coro-na-Pandemiehier: Information des Landtags über Be-schlüsse der Landesregierung nach § 3Abs. 3 des Gesetzes über den Erlass infekti-onsschützender Maßnahmen vom 11. De-zember 2020 (GVBl. S. 922)
+– Drucks.20/5071–........................................
+....5356
+Zur Kenntnis genommen und besprochen.......
+....5356
+14.
+MitteilungLandesregierungVerordnungen zur Bekämpfung der Coro-na-Pandemiehier: Information des Landtags über Be-schlüsse der Landesregierung nach § 3Abs. 3 des Gesetzes über den Erlass infekti-onsschützender Maßnahmen vom 11. De-zember 2020 (GVBl. S. 922)
+– Drucks.20/5248–........................................
+....5356
+Zur Kenntnis genommen und besprochen.......
+....5356
+91.
+MitteilungLandesregierungVerordnungen zur Bekämpfung der Coro-na-Pandemiehier: Information des Landtags über Be-schlüsse der Landesregierung nach § 3Abs. 3 des Gesetzes über den Erlass infekti-onsschützender Maßnahmen vom 11. De-zember 2020 (GVBl. S. 922)
+– Drucks.20/5327–........................................
+....5356
+Zur Kenntnis genommen und besprochen.......
+....5356
+Ministerpräsident Volker Bouffier......
+................5327
+Nancy Faeser.......................................
+................5334
+Mathias Wagner (Taunus)...................
+................5338
+Volker Richter.....................................
+................5341
+Erich Heidkamp..................................
+................5344
+René Rock...........................................
+................5345
+Janine Wissler.....................................
+................5349
+Ines Claus............................................
+................5353
+Rolf Kahnt...........................................
+................5356
+10.
+Zweite LesungGesetzentwurfFraktion der CDU, Fraktion BÜNDNIS 90/DIE GRÜNENZweites Gesetz zur Anpassung des Hessi-schen Schulgesetzes und weiterer Vor-schriften an die Maßnahmen zur Bekämp-fung des Corona-Virus
+– Drucks.20/5294zu Drucks.20/4904–.......
+....5356
+5308
+Hessischer Landtag · 20. Wahlperiode · 67. Sitzung · 16. März 2021
+ÄnderungsantragFraktion der CDU, Fraktion BÜNDNIS 90/DIE GRÜNEN
+– Drucks.20/5334–........................................
+....5356
+Nach zweiter Lesung dem KulturpolitischenAusschuss zurücküberwiesen...........................
+....5370
+9.
+Zweite LesungGesetzentwurfFraktion der Freien DemokratenGesetz über pandemiebedingte Schutzmaß-nahmen für das Schulwesen
+– Drucks.20/5293zu Drucks.20/4898–.......
+....5357
+In zweiter Lesung abgelehnt............................
+....5381
+ÄnderungsantragFraktion der Freien Demokraten
+– Drucks.20/5333–........................................
+....5357
+Abgelehnt.........................................................
+....5381
+48.
+AntragFraktion DIE LINKESchule unter Corona verlässlich gestalten –gute Bildung auch für benachteiligte Schü-lerinnen und Schüler garantieren
+– Drucks.20/5189–........................................
+....5357
+Dem Kulturpolitischen Ausschuss überwiesen
+....5370
+54.
+AntragChristoph Degen (SPD), Kerstin Geis(SPD), Karin Hartmann (SPD), ManuelaStrube (SPD), Turgut Yüksel (SPD), Frak-tion der SPDJetzt Wechselmodell für alle Schulen
+– Drucks.20/5269–........................................
+....5357
+Dem Kulturpolitischen Ausschuss überwiesen
+....5371
+90.
+Dringlicher AntragFraktion der Freien DemokratenVoraussetzungen für das digitale Lernen si-cherstellen – Schulen Flexibilität ermögli-chen
+– Drucks.20/5289–........................................
+....5357
+Dem Kulturpolitischen Ausschuss überwiesen
+....5371
+Armin Schwarz...................................
+......5357,5357,
+5370
+Moritz Promny....................................
+......5357,5358
+Heiko Scholz.......................................
+................5360
+Elisabeth Kula.....................................
+................5361
+Rolf Kahnt...........................................
+................5363
+Daniel May..........................................
+................5363
+Christoph Degen.................................
+......5365,5369
+Minister Prof. Dr. R. Alexander Lorz.
+................5367
+5.
+Erste LesungGesetzentwurfLandesregierungGesetz zur Neuregelung des Glücksspiel-rechts
+– Drucks.20/5240–........................................
+....5371
+Nach erster Lesung dem Innenausschussüberwiesen.......................................................
+....5376
+Minister Peter Beuth...........................
+................5371
+Bernd-Erich Vohl................................
+................5371
+Alexander Bauer.................................
+................5372
+Günter Rudolph...................................
+................5373
+Jürgen Frömmrich...............................
+................5373
+Stefan Müller (Heidenrod)..................
+................5374
+Hermann Schaus.................................
+................5375
+12.
+BerichtHaushaltsausschusszu AntragMinister der Finanzenauf Erteilung der Zustimmung des Haus-haltsausschusses gemäß § 8 Abs. 1 Satz 1GZSG zum siebten GZSG-Maßnahmenpa-ket
+– Drucks.20/5234–........................................
+....5376
+Entgegengenommen.........................................
+....5381
+Wolfgang Decker................................
+................5376
+Erich Heidkamp..................................
+................5376
+Marion Schardt-Sauer.........................
+................5377
+Marius Weiß........................................
+................5378
+Michael Ruhl.......................................
+................5378
+Jan Schalauske....................................
+................5379
+Frank-Peter Kaufmann........................
+................5380
+Minister Michael Boddenberg............
+................5381
+Hessischer Landtag · 20. Wahlperiode · 67. Sitzung · 16. März 2021
+5309
+Im Präsidium:
+Präsident Boris Rhein
+Vizepräsidentin Karin Müller
+Vizepräsidentin Heike Hofmann
+Auf der Regierungsbank:
+Ministerpräsident Volker Bouffier
+Minister für Wirtschaft, Energie, Verkehr und Wohnen Tarek Al-Wazir
+Minister und Chef der Staatskanzlei Axel Wintermeyer
+Ministerin für Bundes- und Europaangelegenheiten und Bevollmächtigte des LandesHessen beim Bund Lucia Puttrich
+Ministerin für Digitale Strategie und Entwicklung Prof. Dr. Kristina Sinemus
+Minister des Innern und für Sport Peter Beuth
+Minister der Finanzen Michael Boddenberg
+Ministerin der Justiz Eva Kühne-Hörmann
+Kultusminister Prof. Dr. R. Alexander Lorz
+Ministerin für Wissenschaft und Kunst Angela Dorn
+Ministerin für Umwelt, Klimaschutz, Landwirtschaft und Verbraucherschutz Priska Hinz
+Minister für Soziales und Integration Kai Klose
+Staatssekretär Michael Bußer
+Staatssekretär Mark Weinmeister
+Staatssekretär Dr. Stefan Heck
+Abwesende Abgeordnete:
+Heidemarie Scheuch-Paschkewitz
+Sabine Waschke
+5310
+Hessischer Landtag · 20. Wahlperiode · 67. Sitzung · 16. März 2021
+</Field>
+<Field Clear="True" InputFieldName="TOPSP">1</Field>
+<Field Clear="True" InputFieldName="SEIT">76</Field>
+<Field Clear="True" InputFieldName="SEITV">5307</Field>
+<Field Clear="True" InputFieldName="SEITB">5382</Field>
+</UpdateRecord>
+<CreateLock Id="2" DatabaseId="E.VOLLTEXT"/>
+<UpdateRecord LockId="2" Clear="False">
+<Field Clear="True" InputFieldName="DATNA">ePP_Export_20-67_16-03-2021.xml</Field>
+<Field Clear="True" InputFieldName="DATER">31.03.2021 09:13:00</Field>
+<Field Clear="True" InputFieldName="DATGE">17.10.2007 14:27:00</Field>
+<Field Clear="True" InputFieldName="DATFO">XML</Field>
+<Field Clear="True" InputFieldName="DATGR">536 Kb</Field>
+<Field Clear="True" InputFieldName="DART">P</Field>
+<Field Clear="True" InputFieldName="WP">20</Field>
+<Field Clear="True" InputFieldName="DNR">67</Field>
+<Field Clear="True" InputFieldName="DNRB"></Field>
+<Field Clear="True" InputFieldName="DAT">16.03.2021</Field>
+<Field Clear="True" InputFieldName="ZUGA">öffentlich</Field>
+<Field Clear="True" InputFieldName="QUELL">ePlenarprotokoll</Field>
+<Field Clear="True" InputFieldName="AKAT">Beginn</Field>
+<Field Clear="True" InputFieldName="RNRD">00002</Field>
+<Field Clear="True" InputFieldName="ASEI">1</Field>
+<Field Clear="True" InputFieldName="ASEIV">5311</Field>
+<Field Clear="True" InputFieldName="ASEIB">5311</Field>
+<Field Long="True" Clear="True" InputFieldName="AVT1">
+       
+           Präsident  Boris Rhein:
+      
+        
+          
+             
+       Meine sehr geehrten Damen und Herren! Ich darf Sie bitten, an Ihre Plätze in den Plenarsaal zu kommen.
+          
+        
+      
+    </Field>
+<Field Clear="True" InputFieldName="TOPSP">5</Field>
+<Field Clear="True" InputFieldName="SEIT">76</Field>
+<Field Clear="True" InputFieldName="SEITV">5307</Field>
+<Field Clear="True" InputFieldName="SEITB">5382</Field>
+</UpdateRecord>
+<CreateLock Id="3" DatabaseId="E.VOLLTEXT"/>
+<UpdateRecord LockId="3" Clear="False">
+<Field Clear="True" InputFieldName="DATNA">ePP_Export_20-67_16-03-2021.xml</Field>
+<Field Clear="True" InputFieldName="DATER">31.03.2021 09:13:00</Field>
+<Field Clear="True" InputFieldName="DATGE">17.10.2007 14:27:00</Field>
+<Field Clear="True" InputFieldName="DATFO">XML</Field>
+<Field Clear="True" InputFieldName="DATGR">53

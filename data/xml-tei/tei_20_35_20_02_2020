@@ -1,0 +1,45 @@
+<?xml version="1.0" standalone="no"?>
+	<TEI>
+		<teiHeader>
+			<fileDesc>
+				<titleStmt>
+					<title>Plenarprotokoll</title>
+					<legislativePeriod>20</legislativePeriod>
+					<sessionNo>35</sessionNo>
+				</titleStmt>
+				<editionStmt>
+					<edition>
+						<package>PolMinePyHesse</package>
+						<version/>
+						<birthday/>
+					</edition>
+				</editionStmt>
+				<publicationStmt>
+					<publisher>Hessischer Landtag</publisher>
+					<date/>
+					<page/>
+				</publicationStmt>
+				<sourceDesc>
+					<filetype>xml</filetype>
+					<url/>
+					<date/>
+				</sourceDesc>
+			</fileDesc>
+			<encodingDesc><projectDesc>PolMinePyHesse</projectDesc>
+				<samplingDecl/>
+				<editorialDecl/>
+			</encodingDesc>
+			<profileDesc/>
+			<revisionDesc/>
+		</teiHeader>
+		<text>
+			<body>
+				<div type="agenda_item" n="1" what="" desc="Amtliche Mitteilungen">
+					<sp who="Peter Beuth" parliamentary_group="" role="Minister des Innern und für Sport" position="" who_original="" party="" name="">
+						<p>Herr Präsident, meine sehr geehrten Damen und Herren, liebe Kolleginnen und Kollegen! Am gestrigen Abend kam es gegen 22 Uhr in der Hanauer Innenstadt an mehreren Örtlichkeiten zu Schussabgaben auf Personen. Nach derzeitigem Kenntnisstand handelt es sich bei den Tatorten um das La Votre am Heumarkt und die Midnight Bar, die sich in unmittelbarer Umgebung des ersten Tatorts befindet. Außerdem wurde ein Fahrzeug in Kesselstadt beschossen. Ein weiterer Tatort ist um die Kiosk Arena Sportsbar herum am Kurt-Schumacher-Platz in Hanau. Bei den Schüssen wurden nach derzeitigem Stand neun Menschen getötet, eine Person schwer verletzt und eine unbekannte Zahl weiterer Personen verletzt. Das Gebiet wurde sofort weiträumig abgesperrt. Notinterventionskräfte waren im Einsatz. Dank Zeugenaussagen und Überwachungsvideos konnten rasch Hinweise auf den vermeintlichen Täter gefunden werden. Unter anderem konnte das Fluchtfahrzeug identifiziert werden. Bei dem Halter des Fahrzeugs handelt es sich um einen 43-jährigen Deutschen aus Hanau. Das Fahrzeug wurde an der Halteranschrift festgestellt. Bei der Betretung und Durchsuchung der Wohnanschrift durch das Spezialeinsatzkommando wurden zwei weitere Personen tot aufgefunden. Hierbei handelt es sich um die 72-jährige Mutter und den vermeintlichen Täter selbst. Beide wiesen Schussverletzungen auf. Die Tatwaffe wurde bei dem vermeintlichen Täter gefunden. Im Anschluss wurde eine Internetseite des mutmaßlichen Täters bekannt, die gegenwärtig ausgewertet wird. Die schrecklichen Ereignisse dieser Nacht werden zur Stunde unter Hochdruck ermittelt. Erste Auswerteergebnisse der Homepage des vermeintlichen Täters deuten auf ein fremdenfeindliches Motiv hin. Ich verurteile diese Tat auf das Schärfste. Es ist ein Anschlag auf unsere freie und friedliche Gesellschaft. Der mutmaßliche Täter war nach jetzigen Erkenntnissen weder dem hessischen Landesamt für Verfassungsschutz als fremdenfeindlich bekannt, noch ist er polizeilich in Erscheinung getreten. Bislang liegen keine Hinweise auf weitere Täter vor. Die polizeiliche Lage wurde zunächst durch das Polizeipräsidium Frankfurt als Sonderlage geführt und wird nun durch das Landeskriminalamt übernommen. Der Generalbundesanwalt hat die Übernahme der Ermittlungen erklärt. Er stuft das Verbrechen als Verdacht einer terroristischen Gewalttat ein. Wir stehen in engem Kontakt mit den Sicherheitsbehörden des Bundes und der Länder. Die Ermittlungen der Sicherheitsbehörden dauern an. Ich werde die Obleute des Innenausschusses über den weiteren Fortgang im Laufe des Tages natürlich unmittelbar informieren. Ich bitte die Bürgerinnen und Bürger, sich zum Tathergang oder zum Tatmotiv nicht an Spekulationen zu beteiligen. Wir haben für heute Trauerbeflaggung an den öffentlichen Gebäuden angeordnet. Den Opfern und ihren Familien spreche ich mein tief empfundenes Beileid aus. Den Verletzten wünsche ich eine schnelle und vollständige Genesung.</p>
+					</sp>					<sp who="Frank Lortz" parliamentary_group="" role="Vizepräsident" position="" who_original="" party="" name="">
+						<p>Entgegengenommen Herr Innenminister, vielen Dank. Entgegengenommen Meine Damen und Herren, unter dem Eindruck dieser unfassbaren Tat haben sich heute Vormittag die Verantwortlichen der Fraktionen gemeinsam darauf verständigt, dass wir es auch aus Respekt vor den Opfern am heutigen Tag nicht für angemessen halten, dass eine Plenardebatte stattfindet. Deshalb wurde einvernehmlich beschlossen, dass wir die Landtagssitzung des heutigen Tags schließen. Ich schließe damit die Plenarsitzung. – Herzlichen Dank.</p>
+					</sp>				</div>
+			</body>
+		</text>
+	</TEI>

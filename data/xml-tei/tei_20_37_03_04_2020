@@ -1,0 +1,56 @@
+<?xml version="1.0" standalone="no"?>
+	<TEI>
+		<teiHeader>
+			<fileDesc>
+				<titleStmt>
+					<title>Plenarprotokoll</title>
+					<legislativePeriod>20</legislativePeriod>
+					<sessionNo>37</sessionNo>
+				</titleStmt>
+				<editionStmt>
+					<edition>
+						<package>PolMinePyHesse</package>
+						<version/>
+						<birthday/>
+					</edition>
+				</editionStmt>
+				<publicationStmt>
+					<publisher>Hessischer Landtag</publisher>
+					<date/>
+					<page/>
+				</publicationStmt>
+				<sourceDesc>
+					<filetype>xml</filetype>
+					<url/>
+					<date/>
+				</sourceDesc>
+			</fileDesc>
+			<encodingDesc><projectDesc>PolMinePyHesse</projectDesc>
+				<samplingDecl/>
+				<editorialDecl/>
+			</encodingDesc>
+			<profileDesc/>
+			<revisionDesc/>
+		</teiHeader>
+		<text>
+			<body>
+				<div type="agenda_item" n="1" what="" desc="Amtliche Mitteilungen">
+					<sp who="Boris Rhein" parliamentary_group="" role="Präsident" position="" who_original="" party="" name="">
+						<p>Liebe Kolleginnen und Kollegen, meine sehr geehrten Damen und Herren! Ich darf Sie bitten, in den Plenarsaal zu kommen und Ihre Plätze einzunehmen. Ich eröffne die 37. Plenarsitzung des Hessischen Landtags und stelle, wenn dem niemand widerspricht, die Beschlussfähigkeit fest.Amtliche Mitteilungen Heute tritt der Landtag zusammen zur Beschlussfassung über die Vertrauenserklärung gegenüber der Landesregierung nach Art. 101 Abs. 4 der Hessischen Verfassung und zur Leistung des Amtseides des neu ernannten Staatsministers und Ministers der Finanzen. Wir haben uns insoweit heute zusammengefunden, damit die Landesregierung weiter arbeiten kann. Der heutige Tag, unsere heutige Sitzung hat aber einen sehr traurigen Umstand. Denn eigentlich befinden wir uns in einer Zeit der Trauer, und es gibt guten Grund, in dieser Zeit innezuhalten. Ich darf Sie deswegen bitten, sich nun von Ihren Plätzen zu erheben.</p>
+						<stage type="interjection">(Die Anwesenden erheben sich von den Plätzen.)</stage>
+						<p>Am Morgen des 28. März ist Thomas Schäfer unter tragischen Umständen zu Tode gekommen. Thomas Schäfer war für uns nicht nur ein Kollege, Thomas Schäfer war für uns ein Freund. Die Nachricht hat uns tief getroffen – unvorbereitet, unerwartet. Und in ihrer Unfassbarkeit, in ihrer Unerklärlichkeit lässt sie uns zurück. Sie lässt uns zurück mit einem Gefühl der Betäubtheit, ganz und gar unwirklich. Wir können nicht begreifen, was geschehen ist. So aus dem Leben zu gehen, das entspricht nicht dem, wie wir ihn, ja, teilweise seit Jahrzehnten kannten. Und dennoch hat er sich offensichtlich dazu entschieden. Ausgerechnet er – er, der in sich ruhte, der schlagfertig, humorvoll, ausgeglichen, klug, ja, und auch immer Herr der Lage war, der in jeder Situation souverän und besonnen agierte. Keine Herausforderung war groß genug und kein Problem zu groß, um es anzupacken und zu einer für alle Seiten akzeptablen Lösung zu führen. So war er, Thomas Schäfer. Noch am Dienstag der letzten Woche brachte er hier einen Nachtragshaushalt ein, der vielen Menschen, die jetzt voller Sorge um ihre Existenz sind, Hoffnung und Perspektiven gibt. Er hielt hier an dieser Stelle eine starke Rede, ja, eine für ihn sehr typische Rede: kraftvoll, anpackend, zwar realistisch und die Probleme klar beim Namen nennend, dennoch Mut machend. Ausgerechnet er sah aber keine Perspektive mehr. Ausgerechnet ihn hatte die Hoffnung offenbar verlassen. Thomas Schäfer wird uns sehr fehlen. Ich will das sehr persönlich sagen. Ich kann mir nicht vorstellen, wie es sein wird, Politik zu machen ohne ihn, der sichtlich und auch spürbar Freude daran hatte, Politik zu machen, die Dinge des Gemeinwesens zu gestalten. Er wird uns fehlen. Aber wir werden ihn nicht vergessen. Was bleibt, das ist die Erinnerung an einen ganz besonderen Menschen, an eine Ausnahmepersönlichkeit. Was bleibt, das ist sein herausragendes politisches Lebenswerk: der größte Nachtragshaushalt der Landesgeschichte zur Bewältigung dieser Krise, sein Einsatz bei der Opel-Sanierung, die Beendigung der Kultur des Schuldenmachens – heute zahlt das Land Schulden zurück –, die Initiativen während der Finanzkrise und natürlich auch sein Einsatz für die Gesundung der Kommunalfinanzen. Thomas Schäfers Tod ist ein großer Verlust für jeden von uns persönlich. Sein Tod ist ein großer Verlust für unser Land. Sein Tod ist aber vor allem eine private Tragödie; denn seine Familie hat den Ehemann und Vater verloren. Ihnen, seiner Frau und den beiden Kindern, auf die er so stolz war, gelten deswegen im Besonderen unsere Gedanken. Liebe Kolleginnen und Kollegen, ich möchte Sie bitten, zu Ehren unseres Kollegen, unseres Freundes und des besonderen Menschen Thomas Schäfer einen Moment innezuhalten.</p>
+						<stage type="interjection">(Schweigeminute) Sie haben sich zu Ehren von Thomas Schäfer erhoben. Ich danke Ihnen dafür. (Die Anwesenden nehmen ihre Plätze wieder ein.)</stage>
+						<p>Liebe Kolleginnen und Kollegen, ich muss Ihnen natürlich auch eine Mitteilung über den entsprechenden Mandatswechsel machen. Für den verstorbenen Abg. Dr. Thomas Schäfer ist gemäß § 40 Abs. 2 des Landtagswahlgesetzes der Ersatzbewerber im Wahlkreis 12 – Marburg-Biedenkopf I –, Herr Dr. Horst Falk, Abgeordneter des Hessischen Landtags geworden. Die entsprechende Feststellung über die Nachfolge hat der Landeswahlleiter am 30. März 2020 getroffen. Lieber Herr Dr. Falk, ich begrüße Sie unter sehr traurigen Umständen, dennoch sehr herzlich in unserem Hause, in unseren Reihen. Ich wünsche Ihnen und uns allen eine gute und erfolgreiche Zusammenarbeit. Das hier ist ein sehr besonderer Arbeitsplatz. Ich füge hinzu: ein besonderer Arbeitsplatz in besonderen Zeiten. Natürlich ist der Sinn eines Parlaments der politische Meinungsstreit. Aber gerade in den letzten Wochen haben wir erlebt, dass es mehr Gemeinsamkeiten gibt, als das so gemeinhin nach außen scheint. Es eint uns mehr, als uns trennt, und das ist das Wohl unseres Landes. Herzlich willkommen, lieber Herr Kollege Dr. Falk. Auch das will ich Ihnen gerne sagen: Falls Sie Fragen haben, falls Sie Hilfe benötigen – das ist in den ersten Wochen, vielleicht sogar Monaten des Abgeordnetenlebens selbstverständlich –, steht Ihnen die Verwaltung immer zur Verfügung, aber auch ich selbst stehe Ihnen zur Verfügung. Jeder von uns hat hier einmal angefangen, und jeder von uns ist dankbar dafür gewesen, wenn er helfende Hände hatte. Aber eines sollen Sie wissen: Sie sind uns sehr herzlich willkommen. Lieber Herr Dr. Falk, alles Gute für Ihre Zukunft und vor allem, gerade in diesen Zeiten, viel Gesundheit. Meine Damen und Herren, der Antrag der Fraktionen der CDU und BÜNDNIS 90/DIE GRÜNEN betreffend Vertrauenserklärung gemäß Art. 101 Abs. 4 der Hessischen Verfassung wurde in die Fächer verteilt. Ich darf Sie fragen, ob Sie die Tagesordnung so genehmigen. – Das ist offensichtlich der Fall; niemand widerspricht. Auch diese Sitzung steht unter dem Einfluss der Ausbreitung des Corona-Virus. Wir tagen daher erneut mit einer geänderten Sitzordnung, die unter anderem auch die Nutzung der Besuchertribüne durch Kolleginnen und Kollegen, durch Abgeordnete vorsieht. Wir wollen dadurch sicherstellen, dass ausreichend Abstand eingehalten werden kann. Entgegengenommen Wir tagen bis zur Erledigung der Tagesordnung. Wir beginnen im Anschluss an die amtlichen Mitteilungen mit Tagesordnungspunkt 1, der Erklärung des Hessischen Ministerpräsidenten gemäß Art. 101 Abs. 2 der Verfassung des Landes Hessen. Insoweit darf ich Tagesordnungspunkt 1 aufrufen:Erklärung des Ministerpräsidenten gemäß Art. 101 Abs. 2 der Verfassung des Landes Hessen Herr Ministerpräsident Bouffier, ich erteile Ihnen das Wort. Volker Bouffier, Ministerpräsident: Herr Präsident, meine Damen und Herren! Nach Art. 101 Abs. 2 der Hessischen Verfassung zeige ich dem Landtag an, dass ich am 31.03.2020 Herrn Michael Boddenberg zum Staatsminister und Minister der Finanzen ernannt habe.</p>
+					</sp>
+					<sp who="Michael Boddenberg" parliamentary_group="" role="Minister der Finanzen" position="" who_original="" party="" name="">
+						<p>Ich schwöre es, so wahr mir Gott helfe. Volker Bouffier, Ministerpräsident: Herr Minister, ich danke Ihnen und wünsche Ihnen für Ihre Amtsführung Glück und Erfolg. Herzlichen Dank.</p>
+						<stage type="interjection">(Minister Michael Boddenberg: Vielen Dank!)</stage>
+						<p>In diesen Zeiten gibt es keinen Handdruck. Alles Gute.</p>
+						<stage type="interjection">(Minister Michael Boddenberg: Danke! – Die Anwesenden nehmen ihre Plätze wieder ein.)</stage>
+					</sp>
+					<sp who="Boris Rhein" parliamentary_group="" role="Präsident" position="" who_original="" party="" name="">
+						<p>Sehr geehrter Herr Staatsminister und Minister der Finanzen, lieber Herr Michael Boddenberg, ich will Ihnen im Namen des gesamten Hauses gratulieren. Ich wünsche Ihnen, lieber Michael Boddenberg, alles Gute in diesem schweren Amt. Ich wünsche Ihnen eine erfolgreiche Zeit. Vollzogen Bei allem Bedürfnis der Gratulation bitte ich, es nicht als unhöfliche Geste misszuverstehen, dass nur ich – im Namen aller hier im Hause – Ihnen als Kollegen und als neuem Minister einen Blumenstrauß überreiche. Die Umstände sind, wie sie sind; Herr Ministerpräsident Bouffier hat darauf hingewiesen. Ich glaube, wir wünschen uns alle, dass Sie gesund bleiben, lieber Herr Staatsminister Boddenberg. Alles Gute, viel Glück und viel Erfolg in Ihrem Amt. (Präsident Boris Rhein überreicht einen Blumenstrauß. – Beifall – Minister Michael Boddenberg: Danke, Herr Präsident, und danke an alle Kolleginnen und Kollegen! Auf eine gute Zusammenarbeit! Gemeinsam werden wir das, was vor uns liegt, meistern! Danke sehr!) Liebe Kolleginnen und Kollegen, wir sind damit am Ende der Sitzung. Es bleibt mir nur, unter den obwaltenden Umständen und in dieser in vielerlei Hinsicht schwierigen Zeit Ihnen und Ihren Familien ein gutes Osterfest zu wünschen, aber vor allem Ihnen und Ihren Familien Gesundheit zu wünschen. Bleiben Sie gesund. Wir sehen uns in Kürze an diesem Ort wieder. Ich schließe die Sitzung.</p>
+					</sp>				</div>
+			</body>
+		</text>
+	</TEI>

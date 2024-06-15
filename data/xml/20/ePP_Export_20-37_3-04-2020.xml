@@ -1,0 +1,565 @@
+<?xml version="1.0" encoding="UTF-8"?><Root>
+<Login>
+<Connection Password="lmx2011" UserId="XML" Host="localhost" Id="VOLLTEXTIMPORT"/>
+</Login>
+<Database DatabaseName="E.VOLLTEXT" ConnectionId="VOLLTEXTIMPORT" Id="E.VOLLTEXT"/>
+<CreateLock Id="1" DatabaseId="E.VOLLTEXT"/>
+<UpdateRecord LockId="1" Clear="False">
+<Field Clear="True" InputFieldName="DATNA">ePP_Export_20-37_3-04-2020.xml</Field>
+<Field Clear="True" InputFieldName="DATER">08.04.2020 10:40:00</Field>
+<Field Clear="True" InputFieldName="DATGE">17.10.2007 14:27:00</Field>
+<Field Clear="True" InputFieldName="DATFO">XML</Field>
+<Field Clear="True" InputFieldName="DATGR">29 Kb</Field>
+<Field Clear="True" InputFieldName="DART">P</Field>
+<Field Clear="True" InputFieldName="WP">20</Field>
+<Field Clear="True" InputFieldName="DNR">37</Field>
+<Field Clear="True" InputFieldName="DNRB"/>
+<Field Clear="True" InputFieldName="DAT">3.04.2020</Field>
+<Field Clear="True" InputFieldName="ZUGA">öffentlich</Field>
+<Field Clear="True" InputFieldName="QUELL">ePlenarprotokoll</Field>
+<Field Clear="True" InputFieldName="AKAT">Inhaltsverzeichnis</Field>
+<Field Clear="True" InputFieldName="RNRD">00001</Field>
+<Field Clear="True" InputFieldName="ASEI">2</Field>
+<Field Clear="True" InputFieldName="ASEIV">2813</Field>
+<Field Clear="True" InputFieldName="ASEIB">2814</Field>
+<Field Long="True" Clear="True" InputFieldName="AVT1">20. Wahlperiode
+Plenarprotokoll20/37
+HESSISCHER LANDTAG
+03. 04. 2020
+37. Sitzung
+Wiesbaden, den 3. April 2020
+Amtliche Mitteilungen....................................
+....2815
+Entgegengenommen.........................................
+....2816
+Präsident Boris Rhein..........................
+................2815
+1.
+Erklärung des Ministerpräsidenten gemäßArt. 101 Abs. 2 der Verfassung des LandesHessen..............................................................
+....2816
+Zur Kenntnis genommen..................................
+....2816
+Ministerpräsident Volker Bouffier.......
+................2816
+2.
+BeschlussfassungVertrauenserklärung für die Landesregie-rung in veränderter Zusammensetzung ge-mäß Art. 101 Abs. 4 der Verfassung desLandes Hessen.................................................
+....2816
+AntragFraktion der CDU, Fraktion BÜNDNIS 90/DIE GRÜNENVertrauenserklärung gemäß Art. 101Abs. 4 HV
+– Drucks.20/2598 –.........................................
+....2816
+Angenommen....................................................
+....2816
+3.
+Vereidigung des Ministers nach Art. 111der Verfassung des Landes Hessen...............
+....2816
+Vollzogen..........................................................
+....2817
+Ministerpräsident Volker Bouffier.......
+......2816,2816
+Minister Michael Boddenberg.............
+................2816
+Ausgegeben am 9. Februar 2024
+Hessischer Landtag, Postfach 3240, 65022 Wiesbaden
+Im Präsidium:
+Präsident Boris Rhein
+Auf der Regierungsbank:
+Ministerpräsident Volker Bouffier
+Minister für Wirtschaft, Energie, Verkehr und Wohnen Tarek Al-Wazir
+Minister und Chef der Staatskanzlei Axel Wintermeyer
+Ministerin für Bundes- und Europaangelegenheiten und Bevollmächtigte des LandesHessen beim Bund Lucia Puttrich
+Ministerin für Digitale Strategie und Entwicklung Prof. Dr. Kristina Sinemus
+Minister des Innern und für Sport Peter Beuth
+Minister der Finanzen Michael Boddenberg
+Ministerin der Justiz Eva Kühne-Hörmann
+Kultusminister Prof. Dr. R. Alexander Lorz
+Ministerin für Wissenschaft und Kunst Angela Dorn
+Ministerin für Umwelt, Klimaschutz, Landwirtschaft und Verbraucherschutz Priska Hinz
+Minister für Soziales und Integration Kai Klose
+Staatssekretär Michael Bußer
+Staatssekretär Dr. Martin J. Worms
+Abwesende Abgeordnete:
+Ulrike Alex
+Dirk Gaw
+Gernot Grumbach
+Dr. h.c. Jörg-Uwe Hahn
+Klaus Herrmann
+Bijan Kaffenberger
+Kaya Kinkel
+Wiebke Knell
+Regine Müller (Schwalmstadt)
+Stefan Müller (Heidenrod)
+Claudia Papst-Dippel
+Dr. Dr. Rainer Rahn
+Dr. Daniela Sommer
+Saadet Sönmez
+Oliver Stirböck
+Manuela Strube
+Oliver Ulloth
+Bernd-Erich Vohl
+Sabine Waschke
+Walter Wissenbach
+2814
+Hessischer Landtag · 20. Wahlperiode · 37. Sitzung · 3. April 2020
+</Field>
+<Field Clear="True" InputFieldName="TOPSP">1</Field>
+<Field Clear="True" InputFieldName="SEIT">5</Field>
+<Field Clear="True" InputFieldName="SEITV">2813</Field>
+<Field Clear="True" InputFieldName="SEITB">2817</Field>
+</UpdateRecord>
+<CreateLock Id="2" DatabaseId="E.VOLLTEXT"/>
+<UpdateRecord LockId="2" Clear="False">
+<Field Clear="True" InputFieldName="DATNA">ePP_Export_20-37_3-04-2020.xml</Field>
+<Field Clear="True" InputFieldName="DATER">08.04.2020 10:40:00</Field>
+<Field Clear="True" InputFieldName="DATGE">17.10.2007 14:27:00</Field>
+<Field Clear="True" InputFieldName="DATFO">XML</Field>
+<Field Clear="True" InputFieldName="DATGR">29 Kb</Field>
+<Field Clear="True" InputFieldName="DART">P</Field>
+<Field Clear="True" InputFieldName="WP">20</Field>
+<Field Clear="True" InputFieldName="DNR">37</Field>
+<Field Clear="True" InputFieldName="DNRB"/>
+<Field Clear="True" InputFieldName="DAT">3.04.2020</Field>
+<Field Clear="True" InputFieldName="ZUGA">öffentlich</Field>
+<Field Clear="True" InputFieldName="QUELL">ePlenarprotokoll</Field>
+<Field Clear="True" InputFieldName="AKAT">Beginn</Field>
+<Field Clear="True" InputFieldName="RNRD">00002</Field>
+<Field Clear="True" InputFieldName="ASEI">1</Field>
+<Field Clear="True" InputFieldName="ASEIV">2815</Field>
+<Field Clear="True" InputFieldName="ASEIB">2815</Field>
+<Field Long="True" Clear="True" InputFieldName="AVT1">
+       
+           Präsident  Boris Rhein:
+      
+        
+          
+             
+       Liebe Kolleginnen und Kollegen, meine sehr geehrten Damen und Herren! Ich darf Sie bitten, in den Plenarsaal zu kommen und Ihre Plätze einzunehmen. Ich eröffne die 37. Plenarsitzung des Hessischen Landtags und stelle, wenn dem niemand widerspricht, die Beschlussfähigkeit fest.
+          
+        
+      
+    </Field>
+<Field Clear="True" InputFieldName="TOPSP">3</Field>
+<Field Clear="True" InputFieldName="SEIT">5</Field>
+<Field Clear="True" InputFieldName="SEITV">2813</Field>
+<Field Clear="True" InputFieldName="SEITB">2817</Field>
+</UpdateRecord>
+<CreateLock Id="3" DatabaseId="E.VOLLTEXT"/>
+<UpdateRecord LockId="3" Clear="False">
+<Field Clear="True" InputFieldName="DATNA">ePP_Export_20-37_3-04-2020.xml</Field>
+<Field Clear="True" InputFieldName="DATER">08.04.2020 10:40:00</Field>
+<Field Clear="True" InputFieldName="DATGE">17.10.2007 14:27:00</Field>
+<Field Clear="True" InputFieldName="DATFO">XML</Field>
+<Field Clear="True" InputFieldName="DATGR">29 Kb</Field>
+<Field Clear="True" InputFieldName="DART">P</Field>
+<Field Clear="True" InputFieldName="WP">20</Field>
+<Field Clear="True" InputFieldName="DNR">37</Field>
+<Field Clear="True" InputFieldName="DNRB"/>
+<Field Clear="True" InputFieldName="DAT">3.04.2020</Field>
+<Field Clear="True" InputFieldName="ZUGA">öffentlich</Field>
+<Field Clear="True" InputFieldName="QUELL">ePlenarprotokoll</Field>
+<Field Clear="True" InputFieldName="AKAT">TOP</Field>
+<Field Clear="True" InputFieldName="RNRD">00003</Field>
+<Field Long="True" Clear="True" InputFieldName="TOP"> 
+       Amtliche Mitteilungen</Field>
+<Field Clear="True" InputFieldName="ANR">37</Field>
+<Field Clear="True" InputFieldName="ASEI">2</Field>
+<Field Clear="True" InputFieldName="ASEIV">2815</Field>
+<Field Clear="True" InputFieldName="ASEIB">2816</Field>
+<Field Long="True" Clear="True" InputFieldName="AVT1">
+      
+      
+        
+           
+       Amtliche Mitteilungen
+             
+       
+          
+        
+        
+          
+             
+       Heute tritt der Landtag zusammen zur Beschlussfassung über die Vertrauenserklärung gegenüber der Landesregierung nach Art. 101 Abs. 4 der Hessischen Verfassung und zur Leistung des Amtseides des neu ernannten Staatsministers und Ministers der Finanzen. Wir haben uns insoweit heute zusammengefunden, damit die Landesregierung weiter arbeiten kann.
+             
+       Der heutige Tag, unsere heutige Sitzung hat aber einen sehr traurigen Umstand. Denn eigentlich befinden wir uns in einer Zeit der Trauer, und es gibt guten Grund, in dieser Zeit innezuhalten. Ich darf Sie deswegen bitten, sich nun von Ihren Plätzen zu erheben.
+             
+       (Die Anwesenden erheben sich von den Plätzen.)
+             
+       Am Morgen des 28. März ist Thomas Schäfer unter tragischen Umständen zu Tode gekommen. 
+             
+       Thomas Schäfer war für uns nicht nur ein Kollege, Thomas Schäfer war für uns ein Freund. Die Nachricht hat uns tief getroffen – unvorbereitet, unerwartet. Und in ihrer Unfassbarkeit, in ihrer Unerklärlichkeit lässt sie uns zurück. Sie lässt uns zurück mit einem Gefühl der Betäubtheit, ganz und gar unwirklich. Wir können nicht begreifen, was geschehen ist. So aus dem Leben zu gehen, das entspricht nicht dem, wie wir ihn, ja, teilweise seit Jahrzehnten kannten. Und dennoch hat er sich offensichtlich dazu entschieden. Ausgerechnet er – er, der in sich ruhte, der schlagfertig, humorvoll, ausgeglichen, klug, ja, und auch immer Herr der Lage war, der in jeder Situation souverän und besonnen agierte. 
+             
+       Keine Herausforderung war groß genug und kein Problem zu groß, um es anzupacken und zu einer für alle Seiten akzeptablen Lösung zu führen. So war er, Thomas Schäfer. 
+             
+       Noch am Dienstag der letzten Woche brachte er hier einen Nachtragshaushalt ein, der vielen Menschen, die jetzt voller Sorge um ihre Existenz sind, Hoffnung und Perspektiven gibt. Er hielt hier an dieser Stelle eine starke Rede, ja, eine für ihn sehr typische Rede: kraftvoll, anpackend, zwar realistisch und die Probleme klar beim Namen nennend, dennoch Mut machend.
+             
+       Ausgerechnet er sah aber keine Perspektive mehr. Ausgerechnet ihn hatte die Hoffnung offenbar verlassen.
+             
+       Thomas Schäfer wird uns sehr fehlen. Ich will das sehr persönlich sagen. Ich kann mir nicht vorstellen, wie es sein wird, Politik zu machen ohne ihn, der sichtlich und auch spürbar Freude daran hatte, Politik zu machen, die Dinge des Gemeinwesens zu gestalten. Er wird uns fehlen. Aber wir werden ihn nicht vergessen. 
+             
+       Was bleibt, das ist die Erinnerung an einen ganz besonderen Menschen, an eine Ausnahmepersönlichkeit. Was bleibt, das ist sein herausragendes politisches Lebenswerk: der größte Nachtragshaushalt der Landesgeschichte zur Bewältigung dieser Krise, sein Einsatz bei der Opel-Sanierung, die Beendigung der Kultur des Schuldenmachens – heute zahlt das Land Schulden zurück –, die Initiativen während der Finanzkrise und natürlich auch sein Einsatz für die Gesundung der Kommunalfinanzen.
+             
+       Thomas Schäfers Tod ist ein großer Verlust für jeden von uns persönlich. Sein Tod ist ein großer Verlust für unser Land. Sein Tod ist aber vor allem eine private Tragödie; denn seine Familie hat den Ehemann und Vater verloren. Ihnen, seiner Frau und den beiden Kindern, auf die er so stolz war, gelten deswegen im Besonderen unsere Gedanken.
+             
+       Liebe Kolleginnen und Kollegen, ich möchte Sie bitten, zu Ehren unseres Kollegen, unseres Freundes und des besonderen Menschen Thomas Schäfer einen Moment innezuhalten. 
+             
+       (Schweigeminute)
+             
+       Sie haben sich zu Ehren von Thomas Schäfer erhoben. Ich danke Ihnen dafür.
+             
+       (Die Anwesenden nehmen ihre Plätze wieder ein.)
+             
+       Liebe Kolleginnen und Kollegen, ich muss Ihnen natürlich auch eine Mitteilung über den entsprechenden Mandatswechsel machen. 
+             
+       Für den verstorbenen Abg. Dr. Thomas Schäfer ist gemäß § 40 Abs. 2 des Landtagswahlgesetzes der Ersatzbewerber im Wahlkreis 12 – Marburg-Biedenkopf I –, Herr Dr. Horst Falk, Abgeordneter des Hessischen Landtags geworden. Die entsprechende Feststellung über die Nachfolge hat der Landeswahlleiter am 30. März 2020 getroffen.
+             
+       Lieber Herr Dr. Falk, ich begrüße Sie unter sehr traurigen Umständen, dennoch sehr herzlich in unserem Hause, in unseren Reihen. Ich wünsche Ihnen und uns allen eine gute und erfolgreiche Zusammenarbeit. 
+             
+       Das hier ist ein sehr besonderer Arbeitsplatz. Ich füge hinzu: ein besonderer Arbeitsplatz in besonderen Zeiten. Natürlich ist der Sinn eines Parlaments der politische Meinungsstreit. Aber gerade in den letzten Wochen haben wir erlebt, dass es mehr Gemeinsamkeiten gibt, als das so gemeinhin nach außen scheint. Es eint uns mehr, als uns trennt, und das ist das Wohl unseres Landes.
+             
+       Herzlich willkommen, lieber Herr Kollege Dr. Falk. Auch das will ich Ihnen gerne sagen: Falls Sie Fragen haben, falls Sie Hilfe benötigen – das ist in den ersten Wochen, vielleicht sogar Monaten des Abgeordnetenlebens selbstverständlich –, steht Ihnen die Verwaltung immer zur Verfügung, aber auch ich selbst stehe Ihnen zur Verfügung. Jeder von uns hat hier einmal angefangen, und jeder von uns ist dankbar dafür gewesen, wenn er helfende Hände hatte. Aber eines sollen Sie wissen: Sie sind uns sehr herzlich willkommen. Lieber Herr Dr. Falk, alles Gute für Ihre Zukunft und vor allem, gerade in diesen Zeiten, viel Gesundheit. 
+             
+       Meine Damen und Herren, der Antrag der Fraktionen der CDU und BÜNDNIS 90/DIE GRÜNEN betreffend Vertrauenserklärung gemäß Art. 101 Abs. 4 der Hessischen Verfassung wurde in die Fächer verteilt. 
+             
+       Ich darf Sie fragen, ob Sie die Tagesordnung so genehmigen. – Das ist offensichtlich der Fall; niemand widerspricht.
+             
+       Auch diese Sitzung steht unter dem Einfluss der Ausbreitung des Corona-Virus. Wir tagen daher erneut mit einer geänderten Sitzordnung, die unter anderem auch die Nutzung der Besuchertribüne durch Kolleginnen und Kollegen, durch Abgeordnete vorsieht. Wir wollen dadurch sicherstellen, dass ausreichend Abstand eingehalten werden kann.
+          
+        
+        
+          
+            
+               
+        Entgegengenommen
+            
+             
+       Wir tagen bis zur Erledigung der Tagesordnung. Wir beginnen im Anschluss an die amtlichen Mitteilungen mit Tagesordnungspunkt 1, der Erklärung des Hessischen Ministerpräsidenten gemäß Art. 101 Abs. 2 der Verfassung des Landes Hessen. 
+          
+        
+        
+          
+             
+       Insoweit darf ich Tagesordnungspunkt 1 aufrufen:
+          
+        
+      
+    </Field>
+<Field Clear="True" InputFieldName="TOPSP">3</Field>
+<Field Clear="True" InputFieldName="SEIT">5</Field>
+<Field Clear="True" InputFieldName="SEITV">2813</Field>
+<Field Clear="True" InputFieldName="SEITB">2817</Field>
+</UpdateRecord>
+<CreateLock Id="4" DatabaseId="E.VOLLTEXT"/>
+<UpdateRecord LockId="4" Clear="False">
+<Field Clear="True" InputFieldName="DATNA">ePP_Export_20-37_3-04-2020.xml</Field>
+<Field Clear="True" InputFieldName="DATER">08.04.2020 10:40:00</Field>
+<Field Clear="True" InputFieldName="DATGE">17.10.2007 14:27:00</Field>
+<Field Clear="True" InputFieldName="DATFO">XML</Field>
+<Field Clear="True" InputFieldName="DATGR">29 Kb</Field>
+<Field Clear="True" InputFieldName="DART">P</Field>
+<Field Clear="True" InputFieldName="WP">20</Field>
+<Field Clear="True" InputFieldName="DNR">37</Field>
+<Field Clear="True" InputFieldName="DNRB"/>
+<Field Clear="True" InputFieldName="DAT">3.04.2020</Field>
+<Field Clear="True" InputFieldName="ZUGA">öffentlich</Field>
+<Field Clear="True" InputFieldName="QUELL">ePlenarprotokoll</Field>
+<Field Clear="True" InputFieldName="AKAT">TOP</Field>
+<Field Clear="True" InputFieldName="RNRD">00004</Field>
+<Field Long="True" Clear="True" InputFieldName="TOP"> 
+       Erklärung des Ministerpräsidenten gemäß Art. 101 Abs. 2 der Verfassung des Landes Hessen</Field>
+<Field Clear="True" InputFieldName="ANR">unbekannt</Field>
+<Field Clear="True" InputFieldName="ASEI">1</Field>
+<Field Clear="True" InputFieldName="ASEIV">2816</Field>
+<Field Clear="True" InputFieldName="ASEIB">2816</Field>
+<Field Long="True" Clear="True" InputFieldName="AVT1">
+      
+      
+        
+           
+       Erklärung des Ministerpräsidenten gemäß Art. 101 Abs. 2 der Verfassung des Landes Hessen
+             
+       
+          
+        
+        
+          
+             
+       Herr Ministerpräsident Bouffier, ich erteile Ihnen das Wort.
+          
+        
+      
+    
+       
+            Volker Bouffier, Ministerpräsident:
+      
+         
+       Herr Präsident, meine Damen und Herren! Nach Art. 101 Abs. 2 der Hessischen Verfassung zeige ich dem Landtag an, dass ich am 31.03.2020 Herrn Michael Boddenberg zum Staatsminister und Minister der Finanzen ernannt habe.
+      
+    
+       
+           Präsident  Boris Rhein:
+      
+        
+          
+            
+               
+        Zur Kenntnis genommen
+            
+             
+       Herzlichen Dank, Herr Ministerpräsident.
+          
+        
+        
+          
+             
+       Ich rufe nun Tagesordnungspunkt 2 auf:
+          
+        
+      
+    </Field>
+<Field Clear="True" InputFieldName="RED"> Volker Bouffier, Ministerpräsident</Field>
+<Field Clear="True" InputFieldName="TOPSP">4</Field>
+<Field Clear="True" InputFieldName="SEIT">5</Field>
+<Field Clear="True" InputFieldName="SEITV">2813</Field>
+<Field Clear="True" InputFieldName="SEITB">2817</Field>
+</UpdateRecord>
+<CreateLock Id="5" DatabaseId="E.VOLLTEXT"/>
+<UpdateRecord LockId="5" Clear="False">
+<Field Clear="True" InputFieldName="DATNA">ePP_Export_20-37_3-04-2020.xml</Field>
+<Field Clear="True" InputFieldName="DATER">08.04.2020 10:40:00</Field>
+<Field Clear="True" InputFieldName="DATGE">17.10.2007 14:27:00</Field>
+<Field Clear="True" InputFieldName="DATFO">XML</Field>
+<Field Clear="True" InputFieldName="DATGR">29 Kb</Field>
+<Field Clear="True" InputFieldName="DART">P</Field>
+<Field Clear="True" InputFieldName="WP">20</Field>
+<Field Clear="True" InputFieldName="DNR">37</Field>
+<Field Clear="True" InputFieldName="DNRB"/>
+<Field Clear="True" InputFieldName="DAT">3.04.2020</Field>
+<Field Clear="True" InputFieldName="ZUGA">öffentlich</Field>
+<Field Clear="True" InputFieldName="QUELL">ePlenarprotokoll</Field>
+<Field Clear="True" InputFieldName="AKAT">TOP</Field>
+<Field Clear="True" InputFieldName="RNRD">00005</Field>
+<Field Long="True" Clear="True" InputFieldName="TOP"> 
+       Beschlussfassung
+Vertrauenserklärung für die Landesregierung in veränderter Zusammensetzung gemäß Art. 101 Abs. 4 der Verfassung des Landes Hessen</Field>
+<Field Clear="True" InputFieldName="ANR">unbekannt</Field>
+<Field Clear="True" InputFieldName="ASEI">1</Field>
+<Field Clear="True" InputFieldName="ASEIV">2816</Field>
+<Field Clear="True" InputFieldName="ASEIB">2816</Field>
+<Field Long="True" Clear="True" InputFieldName="AVT1">
+      
+      
+        
+           
+       Beschlussfassung
+Vertrauenserklärung für die Landesregierung in veränderter Zusammensetzung gemäß Art. 101 Abs. 4 der Verfassung des Landes Hessen
+             
+       
+          
+        
+        
+          
+             
+       hierzu:
+          
+        
+      
+    </Field>
+<Field Clear="True" InputFieldName="TOPSP">4</Field>
+<Field Clear="True" InputFieldName="SEIT">5</Field>
+<Field Clear="True" InputFieldName="SEITV">2813</Field>
+<Field Clear="True" InputFieldName="SEITB">2817</Field>
+</UpdateRecord>
+<CreateLock Id="6" DatabaseId="E.VOLLTEXT"/>
+<UpdateRecord LockId="6" Clear="False">
+<Field Clear="True" InputFieldName="DATNA">ePP_Export_20-37_3-04-2020.xml</Field>
+<Field Clear="True" InputFieldName="DATER">08.04.2020 10:40:00</Field>
+<Field Clear="True" InputFieldName="DATGE">17.10.2007 14:27:00</Field>
+<Field Clear="True" InputFieldName="DATFO">XML</Field>
+<Field Clear="True" InputFieldName="DATGR">29 Kb</Field>
+<Field Clear="True" InputFieldName="DART">P</Field>
+<Field Clear="True" InputFieldName="WP">20</Field>
+<Field Clear="True" InputFieldName="DNR">37</Field>
+<Field Clear="True" InputFieldName="DNRB"/>
+<Field Clear="True" InputFieldName="DAT">3.04.2020</Field>
+<Field Clear="True" InputFieldName="ZUGA">öffentlich</Field>
+<Field Clear="True" InputFieldName="QUELL">ePlenarprotokoll</Field>
+<Field Clear="True" InputFieldName="AKAT">TOP</Field>
+<Field Clear="True" InputFieldName="RNRD">00006</Field>
+<Field Long="True" Clear="True" InputFieldName="TOP"> 
+       AntragFraktion der CDU, Fraktion BÜNDNIS 90/DIE GRÜNEN
+Vertrauenserklärung gemäß Art. 101 Abs. 4 HV</Field>
+<Field Clear="True" InputFieldName="ANR">unbekannt</Field>
+<Field Clear="True" InputFieldName="ASEI">1</Field>
+<Field Clear="True" InputFieldName="ASEIV">2816</Field>
+<Field Clear="True" InputFieldName="ASEIB">2816</Field>
+<Field Long="True" Clear="True" InputFieldName="AVT1">
+      
+      
+        
+           
+       AntragFraktion der CDU, Fraktion BÜNDNIS 90/DIE GRÜNEN
+Vertrauenserklärung gemäß Art. 101 Abs. 4 HV
+             
+       
+             
+        
+        – Drucks. 20/2598 –
+              
+            
+          
+        
+        
+          
+             
+       Gemäß Art. 101 Abs. 4 unserer Verfassung kann die Landesregierung ihre Geschäfte erst wieder aufnehmen, wenn ihr der Landtag durch besonderen Beschluss das Vertrauen ausgesprochen hat. Dies beantragen die Fraktionen der CDU und BÜNDNIS 90/DIE GRÜNEN mit der genannten Drucksache. 
+             
+       Wir haben uns darauf verständigt, auf eine Aussprache zu verzichten. – Ich sehe allgemeines Nicken. Das heißt, das bleibt so; wir verfahren ohne Aussprache.
+          
+        
+        
+          
+            
+               
+        Angenommen
+            
+             
+       Ich darf den Antrag der Fraktionen der CDU und BÜNDNIS 90/DIE GRÜNEN, Drucks. 20/2598, zur Abstimmung aufrufen. Ich darf Sie fragen, wer dem zustimmt. – Gibt es Gegenstimmen? – Gibt es Enthaltungen? – Damit ist der Antrag mit den Stimmen von CDU und BÜNDNIS 90/DIE GRÜNEN angenommen. Ich kann insoweit feststellen, dass der Antrag mit der erforderlichen Mehrheit angenommen worden ist.
+          
+        
+        
+          
+             
+       Meine Damen und Herren, der Landesregierung wurde damit durch den Landtag das Vertrauen ausgesprochen. 
+             
+       Sehr geehrter Herr Ministerpräsident, ich wünsche Ihnen und Ihrem Kabinett viel Erfolg. Ich wünsche Ihnen kluge Entscheidungen in einer für uns alle außergewöhnlichen und herausfordernden Zeit. Ich glaube, ich darf das im Namen aller sagen, bei allem politischen Meinungsstreit, den wir haben: Auf die Unterstützung des Parlaments können Sie zählen.
+             
+       Meine Damen und Herren, ich rufe Tagesordnungspunkt 3 auf:
+          
+        
+      
+    </Field>
+<Field Clear="True" InputFieldName="BDOK">Drucks. 20/2598</Field>
+<Field Clear="True" InputFieldName="TOPSP">4</Field>
+<Field Clear="True" InputFieldName="SEIT">5</Field>
+<Field Clear="True" InputFieldName="SEITV">2813</Field>
+<Field Clear="True" InputFieldName="SEITB">2817</Field>
+</UpdateRecord>
+<CreateLock Id="7" DatabaseId="E.VOLLTEXT"/>
+<UpdateRecord LockId="7" Clear="False">
+<Field Clear="True" InputFieldName="DATNA">ePP_Export_20-37_3-04-2020.xml</Field>
+<Field Clear="True" InputFieldName="DATER">08.04.2020 10:40:00</Field>
+<Field Clear="True" InputFieldName="DATGE">17.10.2007 14:27:00</Field>
+<Field Clear="True" InputFieldName="DATFO">XML</Field>
+<Field Clear="True" InputFieldName="DATGR">29 Kb</Field>
+<Field Clear="True" InputFieldName="DART">P</Field>
+<Field Clear="True" InputFieldName="WP">20</Field>
+<Field Clear="True" InputFieldName="DNR">37</Field>
+<Field Clear="True" InputFieldName="DNRB"/>
+<Field Clear="True" InputFieldName="DAT">3.04.2020</Field>
+<Field Clear="True" InputFieldName="ZUGA">öffentlich</Field>
+<Field Clear="True" InputFieldName="QUELL">ePlenarprotokoll</Field>
+<Field Clear="True" InputFieldName="AKAT">TOP</Field>
+<Field Clear="True" InputFieldName="RNRD">00007</Field>
+<Field Long="True" Clear="True" InputFieldName="TOP"> 
+       Vereidigung des Ministers nach Art. 111 der Verfassung des Landes Hessen</Field>
+<Field Clear="True" InputFieldName="ANR">unbekannt</Field>
+<Field Clear="True" InputFieldName="ASEI">2</Field>
+<Field Clear="True" InputFieldName="ASEIV">2816</Field>
+<Field Clear="True" InputFieldName="ASEIB">2817</Field>
+<Field Long="True" Clear="True" InputFieldName="AVT1">
+      
+      
+        
+           
+       Vereidigung des Ministers nach Art. 111 der Verfassung des Landes Hessen
+             
+       
+          
+        
+        
+          
+             
+       Herr Ministerpräsident, ich darf Ihnen nun Gelegenheit geben, den neuen Minister, Herrn Staatsminister Boddenberg, zu vereidigen. Ich darf Sie beide bitten, nach vorne an die zur Verfügung stehenden Saalmikrofone zu treten. Die anderen darf ich bitten, sich von ihren Plätzen zu erheben.
+             
+       (Die Anwesenden erheben sich von den Plätzen.)
+          
+        
+      
+    
+       
+            Volker Bouffier, Ministerpräsident:
+      
+         
+       Herr Präsident, meine Damen und Herren! Ich danke zunächst einmal namens der Landesregierung den Fraktionen von CDU und BÜNDNIS 90/DIE GRÜNEN für ihr Vertrauen. Ich respektiere ausdrücklich die Entscheidung der anderen Fraktionen. 
+         
+       Ich danke Ihnen, Herr Präsident, für Ihre guten Wünsche an die Arbeit der Landesregierung. Der heutige Tag ist in vielerlei Hinsicht mehr als außergewöhnlich. Die Umstände sprechen für sich. Ich möchte Ihnen, Herr Präsident, für Ihre Würdigung unseres verstorbenen Kollegen sehr herzlich danken.
+         
+       Wir kommen damit zur Vereidigung. Herr Staatsminister Boddenberg, Art. 111 der Verfassung des Landes Hessen sieht vor, dass Sie vor dem Ministerpräsidenten in Gegenwart des Landtags den Amtseid leisten. Dies kann nach Art. 48 der Verfassung des Landes Hessen in der weltlichen oder in der religiösen Form geschehen.
+         
+       Ich werde Ihre Vereidigung in der Weise vornehmen, dass ich Ihnen die Eidesformel vorlese und Sie dann bitte, die rechte Hand zu erheben und den Eid dadurch zu leisten, dass Sie die Worte „Ich schwöre es“ oder „Ich schwöre es, so wahr mir Gott helfe“ sprechen. Die Eidesformel lautet: 
+         
+       Ich schwöre, dass ich das mir übertragene Amt unparteiisch nach bestem Wissen und Können verwalten sowie Verfassung und Gesetz in demokratischem Geiste befolgen und verteidigen werde. 
+         
+       Herr Staatsminister Boddenberg.
+      
+    
+       
+            Michael Boddenberg, Minister der Finanzen:
+      
+         
+       Ich schwöre es, so wahr mir Gott helfe.
+      
+    
+       
+            Volker Bouffier, Ministerpräsident:
+      
+         
+       Herr Minister, ich danke Ihnen und wünsche Ihnen für Ihre Amtsführung Glück und Erfolg. Herzlichen Dank.
+         
+       (Minister Michael Boddenberg: Vielen Dank!)
+         
+       In diesen Zeiten gibt es keinen Handdruck. Alles Gute.
+         
+       (Minister Michael Boddenberg: Danke! – Die Anwesenden nehmen ihre Plätze wieder ein.)
+      
+    
+       
+           Präsident  Boris Rhein:
+      
+        
+          
+             
+       Sehr geehrter Herr Staatsminister und Minister der Finanzen, lieber Herr Michael Boddenberg, ich will Ihnen im Namen des gesamten Hauses gratulieren. Ich wünsche Ihnen, lieber Michael Boddenberg, alles Gute in diesem schweren Amt. Ich wünsche Ihnen eine erfolgreiche Zeit. 
+          
+        
+        
+          
+            
+               
+        Vollzogen
+            
+             
+       Bei allem Bedürfnis der Gratulation bitte ich, es nicht als unhöfliche Geste misszuverstehen, dass nur ich – im Namen aller hier im Hause – Ihnen als Kollegen und als neuem Minister einen Blumenstrauß überreiche. Die Umstände sind, wie sie sind; Herr Ministerpräsident Bouffier hat darauf hingewiesen. Ich glaube, wir wünschen uns alle, dass Sie gesund bleiben, lieber Herr Staatsminister Boddenberg. Alles Gute, viel Glück und viel Erfolg in Ihrem Amt.
+          
+        
+        
+          
+             
+       (Präsident Boris Rhein überreicht einen Blumenstrauß. – Beifall – Minister Michael Boddenberg: Danke, Herr Präsident, und danke an alle Kolleginnen und Kollegen! Auf eine gute Zusammenarbeit! Gemeinsam werden wir das, was vor uns liegt, meistern! Danke sehr!)
+             
+       Liebe Kolleginnen und Kollegen, wir sind damit am Ende der Sitzung. Es bleibt mir nur, unter den obwaltenden Umständen und in dieser in vielerlei Hinsicht schwierigen Zeit Ihnen und Ihren Familien ein gutes Osterfest zu wünschen, aber vor allem Ihnen und Ihren Familien Gesundheit zu wünschen. Bleiben Sie gesund. Wir sehen uns in Kürze an diesem Ort wieder. 
+             
+       Ich schließe die Sitzung.
+          
+        
+      
+    </Field>
+<Field Clear="True" InputFieldName="RED"> Volker Bouffier, Ministerpräsident</Field>
+<Field Clear="True" InputFieldName="RED"> Michael Boddenberg, Minister der Finanzen</Field>
+<Field Clear="True" InputFieldName="RED"> Volker Bouffier, Ministerpräsident</Field>
+<Field Clear="True" InputFieldName="TOPSP">4</Field>
+<Field Clear="True" InputFieldName="SEIT">5</Field>
+<Field Clear="True" InputFieldName="SEITV">2813</Field>
+<Field Clear="True" InputFieldName="SEITB">2817</Field>
+</UpdateRecord>
+<Quit/>
+</Root>

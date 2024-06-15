@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="TEI">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="teiHeader">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="fileDesc">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="titleStmt">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="title" type="xs:string"/>
+                                                    <xs:element name="legislativePeriod" type="xs:string"/>
+                                                    <xs:element name="sessionNo" type="xs:string"/>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="editionStmt">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="edition">
+                                                        <xs:complexType>
+                                                            <xs:sequence>
+                                                                <xs:element name="package" type="xs:string"/>
+                                                                <xs:element name="version" type="xs:string"/>
+                                                                <xs:element name="birthday" type="xs:string"/>
+                                                            </xs:sequence>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="publicationStmt">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="publisher" type="xs:string"/>
+                                                    <xs:element name="date" type="xs:string"/>
+                                                    <xs:element name="page" type="xs:string"/>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="sourceDesc">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="filetype" type="xs:string"/>
+                                                    <xs:element name="url" type="xs:string"/>
+                                                    <xs:element name="date" type="xs:string"/>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="encodingDesc">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="projectDesc" type="xs:string"/>
+                                        <xs:element name="samplingDecl" type="xs:string"/>
+                                        <xs:element name="editorialDecl" type="xs:string"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="profileDesc" type="xs:string"/>
+                            <xs:element name="revisionDesc" type="xs:string"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="text">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="body">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="div" maxOccurs="unbounded">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="sp" minOccurs="0" maxOccurs="unbounded">
+                                                        <xs:complexType>
+                                                            <xs:choice maxOccurs="unbounded">
+                                                                <xs:element name="p" type="xs:string"/>
+                                                                <xs:element name="stage">
+                                                                    <xs:complexType>
+                                                                        <xs:simpleContent>
+                                                                            <xs:extension base="xs:string">
+                                                                                <xs:attribute name="type" type="xs:string" use="required"/>
+                                                                            </xs:extension>
+                                                                        </xs:simpleContent>
+                                                                    </xs:complexType>
+                                                                </xs:element>
+                                                            </xs:choice>
+                                                            <xs:attribute name="who" type="xs:string" use="required"/>
+                                                            <xs:attribute name="parliamentary_group" type="xs:string"/>
+                                                            <xs:attribute name="role" type="xs:string"/>
+                                                            <xs:attribute name="position" type="xs:string"/>
+                                                            <xs:attribute name="who_original" type="xs:string"/>
+                                                            <xs:attribute name="party" type="xs:string"/>
+                                                            <xs:attribute name="name" type="xs:string"/>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                </xs:sequence>
+                                                <xs:attribute name="type" type="xs:string" use="required"/>
+                                                <xs:attribute name="n" type="xs:string"/>
+                                                <xs:attribute name="what" type="xs:string"/>
+                                                <xs:attribute name="desc" type="xs:string"/>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
