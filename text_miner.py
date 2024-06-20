@@ -26,7 +26,7 @@ def preprocess(corpus: list[str]) -> list[str]:
 
 def serialize_corpus(corpus: CorpusManager) -> None:
     """
-    Diese Funktion serialisert ein verarbeitetes Korpus.
+    Diese Funktion serialisiert ein verarbeitetes Korpus.
 
     Args:
         Das Korpus
@@ -60,7 +60,7 @@ def calculate_mean_tf_idf(documents: list[list[str]], path: str = "") -> None:
     # Instanziierung einen DataFrame mit den TF-IDF-Werten
     df_tfidf = pd.DataFrame(tfidf_matrix.toarray(), columns=feature_names)
 
-    with open('tfidf_results.csv', 'w', encoding='utf-8') as f:
+    with open(f'{path}tfidf_results.csv', 'w', encoding='utf-8') as f:
         for term in feature_names:
             # Berechnung den mittleren TF-IDF-Wert für den Term über alle Dokumente
             mean_tfidf = df_tfidf[term].mean()
