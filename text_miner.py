@@ -9,7 +9,7 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 import pyLDAvis.gensim_models as gensimvis
 import pyLDAvis
 
-def preprocess(corpus: list[str]) -> list[str]:
+def preprocess(corpus: list[str]) -> list[list[str]]:
     """
     Diese Funktion kombiniert einige Methoden für die Vorverarbeitung.
 
@@ -20,9 +20,13 @@ def preprocess(corpus: list[str]) -> list[str]:
     """
     corpus = CorpusManager.clean_corpus(corpus)
     corpus = CorpusManager.lemmatize_corpus(corpus)
-    corpus = CorpusManager.normalize_case(corpus)
-    corpus = [re.sub("--", "", entry) for entry in corpus]
-    return corpus
+    polished_corpus = []
+    for doc in corpus:
+        temp = [token for token in doc if not token == "--" and not token == " "]
+        temp = CorpusManager.normalize_case(doc)
+        temp = CorpusManager.clean_with_custom_stopwords("data_outputs/stopwords.txt", temp)
+        polished_corpus.append(temp)
+    return polished_corpus
 
 def serialize_corpus(corpus: CorpusManager) -> None:
     """
@@ -70,34 +74,12 @@ def calculate_mean_tf_idf(documents: list[list[str]], path: str = "") -> None:
 
 if __name__ == "__main__":
 
-    corpus_cdu = CorpusManager("cdu")
-    corpus_afd = CorpusManager("afd")
-    corpus_linke = CorpusManager("linke")
-    corpus_gruene = CorpusManager("gruene")
-    corpus_fdp = CorpusManager("fdp")
-    corpus_spd = CorpusManager("spd")
+    corpus = CorpusManager("All_Speaches")
 
-    corpus_cdu.processed = corpus_cdu.get_speaches_from_party("CDU")
-    corpus_afd.processed = corpus_afd.get_speaches_from_party("AfD")
-    corpus_linke.processed = corpus_linke.get_speaches_from_party("DIE LINKE")
-    corpus_gruene.processed = corpus_gruene.get_speaches_from_party("BÜNDNIS 90/DIE GRÜNEN")
-    corpus_fdp.processed = corpus_fdp.get_speaches_from_party("Freie Demokraten")
-    corpus_spd.processed = corpus_spd.get_speaches_from_party("SPD")
+    corpus.processed = corpus.get_all_speaches()
 
-    corpus_cdu.processed = preprocess(corpus_cdu.processed)
-    corpus_afd.processed = preprocess(corpus_afd.processed)
-    corpus_linke.processed = preprocess(corpus_linke.processed)
-    corpus_gruene.processed = preprocess(corpus_gruene.processed)
-    corpus_fdp.processed = preprocess(corpus_fdp.processed)
-    corpus_spd.processed = preprocess(corpus_spd.processed)
+    documents = preprocess(corpus.processed)
 
-
-    documents = [corpus_cdu.processed, corpus_afd.processed, corpus_linke.processed, corpus_gruene.processed, corpus_fdp.processed, corpus_spd.processed]
-
-    calculate_mean_tf_idf(documents)
-
-    '''
-    
     # Generation eines Wörterbuchs
     dictionary = corpora.Dictionary(documents)
 
@@ -105,7 +87,7 @@ if __name__ == "__main__":
     corpus = [dictionary.doc2bow(document) for document in documents]
 
     lda_model = gensim.models.LdaModel(corpus,
-     num_topics=20,
+     num_topics=50,
       id2word=dictionary,
        passes=15)
 
@@ -116,7 +98,6 @@ if __name__ == "__main__":
 
     vis_data = gensimvis.prepare(lda_model, corpus, dictionary)
     pyLDAvis.save_html(vis_data, 'lda_visualization.html')
-    '''
 
     """
     tokens = [entry for entry in tokens if len(entry) > 2]

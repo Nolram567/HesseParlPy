@@ -41,7 +41,7 @@ if __name__ == '__main__':
         temp2 = ""
 
         # Generation des XML-Deskriptors und des Headers des XML-Dokuments nach dem Hesseparl-TEI-Schema.
-        temp += xmlParser.create_header(legislative_term, session)
+        temp += xmlParser.create_header(legislative_term, session, date.strftime('%d-%m-%Y'))
 
         #Iteration über alle extrahierten Redebeiträge im Rohdokument.
         for item in extracted_data:
@@ -85,7 +85,7 @@ if __name__ == '__main__':
             print(f"Das Dokument {xml_file_path} ist nicht gültig.")
 
         # Wir serialisieren die Datei und halten Metadaten über die Legislaturperiode, die Sitzung und das Datum im Dateinamen fest.
-        filename = f"data/xml-tei/tei_{legislative_term}_{session}_{date.strftime('%d_%m_%Y')}"
+        filename = f"data/xml-tei_reworked/tei_{legislative_term}_{session}_{date.strftime('%d_%m_%Y')}"
         with open(filename, "w", encoding='utf-8') as f:
             f.write(temp)
 

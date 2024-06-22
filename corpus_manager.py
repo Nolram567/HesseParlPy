@@ -1,9 +1,12 @@
 import os
 import xml.etree.ElementTree as ET
 import string
+from typing import List, Any
+
 import spacy
 from nltk.corpus import stopwords
 import nltk
+
 
 class CorpusManager:
     """
@@ -28,7 +31,7 @@ class CorpusManager:
 
     def get_speaches_from_politican(self, p: str, id: str = "who") -> list:
         """
-        Mit dieser Objektmethode kann man alle Reden einer spezifizierten Person aus einem Korpus extrahieren.
+        Mit dieser Methode kann man alle Reden einer spezifizierten Person aus einem Korpus extrahieren.
 
         Args:
              p: Der Name der Person.
@@ -46,8 +49,7 @@ class CorpusManager:
 
     def get_speaches_from_party(self, party: str) -> list:
         """
-        Mit dieser Funktion kann man alle Reden einer spezifizierten Partei aus einem Korpus extrahieren. Das Korpus sollte
-        zuvor mit der Funktion create_partition() erstellt wurden sein oder konform zur Struktur des Rückgabe-Dictionaries sein.
+        Mit dieser Methode kann man alle Reden einer spezifizierten Partei aus einem Korpus extrahieren.
 
         Args:
             party: Der Name der Partei.
@@ -60,6 +62,26 @@ class CorpusManager:
             for sp_tag in root.findall(f".//sp[@parliamentary_group='{party}']"):
                 for a in sp_tag.findall((".//p")):
                     speaches.append(a.text)
+        return speaches
+
+    def get_all_speaches(self) -> list:
+        """
+        Mit dieser Methode kann man alle Reden aus einem Korpus extrahieren. Wenn der Parameter m wahr ist, werden auch
+        moderierende Beiträge des oder der (Vize)Präsident*in abgefragt.
+
+        Args:
+            m:
+        Return:
+            Eine Liste mit allen Einzeläußerungen von Mitglieder der spezifizierten Partei ohne Metadaten.
+        """
+        speaches = []
+        for e in self.corpus.keys():
+            root = self.corpus[e]
+            for sp_tag in root.findall(".//sp"):
+                role = sp_tag.get("role")
+                if role not in ["Vizepräsident", "Vizepräsidentin", "Präsident", "Präsidentin"]:
+                    for a in sp_tag.findall(".//p"):
+                        speaches.append(a.text)
         return speaches
 
     @staticmethod
@@ -95,7 +117,7 @@ class CorpusManager:
         return [e.lower() for e in l]
 
     @staticmethod
-    def clean_with_custom_stoppwords(path: str, l: list[str]) -> list[str]:
+    def clean_with_custom_stopwords(path: str, l: list[str]) -> list[str]:
         """
         Diese statische Methode bereinigt ein Korpus mithilfe einer Stoppwortliste.
 
@@ -110,7 +132,7 @@ class CorpusManager:
         return [token for token in l if token not in stopwords]
 
     @staticmethod
-    def lemmatize_corpus(l: list[str]) -> list[str]:
+    def lemmatize_corpus(l: list[str]) -> list[list[str]]:
         """
         Diese Methode lemmatisiert eine Liste von Strings und entfernt Stoppwörter.
 
@@ -126,6 +148,13 @@ class CorpusManager:
         nltk.download('stopwords')
         german_stop_words = set(stopwords.words('german'))
 
-        doc = german_model(" ".join(l))
-        lemmas = [token.lemma_ for token in doc if token.text.lower() not in german_stop_words and not token.is_punct and not token.is_digit]
-        return lemmas
+        # doc = german_model(" ".join(l))
+        lemmatised_corpus = []
+
+        for speach in l:
+            doc = german_model(speach)
+            lemmatised_speach = [token.lemma_ for token in doc if
+                                 token.text.lower() not in german_stop_words and not token.is_punct and not token.is_digit]
+            lemmatised_corpus.append(lemmatised_speach)
+
+        return lemmatised_corpus

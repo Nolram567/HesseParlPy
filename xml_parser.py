@@ -54,7 +54,7 @@ class xmlParser:
         return [lp, session, date, text_data]
 
     @staticmethod
-    def create_header(lp: str, session: str) -> str:
+    def create_header(lp: str, session: str, date: str) -> str:
         """
         In dieser Methode wird die XML-Deklaration und der Header eines XML-TEI-Dokuments formatiert und als String
         zurückgegeben. Außerdem werden die Tags <text> und <body> geöffnet.
@@ -76,14 +76,14 @@ class xmlParser:
                f'\t\t\t\t</titleStmt>\n' \
                f'\t\t\t\t<editionStmt>\n' \
                f'\t\t\t\t\t<edition>\n' \
-               f'\t\t\t\t\t\t<package>PolMinePyHesse</package>\n' \
+               f'\t\t\t\t\t\t<package>HesseParl</package>\n' \
                f'\t\t\t\t\t\t<version/>\n' \
                f'\t\t\t\t\t\t<birthday/>\n' \
                f'\t\t\t\t\t</edition>\n' \
                f'\t\t\t\t</editionStmt>\n' \
                f'\t\t\t\t<publicationStmt>\n' \
                f'\t\t\t\t\t<publisher>Hessischer Landtag</publisher>\n' \
-               f'\t\t\t\t\t<date/>\n' \
+               f'\t\t\t\t\t<date>{date}</date>\n' \
                f'\t\t\t\t\t<page/>\n' \
                f'\t\t\t\t</publicationStmt>\n' \
                f'\t\t\t\t<sourceDesc>\n' \
@@ -92,7 +92,8 @@ class xmlParser:
                f'\t\t\t\t\t<date/>\n' \
                f'\t\t\t\t</sourceDesc>\n' \
                f'\t\t\t</fileDesc>\n' \
-               f'\t\t\t<encodingDesc><projectDesc>PolMinePyHesse</projectDesc>\n' \
+               f'\t\t\t<encodingDesc>' \
+               f'\t\t\t\t<projectDesc>HesseParlPy</projectDesc>\n' \
                f'\t\t\t\t<samplingDecl/>\n' \
                f'\t\t\t\t<editorialDecl/>\n' \
                f'\t\t\t</encodingDesc>\n' \
