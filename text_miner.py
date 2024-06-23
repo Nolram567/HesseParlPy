@@ -4,7 +4,7 @@ import gensim
 from gensim import corpora
 import pandas as pd
 from corpus_manager import CorpusManager
-from nltk import word_tokenize
+from nltk import word_tokenize, bigrams, Counter
 from sklearn.feature_extraction.text import TfidfVectorizer
 import pyLDAvis.gensim_models as gensimvis
 import pyLDAvis
@@ -22,6 +22,9 @@ def preprocess(corpus: list[str]) -> list[list[str]]:
     corpus = CorpusManager.lemmatize_corpus(corpus)
     polished_corpus = []
     for doc in corpus:
+        # Wir entfernen aller 'stumps', das sind Reden mit weniger als 100 Termen.
+        if len(doc) < 100:
+            continue
         temp = [token for token in doc if not token == "--" and not token == " "]
         temp = CorpusManager.normalize_case(doc)
         temp = CorpusManager.clean_with_custom_stopwords("data_outputs/stopwords.txt", temp)
@@ -72,12 +75,48 @@ def calculate_mean_tf_idf(documents: list[list[str]], path: str = "") -> None:
 
     print(f'Die TF-IDF-Werte wurden serialisiert.')
 
+def calculate_cooccurrence(documents: list[str]) -> None:
+    """
+        Diese Funktion berechnet für eine Liste aus Dokumenten kookkurrierende Terme (2-Gramme) und zählt ihre Frequenz.
+        Alle Bigramme und ihre Frequenz in einer CSV-Datei serialisiert.
+
+        Args:
+            documents: Die List aus Strings.
+    """
+
+    documents = CorpusManager.clean_corpus(documents)
+
+    # Tokenisierung der Dokumente
+    tokens = [token.lower() for doc in documents for token in doc.split()]
+
+    # Erzeugen der Bigramme
+    bi_grams = list(bigrams(tokens))
+
+    # Zählen der Bigramme
+    bigram_counts = Counter(bi_grams)
+
+    cooccurrence = pd.DataFrame(columns=["Bigramm", "Count"])
+    rows = []
+    for bigram, count in bigram_counts.items():
+        rows.append({"Bigramm": bigram, "Count": count})
+
+    if rows:
+        cooccurrence = pd.concat([cooccurrence, pd.DataFrame(rows)], ignore_index=True)
+
+    cooccurrence.to_csv("data_outputs/cooccurrence.csv", index=False)
+
+
 if __name__ == "__main__":
+
+    #calculate_cooccurrence(["test test da sind, keine richtigen, test test richtigen Tests", "Wie soll das ? funktionieren Weitere Weitere funktionieren?", "Weitere. Weitere beispiele folgen"])
 
     corpus = CorpusManager("All_Speaches")
 
     corpus.processed = corpus.get_all_speaches()
 
+    calculate_cooccurrence(corpus.processed)
+
+    '''
     documents = preprocess(corpus.processed)
 
     # Generation eines Wörterbuchs
@@ -98,38 +137,4 @@ if __name__ == "__main__":
 
     vis_data = gensimvis.prepare(lda_model, corpus, dictionary)
     pyLDAvis.save_html(vis_data, 'lda_visualization.html')
-
-    """
-    tokens = [entry for entry in tokens if len(entry) > 2]
-    
-    bi_grams = list(bigrams(tokens))
-
-    bigram_counts = Counter(bi_grams)
-
-    
-    for bigram, count in bigram_counts.items():
-        if count > 25:
-            print(f"{bigram}: {count}")
-
     '''
-    CDU:
-    ('ländlich', 'raum'): 230
-    ('schülerin', 'schüler'): 253
-    ('landesamt', 'verfassungsschutz'): 26
-    ('erneuerbar', 'energie'): 36
-    ('hessisch', 'polizei'): 80
-    ('unser', 'polizei'): 28
-    ('europäisch', 'union'): 79
-    ('europäisch', 'ebene'): 27
-    
-    AFD:
-    ('ländlich', 'raum'): 108
-    ('schülerin', 'schüler'): 40
-    ('hass', 'hetze'): 26
-    ('cancel', 'culture'): 31
-    ('innerer', 'sicherheit'): 51
-    ('seit', '2015'): 30
-    ('sogenannter', 'klimaschutz'): 39
-    ('europäisch', 'union'): 80
-    
-    '''"""
