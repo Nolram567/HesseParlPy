@@ -9,7 +9,7 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 import pyLDAvis.gensim_models as gensimvis
 import pyLDAvis
 
-def preprocess(corpus: list[str]) -> list[list[str]]:
+def preprocess_LDA(corpus: list[str]) -> list[list[str]]:
     """
     Diese Funktion kombiniert einige Methoden für die Vorverarbeitung.
 
@@ -24,6 +24,7 @@ def preprocess(corpus: list[str]) -> list[list[str]]:
     for doc in corpus:
         # Wir entfernen aller 'stumps', das sind Reden mit weniger als 100 Termen.
         if len(doc) < 100:
+            print(doc)
             continue
         temp = [token for token in doc if not token == "--" and not token == " "]
         temp = CorpusManager.normalize_case(doc)
@@ -77,7 +78,8 @@ def calculate_mean_tf_idf(documents: list[list[str]], path: str = "") -> None:
 
 def calculate_cooccurrence(documents: list[str]) -> None:
     """
-        Diese Funktion berechnet für eine Liste aus Dokumenten kookkurrierende Terme (2-Gramme) und zählt ihre Frequenz.
+        Mit dieser Methode lassen sich bedeutsame mehrteilige Ausdrücke in ihrer lemmatisierten Form ausfindig machen.
+        Dafür werdem für eine Liste aus Dokumenten kookkurrierende Terme (2-Gramme) berechnet und ihre Frequenz bestimmt.
         Alle Bigramme und ihre Frequenz in einer CSV-Datei serialisiert.
 
         Args:
@@ -86,11 +88,18 @@ def calculate_cooccurrence(documents: list[str]) -> None:
 
     documents = CorpusManager.clean_corpus(documents)
 
+    lemmatised_docs = CorpusManager.lemmatize_corpus(documents)
+
+    tokens = [item for sublist in lemmatised_docs for item in sublist]
+    temp = [token.strip() for token in tokens if token.isalnum()]
+    temp = CorpusManager.normalize_case(temp)
+    temp = CorpusManager.clean_with_custom_stopwords("data_outputs/stopwords.txt", temp)
+
     # Tokenisierung der Dokumente
-    tokens = [token.lower() for doc in documents for token in doc.split()]
+    #tokens = [token.lower() for doc in documents for token in doc.split()]
 
     # Erzeugen der Bigramme
-    bi_grams = list(bigrams(tokens))
+    bi_grams = list(bigrams(temp))
 
     # Zählen der Bigramme
     bigram_counts = Counter(bi_grams)
@@ -116,8 +125,8 @@ if __name__ == "__main__":
 
     calculate_cooccurrence(corpus.processed)
 
-    '''
-    documents = preprocess(corpus.processed)
+
+    '''documents = preprocess_LDA(corpus.processed)
 
     # Generation eines Wörterbuchs
     dictionary = corpora.Dictionary(documents)
@@ -137,4 +146,4 @@ if __name__ == "__main__":
 
     vis_data = gensimvis.prepare(lda_model, corpus, dictionary)
     pyLDAvis.save_html(vis_data, 'lda_visualization.html')
-    '''
+'''
