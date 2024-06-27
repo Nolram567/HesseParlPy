@@ -158,3 +158,35 @@ class CorpusManager:
             lemmatised_corpus.append(lemmatised_speach)
 
         return lemmatised_corpus
+
+    @staticmethod
+    def union_multiword_expression(docs: list[list[str]], mutliword_expressions: list[str]) -> list[list[str]]:
+        """
+        Diese Methode konkateniert alle Bigramme eines Korpus docs, wenn sie einem mehrteiligen Ausdruck oder einer
+        named entity entsprechen, der ein Element der Liste mutliword_expressions ist.
+        Args:
+            docs: Das Korpus aus Einzeldokumenten.
+            multiword_expressions: Eine Liste aller mehrteiligen Ausdrücke und named entities.
+        Return:
+            Das übergebene Korpus, indem alle mehrteilige Ausdrücke zu einem token konkateniert sind.
+        """
+        new_docs = []
+        for doc in docs:
+            new_doc = []
+            skipped = False
+            for i, token in enumerate(doc):
+                if skipped:
+                    skipped = False
+                    continue
+                if i < len(doc) - 1:
+                    bigram = token + " " + doc[i + 1]
+                    print(bigram)
+                    if bigram in mutliword_expressions:
+                        new_doc.append(bigram)
+                        skipped = True
+                    else:
+                        new_doc.append(token)
+                else:
+                    new_doc.append(token)
+            new_docs.append(new_doc)
+        return new_docs
