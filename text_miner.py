@@ -22,14 +22,19 @@ def preprocess_LDA(corpus: list[str]) -> list[list[str]]:
     corpus = CorpusManager.lemmatize_corpus(corpus)
     polished_corpus = []
     for doc in corpus:
+
         # Wir entfernen aller 'stumps', das sind Reden mit weniger als 100 Termen.
         if len(doc) < 100:
             print(doc)
             continue
-        temp = [token for token in doc if not token == "--" and not token == " "]
+
+        # Alle fehlerhaften Token sowie Token, die weniger als 4 Zeichen haben, werden entfernt.
+        temp = [token for token in doc if token not in ["--", " "] and len(token) > 3]
+
         temp = CorpusManager.normalize_case(doc)
         temp = CorpusManager.clean_with_custom_stopwords("data_outputs/stopwords.txt", temp)
         polished_corpus.append(temp)
+    polished_corpus = CorpusManager.union_multiword_expression(polished_corpus, ['öffentlich dienst', 'hass hetze'])
     return polished_corpus
 
 def serialize_corpus(corpus: CorpusManager) -> None:
@@ -76,56 +81,14 @@ def calculate_mean_tf_idf(documents: list[list[str]], path: str = "") -> None:
 
     print(f'Die TF-IDF-Werte wurden serialisiert.')
 
-def calculate_cooccurrence(documents: list[str]) -> None:
-    """
-        Mit dieser Methode lassen sich bedeutsame mehrteilige Ausdrücke in ihrer lemmatisierten Form ausfindig machen.
-        Dafür werdem für eine Liste aus Dokumenten kookkurrierende Terme (2-Gramme) berechnet und ihre Frequenz bestimmt.
-        Alle Bigramme und ihre Frequenz in einer CSV-Datei serialisiert.
-
-        Args:
-            documents: Die List aus Strings.
-    """
-
-    documents = CorpusManager.clean_corpus(documents)
-
-    lemmatised_docs = CorpusManager.lemmatize_corpus(documents)
-
-    tokens = [item for sublist in lemmatised_docs for item in sublist]
-    temp = [token.strip() for token in tokens if token.isalnum()]
-    temp = CorpusManager.normalize_case(temp)
-    temp = CorpusManager.clean_with_custom_stopwords("data_outputs/stopwords.txt", temp)
-
-    # Tokenisierung der Dokumente
-    #tokens = [token.lower() for doc in documents for token in doc.split()]
-
-    # Erzeugen der Bigramme
-    bi_grams = list(bigrams(temp))
-
-    # Zählen der Bigramme
-    bigram_counts = Counter(bi_grams)
-
-    cooccurrence = pd.DataFrame(columns=["Bigramm", "Count"])
-    rows = []
-    for bigram, count in bigram_counts.items():
-        rows.append({"Bigramm": bigram, "Count": count})
-
-    if rows:
-        cooccurrence = pd.concat([cooccurrence, pd.DataFrame(rows)], ignore_index=True)
-
-    cooccurrence.to_csv("data_outputs/cooccurrence.csv", index=False)
-
-
 if __name__ == "__main__":
 
-    #calculate_cooccurrence(["test test da sind, keine richtigen, test test richtigen Tests", "Wie soll das ? funktionieren Weitere Weitere funktionieren?", "Weitere. Weitere beispiele folgen"])
+    '''test = ["Ich sollte anständige Tests schreiben das ist ein test öffentlicher dienst test",
+                "das ist ein test öffentlicher dienst",
+                "das hass hetze ist ein Bedrohung test öffentlicher dienst test"
+                 "das hass unmöglich Problem Klima öffentlicher dienst test"]'''
 
-    corpus = CorpusManager("All_Speaches")
-
-    corpus.processed = corpus.get_all_speaches()
-
-    calculate_cooccurrence(corpus.processed)
-
-
+    #print(preprocess_LDA(test))
     '''documents = preprocess_LDA(corpus.processed)
 
     # Generation eines Wörterbuchs
