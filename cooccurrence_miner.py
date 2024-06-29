@@ -1,3 +1,5 @@
+import json
+
 from nltk import bigrams, Counter
 import pandas as pd
 from corpus_manager import CorpusManager
@@ -48,6 +50,13 @@ if __name__ == "__main__":
     corpus.processed = corpus.get_all_speaches()
 
     calculate_cooccurrence(corpus.processed)
+
+    MWE = {
+            "Rechte Szene": [('rechter', 'szene')]
+    }
+
+    with open("data_outputs/MWE.json", "w", encoding="utf-8") as f:
+        json.dump(MWE, f, ensure_ascii=False, indent=6)
 
     '''Relevante, mehrteilige Ausdrücke und namend entities:
     Begriff                                     Lemmatisiertes N-Gramm
