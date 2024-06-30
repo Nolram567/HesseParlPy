@@ -1,3 +1,4 @@
+import json
 import os
 import xml.etree.ElementTree as ET
 import string
@@ -162,6 +163,9 @@ class CorpusManager:
     @staticmethod
     def union_multiword_expression(docs: list[list[str]], mutliword_expressions: list[str]) -> list[list[str]]:
         """
+
+        ***Nicht fertiggestellt***
+
         Diese Methode konkateniert alle Bigramme eines Korpus docs, wenn sie einem mehrteiligen Ausdruck oder einer
         named entity entsprechen, der ein Element der Liste mutliword_expressions ist.
         Args:
@@ -170,6 +174,14 @@ class CorpusManager:
         Return:
             Das übergebene Korpus, indem alle mehrteilige Ausdrücke zu einem token konkateniert sind.
         """
+        with open('data_outputs/MWE.json', 'r') as json_file:
+            MWE = json.load(json_file)
+
+        mutliword_expressions = []
+        for entry in MWE.values():
+            for tuples in entry:
+                mutliword_expressions.append(tuples)
+
         new_docs = []
         for doc in docs:
             new_doc = []
@@ -190,3 +202,17 @@ class CorpusManager:
                     new_doc.append(token)
             new_docs.append(new_doc)
         return new_docs
+
+    def serialize_corpus(self) -> None:
+        """
+        Diese Funktion serialisiert ein verarbeitetes Korpus.
+
+        Args:
+            Das Korpus
+        """
+
+        with open(f"data/processed_corpus/corpus_{self.name}", "w", encoding="utf-8") as f:
+            json_container = {}
+            for i, doc in enumerate(self.processed):
+                json_container[i] = doc
+            json.dump(json_container, f, ensure_ascii=False, indent=2)

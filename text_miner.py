@@ -3,6 +3,8 @@ from typing import List
 import gensim
 from gensim import corpora
 import pandas as pd
+import json
+
 from corpus_manager import CorpusManager
 from nltk import word_tokenize, bigrams, Counter
 from sklearn.feature_extraction.text import TfidfVectorizer
@@ -23,30 +25,19 @@ def preprocess_LDA(corpus: list[str]) -> list[list[str]]:
     polished_corpus = []
     for doc in corpus:
 
-        # Wir entfernen aller 'stumps', das sind Reden mit weniger als 100 Termen.
+        # Wir entfernen alle 'stumps', das sind Reden mit weniger als 100 Termen.
         if len(doc) < 100:
             print(doc)
             continue
 
         # Alle fehlerhaften Token sowie Token, die weniger als 4 Zeichen haben, werden entfernt.
-        temp = [token for token in doc if token not in ["--", " "] and len(token) > 3]
+        temp = [token for token in doc if token not in ["--", " "] and len(token) > 2]
 
         temp = CorpusManager.normalize_case(doc)
         temp = CorpusManager.clean_with_custom_stopwords("data_outputs/stopwords.txt", temp)
         polished_corpus.append(temp)
-    polished_corpus = CorpusManager.union_multiword_expression(polished_corpus, ['öffentlich dienst', 'hass hetze'])
+    #polished_corpus = CorpusManager.union_multiword_expression(polished_corpus, ['öffentlich dienst', 'hass hetze'])
     return polished_corpus
-
-def serialize_corpus(corpus: CorpusManager) -> None:
-    """
-    Diese Funktion serialisiert ein verarbeitetes Korpus.
-
-    Args:
-        Das Korpus
-    """
-
-    with open(f"data/processed_corpus/corpus_{corpus.name}", "w", encoding="utf-8") as f:
-        f.write(corpus.processed)
 
 def calculate_mean_tf_idf(documents: list[list[str]], path: str = "") -> None:
     """
@@ -87,6 +78,16 @@ if __name__ == "__main__":
                 "das ist ein test öffentlicher dienst",
                 "das hass hetze ist ein Bedrohung test öffentlicher dienst test"
                  "das hass unmöglich Problem Klima öffentlicher dienst test"]'''
+
+    with open('data_outputs/MWE.json', 'r', encoding="utf-8") as json_file:
+        MWE = json.load(json_file)
+
+    mutliword_expressions = []
+    for entry in MWE.values():
+        for tuples in entry:
+            mutliword_expressions.append(tuples)
+
+    print(mutliword_expressions)
 
     #print(preprocess_LDA(test))
     '''documents = preprocess_LDA(corpus.processed)
