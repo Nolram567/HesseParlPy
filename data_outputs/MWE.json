@@ -51,6 +51,10 @@
             [
                   "dannenröd",
                   "forst"
+            ],
+            [
+                  "dannenröd",
+                  "wald"
             ]
       ],
       "Open Data": [
@@ -95,6 +99,10 @@
             [
                   "sozial",
                   "netzwerke"
+            ],
+            [
+                  "sozial",
+                  "netzwerk"
             ]
       ],
       "Mündliche Anhörung": [
@@ -147,6 +155,10 @@
             [
                   "vulnerabl",
                   "gruppe"
+            ],
+            [
+                  "vulnerabel",
+                  "gruppe"
             ]
       ],
       "Stephan Ernst": [
@@ -181,6 +193,10 @@
             [
                   "sozial",
                   "wohnungsbau"
+            ],
+            [
+                  "sozial",
+                  "wohnraum"
             ]
       ],
       "Soziale Marktwirtschaft": [
@@ -467,6 +483,10 @@
             [
                   "künstlich",
                   "intelligenz"
+            ],
+            [
+                  "künstliche",
+                  "intelligenz"
             ]
       ],
       "Landwirtschaftlicher Betrieb": [
@@ -551,6 +571,10 @@
             [
                   "öffentlich",
                   "nahverkehr"
+            ],
+            [
+                  "öffentlich",
+                  "verkehrsmittel"
             ]
       ],
       "Öffentliche Verwaltung": [
@@ -647,6 +671,14 @@
             [
                   "ländlich",
                   "region"
+            ],
+            [
+                  "ländlich",
+                  "gebiet"
+            ],
+            [
+                  "ländlich",
+                  "raum"
             ]
       ],
       "Energetische Sanierung": [
@@ -659,6 +691,217 @@
             [
                   "dritter",
                   "welle"
+            ]
+      ],
+      "Ziviler Ungehorsam": [
+            [
+                  "zivil",
+                  "ungehorsam"
+            ]
+      ],
+      "Informationelle Selbstbestimmung": [
+            [
+                  "informationell",
+                  "selbstbestimmung"
+            ]
+      ],
+      "Silicon Valley": [
+            [
+                  "silicon",
+                  "valley"
+
+            ]
+      ],
+      "Öffentliche Daseinsvorsorge": [
+            [
+                  "öffentlich",
+                  "daseinsvorsorge"
+            ]
+      ],
+      "FDP": [
+            [
+                  "freie",
+                  "demokrat"
+            ]
+      ],
+      "Private Krankenverscicherung": [
+            [
+                  "privat",
+                  "krankenversicherung"
+            ]
+      ],
+      "Universitätsklinikum Frankfurt": [
+            [
+                  "universitätsklinikum",
+                  "frankfurt"
+            ]
+      ],
+      "Universität Gießen": [
+            [
+                  "justusliebiguniversität",
+                  "gießen"
+            ]
+      ],
+      "Hochschule Fulda": [
+            [
+                  "hochschule",
+                  "fulda"
+            ]
+      ],
+      "Tobias Eckert": [
+            [
+                  "tobias",
+                  "eckert"
+            ]
+      ],
+      "Öffentliche Wohnungsbaugesellschaft": [
+            [
+                  "öffentlich",
+                  "wohnungsbaugesellschaft"
+            ]
+      ],
+      "Soziale Absicherung": [
+            [
+                  "sozial",
+                  "absicherung"
+            ]
+      ],
+      "Wolfgang Decker": [
+            [
+                  "wolfgang",
+                  "decker"
+            ]
+      ],
+      "Frankfurter Hauptbahnhof": [
+            [
+                  "frankfurter",
+                  "hauptbahnhof"
+            ]
+      ],
+      "Big Data": [
+            [
+                  "big",
+                  "data"
+            ]
+      ],
+      "Holger Bellino": [
+            [
+                  "holger",
+                  "bellino"
+            ]
+      ],
+      "Soziale Herkunft": [
+            [
+                  "sozial",
+                  "herkunft"
+            ]
+      ],
+      "FAZ": [
+            [
+                  "frankfurter",
+                  "zeitung"
+            ]
+      ],
+      "Digitalpakt Schule": [
+            [
+                  "digitalpakt",
+                  "hochschule"
+            ]
+      ],
+      "Gedenkstätte Hadamar": [
+            [
+                  "gedenkstätte",
+                  "hadamar"
+            ]
+      ],
+      "Bijan Kaffenberger": [
+            [
+                  "bijan",
+                  "kaffenberger"
+            ]
+      ],
+      "Pariser Klimaabkommen": [
+            [
+                  "pariser",
+                  "klimaabkommen"
+            ]
+      ],
+      "Süddeutsche Zeitung": [
+            [
+                  "süddeutsch",
+                  "zeitung"
+            ]
+      ],
+      "Anne Frank": [
+            [
+                  "anne",
+                  "frank"
+            ]
+      ],
+      "Deutscher Pass": [
+            [
+                  "deutsch",
+                  "pass"
+            ]
+      ],
+      "Hochschule Darmstadt": [
+            [
+                  "hochschule",
+                  "darmstadt"
+            ]
+      ],
+      "Jürgen Lenders": [
+            [
+                  "jürgen",
+                  "lenders"
+            ]
+      ],
+      "Landgericht Frankfurt": [
+            [
+                  "landgericht",
+                  "frankfurt"
+            ]
+      ],
+      "Green Deal": [
+            [
+                  "green",
+                  "deal"
+            ]
+      ],
+      "Georg Zinn": [
+            [
+                  "georg",
+                  "zinn"
+            ]
+      ],
+      "Ludwig Erhard": [
+            [
+                  "ludwig",
+                  "erhard"
+            ]
+      ],
+      "Soziale Verantwortung": [
+            [
+                  "sozial",
+                  "verantwortung"
+            ]
+      ],
+      "Felix Martin": [
+            [
+                  "felix",
+                  "martin"
+            ]
+      ],
+      "Kritische Infrastruktur": [
+            [
+                  "kritisch",
+                  "infrastruktur"
+            ]
+      ],
+      "Hermann Schaus": [
+            [
+                  "hermann",
+                  "schaus"
             ]
       ]
 }

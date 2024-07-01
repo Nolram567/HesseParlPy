@@ -58,6 +58,28 @@ if __name__ == "__main__":
     with open("data_outputs/MWE.json", "w", encoding="utf-8") as f:
         json.dump(MWE, f, ensure_ascii=False, indent=6)
 
+    with open('data_outputs/MWE.json', 'r', encoding="utf-8") as json_file:
+        MWE = json.load(json_file)
+
+    mutliword_expressions = []
+    for entry in MWE.values():
+        for tuples in entry:
+            mutliword_expressions.append(tuples)
+
+    print(mutliword_expressions)
+
+    new_dict = {}
+
+    for item in MWE.items():
+        for bigram in item[1]:
+            new_dict[str(bigram)] = item[0]
+
+    print(new_dict["['demografisch', 'entwicklung']"])
+    print(new_dict)
+
+    with open('data_outputs/MWE_reversed.json', 'w', encoding="utf-8") as json_file:
+        json.dump(new_dict, json_file, ensure_ascii=False, indent=6)
+
     '''Relevante, mehrteilige Ausdrücke und namend entities:
     Begriff                                     Lemmatisiertes N-Gramm
     Rechte Szene                                ('rechter', 'szene')
