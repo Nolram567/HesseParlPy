@@ -161,11 +161,8 @@ class CorpusManager:
         return lemmatised_corpus
 
     @staticmethod
-    def union_multiword_expression(docs: list[list[str]], mutliword_expressions: list[str]) -> list[list[str]]:
+    def union_multiword_expression(docs: list[list[str]]) -> list[list[str]]:
         """
-
-        ***Nicht fertiggestellt***
-
         Diese Methode konkateniert alle Bigramme eines Korpus docs, wenn sie einem mehrteiligen Ausdruck oder einer
         named entity entsprechen, der ein Element der Liste mutliword_expressions ist.
         Args:
@@ -174,8 +171,11 @@ class CorpusManager:
         Return:
             Das übergebene Korpus, indem alle mehrteilige Ausdrücke zu einem token konkateniert sind.
         """
+
         with open('data_outputs/MWE.json', 'r') as json_file:
             MWE = json.load(json_file)
+        with open('data_outputs/MWE_reversed.json', 'r') as json_file:
+            MWE_reversed = json.load(json_file)
 
         mutliword_expressions = []
         for entry in MWE.values():
@@ -191,10 +191,11 @@ class CorpusManager:
                     skipped = False
                     continue
                 if i < len(doc) - 1:
-                    bigram = token + " " + doc[i + 1]
+                    #bigram = token + " " + doc[i + 1]
+                    bigram = [token, doc[i + 1]]
                     print(bigram)
                     if bigram in mutliword_expressions:
-                        new_doc.append(bigram)
+                        new_doc.append(MWE_reversed[str(bigram)])
                         skipped = True
                     else:
                         new_doc.append(token)
