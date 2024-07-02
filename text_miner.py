@@ -33,10 +33,10 @@ def preprocess_LDA(corpus: list[str]) -> list[list[str]]:
         # Alle fehlerhaften Token sowie Token, die weniger als 4 Zeichen haben, werden entfernt.
         temp = [token for token in doc if token not in ["--", " "] and len(token) > 2]
 
-        temp = CorpusManager.normalize_case(doc)
+        temp = CorpusManager.normalize_case(temp)
         temp = CorpusManager.clean_with_custom_stopwords("data_outputs/stopwords.txt", temp)
         polished_corpus.append(temp)
-    #polished_corpus = CorpusManager.union_multiword_expression(polished_corpus, ['öffentlich dienst', 'hass hetze'])
+    polished_corpus = CorpusManager.union_multiword_expression(polished_corpus)
     return polished_corpus
 
 def calculate_mean_tf_idf(documents: list[list[str]], path: str = "") -> None:
@@ -74,40 +74,28 @@ def calculate_mean_tf_idf(documents: list[list[str]], path: str = "") -> None:
 
 if __name__ == "__main__":
 
-    '''test = ["Ich sollte anständige Tests schreiben das ist ein test öffentlicher dienst test",
-                "das ist ein test öffentlicher dienst",
-                "das hass hetze ist ein Bedrohung test öffentlicher dienst test"
-                 "das hass unmöglich Problem Klima öffentlicher dienst test"]'''
+    corpus = CorpusManager("All_Speaches_LDA_preprocessed")
 
-    with open('data_outputs/MWE.json', 'r', encoding="utf-8") as json_file:
-        MWE = json.load(json_file)
+    corpus.processed = corpus.get_all_speaches()
 
-    mutliword_expressions = []
-    for entry in MWE.values():
-        for tuples in entry:
-            mutliword_expressions.append(tuples)
+    corpus.processed = preprocess_LDA(corpus.processed)
 
-    print(mutliword_expressions)
-
-    #print(preprocess_LDA(test))
-    '''documents = preprocess_LDA(corpus.processed)
+    corpus.serialize_corpus()
 
     # Generation eines Wörterbuchs
-    dictionary = corpora.Dictionary(documents)
+    dictionary = corpora.Dictionary(corpus.processed)
 
     # Generation eines Bag-of-Words-Korpus
-    corpus = [dictionary.doc2bow(document) for document in documents]
+    corpus = [dictionary.doc2bow(document) for document in corpus.processed]
 
     lda_model = gensim.models.LdaModel(corpus,
      num_topics=50,
       id2word=dictionary,
-       passes=15)
+       passes=15,
+        iterations=50,
+        alpha='auto',
+        eta='auto')
 
-    # Themen drucken
-    topics = lda_model.print_topics(num_words=10)
-    for topic in topics:
-        print(topic)
 
     vis_data = gensimvis.prepare(lda_model, corpus, dictionary)
-    pyLDAvis.save_html(vis_data, 'lda_visualization.html')
-'''
+    pyLDAvis.save_html(vis_data, 'lda_visualization_new.html')
