@@ -193,7 +193,7 @@ class CorpusManager:
                 if i < len(doc) - 1:
                     #bigram = token + " " + doc[i + 1]
                     bigram = [token, doc[i + 1]]
-                    print(bigram)
+                    #print(bigram)
                     if bigram in mutliword_expressions:
                         new_doc.append(MWE_reversed[str(bigram)])
                         skipped = True
@@ -204,16 +204,22 @@ class CorpusManager:
             new_docs.append(new_doc)
         return new_docs
 
-    def serialize_corpus(self) -> None:
+    def serialize_corpus(self, custom_name: str = None) -> None:
         """
         Diese Funktion serialisiert ein verarbeitetes Korpus.
 
         Args:
-            Das Korpus
+            Das Korpus.
+            custom_name: Ein eigens definierter Name.
         """
 
-        with open(f"data/processed_corpus/corpus_{self.name}", "w", encoding="utf-8") as f:
+        with open(f"data/processed_corpus/corpus_{self.name if not custom_name else custom_name}", "w", encoding="utf-8") as f:
             json_container = {}
             for i, doc in enumerate(self.processed):
                 json_container[i] = doc
             json.dump(json_container, f, ensure_ascii=False, indent=2)
+
+
+if __name__ == "__main__":
+    for t in range(30, 101, 10):
+        print(t)
