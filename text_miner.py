@@ -2,6 +2,7 @@ import re
 from typing import List
 import gensim
 from gensim import corpora
+from gensim.models import CoherenceModel
 import pandas as pd
 import json
 
@@ -23,6 +24,7 @@ def preprocess_LDA(corpus: list[str]) -> list[list[str]]:
     corpus = CorpusManager.clean_corpus(corpus)
     corpus = CorpusManager.lemmatize_corpus(corpus)
     polished_corpus = []
+
     for doc in corpus:
 
         # Wir entfernen alle 'stumps', das sind Reden mit weniger als 100 Termen.
@@ -36,6 +38,7 @@ def preprocess_LDA(corpus: list[str]) -> list[list[str]]:
         temp = CorpusManager.normalize_case(temp)
         temp = CorpusManager.clean_with_custom_stopwords("data_outputs/stopwords.txt", temp)
         polished_corpus.append(temp)
+
     polished_corpus = CorpusManager.union_multiword_expression(polished_corpus)
     return polished_corpus
 
@@ -80,22 +83,39 @@ if __name__ == "__main__":
 
     corpus.processed = preprocess_LDA(corpus.processed)
 
+    #Wir speichern das Korpus
     corpus.serialize_corpus()
 
-    # Generation eines Wörterbuchs
+    # Generation des Wörterbuchs
     dictionary = corpora.Dictionary(corpus.processed)
 
-    # Generation eines Bag-of-Words-Korpus
-    corpus = [dictionary.doc2bow(document) for document in corpus.processed]
-
-    lda_model = gensim.models.LdaModel(corpus,
-     num_topics=50,
-      id2word=dictionary,
-       passes=15,
-        iterations=50,
-        alpha='auto',
-        eta='auto')
+    # Berechnung des Bag-of-Words-Korpus
+    bag_of_words_model = [dictionary.doc2bow(document) for document in corpus.processed]
 
 
-    vis_data = gensimvis.prepare(lda_model, corpus, dictionary)
-    pyLDAvis.save_html(vis_data, 'lda_visualization_new.html')
+    '''
+    Wir generieren zunächst eine Population aus 10 Modellen mit t aus dem Intervall [30, 100] mit 10er Schritten.
+    Im Anschluss können wir das Intervall reduzieren und in 1er Schritten nach der optimalen Themenzahl hinsichtlich der
+    Kohärenzmetrik C_v suchen.
+    '''
+    for t in range(30, 101, 10):
+
+        # Wir berechnen das Model uns lassen die Hyperparameter alpha und eta vom Algorithmus optimieren.
+        lda_model = gensim.models.LdaModel(bag_of_words_model,
+         num_topics=t,
+          id2word=dictionary,
+           passes=15,
+            iterations=100,
+             alpha='auto',
+              eta='auto')
+
+        # Wir berechnen die Kohärenz des Themenmodells mit t Themen nach der Kohärenzmetrik C_v nach Röder et al. (2015)
+        coherence_model = CoherenceModel(model=lda_model, texts=corpus.processed, dictionary=dictionary, coherence='c_v')
+
+        coherence = coherence_model.get_coherence()
+
+        print(f'Kohärenzscore C_v mit {t} Themen: ', coherence)
+
+    #Wir visualisieren das Themenmodell
+    #vis_data = gensimvis.prepare(lda_model, bag_of_words_model, dictionary)
+    #pyLDAvis.save_html(vis_data, 'lda_visualization_new.html')
