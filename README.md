@@ -20,7 +20,7 @@ PolMinePyHesse/
 │   ├── stoppwords.txt -- Ein eigens - mithilfe von tf-idf - generierte Stoppwortliste für das Korpus.
 │   ├── tf-idf_results.txt -- Die mittleren tf-idf-Werte.
 │   ├── MWE.json -- Statistisch bedeutsame MWE und NE im Korpus.
-│   └── MWE_reversed.json -- Abbildung der Bigramme auf die MWE und NE
+│   └── MWE_reversed.json -- Abbildung der Bigramme auf die MWE und NE.
 ├── lda_visualisations/
 │   └── Die mit pyLDAvis erzeugten Visualisierungen für Themenmodelle.
 ├── XSD
@@ -31,5 +31,5 @@ PolMinePyHesse/
 ├── patterns.py -- Reguläre Ausdrücke für den Parser.
 ├── xml_validator.py -- Funktionen für die Validierung der Wohlgeformtheit und nach dem einem XSD.
 ├── corpus_manager.py -- Enthält die Klasse CorpusManager, um das hesseparl-tei-Korpus einzulesen und zu verwalten.
-├── cooccurrence_miner.py -- Das Skript enthält eine Prozedur, um Kookkurrenzen zu berechnen und daraus bededeutsame MWE und NE abzuleiten.
+├── cooccurrence_miner.py -- Das Skript enthält eine Prozedur, um Kookkurrenzen bzw. Kollokationen zu berechnen, um daraus bededeutsame MWE und NE abzuleiten.
 └── text_miner.py -- Enthält Funktionen für das Text-Mining.
