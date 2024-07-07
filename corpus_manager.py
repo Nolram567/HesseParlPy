@@ -16,19 +16,34 @@ class CorpusManager:
     Attributes:
         corpus (dict): Dieses Dictionary enthält alle Protokolle der 20. Legislaturperiode nach dem Muster:
         "Dateiname": ElementTree des Dokuments
+        name (str): Der Name des Korpus.
+        processed (list): Eine verarbeitete Version des Korpus als Liste.
+
     """
 
-    def __init__(self, name):
+    def __init__(self, name, load_processed: bool = False):
         """
         Dieser Konstruktor deserialisiert das Korpus.
+
+        Args:
+            name: Der Name des Korpus.
+            load_processed: Falls ja, wird ein Korpus mit dem übergebenen Namen aus dem Ordner data/processed_corpus
+            geladen und als Objektattribut processed abgespeichert.
+
         """
-        self.corpus = {}
-        self.name = name
-        self.processed = []
-        for filename in os.listdir("data/xml-tei"):
-            # Wir formatieren den relativen Dateipfad mit der Ordnerstruktur und dem Dateinamen.
-            xml_file_path = os.path.join("data/xml-tei/", filename)
-            self.corpus[filename] = ET.parse(xml_file_path)
+        if not load_processed:
+            self.corpus = {}
+            self.name = name
+            self.processed = []
+            for filename in os.listdir("data/xml-tei"):
+                # Wir formatieren den relativen Dateipfad mit der Ordnerstruktur und dem Dateinamen.
+                xml_file_path = os.path.join("data/xml-tei/", filename)
+                self.corpus[filename] = ET.parse(xml_file_path)
+        else:
+            self.corpus = {}
+            self.name = name
+            with open(f'data/processed_corpus/{name}', 'r', encoding='utf-8') as json_file:
+                self.processed = json.load(json_file).values()
 
     def get_speaches_from_politican(self, p: str, id: str = "who") -> list:
         """
@@ -84,6 +99,22 @@ class CorpusManager:
                     for a in sp_tag.findall(".//p"):
                         speaches.append(a.text)
         return speaches
+
+    def serialize_corpus(self, custom_name: str = None) -> None:
+        """
+        Diese Funktion serialisiert ein verarbeitetes Korpus.
+
+        Args:
+            Das Korpus.
+            custom_name: Ein eigens definierter Name.
+        """
+
+        with open(f"data/processed_corpus/{self.name if not custom_name else custom_name}", "w",
+                  encoding="utf-8") as f:
+            json_container = {}
+            for i, doc in enumerate(self.processed):
+                json_container[i] = doc
+            json.dump(json_container, f, ensure_ascii=False, indent=2)
 
     @staticmethod
     def clean_corpus(l: list[str]) -> list[str]:
@@ -172,9 +203,9 @@ class CorpusManager:
             Das übergebene Korpus, indem alle mehrteilige Ausdrücke zu einem token konkateniert sind.
         """
 
-        with open('data_outputs/MWE.json', 'r') as json_file:
+        with open('data_outputs/MWE.json', 'r', encoding='utf-8') as json_file:
             MWE = json.load(json_file)
-        with open('data_outputs/MWE_reversed.json', 'r') as json_file:
+        with open('data_outputs/MWE_reversed.json', 'r', encoding='utf-8') as json_file:
             MWE_reversed = json.load(json_file)
 
         mutliword_expressions = []
@@ -204,22 +235,9 @@ class CorpusManager:
             new_docs.append(new_doc)
         return new_docs
 
-    def serialize_corpus(self, custom_name: str = None) -> None:
-        """
-        Diese Funktion serialisiert ein verarbeitetes Korpus.
-
-        Args:
-            Das Korpus.
-            custom_name: Ein eigens definierter Name.
-        """
-
-        with open(f"data/processed_corpus/corpus_{self.name if not custom_name else custom_name}", "w", encoding="utf-8") as f:
-            json_container = {}
-            for i, doc in enumerate(self.processed):
-                json_container[i] = doc
-            json.dump(json_container, f, ensure_ascii=False, indent=2)
 
 
 if __name__ == "__main__":
-    for t in range(30, 101, 10):
-        print(t)
+
+    test = CorpusManager(name="corpus_All_Speaches_LDA_preprocessed", load_processed=True)
+    print(len(test.processed))

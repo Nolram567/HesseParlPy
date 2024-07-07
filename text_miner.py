@@ -12,6 +12,7 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 import pyLDAvis.gensim_models as gensimvis
 import pyLDAvis
 
+
 def preprocess_LDA(corpus: list[str]) -> list[list[str]]:
     """
     Diese Funktion kombiniert einige Methoden für die Vorverarbeitung.
@@ -41,6 +42,7 @@ def preprocess_LDA(corpus: list[str]) -> list[list[str]]:
 
     polished_corpus = CorpusManager.union_multiword_expression(polished_corpus)
     return polished_corpus
+
 
 def calculate_mean_tf_idf(documents: list[list[str]], path: str = "") -> None:
     """
@@ -75,47 +77,56 @@ def calculate_mean_tf_idf(documents: list[list[str]], path: str = "") -> None:
 
     print(f'Die TF-IDF-Werte wurden serialisiert.')
 
+
 if __name__ == "__main__":
 
-    corpus = CorpusManager("All_Speaches_LDA_preprocessed")
+    '''corpus = CorpusManager("All_Speaches_LDA_preprocessed")
 
     corpus.processed = corpus.get_all_speaches()
 
     corpus.processed = preprocess_LDA(corpus.processed)
 
-    #Wir speichern das Korpus
-    corpus.serialize_corpus()
+    # Wir speichern das Korpus
+    corpus.serialize_corpus()'''
 
+    corpus = CorpusManager(name="corpus_All_Speaches_LDA_preprocessed", load_processed=True)
     # Generation des Wörterbuchs
     dictionary = corpora.Dictionary(corpus.processed)
 
     # Berechnung des Bag-of-Words-Korpus
     bag_of_words_model = [dictionary.doc2bow(document) for document in corpus.processed]
 
-
+    coherence_map = {}
     '''
     Wir generieren zunächst eine Population aus 10 Modellen mit t aus dem Intervall [30, 100] mit 10er Schritten.
     Im Anschluss können wir das Intervall reduzieren und in 1er Schritten nach der optimalen Themenzahl hinsichtlich der
     Kohärenzmetrik C_v suchen.
     '''
-    for t in range(30, 101, 10):
+    #for t in range(30, 101, 10):
+    #for t in range(20, 31):
+    for t in range(29, 30):
 
         # Wir berechnen das Model uns lassen die Hyperparameter alpha und eta vom Algorithmus optimieren.
         lda_model = gensim.models.LdaModel(bag_of_words_model,
-         num_topics=t,
-          id2word=dictionary,
-           passes=15,
-            iterations=100,
-             alpha='auto',
-              eta='auto')
+                                           num_topics=t,
+                                           id2word=dictionary,
+                                           passes=30,
+                                           iterations=100,
+                                           alpha='auto',
+                                           eta='auto')
 
         # Wir berechnen die Kohärenz des Themenmodells mit t Themen nach der Kohärenzmetrik C_v nach Röder et al. (2015)
-        coherence_model = CoherenceModel(model=lda_model, texts=corpus.processed, dictionary=dictionary, coherence='c_v')
+        coherence_model = CoherenceModel(model=lda_model, texts=corpus.processed, dictionary=dictionary,
+                                         coherence='c_v')
 
         coherence = coherence_model.get_coherence()
-
+        coherence_map[t] = coherence
         print(f'Kohärenzscore C_v mit {t} Themen: ', coherence)
 
-    #Wir visualisieren das Themenmodell
-    #vis_data = gensimvis.prepare(lda_model, bag_of_words_model, dictionary)
-    #pyLDAvis.save_html(vis_data, 'lda_visualization_new.html')
+    '''#Wir speichern die Themenzahl t mit den korrespondierenden Kohärenzwerten ab.
+    with open("data_outputs/coherence_map_2", "w", encoding="utf-8") as f:
+        json.dump(coherence_map, f, indent=2, ensure_ascii=False)'''
+
+'''    # Wir visualisieren das Themenmodell
+    vis_data = gensimvis.prepare(lda_model, bag_of_words_model, dictionary)
+    pyLDAvis.save_html(vis_data, 'lda_visualisation/lda_visualization_t29.html')'''
