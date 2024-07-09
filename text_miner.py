@@ -5,7 +5,7 @@ from gensim import corpora
 from gensim.models import CoherenceModel
 import pandas as pd
 import json
-
+import os
 from corpus_manager import CorpusManager
 from nltk import word_tokenize, bigrams, Counter
 from sklearn.feature_extraction.text import TfidfVectorizer
@@ -22,15 +22,17 @@ def preprocess_LDA(corpus: list[str]) -> list[list[str]]:
     Return:
         Das vorverarbeitete Korpus.
     """
+    print(sum(len(s) for s in corpus))
     corpus = CorpusManager.clean_corpus(corpus)
     corpus = CorpusManager.lemmatize_corpus(corpus)
+    print(sum(len(s) for sublist in corpus for s in sublist))
     polished_corpus = []
 
     for doc in corpus:
 
         # Wir entfernen alle 'stumps', das sind Reden mit weniger als 100 Termen.
         if len(doc) < 100:
-            print(doc)
+            #print(doc)
             continue
 
         # Alle fehlerhaften Token sowie Token, die weniger als 4 Zeichen haben, werden entfernt.
@@ -39,8 +41,9 @@ def preprocess_LDA(corpus: list[str]) -> list[list[str]]:
         temp = CorpusManager.normalize_case(temp)
         temp = CorpusManager.clean_with_custom_stopwords("data_outputs/stopwords.txt", temp)
         polished_corpus.append(temp)
-
+    print(sum(len(s) for sublist in polished_corpus for s in sublist))
     polished_corpus = CorpusManager.union_multiword_expression(polished_corpus)
+    print(sum(len(s) for sublist in polished_corpus for s in sublist))
     return polished_corpus
 
 
@@ -89,7 +92,7 @@ if __name__ == "__main__":
     # Wir speichern das Korpus
     corpus.serialize_corpus()'''
 
-    corpus = CorpusManager(name="corpus_All_Speaches_LDA_preprocessed", load_processed=True)
+    corpus = CorpusManager(name="All_Speaches_LDA_preprocessed", load_processed=True)
     # Generation des Wörterbuchs
     dictionary = corpora.Dictionary(corpus.processed)
 
@@ -127,6 +130,9 @@ if __name__ == "__main__":
     with open("data_outputs/coherence_map_2", "w", encoding="utf-8") as f:
         json.dump(coherence_map, f, indent=2, ensure_ascii=False)'''
 
-'''    # Wir visualisieren das Themenmodell
+    # Wir visualisieren das Themenmodell
     vis_data = gensimvis.prepare(lda_model, bag_of_words_model, dictionary)
-    pyLDAvis.save_html(vis_data, 'lda_visualisation/lda_visualization_t29.html')'''
+    pyLDAvis.save_html(vis_data, 'lda_visualisation/lda_visualization_t29_4.html')
+
+    dictionary.save(os.path.join('data_outputs/topic_models', 'dictionary_4.dict'))
+    lda_model.save(os.path.join('data_outputs/topic_models', 'topic_model_t29_4.lda'))
