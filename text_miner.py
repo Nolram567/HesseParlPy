@@ -2,6 +2,7 @@ import re
 from typing import List
 import gensim
 from gensim import corpora
+from gensim.corpora import MmCorpus
 from gensim.models import CoherenceModel
 import pandas as pd
 import json
@@ -94,12 +95,17 @@ if __name__ == "__main__":
 
     corpus = CorpusManager(name="All_Speaches_LDA_preprocessed", load_processed=True)
     # Generation des Wörterbuchs
+
+    print(sum(len(doc) for doc in corpus.processed)/len(corpus.processed))
+
     dictionary = corpora.Dictionary(corpus.processed)
 
     # Berechnung des Bag-of-Words-Korpus
     bag_of_words_model = [dictionary.doc2bow(document) for document in corpus.processed]
 
-    coherence_map = {}
+    MmCorpus.serialize('data_outputs/topic_models/bow_corpus.mm', bag_of_words_model)
+
+    """coherence_map = {}
     '''
     Wir generieren zunächst eine Population aus 10 Modellen mit t aus dem Intervall [30, 100] mit 10er Schritten.
     Im Anschluss können wir das Intervall reduzieren und in 1er Schritten nach der optimalen Themenzahl hinsichtlich der
@@ -135,4 +141,4 @@ if __name__ == "__main__":
     pyLDAvis.save_html(vis_data, 'lda_visualisation/lda_visualization_t29_4.html')
 
     dictionary.save(os.path.join('data_outputs/topic_models', 'dictionary_4.dict'))
-    lda_model.save(os.path.join('data_outputs/topic_models', 'topic_model_t29_4.lda'))
+    lda_model.save(os.path.join('data_outputs/topic_models', 'topic_model_t29_4.lda'))"""
