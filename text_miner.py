@@ -103,6 +103,7 @@ if __name__ == "__main__":
     # Berechnung des Bag-of-Words-Korpus
     bag_of_words_model = [dictionary.doc2bow(document) for document in corpus.processed]
 
+
     MmCorpus.serialize('data_outputs/topic_models/bow_corpus.mm', bag_of_words_model)
 
     """coherence_map = {}
