@@ -2,8 +2,6 @@ import json
 import os
 import xml.etree.ElementTree as ET
 import string
-from typing import List, Any
-
 import spacy
 from nltk.corpus import stopwords
 import nltk
@@ -11,7 +9,7 @@ import nltk
 
 class CorpusManager:
     """
-    Objekte dieser Klasse initialisieren und verwalten das Korpus.
+    Objekte dieser Klasse initialisieren und verwalten ein Korpus.
 
     Attributes:
         corpus (dict): Dieses Dictionary enthält alle Protokolle der 20. Legislaturperiode nach dem Muster:
@@ -82,13 +80,12 @@ class CorpusManager:
 
     def get_all_speaches(self) -> list:
         """
-        Mit dieser Methode kann man alle Reden aus einem Korpus extrahieren. Wenn der Parameter m wahr ist, werden auch
-        moderierende Beiträge des oder der (Vize)Präsident*in abgefragt.
+        Mit dieser Methode kann man alle Reden aus einem Korpus extrahieren und dabei die Reden der Präsidenten oder
+        Vizepräsidenten des Landtags aussparen.
 
-        Args:
-            m:
         Return:
-            Eine Liste mit allen Einzeläußerungen von Mitglieder der spezifizierten Partei ohne Metadaten.
+            Eine Liste mit allen Einzeläußerungen von Mitglieder des Landtags die nicht Präsident oder Vizepräsident
+            des Landtags sind ohne Metadaten.
         """
         speaches = []
         for e in self.corpus.keys():
@@ -105,7 +102,6 @@ class CorpusManager:
         Diese Funktion serialisiert ein verarbeitetes Korpus.
 
         Args:
-            Das Korpus.
             custom_name: Ein eigens definierter Name.
         """
 
@@ -119,7 +115,7 @@ class CorpusManager:
     @staticmethod
     def clean_corpus(l: list[str]) -> list[str]:
         """
-        Befreit eine Liste mit Strings von Interpunktionszeichen und nicht alphabetischen Zeichenfolgen.
+        Befreit eine Liste mit Strings von Interpunktionszeichen.
 
         Args:
             l: Die zu bereinigende Liste.
@@ -151,7 +147,7 @@ class CorpusManager:
     @staticmethod
     def clean_with_custom_stopwords(path: str, l: list[str]) -> list[str]:
         """
-        Diese statische Methode bereinigt ein Korpus mithilfe einer Stoppwortliste.
+        Diese Methode bereinigt ein Korpus mithilfe einer Stoppwortliste.
 
         Args:
             path: Der Dateipfad.
@@ -166,12 +162,13 @@ class CorpusManager:
     @staticmethod
     def lemmatize_corpus(l: list[str]) -> list[list[str]]:
         """
-        Diese Methode lemmatisiert eine Liste von Strings und entfernt Stoppwörter.
+        Diese Methode lemmatisiert eine Liste von Strings. Außerdem werden Stoppwörter mit nltk und numerische
+        Zeichen entfernt.
 
         Args:
-            l: Die Liste mit den zu lemmatisierenden Strings.
+            l: Die Liste mit den Dokumenten aus flektierten Termen.
         Return:
-            Der tokenisierte, lemmatisierte String als Liste.
+            Der tokenisierte, lemmatisierte Dokumente als Liste.
         """
         german_model = spacy.load('de_core_news_sm', disable=['parser', 'ner'])
         german_model.max_length = 10000000
@@ -234,10 +231,3 @@ class CorpusManager:
                     new_doc.append(token)
             new_docs.append(new_doc)
         return new_docs
-
-
-
-if __name__ == "__main__":
-
-    test = CorpusManager(name="corpus_All_Speaches_LDA_preprocessed", load_processed=True)
-    print(len(test.processed))
