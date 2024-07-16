@@ -13,17 +13,17 @@ import pyLDAvis
 
 def preprocess_LDA(corpus: list[str]) -> list[list[str]]:
     """
-    Diese Funktion kombiniert einige Methoden für die Vorverarbeitung.
+    Diese Funktion kombiniert einige Methoden, um ein Korpus für das Training eines Themenmodells vorzuverarbeiten.
 
     Args:
         corpus: Ein Korpus als Liste
     Return:
         Das vorverarbeitete Korpus.
     """
-    print(sum(len(s) for s in corpus))
+    #print(sum(len(s) for s in corpus))
     corpus = CorpusManager.clean_corpus(corpus)
     corpus = CorpusManager.lemmatize_corpus(corpus)
-    print(sum(len(s) for sublist in corpus for s in sublist))
+    #print(sum(len(s) for sublist in corpus for s in sublist))
     polished_corpus = []
 
     for doc in corpus:
@@ -39,9 +39,9 @@ def preprocess_LDA(corpus: list[str]) -> list[list[str]]:
         temp = CorpusManager.normalize_case(temp)
         temp = CorpusManager.clean_with_custom_stopwords("data_outputs/stopwords.txt", temp)
         polished_corpus.append(temp)
-    print(sum(len(s) for sublist in polished_corpus for s in sublist))
+    #print(sum(len(s) for sublist in polished_corpus for s in sublist))
     polished_corpus = CorpusManager.union_multiword_expression(polished_corpus)
-    print(sum(len(s) for sublist in polished_corpus for s in sublist))
+    #print(sum(len(s) for sublist in polished_corpus for s in sublist))
     return polished_corpus
 
 
