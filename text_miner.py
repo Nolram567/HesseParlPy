@@ -1,5 +1,3 @@
-import re
-from typing import List
 import gensim
 from gensim import corpora
 from gensim.corpora import MmCorpus
@@ -8,7 +6,6 @@ import pandas as pd
 import json
 import os
 from corpus_manager import CorpusManager
-from nltk import word_tokenize, bigrams, Counter
 from sklearn.feature_extraction.text import TfidfVectorizer
 import pyLDAvis.gensim_models as gensimvis
 import pyLDAvis
@@ -84,34 +81,39 @@ def calculate_mean_tf_idf(documents: list[list[str]], path: str = "") -> None:
 
 if __name__ == "__main__":
 
-    '''corpus = CorpusManager("All_Speaches_LDA_preprocessed")
+    '''
+    Wir instanziieren ein CorpusManager-Objekt, laden alle Reden, vorverarbeiten das Korpus und speichern das Produkt.
+    
+    corpus = CorpusManager("All_Speaches_LDA_preprocessed")
 
     corpus.processed = corpus.get_all_speaches()
 
     corpus.processed = preprocess_LDA(corpus.processed)
 
-    # Wir speichern das Korpus
-    corpus.serialize_corpus()'''
+    corpus.serialize_corpus()
+    '''
 
+    #Das vorverarbeitete Korpus wird geladen.
     corpus = CorpusManager(name="All_Speaches_LDA_preprocessed", load_processed=True)
+
+    print(f"Es gibt {len(corpus.processed)} verarbeitete Dokumente im Korpus.")
+    print(f"Ein Dokument hat durchschnittlich {sum(len(doc) for doc in corpus.processed)/len(corpus.processed)} Zeichen.")
+
+
     # Generation des Wörterbuchs
-
-    print(sum(len(doc) for doc in corpus.processed)/len(corpus.processed))
-
     dictionary = corpora.Dictionary(corpus.processed)
 
     # Berechnung des Bag-of-Words-Korpus
     bag_of_words_model = [dictionary.doc2bow(document) for document in corpus.processed]
 
+    coherence_map = {}
 
-    MmCorpus.serialize('data_outputs/topic_models/bow_corpus.mm', bag_of_words_model)
-
-    """coherence_map = {}
     '''
     Wir generieren zunächst eine Population aus 10 Modellen mit t aus dem Intervall [30, 100] mit 10er Schritten.
     Im Anschluss können wir das Intervall reduzieren und in 1er Schritten nach der optimalen Themenzahl hinsichtlich der
     Kohärenzmetrik C_v suchen.
     '''
+
     #for t in range(30, 101, 10):
     #for t in range(20, 31):
     for t in range(29, 30):
@@ -131,15 +133,17 @@ if __name__ == "__main__":
 
         coherence = coherence_model.get_coherence()
         coherence_map[t] = coherence
-        print(f'Kohärenzscore C_v mit {t} Themen: ', coherence)
+        print(f'Kohärenzscore C_v mit {t} Themen: {coherence}')
 
-    '''#Wir speichern die Themenzahl t mit den korrespondierenden Kohärenzwerten ab.
+    #Wir speichern die Themenzahl t mit den korrespondierenden Kohärenzwerten ab.
     with open("data_outputs/coherence_map_2", "w", encoding="utf-8") as f:
-        json.dump(coherence_map, f, indent=2, ensure_ascii=False)'''
+        json.dump(coherence_map, f, indent=2, ensure_ascii=False)
 
-    # Wir visualisieren das Themenmodell
+    # Wir visualisieren das Themenmodell und speichern die dynamische Grafik ab.
     vis_data = gensimvis.prepare(lda_model, bag_of_words_model, dictionary)
     pyLDAvis.save_html(vis_data, 'lda_visualisation/lda_visualization_t29_4.html')
 
+    #Wir serialisieren das LDA-Model, das BoW-Korpus und das Dictionary, um das Model vollständig wiederherstellen zu können.
     dictionary.save(os.path.join('data_outputs/topic_models', 'dictionary_4.dict'))
-    lda_model.save(os.path.join('data_outputs/topic_models', 'topic_model_t29_4.lda'))"""
+    lda_model.save(os.path.join('data_outputs/topic_models', 'topic_model_t29_4.lda'))
+    MmCorpus.serialize('data_outputs/topic_models/bow_corpus.mm', bag_of_words_model)
