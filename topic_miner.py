@@ -32,9 +32,41 @@ if __name__ == "__main__":
     correlation_matrix = np.corrcoef(data_matrix, rowvar=False)
     topic_correlations = {}
 
+    label_id_map = {
+        1: "Gesetzgebung",
+        2: "Covid-19-Pandemie",
+        3: "Medizinische Versorgung",
+        4: "Covid-19-Pandemie",
+        5: "Kultur",
+        6: "Justizwesen",
+        7: "Hochschulwesen",
+        8: "Landesfinanzen",
+        9: "(Erneuerbare) Energie",
+        10: "Covid-19-Pandemie",
+        11: "Barrierefreiheit",
+        12: "ÖRR",
+        13: "Europäische Union",
+        14: "Verwaltung im Landtag",
+        15: "Gewalt/Polizei*",
+        16: "Familie",
+        17: "Wirtschaft",
+        18: "Russischer Angriffskrieg",
+        19: "Landesfinanzen",
+        20: "Kommunalwesen",
+        21: "Verwaltung im Landtag",
+        22: "**",
+        23: "Wohnraum",
+        24: "Terrorismus",
+        25: "Migration und Asyl",
+        26: "Demokratie",
+        27: "Schulwesen",
+        28: "**",
+        29: "Vereinswesen"
+    }
+
     for i in range(model.num_topics):
         for j in range(i + 1, model.num_topics):
-            key = f"Thema{i + 1}, Thema{j + 1}"
+            key = f"{label_id_map[i + 1]}, {label_id_map[j + 1]}"
             topic_correlations[key] = correlation_matrix[i, j]
 
     # Ausgabe der Korrelationen
@@ -48,15 +80,13 @@ if __name__ == "__main__":
                          boxpoints='all',  # Alle Punkte anzeigen
                          jitter=0.5,  # Punkte horizontal streuen
                          pointpos=-1.8,  # Position der Punkte relativ zum Boxplot
+                         #hovertemplate= f"{label, value for label, value in zip(labels, values)}",
                          hovertext= [f'{label}: {value}' for label, value in zip(labels, values)],  # Tooltips mit den Themenlabels
                          marker_color='blue',
-                         name=""))
+                         boxmean='sd',
+                         name="Pearson-Korrelation"))
 
     # Layout-Anpassungen
     fig.update_layout(title='Korrelationen zwischen Themen',
                       yaxis_title='Pearson-Korrelationskoeffizient',
-                      xaxis_title='Themenpaare',
                       showlegend=False)
-
-    # Diagramm anzeigen
-    fig.show()
