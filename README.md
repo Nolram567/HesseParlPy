@@ -32,4 +32,5 @@ PolMinePyHesse/
 ├── xml_validator.py -- Funktionen für die Validierung der Wohlgeformtheit und nach dem einem XSD.
 ├── corpus_manager.py -- Enthält die Klasse CorpusManager, um das hesseparl-tei-Korpus einzulesen und zu verwalten.
 ├── cooccurrence_miner.py -- Das Skript enthält eine Prozedur, um Kookkurrenzen bzw. Kollokationen zu berechnen, um daraus bededeutsame MWE und NE abzuleiten.
-└── text_miner.py -- Enthält Funktionen für das Text-Mining.
+├── text_miner.py -- Enthält Funktionen für das Text-Mining.
+└── topic_miner.py -- Berechnet die Korrelationen zwischen den Themenpaaren und visualisiert die Verteilung als Boxplot.
