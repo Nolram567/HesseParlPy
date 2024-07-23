@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Info Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        h1 {
+            color: #333;
+        }
+        p {
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background: #fff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            border: 1px solid black;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Willkommen auf dem Data-Dashboard von HesseParlPy</h1>
+        <p>Diese Seite enthält einige Ergebnisse eines Text-Mining-Projekts auf Grundlage der Protokolle des hessischen
+        Landtags der 20. Legislaturperiode. Im Rahmen des Projekts wurde mittels Latent Dirichlet Allocation ein Themenmodell
+        trainiert. Die Qualität des Themenmodells wurde mit unterschiedlichen Techniken optimiert. Beispielsweise wurden Multiword Expression
+        und Namend Entities mit einem bedeutsamen Gewicht zu einem Token konkateniert, wenn sie durch die Tokenisierung getrennt wurden.
+        Zudem wurde mit einer Frequenzanalyse eine Stoppwortliste erstellt mit Termen, die vor dem Hintergrund der Protokolle als
+        zu unspezifisch eingestuft wurden. Das Themenmodell wurden auf t=29 Themen trainiert, da ich bei einem so parametrisierten Modell
+            das globale Maximum der Kohärenzmetrik C<sub>V</sub> nach Röder et al. (2015) messen konnte.</p>
+        <p>Die Webseite enthält neben der Informationsseite zwei Grafiken:</p>
+        <ul>
+            <li><strong>Die Visualisierung des Themenmodells:</strong> Auf dieser Seite finden sie die dynamische Visualisierung
+            des Themenmodells der 20. Legislaturperiode. Das Themenmodell wurde mit der Bibliothek <code>gensim</code> berechnet und
+            mit <code>pyLDAvis</code> visualisiert.</li>
+            <li><strong>Die Verteilung der Pearson-Korrelation zwischen Themen:</strong> Auf dieser Seite finden Sie einen Boxplot,
+            der die Verteilung der Pearson-Korrelationen zwischen den Themen in Dokumenten visualisiert. Der Boxplot wurde
+                mithilfe der Bibliothek <code>plotly</code> generiert.</li>
+        </ul>
+        <p>Die absteigend sortiert indexierten Themen aus Grafik 1 sind entsprechend der folgenden Tabelle auf die Bezeichner
+        gemappt. Ein Asterisk "*" hinter einem Themenbezeichner symbolisiert, dass das Thema leicht fuzzy ist und zwei Asterisken
+            "**" symbolisieren, dass das Thema fuzzy ist und nicht eindeutig interpretierbar.</p><br><br>
+
+        <table>
+    <tr>
+        <th>Bezeichner</th>
+        <th>Themennummer</th>
+        <th>Hochfrequente Terme</th>
+        <th>Hochspezifische Terme</th>
+        <th>Gewicht</th>
+    </tr>
+    <tr>
+        <td>Wirtschaft</td>
+        <td>1</td>
+        <td>Unternehmen, Zukunft, Wirtschaft</td>
+        <td>Ökologisch, Flughafen, Innenstadt</td>
+        <td>16.8%</td>
+    </tr>
+    <tr>
+        <td>Demokratie</td>
+        <td>2</td>
+        <td>Landtag, recht, politisch</td>
+        <td>Parlament, Demokratisch, Verfassung</td>
+        <td>14%</td>
+    </tr>
+    <tr>
+        <td>Gesetzgebung</td>
+        <td>3</td>
+        <td>Gesetzentwurf, Änderungsantrag</td>
+        <td>Gesetzgebungsverfahren</td>
+        <td>8.4%</td>
+    </tr>
+    <tr>
+        <td>Familie</td>
+        <td>4</td>
+        <td>Kind, Ausbildung, Eltern</td>
+        <td>Geburt</td>
+        <td>5.8%</td>
+    </tr>
+    <tr>
+        <td>Covid-19-Pandemie</td>
+        <td>12, 17, 27*</td>
+        <td>Pandemie, Maßnahme, Impfen</td>
+        <td>Inzidenz, Lockdown</td>
+        <td>5.6%</td>
+    </tr>
+    <tr>
+        <td>Landesfinanzen</td>
+        <td>5, 29</td>
+        <td>Haushalt, Mittel, Geld, Finanzamt</td>
+        <td>Schuldenbremse, Sondervermögen</td>
+        <td>5.6%</td>
+    </tr>
+    <tr>
+        <td>Schulwesen</td>
+        <td>6</td>
+        <td>Schüler, Lehrkraft, Digital</td>
+        <td>Digitalpakt, Kultusministerium</td>
+        <td>4.4%</td>
+    </tr>
+    <tr>
+        <td>Medizinische Versorgung</td>
+        <td>7</td>
+        <td>Versorgung, Arzt, Krankenhaus</td>
+        <td>Gesundheitsämter, Landarztquote</td>
+        <td>3.5%</td>
+    </tr>
+    <tr>
+        <td>Verwaltung im Landtag</td>
+        <td>8, 25</td>
+        <td>Beschlussempfehlung, Parteinamen</td>
+        <td>Handzeichen, dringlich</td>
+        <td>3.4%</td>
+    </tr>
+    <tr>
+        <td>Terrorismus</td>
+        <td>9</td>
+        <td>Opfer, Hanau, Polizei</td>
+        <td>Walter Lübcke, Rechtsextremismus</td>
+        <td>3.3%</td>
+    </tr>
+    <tr>
+        <td>Kommunalwesen</td>
+        <td>10</td>
+        <td>Kommunen, Stadt, Landkreis</td>
+        <td>Bürgermeister, Gemeinde</td>
+        <td>3%</td>
+    </tr>
+    <tr>
+        <td>(Erneuerbare) Energie</td>
+        <td>11</td>
+        <td>Wasserstoff, Strom, Energie</td>
+        <td>Petition, Windräder</td>
+        <td>3%</td>
+    </tr>
+    <tr>
+        <td>Gewalt/Polizei*</td>
+        <td>13</td>
+        <td>Polizei, Gewalt, Mann, Diskriminierung</td>
+        <td>Häusliche Gewalt</td>
+        <td>2.6%</td>
+    </tr>
+    <tr>
+        <td>ÖRR</td>
+        <td>14</td>
+        <td>Medium, Bildung</td>
+        <td>Staatsvertrag, ÖRR</td>
+        <td>2.5%</td>
+    </tr>
+    <tr>
+        <td>Kultur</td>
+        <td>15</td>
+        <td>Bibliothek, Kultur, Kunst</td>
+        <td>studentisch, Künstler</td>
+        <td>2.4%</td>
+    </tr>
+    <tr>
+        <td>Vereinswesen*</td>
+        <td>16</td>
+        <td>Verein, Sport, Integration</td>
+        <td>Mittelständisch</td>
+        <td>2.3%</td>
+    </tr>
+    <tr>
+        <td>Europäische Union</td>
+        <td>18</td>
+        <td>Europa, EU</td>
+        <td>Brexit, EZB</td>
+        <td>1.8%</td>
+    </tr>
+    <tr>
+        <td>Wohnraum</td>
+        <td>19</td>
+        <td>Wohnen, Miete, bezahlbar</td>
+        <td>Sozialer Wohnungsbau</td>
+        <td>1.7%</td>
+    </tr>
+    <tr>
+        <td>***_2</td>
+        <td>20</td>
+        <td>Carsharing, Erzieher, Rechtsanspruch</td>
+        <td>Wolf</td>
+        <td>1.6%</td>
+    </tr>
+    <tr>
+        <td>Hochschulwesen</td>
+        <td>21</td>
+        <td>Hochschule, Wissenschaft, Studierend</td>
+        <td>Angewandt, Hochschulpakt</td>
+        <td>1.6%</td>
+    </tr>
+    <tr>
+        <td>***_1</td>
+        <td>22</td>
+        <td>Einzelhandel, Tote, Rad</td>
+        <td>Ermächtigung</td>
+        <td>1.5%</td>
+    </tr>
+    <tr>
+        <td>Justizwesen</td>
+        <td>23</td>
+        <td>Justiz, Richter, Rechtsstaat</td>
+        <td>Gerichtshilfe, Wehrhaft</td>
+        <td>1.5%</td>
+    </tr>
+    <tr>
+        <td>Russisch-ukrainischer Krieg</td>
+        <td>24</td>
+        <td>Krieg, Ukraine, Flüchtling</td>
+        <td>Waffe, Luftverkehr</td>
+        <td>1.1%</td>
+    </tr>
+    <tr>
+        <td>Barrierefreiheit</td>
+        <td>26</td>
+        <td>Behinderung, Krankenversicherung</td>
+        <td>UN-Behindertenkonvention</td>
+        <td>1%</td>
+    </tr>
+    <tr>
+        <td>Migration und Asyl</td>
+        <td>28</td>
+        <td>Afghanistan, Syrien, Humanitär</td>
+        <td>Landesaufnahmeprogramm</td>
+        <td>0.7%</td>
+    </tr>
+</table>
+        <h2>Über</h2>
+        <p>Diese Webseite ist im Rahmen meiner Masterarbeit entstanden.</p>
+    </div>
+</body>
+</html>

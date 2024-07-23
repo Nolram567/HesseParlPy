@@ -3,7 +3,7 @@ from gensim.models.ldamodel import LdaModel
 from gensim.corpora.dictionary import Dictionary
 from gensim.corpora import MmCorpus
 import plotly.graph_objects as go
-
+import plotly.io as pio
 
 if __name__ == "__main__":
 
@@ -50,7 +50,7 @@ if __name__ == "__main__":
         15: "Gewalt/Polizei*",
         16: "Familie",
         17: "Wirtschaft",
-        18: "Russischer Angriffskrieg",
+        18: "Russisch-ukrainischer Krieg",
         19: "Landesfinanzen_II",
         20: "Kommunalwesen",
         21: "Verwaltung im Landtag_II",
@@ -81,8 +81,6 @@ if __name__ == "__main__":
     upper_whisker = np.percentile(values, 97.5)
 
     print(upper_whisker, lower_whisker)
-    # Erstellung des Boxplots mit benutzerdefinierten Whiskern
-    fig = go.Figure()
 
     fig.add_trace(go.Box(y=values,
                          boxpoints='all',  # Alle Punkte anzeigen
@@ -90,9 +88,9 @@ if __name__ == "__main__":
                          pointpos=-1.8,  # Position der Punkte relativ zum Boxplot
                          # hovertemplate= f"{label, value for label, value in zip(labels, values)}",
                          hovertext=[f'{label}: {value}' for label, value in zip(labels, values)],
-                         # Tooltips mit den Themenlabels
                          marker_color='blue',
                          name="Pearson-Korrelation"))
+
     # Layout-Anpassungen
     fig.update_layout(
         title='Korrelationen zwischen Themen',
@@ -100,5 +98,5 @@ if __name__ == "__main__":
         showlegend=False
     )
 
-    # Diagramm anzeigen
-    fig.show()
+    # Diagramm anzeigen und serialisieren
+    pio.write_html(fig, file='github_page/correlation_boxplot.html', auto_open=True)
