@@ -43,9 +43,9 @@
 <body>
 
 <div class="navbar">
-    <a href="Info" onclick="loadPage('info.html')">Info</a>
-    <a href="LDA Visualisation" onclick="loadPage('lda_visualization_t29.html')">LDA Visualization</a>
-    <a href="Correlation Boxplot" onclick="loadPage('correlation_boxplot.html')">Correlation Boxplot</a>
+    <a href="#info" onclick="loadPage('info.html')">Info</a>
+    <a href="#lda_visualization_t29" onclick="loadPage('lda_visualization_t29.html')">LDA Visualization</a>
+    <a href="#correlation_boxplot" onclick="loadPage('correlation_boxplot.html')">Correlation Boxplot</a>
 </div>
 
 <div class="content">
@@ -67,6 +67,39 @@
             iframe.style.width = '100%';
         }
     }
+
+    window.addEventListener('hashchange', function() {
+        var hash = location.hash.substring(1);
+        switch(hash) {
+            case 'lda_visualization_t29':
+                loadPage('lda_visualization_t29.html');
+                break;
+            case 'correlation_boxplot':
+                loadPage('correlation_boxplot.html');
+                break;
+            case 'info':
+            default:
+                loadPage('info.html');
+                break;
+        }
+    });
+
+    window.addEventListener('load', function() {
+        var hash = location.hash.substring(1);
+        switch(hash) {
+            case 'lda_visualization_t29':
+                loadPage('lda_visualization_t29.html');
+                break;
+            case 'correlation_boxplot':
+                loadPage('correlation_boxplot.html');
+                break;
+            case 'info':
+            default:
+                loadPage('info.html');
+                break;
+        }
+    });
 </script>
 
-</body></html>
+</body>
+</html>
