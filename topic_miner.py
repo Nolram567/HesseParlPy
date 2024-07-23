@@ -99,4 +99,4 @@ if __name__ == "__main__":
     )
 
     # Diagramm anzeigen und serialisieren
-    pio.write_html(fig, file='github_page/correlation_boxplot.html', auto_open=True)
+    pio.write_html(fig, file='docs/correlation_boxplot.html', auto_open=True)
