@@ -4,6 +4,8 @@ from gensim.corpora.dictionary import Dictionary
 from gensim.corpora import MmCorpus
 import plotly.graph_objects as go
 import plotly.io as pio
+import networkx as nx
+import matplotlib.pyplot as plt
 
 if __name__ == "__main__":
 
@@ -99,4 +101,27 @@ if __name__ == "__main__":
     )
 
     # Diagramm anzeigen und serialisieren
-    pio.write_html(fig, file='docs/correlation_boxplot.html', auto_open=True)
+    pio.write_html(fig, file='docs/correlation_boxplot.html')
+
+    # Wir durchsuchen das Dictionary nach allen Korrelationen, die größer als das .975-Perzentil sind.
+    extreme_correlations = {key: value for key, value in topic_correlations.items() if value >= upper_whisker}
+
+    # Wir instanziieren das Netzwerk und fügen die Kanten hinzu
+    G = nx.Graph()
+    for (topic_pair, correlation) in extreme_correlations.items():
+        topic1, topic2 = topic_pair.split(", ")
+        G.add_edge(topic1, topic2, weight=correlation)
+
+    # Wir berechnen das Layout und definieren die optischen Eigenschaften.
+    pos = nx.spring_layout(G, seed=450, k=0.3)  # Diese Parametrisierung ergab die beste "Lesbarkeit" des Netzwerks.
+    plt.figure(figsize=(12, 10))
+    edges = nx.draw_networkx_edges(G, pos, edge_color='lightblue', width=2)
+    nodes = nx.draw_networkx_nodes(G, pos, node_size=700, node_color='orange', edgecolors='none', linewidths=0)
+    labels = nx.draw_networkx_labels(G, pos, font_size=12, font_color='black')
+
+    # Wir fügen die Kantengewichte hinzu und runden sie bis auf die zweite Nachkommastelle.
+    edge_labels = nx.get_edge_attributes(G, 'weight')
+    formatted_edge_labels = {(n1, n2): f'{weight:.2f}' for (n1, n2), weight in edge_labels.items()}
+    nx.draw_networkx_edge_labels(G, pos, edge_labels=formatted_edge_labels, font_color='black')
+
+    plt.show()
