@@ -15,22 +15,23 @@ if __name__ == "__main__":
     loaded_corpus = MmCorpus('data_outputs/topic_models/bow_corpus.mm')
 
     # Themen und ihre Top-Wörter ausgeben
-    for topic_id in range(model.num_topics):
+    '''for topic_id in range(model.num_topics):
         words = model.show_topic(topic_id, topn=10)
         topic_words = ', '.join([word for word, prob in words])
-        print(f"Thema {topic_id + 1}: {topic_words}")
+        print(f"Thema {topic_id + 1}: {topic_words}")'''
 
     # Themenverteilungen extrahieren
     topic_distributions = [model.get_document_topics(bow, minimum_probability=0) for bow in loaded_corpus]
 
-    # Datenmatrix erstellen
+    # Nullmatrix initialisieren
     data_matrix = np.zeros((len(loaded_corpus), model.num_topics))
 
+    # Wahrscheinlichkeit, dass Thema x in Dokument y auftaucht, einschreiben.
     for doc_id, dist in enumerate(topic_distributions):
         for topic_id, prob in dist:
             data_matrix[doc_id, topic_id] = prob
 
-    # Pearson-Korrelationen berechnen
+    # Pearson-Korrelationen berechnen und als Matrix abspeichern.
     correlation_matrix = np.corrcoef(data_matrix, rowvar=False)
     topic_correlations = {}
 
@@ -66,17 +67,18 @@ if __name__ == "__main__":
         29: "Vereinswesen"
     }
 
+    # Der numerische Index wird auf die Bezeichner gemappt.
     for i in range(model.num_topics):
         for j in range(i + 1, model.num_topics):
             key = f"{label_id_map[i + 1]}, {label_id_map[j + 1]}"
             topic_correlations[key] = correlation_matrix[i, j]
 
-    # Ausgabe der Korrelationen
-    #print(topic_correlations)
-    labels, values = zip(*topic_correlations.items())
 
-    # Boxplot erstellen
-    fig = go.Figure()
+    #Ausgabe der Korrelationen
+    #print(topic_correlations)
+
+    #Wir trennen Schlüssel und Werte des Dictionarys auf und speichern sie in zwei Listen.
+    labels, values = zip(*topic_correlations.items())
 
     # Berechnung der Perzentile
     lower_whisker = np.percentile(values, 2.5)
@@ -84,12 +86,17 @@ if __name__ == "__main__":
 
     print(upper_whisker, lower_whisker)
 
+
+    # Boxplot erstellen
+    fig = go.Figure()
+
+    # Datensatz hinzufügen und die optischen Eigenschaften definieren.
     fig.add_trace(go.Box(y=values,
                          boxpoints='all',  # Alle Punkte anzeigen
                          jitter=0.5,  # Punkte horizontal streuen
                          pointpos=-1.8,  # Position der Punkte relativ zum Boxplot
                          # hovertemplate= f"{label, value for label, value in zip(labels, values)}",
-                         hovertext=[f'{label}: {value}' for label, value in zip(labels, values)],
+                         hovertext=[f'{label}: {value}' for label, value in zip(labels, values)], # Hovertext definieren.
                          marker_color='blue',
                          name="Pearson-Korrelation"))
 
@@ -104,11 +111,11 @@ if __name__ == "__main__":
     pio.write_html(fig, file='docs/correlation_boxplot.html')
 
     # Wir durchsuchen das Dictionary nach allen Korrelationen, die größer als das .975-Perzentil sind.
-    extreme_correlations = {key: value for key, value in topic_correlations.items() if value >= upper_whisker}
+    outliers = {key: value for key, value in topic_correlations.items() if value >= upper_whisker}
 
     # Wir instanziieren das Netzwerk und fügen die Kanten hinzu
     G = nx.Graph()
-    for (topic_pair, correlation) in extreme_correlations.items():
+    for (topic_pair, correlation) in outliers.items():
         topic1, topic2 = topic_pair.split(", ")
         G.add_edge(topic1, topic2, weight=correlation)
 
