@@ -50,12 +50,12 @@ if __name__ == "__main__":
 
     calculate_cooccurrence(corpus.processed)
 
-    MWE = {
+    '''MWE = {
             "Rechte Szene": [('rechter', 'szene')]
     }
 
     with open("data_outputs/MWE.json", "w", encoding="utf-8") as f:
-        json.dump(MWE, f, ensure_ascii=False, indent=6)
+        json.dump(MWE, f, ensure_ascii=False, indent=6)'''
 
     with open('data_outputs/MWE.json', 'r', encoding="utf-8") as json_file:
         MWE = json.load(json_file)

@@ -43,41 +43,6 @@ class CorpusManager:
             with open(f'data/processed_corpus/{name}', 'r', encoding='utf-8') as json_file:
                 self.processed = json.load(json_file).values()
 
-    def get_speaches_from_politican(self, p: str, id: str = "who") -> list:
-        """
-        Mit dieser Methode kann man alle Reden einer spezifizierten Person aus einem Korpus extrahieren.
-
-        Args:
-             p: Der Name der Person.
-             id: Das Attribut des sp-Elements, in dem nach dem Namen (Parameter p) gesucht werden soll. Das Standardattribut ist "who".
-        Return:
-            Eine Liste mit allen Einzeläußerungen der spezifizierten Person ohne Metadaten.
-        """
-        speaches = []
-        for e in self.corpus.keys():
-            root = self.corpus[e]
-            for sp_tag in root.findall(f".//sp[@{id}='{p}']"):
-                for a in sp_tag.findall((".//p")):
-                    speaches.append(a.text)
-        return speaches
-
-    def get_speaches_from_party(self, party: str) -> list:
-        """
-        Mit dieser Methode kann man alle Reden einer spezifizierten Partei aus einem Korpus extrahieren.
-
-        Args:
-            party: Der Name der Partei.
-        Return:
-            Eine Liste mit allen Einzeläußerungen von Mitglieder der spezifizierten Partei ohne Metadaten.
-        """
-        speaches = []
-        for e in self.corpus.keys():
-            root = self.corpus[e]
-            for sp_tag in root.findall(f".//sp[@parliamentary_group='{party}']"):
-                for a in sp_tag.findall((".//p")):
-                    speaches.append(a.text)
-        return speaches
-
     def get_all_speaches(self) -> list:
         """
         Mit dieser Methode kann man alle Reden aus einem Korpus extrahieren und dabei die Reden der Präsidenten oder
