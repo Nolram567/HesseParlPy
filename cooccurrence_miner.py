@@ -44,6 +44,7 @@ def calculate_cooccurrence(documents: list[str]) -> None:
 
 if __name__ == "__main__":
 
+    #Wir laden das Korpus und berechnen die Kookkurrenzen.
     corpus = CorpusManager("All_Speaches")
 
     corpus.processed = corpus.get_all_speaches()
@@ -53,9 +54,14 @@ if __name__ == "__main__":
     '''MWE = {
             "Rechte Szene": [('rechter', 'szene')]
     }
-
+    
     with open("data_outputs/MWE.json", "w", encoding="utf-8") as f:
-        json.dump(MWE, f, ensure_ascii=False, indent=6)'''
+        json.dump(MWE, f, ensure_ascii=False, indent=6)
+    
+    Nachdem die Werte in die JSON-Struktur überführt wurden, werden sie im erneut geladen.
+    Schlüssel und Werte werden invertiert, damit im Rahmen der LDA-Vorverarbeitung die 2-Gramme auf ihre MWE abgebildet
+    werden könne.    
+    '''
 
     with open('data_outputs/MWE.json', 'r', encoding="utf-8") as json_file:
         MWE = json.load(json_file)
@@ -71,6 +77,7 @@ if __name__ == "__main__":
         for bigram in item[1]:
             new_dict[str(bigram)] = item[0]
 
+    # Die invertierten MWE's werden abgespeichert.
     with open('data_outputs/MWE_reversed.json', 'w', encoding="utf-8") as json_file:
         json.dump(new_dict, json_file, ensure_ascii=False, indent=6)
 

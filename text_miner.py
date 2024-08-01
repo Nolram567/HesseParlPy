@@ -110,8 +110,8 @@ if __name__ == "__main__":
 
     '''
     Wir generieren zunächst eine Population aus 10 Modellen mit t aus dem Intervall [30, 100] mit 10er Schritten.
-    Im Anschluss können wir das Intervall reduzieren und in 1er Schritten nach der optimalen Themenzahl hinsichtlich der
-    Kohärenzmetrik C_v suchen.
+    Im Anschluss grenzen wir das Intervall ein und suchen in 1er Schritten nach der optimalen Themenzahl hinsichtlich der
+    Kohärenzmetrik C_v nach Röder et al. (2015).
     '''
 
     #for t in range(30, 101, 10):
@@ -136,7 +136,7 @@ if __name__ == "__main__":
         print(f'Kohärenzscore C_v mit {t} Themen: {coherence}')
 
     #Wir speichern die Themenzahl t mit den korrespondierenden Kohärenzwerten ab.
-    with open("data_outputs/coherence_map_2", "w", encoding="utf-8") as f:
+    with open("data_outputs/coherence_map_x", "w", encoding="utf-8") as f:
         json.dump(coherence_map, f, indent=2, ensure_ascii=False)
 
     # Wir visualisieren das Themenmodell und speichern die dynamische Grafik ab.
@@ -144,6 +144,6 @@ if __name__ == "__main__":
     pyLDAvis.save_html(vis_data, 'lda_visualisation/lda_visualization_t29_4.html')
 
     #Wir serialisieren das LDA-Model, das BoW-Korpus und das Dictionary, um das Model vollständig wiederherstellen zu können.
-    dictionary.save(os.path.join('data_outputs/topic_models', 'dictionary_4.dict'))
+    '''dictionary.save(os.path.join('data_outputs/topic_models', 'dictionary_4.dict'))
     lda_model.save(os.path.join('data_outputs/topic_models', 'topic_model_t29_4.lda'))
-    MmCorpus.serialize('data_outputs/topic_models/bow_corpus.mm', bag_of_words_model)
+    MmCorpus.serialize('data_outputs/topic_models/bow_corpus.mm', bag_of_words_model)'''
