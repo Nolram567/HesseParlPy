@@ -21,6 +21,8 @@ PolMinePyHesse/
 │   ├── tf-idf_results.txt -- Die mittleren tf-idf-Werte.
 │   ├── MWE.json -- Statistisch bedeutsame MWE und NE im Korpus.
 │   └── MWE_reversed.json -- Abbildung der Bigramme auf die MWE und NE.
+├── docs/
+│   └── Die HTML-Dokumente der Github-Page.
 ├── lda_visualisations/
 │   └── Die mit pyLDAvis erzeugten Visualisierungen für Themenmodelle.
 ├── XSD
