@@ -6,14 +6,14 @@ from corpus_manager import CorpusManager
 
 def calculate_cooccurrence(documents: list[str]) -> None:
     """
-        Mit dieser Methode lassen sich bedeutsame mehrteilige Ausdrücke in ihrer lemmatisierten Form ausfindig machen.
-        Dafür werdem für eine Liste aus Dokumenten kookkurrierende Terme (2-Gramme) berechnet und ihre Frequenz bestimmt.
-        Alle Bigramme und ihre Frequenz in einer CSV-Datei serialisiert.
+    Mit dieser Methode lassen sich bedeutsame mehrteilige Ausdrücke in ihrer lemmatisierten Form ausfindig machen.
+    Dafür werden für eine Liste aus Dokumenten kookkurrierende Terme (2-Gramme) berechnet und ihre Frequenz bestimmt.
+    Alle Bigramme und ihre Frequenz werden in einer CSV-Datei serialisiert.
 
-        Args:
-            documents: Die List aus Strings.
+    Args:
+        documents: Die List aus Strings.
     """
-    # Bereinigung der Dokumente.
+    # Bereinigung und Lemmatisierung der Dokumente.
     documents = CorpusManager.clean_corpus(documents)
     lemmatised_docs = CorpusManager.lemmatize_corpus(documents)
     tokens = [item for sublist in lemmatised_docs for item in sublist]
@@ -27,7 +27,7 @@ def calculate_cooccurrence(documents: list[str]) -> None:
     # Zählen der Bigramme
     bigram_counts = Counter(bi_grams)
 
-    # Wir schreiben die Bigramme in eine Tabelle (Dataframe) ein.
+    # Wir schreiben die Bigramme in einen Dateframe ein.
     cooccurrence = pd.DataFrame(columns=["Bigramm", "Count"])
     rows = []
     for bigram, count in bigram_counts.items():
@@ -150,16 +150,17 @@ if __name__ == "__main__":
         Dritte Welle                                ('dritter', 'welle')
     '''
 
-    '''MWE = {
+    MWE = {
             "Rechte Szene": [('rechter', 'szene')]
     }
     
     with open("data_outputs/MWE.json", "w", encoding="utf-8") as f:
         json.dump(MWE, f, ensure_ascii=False, indent=6)
-    
+
+    '''
     Nachdem die Werte in die JSON-Struktur überführt wurden, werden sie im erneut geladen.
     Schlüssel und Werte werden invertiert, damit im Rahmen der LDA-Vorverarbeitung die 2-Gramme auf ihre MWE abgebildet
-    werden könne.    
+    werden können.    
     '''
 
     with open('data_outputs/MWE.json', 'r', encoding="utf-8") as json_file:

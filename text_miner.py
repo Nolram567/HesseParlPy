@@ -21,9 +21,13 @@ def preprocess_LDA(corpus: list[str]) -> list[list[str]]:
         Das vorverarbeitete Korpus.
     """
     print(sum(len(s) for s in corpus))  # Die Größe des Korpus in Zeichen beträgt 51011573.
-    corpus = CorpusManager.clean_corpus(corpus)
-    corpus = CorpusManager.lemmatize_corpus(corpus)
+
+    corpus = CorpusManager.clean_corpus(corpus)  # Bereinigung
+
+    corpus = CorpusManager.lemmatize_corpus(corpus)  # Lemmatisierung
+
     print(sum(len(s) for sublist in corpus for s in sublist))  # Die Größe des Korpus in Zeichen beträgt 27924631.
+
     polished_corpus = []
 
     for doc in corpus:
@@ -36,20 +40,27 @@ def preprocess_LDA(corpus: list[str]) -> list[list[str]]:
         # Alle fehlerhaften Token sowie Token, die weniger als 4 Zeichen haben, werden entfernt.
         temp = [token for token in doc if token not in ["--", " "] and len(token) > 2]
 
-        temp = CorpusManager.normalize_case(temp)
-        temp = CorpusManager.clean_with_custom_stopwords("data_outputs/stopwords.txt", temp)
+        temp = CorpusManager.normalize_case(temp)  # Lowercasing
+
+        temp = CorpusManager.clean_with_custom_stopwords("data_outputs/stopwords.txt", temp) # Bereinigung von Stoppwörtern
+
         polished_corpus.append(temp)
+
     print(
         sum(len(s) for sublist in polished_corpus for s in sublist))  # Die Größe des Korpus in Zeichen beträgt 5203992.
-    polished_corpus = CorpusManager.union_multiword_expression(polished_corpus)
+
+    polished_corpus = CorpusManager.union_multiword_expression(polished_corpus)  # Vereinigung der MWE'S
+
     print(
         sum(len(s) for sublist in polished_corpus for s in sublist))  # Die Größe des Korpus in Zeichen beträgt 5222234.
+
     return polished_corpus
 
 
 def calculate_mean_tf_idf(documents: list[list[str]], path: str = "") -> None:
     """
-    Diese Funktion berechnet für eine Liste aus tokenisierten Dokumenten die TF-IDF und bestimmt das arithmetische Mittel.
+    Diese Funktion berechnet für eine Liste aus tokenisierten Dokumenten die TF-IDF und bestimmt das arithmetische Mittel
+    der individuellen Werte für die Dokumente.
     Die Ergebnisse werden in einer CSV-Datei serialisiert.
 
     Args:
@@ -63,18 +74,18 @@ def calculate_mean_tf_idf(documents: list[list[str]], path: str = "") -> None:
     # Instanziiere den TfidfVectorizer
     vectorizer = TfidfVectorizer()
 
-    # Berechne der TF-IDF
+    # Berechnung der TF-IDF
     tfidf_matrix = vectorizer.fit_transform(documents)
 
     # Extrahiere Terme
     feature_names = vectorizer.get_feature_names_out()
 
-    # Instanziierung einen DataFrame mit den TF-IDF-Werten
+    # Instanziierung eines DataFrame mit den TF-IDF-Werten
     df_tfidf = pd.DataFrame(tfidf_matrix.toarray(), columns=feature_names)
 
     with open(f'{path}tfidf_results.csv', 'w', encoding='utf-8') as f:
         for term in feature_names:
-            # Berechnung den mittleren TF-IDF-Wert für den Term über alle Dokumente
+            # Berechnung des mittleren TF-IDF-Werts für den Term über alle Dokumente
             mean_tfidf = df_tfidf[term].mean()
             f.write(f'{term},{mean_tfidf}\n')
 
@@ -99,8 +110,11 @@ if __name__ == "__main__":
     corpus = CorpusManager(name="All_Speaches_LDA_preprocessed", load_processed=True)
 
     print(f"Es gibt {len(corpus.processed)} verarbeitete Dokumente im Korpus.")
-    print(
-        f"Ein Dokument hat durchschnittlich {sum(len(doc) for doc in corpus.processed) / len(corpus.processed)} Zeichen.")
+    # Es gibt 7021 verarbeitete Dokumente im Korpus.
+
+    print(f"Ein Dokument hat durchschnittlich {sum(len(doc) for doc in corpus.processed) / len(corpus.processed)} Zeichen.")
+    # Ein Dokument hat durchschnittlich 73.4765702891326 Zeichen.
+
 
     # Generation des Wörterbuchs
     dictionary = corpora.Dictionary(corpus.processed)
@@ -111,7 +125,7 @@ if __name__ == "__main__":
     coherence_map = {}
 
     '''
-    Wir generieren zunächst eine Population aus 10 Modellen mit t aus dem Intervall [30, 100] mit 10er Schritten.
+    Wir generieren zunächst eine Population aus 10 Modellen mit t aus dem Intervall [30, 100] in 10er Schritten.
     Im Anschluss grenzen wir das Intervall ein und suchen in 1er Schritten nach der optimalen Themenzahl hinsichtlich der
     Kohärenzmetrik C_v nach Röder et al. (2015).
     '''
@@ -119,6 +133,7 @@ if __name__ == "__main__":
     # for t in range(30, 101, 10):
     # for t in range(20, 31):
     for t in range(29, 30):
+
         # Wir berechnen das Model uns lassen die Hyperparameter alpha und eta vom Algorithmus optimieren.
         lda_model = gensim.models.LdaModel(bag_of_words_model,
                                            num_topics=t,
@@ -144,7 +159,7 @@ if __name__ == "__main__":
     vis_data = gensimvis.prepare(lda_model, bag_of_words_model, dictionary)
     pyLDAvis.save_html(vis_data, 'lda_visualisation/lda_visualization_t29_4.html')
 
-    # Wir serialisieren das LDA-Model, das BoW-Korpus und das Dictionary, um das Model vollständig wiederherstellen zu können.
-    '''dictionary.save(os.path.join('data_outputs/topic_models', 'dictionary_4.dict'))
-    lda_model.save(os.path.join('data_outputs/topic_models', 'topic_model_t29_4.lda'))
-    MmCorpus.serialize('data_outputs/topic_models/bow_corpus.mm', bag_of_words_model)'''
+    # Wir serialisieren das LDA-Model, das BoW-Korpus und das Dictionary, um das Modell vollständig wiederherstellen zu können.
+    '''dictionary.save(os.path.join('data_outputs/topic_models', 'dictionary_x.dict'))
+    lda_model.save(os.path.join('data_outputs/topic_models', 'topic_model_t29_x.lda'))
+    MmCorpus.serialize('data_outputs/topic_models/bow_corpus.mm', bag_of_words_model_x)'''

@@ -27,7 +27,6 @@ class CorpusManager:
             name: Der Name des Korpus.
             load_processed: Falls ja, wird ein Korpus mit dem übergebenen Namen aus dem Ordner data/processed_corpus
             geladen und als Objektattribut processed abgespeichert.
-
         """
         if not load_processed:
             self.corpus = {}
@@ -45,8 +44,8 @@ class CorpusManager:
 
     def get_all_speaches(self) -> list:
         """
-        Mit dieser Methode kann man alle Reden aus einem Korpus extrahieren und dabei die Reden der Präsidenten oder
-        Vizepräsidenten des Landtags aussparen.
+        Mit dieser Methode werden alle Reden aus einem Korpus extrahiert. Dabei die Reden der Präsidenten oder
+        Vizepräsidenten des Landtags ignoriert.
 
         Return:
             Eine Liste mit allen Einzeläußerungen von Mitglieder des Landtags die nicht Präsident oder Vizepräsident
@@ -64,7 +63,7 @@ class CorpusManager:
 
     def serialize_corpus(self, custom_name: str = None) -> None:
         """
-        Diese Funktion serialisiert ein verarbeitetes Korpus.
+        Diese Funktion serialisiert ein verarbeitetes Korpus unter data/processed_corpus.
 
         Args:
             custom_name: Ein eigens definierter Name.
@@ -80,7 +79,7 @@ class CorpusManager:
     @staticmethod
     def clean_corpus(l: list[str]) -> list[str]:
         """
-        Befreit eine Liste mit Strings von Interpunktionszeichen.
+        Diese Methode befreit eine Liste mit Strings von Interpunktionszeichen.
 
         Args:
             l: Die zu bereinigende Liste.
@@ -105,7 +104,7 @@ class CorpusManager:
         Args:
             l: Die Liste mit strings.
         Return:
-            Die nach Kleinschreibung normalisierten Strings in corpus.
+            Die nach Kleinschreibung normalisierten Strings der Liste.
         """
         return [e.lower() for e in l]
 
@@ -115,7 +114,7 @@ class CorpusManager:
         Diese Methode bereinigt ein Korpus mithilfe einer Stoppwortliste.
 
         Args:
-            path: Der Dateipfad.
+            path: Der Dateipfad zu der Stoppwortliste.
             l: Das zu bereinigende Korpus.
         Return:
             Das bereinigte Korpus.
@@ -127,13 +126,13 @@ class CorpusManager:
     @staticmethod
     def lemmatize_corpus(l: list[str]) -> list[list[str]]:
         """
-        Diese Methode lemmatisiert eine Liste von Strings. Außerdem werden Stoppwörter mit nltk und numerische
+        Diese Methode lemmatisiert eine Liste von Strings. Außerdem werden Stoppwörter mit nltk entfernt und numerische
         Zeichen entfernt.
 
         Args:
-            l: Die Liste mit den Dokumenten aus flektierten Termen.
+            l: Die Liste mit den Dokumenten aus ggf. flektierten Termen.
         Return:
-            Der tokenisierte, lemmatisierte Dokumente als Liste.
+            Die tokenisierten, lemmatisierten Dokumente als Liste.
         """
         german_model = spacy.load('de_core_news_sm', disable=['parser', 'ner'])
         german_model.max_length = 10000000
@@ -160,9 +159,9 @@ class CorpusManager:
         named entity entsprechen, der ein Element der Liste mutliword_expressions ist.
         Args:
             docs: Das Korpus aus Einzeldokumenten.
-            multiword_expressions: Eine Liste aller mehrteiligen Ausdrücke und named entities.
+            multiword_expressions: Eine Liste aller mehrteiligen Ausdrücke und Named Entities.
         Return:
-            Das übergebene Korpus, indem alle mehrteilige Ausdrücke zu einem token konkateniert sind.
+            Das übergebene Korpus, indem alle mehrteiligen Ausdrücke nach data_outputs/MWE.json zu einem Token konkateniert sind.
         """
 
         with open('data_outputs/MWE.json', 'r', encoding='utf-8') as json_file:

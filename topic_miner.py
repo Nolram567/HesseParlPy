@@ -20,13 +20,17 @@ if __name__ == "__main__":
         topic_words = ', '.join([word for word, prob in words])
         print(f"Thema {topic_id + 1}: {topic_words}")'''
 
+    # -------------------
+    # Korrelationen berechnen
+
     # Themenverteilungen extrahieren
     topic_distributions = [model.get_document_topics(bow, minimum_probability=0) for bow in loaded_corpus]
 
     # Nullmatrix initialisieren
     data_matrix = np.zeros((len(loaded_corpus), model.num_topics))
 
-    # Wahrscheinlichkeit, dass Thema x in Dokument y auftaucht, einschreiben.
+    # Wahrscheinlichkeit, dass Thema x in Dokument y auftaucht, in die Matrix einschreiben.
+
     for doc_id, dist in enumerate(topic_distributions):
         for topic_id, prob in dist:
             data_matrix[doc_id, topic_id] = prob
@@ -73,11 +77,10 @@ if __name__ == "__main__":
             key = f"{label_id_map[i + 1]}, {label_id_map[j + 1]}"
             topic_correlations[key] = correlation_matrix[i, j]
 
+    # Ausgabe der Korrelationen
+    # print(topic_correlations)
 
-    #Ausgabe der Korrelationen
-    #print(topic_correlations)
-
-    #Wir trennen Schlüssel und Werte des Dictionarys auf und speichern sie in zwei Listen.
+    # Wir trennen Schlüssel und Werte des Dictionarys auf und speichern sie in zwei Listen.
     labels, values = zip(*topic_correlations.items())
 
     # Berechnung der Perzentile
@@ -86,8 +89,9 @@ if __name__ == "__main__":
 
     print(upper_whisker, lower_whisker)
 
+    # -------------------
+    # Boxplot erstellen:
 
-    # Boxplot erstellen
     fig = go.Figure()
 
     # Datensatz hinzufügen und die optischen Eigenschaften definieren.
@@ -96,7 +100,8 @@ if __name__ == "__main__":
                          jitter=0.5,  # Punkte horizontal streuen
                          pointpos=-1.8,  # Position der Punkte relativ zum Boxplot
                          # hovertemplate= f"{label, value for label, value in zip(labels, values)}",
-                         hovertext=[f'{label}: {value}' for label, value in zip(labels, values)], # Hovertext definieren.
+                         hovertext=[f'{label}: {value}' for label, value in zip(labels, values)],
+                         # Hovertext definieren.
                          marker_color='blue',
                          name="Pearson-Korrelation"))
 
@@ -109,6 +114,11 @@ if __name__ == "__main__":
 
     # Diagramm anzeigen und serialisieren
     pio.write_html(fig, file='docs/correlation_boxplot.html')
+
+
+
+    #-------------------
+    # Das Netzwerk bedeutsamer positiver Korrelationen erstellen:
 
     # Wir durchsuchen das Dictionary nach allen Korrelationen, die größer als das .975-Perzentil sind.
     outliers = {key: value for key, value in topic_correlations.items() if value >= upper_whisker}

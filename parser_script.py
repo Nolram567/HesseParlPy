@@ -6,10 +6,10 @@ from datetime import datetime
 
 if __name__ == '__main__':
 
-    #Wir iterieren über alle Rohdokumente.
+    # Wir iterieren über alle Rohdokumente.
     for filename in os.listdir("data/xml/20"):
 
-        #Wir formatieren den realtiven Dateipfad mit der Ordnerstruktur und dem Dateinamen.
+        # Wir formatieren den realtiven Dateipfad mit der Ordnerstruktur und dem Dateinamen.
         xml_file_path = os.path.join("data/xml/20/", filename)
 
         '''
@@ -43,7 +43,7 @@ if __name__ == '__main__':
         # Generation des XML-Deskriptors und des Headers des XML-Dokuments nach dem Hesseparl-TEI-Schema.
         temp += xmlParser.create_header(legislative_term, session, date.strftime('%d-%m-%Y'))
 
-        #Iteration über alle extrahierten Redebeiträge im Rohdokument.
+        # Iteration über alle extrahierten Redebeiträge im Rohdokument.
         for item in extracted_data:
             formated_text, intro = xmlParser.extract_speaker_and_text(item)
 
@@ -80,7 +80,7 @@ if __name__ == '__main__':
         if not xml_validator.validate_syntax(temp):
             print(f"Das Dokument {xml_file_path} ist nicht wohlgeformt.")
 
-        # Wir prüfen die Gültigkeit nach dem Schema HesseParl-TEI
+        # Wir prüfen die Gültigkeit nach dem Schema HesseParl-TEI.
         if not xml_validator.validate_schema(temp, "XSD/tei_hesseparl.xsd"):
             print(f"Das Dokument {xml_file_path} ist nicht gültig.")
 

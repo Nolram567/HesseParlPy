@@ -2,7 +2,7 @@ import re
 from re import Pattern
 import os
 
-class dataAnalyzer():
+class dataAnalyzer:
 
     @staticmethod
     def find_expression(doc: str, pattern: Pattern[str], p: bool = True) -> list[str] or None:
