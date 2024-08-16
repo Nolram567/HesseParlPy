@@ -1,4 +1,4 @@
-# PolMinePyHesse
+# HesseParlPy
 
 Dieses Repository enthält den Code und die Datensätze, die im Rahmen meiner Masterarbeit entstehen. Ich habe auf der Grundlage der semi-strukturierten Rohdokumente
 ein XML-TEI-Korpus der Plenarprotokolle der 20. Legislaturperiode des hessischen Landtags generiert.
