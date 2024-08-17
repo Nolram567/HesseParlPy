@@ -15,7 +15,8 @@ PolMinePyHesse/
 ├── data/
 │   ├── xml/
 │   ├── xml-tei/
-│   └── processed_corpus/
+│   ├── processed_corpus/
+│   └── CLARIN PUB end-user license +BY +NC +SA v2.1 -- Die Korpuslizenz. 
 ├── data_outputs/
 │   ├── topicmodels/
 │   ├── stoppwords.txt -- Ein eigens - mithilfe von tf-idf - generierte Stoppwortliste für das Korpus.
