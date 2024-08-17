@@ -13,10 +13,11 @@ Die folgende Struktur zeigt die Organisation der Projektordner und -dateien:
 PolMinePyHesse/
 │ 
 ├── data/
-│   ├── xml
-│   ├── xml-tei
-│   └── processed_corpus
+│   ├── xml/
+│   ├── xml-tei/
+│   └── processed_corpus/
 ├── data_outputs/
+│   ├── topicmodels/
 │   ├── stoppwords.txt -- Ein eigens - mithilfe von tf-idf - generierte Stoppwortliste für das Korpus.
 │   ├── tf-idf_results.txt -- Die mittleren tf-idf-Werte.
 │   ├── MWE.json -- Statistisch bedeutsame MWE und NE im Korpus.
@@ -29,7 +30,7 @@ PolMinePyHesse/
 │   └── hesseparl_tei.xsd -- Ein XSD-Dokument, um die formale Struktur der Dokumente zu validieren.
 ├── data_analyzer.py -- Die Analyse der rohen und schemalosen XML-Dokumente.
 ├── xml_parser.py -- Der Parsers.
-├── main.py -- Die Parsing-Prozedur
+├── parser_script.py -- Die Parsing-Prozedur
 ├── patterns.py -- Reguläre Ausdrücke für den Parser.
 ├── xml_validator.py -- Funktionen für die Validierung der Wohlgeformtheit und nach dem einem XSD.
 ├── corpus_manager.py -- Enthält die Klasse CorpusManager, um das hesseparl-tei-Korpus einzulesen und zu verwalten.
