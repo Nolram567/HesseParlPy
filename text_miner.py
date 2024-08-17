@@ -42,7 +42,7 @@ def preprocess_LDA(corpus: list[str]) -> list[list[str]]:
 
         temp = CorpusManager.normalize_case(temp)  # Lowercasing
 
-        temp = CorpusManager.clean_with_custom_stopwords("data_outputs/stopwords.txt", temp) # Bereinigung von Stoppwörtern
+        temp = CorpusManager.clean_with_custom_stopwords("data_outputs/stopwords.txt", temp)  # Bereinigung von Stoppwörtern
 
         polished_corpus.append(temp)
 

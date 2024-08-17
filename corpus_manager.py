@@ -134,15 +134,23 @@ class CorpusManager:
         Return:
             Die tokenisierten, lemmatisierten Dokumente als Liste.
         """
-        german_model = spacy.load('de_core_news_sm', disable=['parser', 'ner'])
-        german_model.max_length = 10000000
+
+        german_model = spacy.load('de_core_news_sm', disable=['parser', 'ner'])  # Lade das kleine Sprachmodell für die Lemmatisierung
+        german_model.max_length = 10000000  # Vermeide Overflow-Error
 
         # Lade die deutschen Stoppwörter
         nltk.download('stopwords')
-        german_stop_words = set(stopwords.words('german'))
+        german_stop_words = set(stopwords.words('german'))  # Reduziere die Stoppwortliste auf dn deutschen Teil.
 
         # doc = german_model(" ".join(l))
         lemmatised_corpus = []
+
+        '''
+        Wir fügen einen Token genau dann unserem lemmatisierten Korpus an, wenn er
+        1) nicht auf der Stoppwortliste steht, 
+        2) kein Interpunktionszeichen ist,
+        3) keine Zahl ist.
+        '''
 
         for speach in l:
             doc = german_model(speach)
@@ -155,11 +163,10 @@ class CorpusManager:
     @staticmethod
     def union_multiword_expression(docs: list[list[str]]) -> list[list[str]]:
         """
-        Diese Methode konkateniert alle Bigramme eines Korpus docs, wenn sie einem mehrteiligen Ausdruck oder einer
-        named entity entsprechen, der ein Element der Liste mutliword_expressions ist.
+        Diese Methode konkateniert alle Bigramme eines Korpus, wenn sie einem mehrteiligen Ausdruck oder einer
+        Named Entity entsprechen, die ein Element der Liste data_outputs/MWE.json ist.
         Args:
             docs: Das Korpus aus Einzeldokumenten.
-            multiword_expressions: Eine Liste aller mehrteiligen Ausdrücke und Named Entities.
         Return:
             Das übergebene Korpus, indem alle mehrteiligen Ausdrücke nach data_outputs/MWE.json zu einem Token konkateniert sind.
         """
