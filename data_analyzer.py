@@ -33,15 +33,13 @@ class dataAnalyzer:
     @staticmethod
     def find_unique_tags(directory_path: str, regex: str) -> None:
         """
-        Diese statische Methode findet aller Ausdrücke innerhalb einer Sammlung von Dokumenten, die zu einem regulären
-        Ausdruck passen und druckt sie auf der Konsole.
+        Diese statische Methode findet alle Ausdrücke innerhalb einer Sammlung von Dokumenten, die zu einem regulären
+        Ausdruck passen und druckt sie in der Konsole.
 
         Args:
             directory_path: Der Dateipfad als String, der relativ zum Arbeitsverzeichnis den Ordner referenziert,
             der die Dokumente enthält, die durchsucht werden sollen.
             regex: Das Pattern, nach dem gesucht werden soll.
-        Returns:
-            None
         """
         unique_tags = []
         for filename in os.listdir(directory_path):
@@ -58,10 +56,10 @@ class dataAnalyzer:
 
 if __name__ == "__main__":
 
-    # Ein regulärer Ausdruck, der alle <Field>-Tags matcht.
+    # Ein regulärer Ausdruck, der alle <Field>-Tags in XML matcht.
     regexI = r'<Field[^>]*>'
 
-    # Ein regulärer Ausdruck der alle Tags matcht.
+    # Ein regulärer Ausdruck der alle XML-Tags matcht.
     regexII = r'<[^>]*>'
 
     dataAnalyzer.find_unique_tags("data/xml/20", regexI)

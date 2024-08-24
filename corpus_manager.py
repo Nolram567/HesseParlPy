@@ -25,7 +25,7 @@ class CorpusManager:
 
         Args:
             name: Der Name des Korpus.
-            load_processed: Falls ja, wird ein Korpus mit dem übergebenen Namen aus dem Ordner data/processed_corpus
+            load_processed: Falls true, wird ein Korpus mit dem übergebenen Namen aus dem Ordner data/processed_corpus
             geladen und als Objektattribut processed abgespeichert.
         """
         if not load_processed:
@@ -44,12 +44,12 @@ class CorpusManager:
 
     def get_all_speaches(self) -> list:
         """
-        Mit dieser Methode werden alle Reden aus einem Korpus extrahiert. Dabei die Reden der Präsidenten oder
-        Vizepräsidenten des Landtags ignoriert.
+        Mit dieser Methode werden alle Reden aus einem Korpus extrahiert. Dabei werden die Reden von Mitgliedern des
+        Präsidiums des Landtags ignoriert.
 
         Return:
-            Eine Liste mit allen Einzeläußerungen von Mitglieder des Landtags die nicht Präsident oder Vizepräsident
-            des Landtags sind ohne Metadaten.
+            Eine Liste mit allen Einzeläußerungen von Mitglieder des Landtags die nicht zum Präsidium des Landtags
+            gehören ohne Metadaten.
         """
         speaches = []
         for e in self.corpus.keys():
@@ -66,7 +66,7 @@ class CorpusManager:
         Diese Funktion serialisiert ein verarbeitetes Korpus unter data/processed_corpus.
 
         Args:
-            custom_name: Ein eigens definierter Name.
+            custom_name: Ein eigens definierter Dateiname.
         """
 
         with open(f"data/processed_corpus/{self.name if not custom_name else custom_name}", "w",
