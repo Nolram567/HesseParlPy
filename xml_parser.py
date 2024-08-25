@@ -187,10 +187,10 @@ class xmlParser:
         """
         Diese zentrale Methode des Parsers partitioniert die Redebeiträge einer Sitzung zunächst nach Redebeiträge von
         Abgeordneten. Diese Partitionen enthalten zumeist weitere Redebeiträge von (Vize)Präsidenten des Landtags oder
-        Ministern. Mittels einer Fallunterscheidung werden das weitere Vorgehen festgelegt. Die Fallunterscheidung wird
+        Ministern. Mittels einer Fallunterscheidung wird das weitere Vorgehen festgelegt. Die Fallunterscheidung wird
         danach iterativ so lange angewandt, bis der nächste Redebeitrag eines Abgeordneten beginnt. Die Partitionen
         werden jeweils nach dem gewünschten Schema mit der Methode format_paragraphs_and_interjections() formatiert. Der
-        String Builder fungiert in dieser Prozedur als 'Stack', auf dem sukzessive fertig formatierte Redebeiträge
+        String "Builder" fungiert in dieser Prozedur als 'Stack', auf dem sukzessive fertig formatierte Redebeiträge
         abgelegt werden.
 
         Args:
@@ -422,8 +422,8 @@ class xmlParser:
     @staticmethod
     def extract_functional_speaker(text: str) -> list[str]:
         """
-        Diese Methode partitioniert den als Argument übergebenen String in 9 capture groups und gibt diese als Liste zurück.
-        Wenn kein match gefunden wird, wird der Liste das Element "None" hinzugefügt.
+        Diese Methode partitioniert den als Argument übergebenen String in 9 Capture Groups und gibt diese als
+        Liste zurück. Wenn kein Match gefunden wird, wird der Liste das Element "None" hinzugefügt.
 
         Die erste Gruppe enthält den Text, bevor ein Redebeitrag des/der (Vize)präsident*in beginnt.
         Die zweite Gruppe enhält die genaue Funktion des/der sprechenden (Vize)präsident*in.
@@ -438,7 +438,7 @@ class xmlParser:
         Args:
             text: Der String, der partitioniert werden soll.
         Returns:
-            Eine Liste mit den capture groups und dem Startindex des ersten Sprechers.
+            Eine Liste mit den Capture Groups und dem Startindex des ersten Sprechers.
         """
 
         speaker_pattern = patterns.functional_speaker_pattern
@@ -461,8 +461,8 @@ class xmlParser:
     @staticmethod
     def extract_minister_speaker(text: str) -> list[str]:
         """
-        Diese Methode partitioniert den als Argument übergebenen String in 8 capture groups und gibt diese als String zurück.
-        Wenn kein match gefunden wird, wird der Liste das Element "None" hinzugefügt.
+        Diese Methode partitioniert den als Argument übergebenen String in 8 Capture Groups und gibt diese als String zurück.
+        Wenn kein Match gefunden wird, wird der Liste das Element "None" hinzugefügt.
 
         Die erste Gruppe enthält den Text, bevor (der erste) Redebeitrag eines Ministers beginnt.
         Die zweite Gruppe enhält den Namen und das Ressort des sprechenden Ministers.

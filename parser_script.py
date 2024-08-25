@@ -9,7 +9,7 @@ if __name__ == '__main__':
     # Wir iterieren über alle Rohdokumente.
     for filename in os.listdir("data/xml/20"):
 
-        # Wir formatieren den realtiven Dateipfad mit der Ordnerstruktur und dem Dateinamen.
+        # Wir formatieren den relativen Dateipfad mit der Ordnerstruktur und dem Dateinamen.
         xml_file_path = os.path.join("data/xml/20/", filename)
 
         '''
@@ -21,12 +21,12 @@ if __name__ == '__main__':
         if not extracted_data:
             continue
 
-        # Instanziierung eines datetime-Objekts, um das Datum später besser formatieren zu können.
+        # Instanziierung eines datetime-Objekts, um das Datum später zu formatieren.
         date = datetime.strptime(date, "%d.%m.%Y")
 
         '''
         Die Bereinigung der Daten mithilfe von List Comprehensions: Multiple Leerzeichen oder multiple Zeilenumbrüche
-        jeweils mit einem Leerzeichen bzw. Zeilenumbruch ersetzt. Daraufhin wird das Inhaltsverzeichnis entfernt, das
+        werden jeweils mit einem Leerzeichen bzw. Zeilenumbruch ersetzt. Daraufhin wird das Inhaltsverzeichnis entfernt, das
         immer der erste Eintrag in extracted_data ist.
         '''
 
@@ -40,7 +40,7 @@ if __name__ == '__main__':
         temp = ""
         temp2 = ""
 
-        # Generation des XML-Deskriptors und des Headers des XML-Dokuments nach dem Hesseparl-TEI-Schema.
+        # Generation des XML-Deskriptors und des Headers des XML-Dokuments nach dem HesseParl-TEI-Schema.
         temp += xmlParser.create_header(legislative_term, session, date.strftime('%d-%m-%Y'))
 
         # Iteration über alle extrahierten Redebeiträge im Rohdokument.
