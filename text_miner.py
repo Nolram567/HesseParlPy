@@ -37,7 +37,7 @@ def preprocess_LDA(corpus: list[str]) -> list[list[str]]:
             # print(doc)
             continue
 
-        # Alle fehlerhaften Token sowie Token, die weniger als 4 Zeichen haben, werden entfernt.
+        # Alle fehlerhaften Token sowie Token, die mindestens 3 Zeichen haben, werden entfernt.
         temp = [token for token in doc if token not in ["--", " "] and len(token) > 2]
 
         temp = CorpusManager.normalize_case(temp)  # Lowercasing
@@ -61,7 +61,7 @@ def calculate_mean_tf_idf(documents: list[list[str]], path: str = "") -> None:
     """
     Diese Funktion berechnet für eine Liste aus tokenisierten Dokumenten die TF-IDF und bestimmt das arithmetische Mittel
     der individuellen Werte für die Dokumente.
-    Die Ergebnisse werden in einer CSV-Datei serialisiert.
+    Die Ergebnisse werden als CSV-Datei serialisiert.
 
     Args:
         documents: Die Liste mit Listen von Token.
@@ -80,12 +80,12 @@ def calculate_mean_tf_idf(documents: list[list[str]], path: str = "") -> None:
     # Extrahiere Terme
     feature_names = vectorizer.get_feature_names_out()
 
-    # Instanziierung eines DataFrame mit den TF-IDF-Werten
+    # Instanziierung eines DataFrame mit den TF-IDF-Werten.
     df_tfidf = pd.DataFrame(tfidf_matrix.toarray(), columns=feature_names)
 
     with open(f'{path}tfidf_results.csv', 'w', encoding='utf-8') as f:
         for term in feature_names:
-            # Berechnung des mittleren TF-IDF-Werts für den Term über alle Dokumente
+            # Berechnung des mittleren TF-IDF-Werts für den Term über alle Dokumente.
             mean_tfidf = df_tfidf[term].mean()
             f.write(f'{term},{mean_tfidf}\n')
 
@@ -131,8 +131,7 @@ if __name__ == "__main__":
     '''
 
     # for t in range(30, 101, 10):
-    # for t in range(20, 31):
-    for t in range(29, 30):
+    for t in range(20, 31):
 
         # Wir berechnen das Model uns lassen die Hyperparameter alpha und eta vom Algorithmus optimieren.
         lda_model = gensim.models.LdaModel(bag_of_words_model,
@@ -143,7 +142,7 @@ if __name__ == "__main__":
                                            alpha='auto',
                                            eta='auto')
 
-        # Wir berechnen die Kohärenz des Themenmodells mit t Themen nach der Kohärenzmetrik C_v nach Röder et al. (2015)
+        # Wir berechnen die Kohärenz des Themenmodells mit t Themen nach der Kohärenzmetrik C_v nach Röder et al. (2015).
         coherence_model = CoherenceModel(model=lda_model, texts=corpus.processed, dictionary=dictionary,
                                          coherence='c_v')
 
@@ -160,6 +159,6 @@ if __name__ == "__main__":
     pyLDAvis.save_html(vis_data, 'lda_visualisation/lda_visualization_t29_4.html')
 
     # Wir serialisieren das LDA-Model, das BoW-Korpus und das Dictionary, um das Modell vollständig wiederherstellen zu können.
-    '''dictionary.save(os.path.join('data_outputs/topic_models', 'dictionary_x.dict'))
+    dictionary.save(os.path.join('data_outputs/topic_models', 'dictionary_x.dict'))
     lda_model.save(os.path.join('data_outputs/topic_models', 'topic_model_t29_x.lda'))
-    MmCorpus.serialize('data_outputs/topic_models/bow_corpus.mm', bag_of_words_model_x)'''
+    MmCorpus.serialize('data_outputs/topic_models/bow_corpus.mm', bag_of_words_model)

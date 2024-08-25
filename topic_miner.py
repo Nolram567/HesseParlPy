@@ -24,10 +24,10 @@ if __name__ == "__main__":
 
     # Korrelationen berechnen
 
-    # Themenverteilungen extrahieren
+    # Themenverteilungen extrahieren.
     topic_distributions = [model.get_document_topics(bow, minimum_probability=0) for bow in loaded_corpus]
 
-    # Nullmatrix initialisieren
+    # Nullmatrix initialisieren.
     data_matrix = np.zeros((len(loaded_corpus), model.num_topics))
 
     # Wahrscheinlichkeit, dass Thema x in Dokument y auftaucht, in die Matrix einschreiben.

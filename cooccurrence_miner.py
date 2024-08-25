@@ -27,7 +27,7 @@ def calculate_cooccurrence(documents: list[str]) -> None:
     # Zählen der Bigramme
     bigram_counts = Counter(bi_grams)
 
-    # Wir schreiben die Bigramme in einen Dateframe ein.
+    # Wir schreiben die Bigramme in einen Dataframe ein.
     cooccurrence = pd.DataFrame(columns=["Bigramm", "Count"])
     rows = []
     for bigram, count in bigram_counts.items():
