@@ -1,10 +1,13 @@
-
+# Das Pattern für die Abgeordneten.
 delegate_pattern = r"(.*?)((?<=[\)\.\?])\s[a-zA-Z\-\–][^.,:\(\)\?]{0,33})\[(.{0,25})\]:(.*?)(?=((?:\)|\.|\?)\s[a-zA-Z\-\–][^.,:\(\)\?]{0,33}\[.{1,25}\]:)|$)"
 
+# Das Pattern für die Einleitung.
 introduction_pattern = r"^(.*?) – Drucks\. \d+/\d+(.*?)[a-zA-Z\-\–][^.,:\(\)\?]{0,33}\[(.{1,25})\]:"
 
+# Das Pattern für die Zwischenrufe.
 interjection_pattern = r"\(((?!.*\b(SPD|CDU|Freie Demokraten|DIE LINKE|BÜNDNIS 90/DIE GRÜNEN|AfD|fraktionslos)\b$).{10,150})\)(?=[^)]{0,30})"
 
+# Das Pattern für die Minister.
 minister_pattern = r"(.*?)" \
                r"(Prof\. Dr\. Michael Ronellenfitsch, Hessischer Beauftragter für Datenschutz und Informationsfreiheit:" \
                    r"|Prof\. Dr\. R\. Alexander Lorz, Kultusminister:" \
@@ -37,6 +40,7 @@ minister_pattern = r"(.*?)" \
                    r"|Alterspräsident Rolf Kahnt:))" \
                r"(.*)" \
 
+# Das Pattern für das Präsidium.
 functional_speaker_pattern = r"(.*?)" \
                r"(Vizepräsident|Präsident|Vizepräsidentin|Präsidentin)\s(Karin Müller|Heike Hofmann|Frank Lortz|Astrid Wallmann|Dr. Ulrich Wilken|Dr. h.c. Jörg-Uwe Hahn|Boris Rhein):" \
                r"(.*?)" \
