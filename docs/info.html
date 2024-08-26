@@ -44,18 +44,18 @@
         <h1>Willkommen auf dem Data-Dashboard von HesseParlPy</h1>
         <p>Diese Seite enthält einige Ergebnisse eines Text-Mining-Projekts auf Grundlage der Protokolle der 20. Legislaturperiode des hessischen
         Landtags. Im Rahmen des Projekts wurde mittels Latent Dirichlet Allocation ein Themenmodell
-        trainiert. Die Qualität des Themenmodells wurde mit unterschiedlichen Techniken optimiert. Beispielsweise wurden Multiword Expression
+        trainiert. Die Qualität des Themenmodells wurde mit unterschiedlichen Techniken optimiert. Beispielsweise wurden Multiword Expressions
         und Namend Entities mit einem bedeutsamen Gewicht zu einem Token konkateniert, die durch die Tokenisierung getrennt wurden.
         Zudem wurde mit einer Frequenzanalyse eine Stoppwortliste mit Termen erstellt, die vor dem Hintergrund der Protokolle als
         zu unspezifisch und somit als nicht bedeutungsdifferenzierend für die Themen eingestuft wurden.
-            Das Themenmodell wurde auf t=29 Themen trainiert, da bei einem so parametrisierten Modell das globale Maximum der Kohärenzmetrik C<sub>V</sub> nach Röder et al. (2015) messen konnte.</p>
+            Das Themenmodell wurde auf t=29 Themen trainiert, da ich bei einem so parametrisierten Modell das globale Maximum der Kohärenzmetrik C<sub>V</sub> nach Röder et al. (2015) messen konnte.</p>
         <p>Die Webseite enthält neben der Informationsseite zwei Grafiken:</p>
         <ul>
-            <li><strong>Die Visualisierung des Themenmodells:</strong> Auf dieser Seite finden sie die dynamische Visualisierung
+            <li><strong>Die Visualisierung des Themenmodells:</strong> Auf dieser Seite finden Sie die dynamische Visualisierung
             des Themenmodells der 20. Legislaturperiode. Das Themenmodell wurde mit der Bibliothek <code>gensim</code> berechnet und
             mit <code>pyLDAvis</code> visualisiert.</li>
             <li><strong>Die Verteilung der Pearson-Korrelation zwischen Themen:</strong> Auf dieser Seite finden Sie einen Boxplot,
-            der die Verteilung der Pearson-Korrelationen zwischen den Themen in Dokumenten visualisiert. Der Boxplot wurde
+            der die Verteilung der Pearson-Korrelationen zwischen den Themen in den Dokumenten visualisiert. Der Boxplot wurde
                 mithilfe der Bibliothek <code>plotly</code> generiert.</li>
         </ul>
         <p>Die absteigend sortiert indexierten Themen aus Grafik 1 sind entsprechend der folgenden Tabelle auf die Bezeichner
