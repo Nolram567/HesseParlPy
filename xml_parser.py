@@ -338,11 +338,10 @@ class xmlParser:
     @staticmethod
     def extract_introduction(text: str) -> str:
         """
-        Die Methode fungiert als Helfermethode für extract_speaker_and_text() und extrahiert Beiträge
+        Die Methode fungiert als Helfermethode für die Auszeichnung des Beginns eines Dokuments mit angepasster Fallunterscheidung.
 
         Args:
             text: Der restliche Text, der nach der Applikation der ersten Fallunterscheidung übrig geblieben ist.
-            builder: Der 'Stack' der Hauptmethode, auf dem die fertig formatierten Redebeiträge abgelegt werden.
         Returns:
             Der fertig formatierte Partition, die als remainder übergeben wurde.
         """
