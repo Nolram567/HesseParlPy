@@ -30,10 +30,10 @@ PolMinePyHesse/
 ├── XSD
 │   └── hesseparl_tei.xsd -- Ein XSD-Dokument, um die formale Struktur der Dokumente zu validieren.
 ├── data_analyzer.py -- Die Analyse der rohen und schemalosen XML-Dokumente.
-├── xml_parser.py -- Der Parsers.
+├── xml_parser.py -- Der Parser.
 ├── parser_script.py -- Die Parsing-Prozedur
 ├── patterns.py -- Reguläre Ausdrücke für den Parser.
-├── xml_validator.py -- Funktionen für die Validierung der Wohlgeformtheit und nach dem einem XSD.
+├── xml_validator.py -- Funktionen für die Validierung der Wohlgeformtheit und der Validität nach einem XSD.
 ├── corpus_manager.py -- Enthält die Klasse CorpusManager, um das hesseparl-tei-Korpus einzulesen und zu verwalten.
 ├── cooccurrence_miner.py -- Das Skript enthält eine Prozedur, um Kookkurrenzen bzw. Kollokationen zu berechnen, um daraus bededeutsame MWE und NE abzuleiten.
 ├── text_miner.py -- Enthält Funktionen für das Text-Mining.
