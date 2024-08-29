@@ -1,6 +1,6 @@
 # HesseParlPy
 
-Dieses Repository enthält den Code und die Datensätze, die im Rahmen meiner Masterarbeit entstehen. Ich habe auf der Grundlage der semi-strukturierten Rohdokumente
+Dieses Repository enthält den Code und die Datensätze, die im Rahmen meiner Masterarbeit entstanden sind. Ich habe auf der Grundlage der semistrukturierten Rohdokumente
 ein XML-TEI-Korpus der Plenarprotokolle der 20. Legislaturperiode des hessischen Landtags generiert.
 
 Auf Grundlage dieses Korpus wird ein Topic Model berechnet. 
