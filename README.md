@@ -10,7 +10,7 @@ Auf Grundlage dieses Korpus wird ein Topic Model berechnet.
 Die folgende Struktur zeigt die Organisation der Projektordner und -dateien:
 
 ```plaintext
-PolMinePyHesse/
+HesseParlPy/
 │ 
 ├── data/
 │   ├── xml/
