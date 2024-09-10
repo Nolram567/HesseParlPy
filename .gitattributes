@@ -1,3 +1,7 @@
 lda_visualisation/* linguist-vendored
 docs/* linguist-vendored
 index.html linguist-vendored
+LICENSE linguist-vendored
+XSD/* linguist-vendored
+data/* linguist-vendored
+data_outputs/* linguist-vendored
