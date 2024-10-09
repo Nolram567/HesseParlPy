@@ -185,7 +185,7 @@ class xmlParser:
     @staticmethod
     def extract_speaker_and_text(text: str) -> tuple[str, str]:
         """
-        Diese zentrale Methode des Parsers partitioniert die Redebeiträge einer Sitzung zunächst nach Redebeiträge von
+        Diese zentrale Methode des Parsers partitioniert die Redebeiträge einer Sitzung zunächst nach Redebeiträgen von
         Abgeordneten. Diese Partitionen enthalten zumeist weitere Redebeiträge von (Vize)Präsidenten des Landtags oder
         Ministern. Mittels einer Fallunterscheidung wird das weitere Vorgehen festgelegt. Die Fallunterscheidung wird
         danach iterativ so lange angewandt, bis der nächste Redebeitrag eines Abgeordneten beginnt. Die Partitionen
