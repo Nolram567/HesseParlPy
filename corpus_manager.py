@@ -140,7 +140,7 @@ class CorpusManager:
 
         # Lade die deutschen Stoppwörter
         nltk.download('stopwords')
-        german_stop_words = set(stopwords.words('german'))  # Reduziere die Stoppwortliste auf dn deutschen Teil.
+        german_stop_words = set(stopwords.words('german'))  # Reduziere die Stoppwortliste auf den deutschen Teil.
 
         # doc = german_model(" ".join(l))
         lemmatised_corpus = []
