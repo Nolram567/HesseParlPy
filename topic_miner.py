@@ -15,10 +15,10 @@ if __name__ == "__main__":
     loaded_corpus = MmCorpus('data_outputs/topic_models/bow_corpus.mm')
 
     # Themen und ihre Top-Wörter ausgeben
-    '''for topic_id in range(model.num_topics):
+    for topic_id in range(model.num_topics):
         words = model.show_topic(topic_id, topn=10)
         topic_words = ', '.join([word for word, prob in words])
-        print(f"Thema {topic_id + 1}: {topic_words}")'''
+        print(f"Thema {topic_id + 1}: {topic_words}")
 
     # -------------------
 
@@ -78,7 +78,7 @@ if __name__ == "__main__":
             topic_correlations[key] = correlation_matrix[i, j]
 
     # Ausgabe der Korrelationen
-    # print(topic_correlations)
+    print(topic_correlations)
 
     # Wir trennen Schlüssel und Werte des Dictionaries auf und speichern sie in zwei Listen.
     labels, values = zip(*topic_correlations.items())
@@ -117,7 +117,7 @@ if __name__ == "__main__":
 
     #-------------------
 
-    # Das Netzwerk bedeutsamer positiver Korrelationen erstellen:
+    # Das Netzwerk bedeutsamer, positiver Korrelationen erstellen:
 
     # Wir durchsuchen das Dictionary nach allen Korrelationen, die größer als das .975-Perzentil sind.
     outliers = {key: value for key, value in topic_correlations.items() if value >= upper_whisker}
