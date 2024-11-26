@@ -12,7 +12,7 @@ def validate_syntax(xml_string: str) -> bool:
     """
 
     try:
-        # Wenn der String erfolgreich eingelesen wird, ist es wohlgeformt.
+        # Wenn der String erfolgreich eingelesen wird, ist er wohlgeformt.
         root = etree.fromstring(xml_string)
         return True
     except etree.XMLSyntaxError as e:
