@@ -5,7 +5,7 @@ import patterns
 
 class xmlParser:
     """
-    Diese Klasse enthält Methoden, um die rohen XML-Dateien in XML-Datei mit dem Schema "TEI" zu überführen. Zudem
+    Diese Klasse enthält Methoden, um die rohen XML-Dateien in XML-Dateien mit dem Schema "tei_hesseparl" zu überführen. Zudem
     enthält dieser Klasse verschiedene Methoden, um die Rohdaten zu bereinigen.
     """
 
@@ -17,10 +17,10 @@ class xmlParser:
         Args:
             Der relative Dateipfad zu den rohen XML-Dateien.
         Returns:
-            Eine Liste an Strings
-            der Wahlperiode,
-            der Sitzungsnummer
-            und den extrahierten Redebeiträgen.
+            Die Wahlperiode,
+            die Sitzungsnummer,
+            das Datum
+            und die extrahierten Redebeiträge.
         """
 
         # XML-Datei einlesen
@@ -57,13 +57,14 @@ class xmlParser:
     def create_header(lp: str, session: str, date: str) -> str:
         """
         In dieser Methode wird die XML-Deklaration und der Header eines XML-TEI-Dokuments formatiert und als String
-        zurückgegeben. Außerdem werden die Tags <text> und <body> geöffnet.
+        zurückgegeben. Außerdem werden die Elemente <text> und <body> geöffnet.
 
         Args:
             lp: Die Legislaturperiode.
             session: Die Sitzungsnummer.
+            date: Das Datum.
         Returns:
-            Der formatierte Header als String.
+            Der formatierte Header.
         """
         return f'<?xml version="1.0" standalone="no"?>\n' \
                f'\t<TEI>\n' \
@@ -189,7 +190,7 @@ class xmlParser:
         Abgeordneten. Diese Partitionen enthalten zumeist weitere Redebeiträge von (Vize)Präsidenten des Landtags oder
         Ministern. Mittels einer Fallunterscheidung wird das weitere Vorgehen festgelegt. Die Fallunterscheidung wird
         danach iterativ so lange angewandt, bis der nächste Redebeitrag eines Abgeordneten beginnt. Die Partitionen
-        werden jeweils nach dem gewünschten Schema mit der Methode format_paragraphs_and_interjections() formatiert. Der
+        werden jeweils entsprechend "tei_hesseparl" mit der Methode format_paragraphs_and_interjections() formatiert. Der
         String "Builder" fungiert in dieser Prozedur als 'Stack', auf dem sukzessive fertig formatierte Redebeiträge
         abgelegt werden.
 
@@ -285,7 +286,7 @@ class xmlParser:
             remainder: Der restliche Text, der nach der Applikation der ersten Fallunterscheidung übrig geblieben ist.
             builder: Der 'Stack' der Hauptmethode, auf dem die fertig formatierten Redebeiträge abgelegt werden.
         Returns:
-            Der fertig formatierte Partition, die als remainder übergeben wurde.
+            Die fertig formatierte Partition, die als remainder übergeben wurde.
         """
 
         while remainder:
@@ -405,7 +406,7 @@ class xmlParser:
         zurück.
 
         Args:
-             Der/die Minister*in als String.
+             Der/die Minister:in als String.
         Returns:
             Ein Tupel mit dem Ressort und dem Namen in dieser Reihenfolge.
         """
@@ -424,12 +425,12 @@ class xmlParser:
         Diese Methode partitioniert den als Argument übergebenen String in 9 Capture Groups und gibt diese als
         Liste zurück. Wenn kein Match gefunden wird, wird der Liste das Element "None" hinzugefügt.
 
-        Die erste Gruppe enthält den Text, bevor ein Redebeitrag des/der (Vize)präsident*in beginnt.
-        Die zweite Gruppe enhält die genaue Funktion des/der sprechenden (Vize)präsident*in.
-        Die dritte Gruppe enhält den Namen des/der sprechenden (Vize)präsident*in.
-        Die vierte Gruppe enthält den Redbeitrag des/der (Vize)präsident*in.
-        Die fünfte Gruppe enthält die Funktion des nachfolgenden Sprechers, sofern der/die Vizepräsident*in spricht.
-        Die sechste Gruppe enthält den Namen des nachfolgenden Sprechers, sofern der/die Vizepräsident*in spricht.
+        Die erste Gruppe enthält den Text, bevor ein Redebeitrag des/der (Vize)präsident:in beginnt.
+        Die zweite Gruppe enhält die genaue Funktion des/der sprechenden (Vize)präsident:in.
+        Die dritte Gruppe enhält den Namen des/der sprechenden (Vize)präsident:in.
+        Die vierte Gruppe enthält den Redbeitrag des/der (Vize)präsident:in.
+        Die fünfte Gruppe enthält die Funktion des nachfolgenden Sprechers, sofern der/die Vizepräsident:in spricht.
+        Die sechste Gruppe enthält den Namen des nachfolgenden Sprechers, sofern der/die Vizepräsident:in spricht.
         Die siebte Gruppe enthält den Namen und das Ressort des nachfolgenden Sprechers, sofern ein Minister spricht.
         Die siebte Gruppe enthält den restlichen Text.
         Das achte Listenelement enthält den Startindex des ersten Sprechers.
@@ -466,8 +467,8 @@ class xmlParser:
         Die erste Gruppe enthält den Text, bevor (der erste) Redebeitrag eines Ministers beginnt.
         Die zweite Gruppe enhält den Namen und das Ressort des sprechenden Ministers.
         Die dritte Gruppe enthält den Redebeitrag des Ministers.
-        Die vierte Gruppe enthält die Funktion des nachfolgenden Sprechers, sofern der/die Vizepräsident*in spricht.
-        Die fünfte Gruppe enthält den Namen des nachfolgenden Sprechers, sofern der/die Vizepräsident*in spricht.
+        Die vierte Gruppe enthält die Funktion des nachfolgenden Sprechers, sofern der/die Vizepräsident:in spricht.
+        Die fünfte Gruppe enthält den Namen des nachfolgenden Sprechers, sofern der/die Vizepräsident:in spricht.
         Die sechste Gruppe enthält den Namen und das Ressort des nachfolgenden Sprechers, sofern ein Minister spricht.
         Die siebte Gruppe enthält den restlichen Text.
         Das achte Listenelement enthält den Startindex des ersten Sprechers.
