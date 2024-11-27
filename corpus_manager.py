@@ -26,14 +26,14 @@ class CorpusManager:
         Args:
             name: Der Name des Korpus.
             load_processed: Falls true, wird ein Korpus mit dem übergebenen Namen aus dem Ordner data/processed_corpus
-            geladen und als Objektattribut processed abgespeichert.
+            geladen und als das Objektattribut processed abgespeichert.
         """
         if not load_processed:
             self.corpus = {}
             self.name = name
             self.processed = []
             for filename in os.listdir("data/xml-tei"):
-                # Wir formatieren den relativen Dateipfad mit der Ordnerstruktur und dem Dateinamen.
+                # Wir formatieren den relativen Dateipfad.
                 xml_file_path = os.path.join("data/xml-tei/", filename)
                 self.corpus[filename] = ET.parse(xml_file_path)
         else:
@@ -48,7 +48,7 @@ class CorpusManager:
         Präsidiums des Landtags ignoriert.
 
         Return:
-            Eine Liste mit allen Einzeläußerungen von Mitglieder des Landtags die nicht zum Präsidium des Landtags
+            Eine Liste mit allen Einzeläußerungen von Mitgliedern des Landtags die nicht zum Präsidium des Landtags
             gehören ohne Metadaten.
         """
         speaches = []
@@ -104,7 +104,7 @@ class CorpusManager:
         Args:
             l: Die Liste mit strings.
         Return:
-            Die nach Kleinschreibung normalisierten Strings der Liste.
+            Die zu Kleinschreibung normalisierten Strings der Liste.
         """
         return [e.lower() for e in l]
 
@@ -136,13 +136,12 @@ class CorpusManager:
         """
 
         german_model = spacy.load('de_core_news_sm', disable=['parser', 'ner'])  # Lade das kleine Sprachmodell für die Lemmatisierung
-        german_model.max_length = 10000000  # Vermeide Overflow-Error
+        german_model.max_length = 10000000  # An Größe des Arbeitsspeichers und die Größe der Einzeldokumente anpassen.
 
         # Lade die deutschen Stoppwörter
         nltk.download('stopwords')
-        german_stop_words = set(stopwords.words('german'))  # Reduziere die Stoppwortliste auf den deutschen Teil.
+        german_stop_words = set(stopwords.words('german'))  # Reduziere die Stoppwortliste auf die deutsche Teilmenge.
 
-        # doc = german_model(" ".join(l))
         lemmatised_corpus = []
 
         '''
@@ -164,11 +163,11 @@ class CorpusManager:
     def union_multiword_expression(docs: list[list[str]]) -> list[list[str]]:
         """
         Diese Methode konkateniert alle Bigramme eines Korpus, wenn sie einem mehrteiligen Ausdruck oder einer
-        Named Entity entsprechen, die ein Element der Liste data_outputs/MWE.json ist.
+        Named Entity entsprechen, die ein Element der Schlüsslmenge von data_outputs/MWE.json ist.
         Args:
             docs: Das Korpus aus Einzeldokumenten.
         Return:
-            Das übergebene Korpus, indem alle mehrteiligen Ausdrücke nach data_outputs/MWE.json zu einem Token konkateniert sind.
+            Das übergebene Korpus, in dem alle mehrteiligen Ausdrücke nach data_outputs/MWE.json zu einem Token konkateniert sind.
         """
 
         with open('data_outputs/MWE.json', 'r', encoding='utf-8') as json_file:
@@ -190,7 +189,6 @@ class CorpusManager:
                     skipped = False
                     continue
                 if i < len(doc) - 1:
-                    #bigram = token + " " + doc[i + 1]
                     bigram = [token, doc[i + 1]]
                     #print(bigram)
                     if bigram in mutliword_expressions:
