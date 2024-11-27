@@ -9,7 +9,7 @@ if __name__ == '__main__':
     # Wir iterieren über alle Rohdokumente.
     for filename in os.listdir("data/xml/20"):
 
-        # Wir formatieren den relativen Dateipfad mit der Ordnerstruktur und dem Dateinamen.
+        # Wir formatieren den relativen Dateipfad.
         xml_file_path = os.path.join("data/xml/20/", filename)
 
         '''
@@ -21,7 +21,7 @@ if __name__ == '__main__':
         if not extracted_data:
             continue
 
-        # Instanziierung eines datetime-Objekts, um das Datum später zu formatieren.
+        # Instanziierung eines datetime-Objekts, um das Datum besser formatieren zu können.
         date = datetime.strptime(date, "%d.%m.%Y")
 
         '''
