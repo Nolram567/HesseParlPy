@@ -7,14 +7,14 @@ class dataAnalyzer:
     @staticmethod
     def find_expression(doc: str, pattern: Pattern[str], p: bool = True) -> list[str] or None:
         """
-        Diese Methode sucht und sammelt alle Vorkommen von aus Ausdrücken in einem String, die zu einem
+        Diese Methode sucht und sammelt alle Vorkommen von Ausdrücken in einem String, die zu einem
         regulären Ausdruck passen. Die gesammelten Ausdrücke werden entweder gedruckt oder als Liste zurückgegeben,
         je nachdem, ob der Paramter p wahr oder falsch ist.
 
         Args:
             doc: Das als String deserialisierte Dokument.
             pattern: Der reguläre Ausdruck, der gematcht werden soll.
-            p: Ein Schalter, der standardmäßig wahr ist und die gefundenen Strings druckt; anderenfalls werden die
+            p: Wenn true, werden die gefundenen Strings druckt; anderenfalls werden die
             gefundenen Ausdrücke gesammelt und als Liste zurückgegeben.
         Returns:
             None oder eine Liste mit gematchten Ausdrücken.
@@ -33,7 +33,7 @@ class dataAnalyzer:
     @staticmethod
     def find_unique_tags(directory_path: str, regex: str) -> None:
         """
-        Diese statische Methode findet alle Ausdrücke innerhalb einer Sammlung von Dokumenten, die zu einem regulären
+        Diese statische Methode findet alle Ausdrücke innerhalb einer Sammlung aus Dokumenten, die zu einem regulären
         Ausdruck passen und druckt sie in der Konsole.
 
         Args:
