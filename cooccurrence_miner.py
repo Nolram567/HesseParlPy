@@ -8,7 +8,7 @@ def calculate_cooccurrence(documents: list[str]) -> None:
     """
     Mit dieser Methode lassen sich bedeutsame mehrteilige Ausdrücke in ihrer lemmatisierten Form ausfindig machen.
     Dafür werden für eine Liste aus Dokumenten kookkurrierende Terme (2-Gramme) berechnet und ihre Frequenz bestimmt.
-    Alle Bigramme und ihre Frequenz werden in einer CSV-Datei serialisiert.
+    Alle Bigramme und ihre Frequenz werden als CSV-Datei serialisiert.
 
     Args:
         documents: Die List aus Strings.
@@ -158,9 +158,9 @@ if __name__ == "__main__":
         json.dump(MWE, f, ensure_ascii=False, indent=6)
 
     '''
-    Nachdem die Werte in die JSON-Struktur überführt wurden, werden sie im erneut geladen.
-    Schlüssel und Werte werden invertiert, damit im Rahmen der LDA-Vorverarbeitung die 2-Gramme auf ihre MWE abgebildet
-    werden können.    
+    Nachdem die Werte in die JSON-Struktur überführt wurden, werden sie erneut geladen.
+    Schlüssel und Werte werden invertiert, damit im Rahmen der LDA-Vorverarbeitung die 2-Gramme auf die entsprechende MWE als 1-Gramm abgebildet
+    werden können.
     '''
 
     with open('data_outputs/MWE.json', 'r', encoding="utf-8") as json_file:
@@ -177,6 +177,6 @@ if __name__ == "__main__":
         for bigram in item[1]:
             new_dict[str(bigram)] = item[0]
 
-    # Die invertierten MWE's werden abgespeichert.
+    # Der invertierte JSON-Container wird abgespeichert.
     with open('data_outputs/MWE_reversed.json', 'w', encoding="utf-8") as json_file:
         json.dump(new_dict, json_file, ensure_ascii=False, indent=6)
