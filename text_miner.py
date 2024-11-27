@@ -65,7 +65,7 @@ def calculate_mean_tf_idf(documents: list[list[str]], path: str = "") -> None:
 
     Args:
         documents: Die Liste mit Listen von Token.
-        path: Der Dateipfad unter dem die Ergebnisse serialisiert werden sollen.
+        path: Der Dateipfad für die Serialisierung der Ergebnisse als CSV-Datei.
     """
 
     # Konkatenieren der tokenisierten Dokumente
